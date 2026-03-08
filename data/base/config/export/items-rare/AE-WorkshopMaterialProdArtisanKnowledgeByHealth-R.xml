@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000266</GUID>
-            <Name>Specialist AE-WorkshopMaterialProdArtisanKnowledgeByHealth-R</Name>
-            <IconFilename>data/base/graphics/icons/male_AE-WorkshopMaterialProdArtisanKnowledgeByHealth-R.png</IconFilename>
+            <Name>Specialist AE-WorkshopMatProdArtisanKnowledgeByHealth-R</Name>
+            <IconFilename>data/base/graphics/icons/male_AE-WorkshopMatProdArtisanKnowledgeByHealth-R.png</IconFilename>
             <InfoDescription>1600000267</InfoDescription>
           </Standard>
           <Effect>
@@ -58,8 +58,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000267</GUID>
-                    <Name>Specialist AE-WorkshopMaterialProdArtisanKnowledgeByHealth-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/male_AE-WorkshopMaterialProdArtisanKnowledgeByHealth-R.png</IconFilename>
+                    <Name>Specialist AE-WorkshopMatProdArtisanKnowledgeByHealth-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/male_AE-WorkshopMatProdArtisanKnowledgeByHealth-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000266</OasisId>
@@ -93,8 +93,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000268</GUID>
-                    <Name>Specialist AE-WorkshopMaterialProdArtisanKnowledgeByHealth-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/male_AE-WorkshopMaterialProdArtisanKnowledgeByHealth-R.png</IconFilename>
+                    <Name>Specialist AE-WorkshopMatProdArtisanKnowledgeByHealth-R FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/male_AE-WorkshopMatProdArtisanKnowledgeByHealth-R.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -125,8 +125,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000269</GUID>
-                    <Name>Specialist AE-WorkshopMaterialProdArtisanKnowledgeByHealth-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/male_AE-WorkshopMaterialProdArtisanKnowledgeByHealth-R.png</IconFilename>
+                    <Name>Specialist AE-WorkshopMatProdArtisanKnowledgeByHealth-R FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/male_AE-WorkshopMatProdArtisanKnowledgeByHealth-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000266</OasisId>
