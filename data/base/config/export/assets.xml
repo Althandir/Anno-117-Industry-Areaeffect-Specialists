@@ -27,12 +27,15 @@
 
 <!-- Common Specialists -->
 <Group>
-    <Include File="items-common/Test-C.xml" />
+    <Include File="items-common/AreaEffect-AllProdMoneyFromResidencesStackable-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
 <Group>
-
+    <Include File="items-rare/AreaEffect-AllStoneCutterMoneyByHealth-R.xml" />
+    <Include File="items-rare/AreaEffect-ArmoriesMoneyByHealthHappiness-R.xml" />
+    <Include File="items-rare/AreaEffect-CookhousesPrestigeHappinessByMaintenance-R.xml" />
+    <Include File="items-rare/AreaEffect-WorkshopsMaterialProducersArtisansKnowledgeByHealth-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->

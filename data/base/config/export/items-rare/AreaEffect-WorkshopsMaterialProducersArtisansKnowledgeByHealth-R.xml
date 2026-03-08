@@ -1,42 +1,48 @@
 <ModOps>
-<!-- Item Definition GUID:1600000002 - 1600000005 | LineID:1600000002 - 1600000003  -->
+<!-- Item Definition GUID:1600000266 - 1600000269 | LineID:1600000266 - 1600000267 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000002</GUID>
-            <Name>Specialist AreaEffect-Test-C</Name>
-            <IconFilename>data/base/graphics/icons/Russ_Question.jpeg</IconFilename>
-            <InfoDescription>1600000003</InfoDescription>
+            <GUID>1600000266</GUID>
+            <Name>Specialist AreaEffect-WorkshopsMaterialProducersArtisansKnowledgeByHealth-R</Name>
+            <IconFilename>data/base/graphics/icons/male_AreaEffect-WorkshopsMaterialProducersArtisansKnowledgeByHealth-R.png</IconFilename>
+            <InfoDescription>1600000267</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000003</GUID>
+                <GUID>1600000267</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>82494</GUID>
+                <GUID>50612</GUID>
+              </Item>
+              <Item>
+                <GUID>50613</GUID>
+              </Item>
+              <Item>
+                <GUID>50604</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Finance</Niche>  
-            <TradePrice>2000</TradePrice> 
-            <BarkPool>83311</BarkPool> <!-- <GUID>83311</GUID> -->
-            <Rarity>Common</Rarity> 
+            <Niche>Research</Niche>
+            <TradePrice>17500</TradePrice> 
+            <BarkPool>80242</BarkPool> <!-- <GUID>80242</GUID> -->
+            <Rarity>Rare</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000002</OasisId>
+            <OasisId>1600000266</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -51,16 +57,16 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000003</GUID>
-                    <Name>Specialist AreaEffect-Test-C BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Russ_Question.jpeg</IconFilename>
+                    <GUID>1600000267</GUID>
+                    <Name>Specialist AreaEffect-WorkshopsMaterialProducersArtisansKnowledgeByHealth-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/male_AreaEffect-WorkshopsMaterialProducersArtisansKnowledgeByHealth-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000002</OasisId>
+                    <OasisId>1600000266</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000004</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000268</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
@@ -86,16 +92,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000004</GUID>
-                    <Name>Specialist AreaEffect-Test-C FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/Russ_Question.jpeg</IconFilename>
+                    <GUID>1600000268</GUID>
+                    <Name>Specialist AreaEffect-WorkshopsMaterialProducersArtisansKnowledgeByHealth-R FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/male_AreaEffect-WorkshopsMaterialProducersArtisansKnowledgeByHealth-R.png</IconFilename>
                 </Standard>
                 <Effect>
-                    <EffectScope>StreetDistance</EffectScope>
+                    <EffectScope>Radius</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000005</GUID>
+                            <GUID>1600000269</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -107,7 +113,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000002</OasisId>
+                    <OasisId>1600000266</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -118,57 +124,34 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000005</GUID>
-                    <Name>Specialist AreaEffect-Test-C FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Russ_Question.jpeg</IconFilename>
+                    <GUID>1600000269</GUID>
+                    <Name>Specialist AreaEffect-WorkshopsMaterialProducersArtisansKnowledgeByHealth-R FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/male_AreaEffect-WorkshopsMaterialProducersArtisansKnowledgeByHealth-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000002</OasisId>
+                    <OasisId>1600000266</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalAttributes>
-                      <Happiness>
-                          <AmountOrPercent>
-                              <Value>0</Value>
-                              <Percental>0</Percental>
-                          </AmountOrPercent>
-                      </Happiness>
-                      <Money>
-                          <AmountOrPercent>
-                              <Value>0.5</Value>
-                              <Percental>0</Percental>
-                          </AmountOrPercent>
-                      </Money>
-                      <Prestige>
-                          <AmountOrPercent>
-                              <Value>0</Value>
-                              <Percental>0</Percental>
-                          </AmountOrPercent>
-                      </Prestige>
-                      <Belief>
-                          <AmountOrPercent>
-                              <Value>0</Value>
-                              <Percental>0</Percental>
-                          </AmountOrPercent>
-                      </Belief>
+                  <AdditionalAttributes>
                       <Knowledge>
                           <AmountOrPercent>
-                              <Value>0</Value>
+                              <Value>2</Value>
                               <Percental>0</Percental>
                           </AmountOrPercent>
                       </Knowledge>
                       <Health>
                           <AmountOrPercent>
-                              <Value>0</Value>
+                              <Value>-1</Value>
                               <Percental>0</Percental>
                           </AmountOrPercent>
                       </Health>
-                    </AdditionalAttributes>
+                  </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
+                    <IsStackable>0</IsStackable>
                 </Buff>
                 <ResidenceUpgrade>
                 </ResidenceUpgrade>
@@ -184,6 +167,6 @@
             </Values>
         </Asset>
     </ModOp>
-  </Group>
 
+  </Group>
 </ModOps>
