@@ -35,7 +35,7 @@
     <Include File="items-rare/AE-AllStoneCutterMoneyByHealth-R.xml" />
     <Include File="items-rare/AE-ArmoriesMoneyByHealthHappiness-R.xml" />
     <Include File="items-rare/AE-KitchenPrestigeHappinessByWF-R.xml" />
-    <Include File="items-rare/AE-WorkshopMaterialProdArtisanKnowledgeByHealth-R.xml" />
+    <Include File="items-rare/AE-WorkshopMatProdArtisanKnowledgeByHealth-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
