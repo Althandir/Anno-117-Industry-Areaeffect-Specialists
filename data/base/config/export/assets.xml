@@ -18,13 +18,6 @@
 -->
 <ModOps>
 
-<!-- Testing -->
-<Group>
-<!--
-<Include File="testing/pools-forceSpawnTesting.xml"/> 
--->
-</Group>
-
 <!-- Common Specialists -->
 <Group>
     <Include File="items-common/AE-AllProdMoneyFromResidencesStackable-C.xml" />
@@ -35,7 +28,7 @@
     <Include File="items-rare/AE-AllStoneCutterMoneyByHealth-R.xml" />
     <Include File="items-rare/AE-ArmoriesMoneyByHealthHappiness-R.xml" />
     <Include File="items-rare/AE-KitchenPrestigeHappinessByWF-R.xml" />
-    <Include File="items-rare/AE-WorkshopMaterialProdArtisanKnowledgeByHealth-R.xml" />
+    <Include File="items-rare/AE-CraftsmanKnowledgeByHealth-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
