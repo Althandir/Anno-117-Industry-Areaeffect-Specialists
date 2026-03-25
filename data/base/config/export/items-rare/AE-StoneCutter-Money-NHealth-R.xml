@@ -1,185 +1,80 @@
 <ModOps>
-<!-- Item Definition GUID:1600000258 - 1600000261 | LineID:1600000258 - 1600000259 -->
+<!-- Item Definition GUID:1600000309 - 1600000312 | LineID:1600000309 - 1600000310 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000258</GUID>
-            <Name>Specialist AE-KitchenPrestigeHappinessByWF-R</Name>
-            <IconFilename>data/base/graphics/icons/female_AE-KitchenPrestigeHappinessByWF-R.png</IconFilename>
-            <InfoDescription>1600000259</InfoDescription>
+            <GUID>1600000309</GUID>
+            <Name>Specialist AE-StoneCutter-Money-NHealth-R</Name>
+            <IconFilename>data/base/graphics/icons/c_m_AE-StoneCutter-Money-NHealth-R.png</IconFilename>
+            <InfoDescription>1600000310</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000259</GUID>
+                <GUID>1600000310</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>50610</GUID>
+                <GUID>41811</GUID>
+              </Item>
+              <Item>
+                <GUID>3138</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Diplomacy</Niche>
+            <Niche>Finance</Niche> 
             <TradePrice>17500</TradePrice> 
-            <BarkPool>83327</BarkPool> <!-- <GUID>83327</GUID> -->
+            <BarkPool>83312</BarkPool> <!-- <GUID>83312</GUID> -->
             <Rarity>Rare</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000258</OasisId>
+            <OasisId>1600000309</OasisId>
           </Text>
+
         </Values>
       </Asset>
     </ModOp>
   </Group>
 
-  <!-- Buff Definitions-->
-  <Group>
+    <!-- Buff Definitions-->
+    <Group>
     <!-- BuildingEffect Definition -->
     <ModOp Type="addNextSibling" GUID="80193">
         <Asset>
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000259</GUID>
-                    <Name>Specialist AE-KitchenPrestigeHappinessByWF-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/female_AE-KitchenPrestigeHappinessByWF-R.png</IconFilename>
+                    <GUID>1600000310</GUID>
+                    <Name>Specialist AE-StoneCutter-Money-NHealth-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/c_m_AE-StoneCutter-Money-NHealth-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000258</OasisId>
+                    <OasisId>1600000309</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000260</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000311</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
+                    <ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID>
                 </Buff>
-                <ResidenceUpgrade/>
+                <ResidenceUpgrade>
+                </ResidenceUpgrade>
                 <FactoryUpgrade>
-                    <ProductivityUpgrade>
-                        <Value>0</Value>
-                        <Percental>1</Percental>
-                    </ProductivityUpgrade>
                 </FactoryUpgrade>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade>
-                  <WorkforceMaintenanceFactorUpgrade>
-                    <Value>15</Value>
-                    <Percental>1</Percental>
-                  </WorkforceMaintenanceFactorUpgrade>
-                  <MaintenanceFactorUpgrade>
-                    <Value>0</Value>
-                    <Percental>1</Percental>
-                  </MaintenanceFactorUpgrade>
-                </MaintenanceUpgrade>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
-            </Values>
-        </Asset>
-    </ModOp>
-    
-    <ModOp Type="addNextSibling" GUID="135498">
-        <Asset>
-            <Template>Effect</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600000260</GUID>
-                    <Name>Specialist AE-KitchenPrestigeHappinessByWF-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/female_AE-KitchenPrestigeHappinessByWF-R.png</IconFilename>
-                </Standard>
-                <Effect>
-                    <EffectScope>Radius</EffectScope>
-                    <SourceCategory>Adjacency</SourceCategory>
-                    <Buffs>
-                        <Item>
-                            <GUID>1600000261</GUID>
-                        </Item>
-                    </Buffs>
-                    <Targets>
-                        <Item>
-                            <GUID>43097</GUID>
-                        </Item>
-                    </Targets>
-                    <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
-                    <HideInGovernorsBar>1</HideInGovernorsBar>
-                </Effect>
-                <Text>
-                    <OasisId>1600000258</OasisId>
-                </Text>
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID="80193">
-        <Asset>
-            <Template>BuildingBuff</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600000261</GUID>
-                    <Name>Specialist AE-KitchenPrestigeHappinessByWF-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/female_AE-KitchenPrestigeHappinessByWF-R.png</IconFilename>
-                </Standard>
-                <Text>
-                    <OasisId>1600000258</OasisId>
-                </Text>
-                <HealthUpgrade/>
-                <BuildingUpgrade>
-                    <AdditionalAttributes>
-                        <Money>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>                        
-                        </Money>
-                        <Prestige>
-                            <AmountOrPercent>
-                                <Value>0.5</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Prestige>
-                        <Happiness>
-                            <AmountOrPercent>
-                                <Value>0.5</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Happiness>
-                        <Health>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-				        </Health>
-                        <FireSafety>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-				        </FireSafety>
-                    </AdditionalAttributes>
-                </BuildingUpgrade>
-                <DistributionUpgrade/>
-                <Buff>
-                    <SourceCategory>Adjacency</SourceCategory>
-                    <IsStackable>0</IsStackable>
-                </Buff>
-                <ResidenceUpgrade/>
-                <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
                 <CityInstitutionUpgrade/>
@@ -191,6 +86,91 @@
             </Values>
         </Asset>
     </ModOp>
-  </Group>
+    <!-- Area Effect Definition -->
+    <ModOp Type="addNextSibling" GUID="135498">
+        <Asset>
+            <Template>Effect</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000311</GUID>
+                    <Name>Specialist AE-StoneCutter-Money-NHealth-R FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/c_m_AE-StoneCutter-Money-NHealth-R.png</IconFilename>
+                </Standard>
+                <Effect>
+                    <EffectScope>Radius</EffectScope>
+                    <SourceCategory>Adjacency</SourceCategory>
+                    <Buffs>
+                        <Item>
+                            <GUID>1600000312</GUID>
+                        </Item>
+                    </Buffs>
+                    <Targets>
+                        <Item>
+                            <GUID>43097</GUID>
+                        </Item>
+                    </Targets>
+                    <ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID>
+                    <HideInGovernorsBar>1</HideInGovernorsBar>
+                </Effect>
+                <Text>
+                    <OasisId>1600000309</OasisId>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- BuildingBuff by AreaEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000312</GUID>
+                    <Name>Specialist AE-StoneCutter-Money-NHealth-R FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/c_m_AE-StoneCutter-Money-NHealth-R.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000309</OasisId>
+                </Text>
+                <HealthUpgrade/>
+                <BuildingUpgrade>
+                    <AdditionalAttributes>
+                        <Money>
+                            <AmountOrPercent>
+                                <Value>3</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Money>
+                        <Health>
+                            <AmountOrPercent>
+                                <Value>-2</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Health>
+                    </AdditionalAttributes>
+                </BuildingUpgrade>
+                <DistributionUpgrade/>
+                <Buff>
+                    <SourceCategory>Adjacency</SourceCategory>
+                    <IsStackable>0</IsStackable>
+                    <ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID>
+                </Buff>
+                <ResidenceUpgrade>
+                </ResidenceUpgrade>
+                <FactoryUpgrade>
+                </FactoryUpgrade>
+                <ModuleOwnerUpgrade/>
+                <MaintenanceUpgrade>
+                </MaintenanceUpgrade>
+                <CityInstitutionUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <RecruitmentUpgrade/>
+                <AqueductUpgrade/>
+                <WarehouseUpgrade/>
+                <IrrigationUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    </Group>
 
 </ModOps>

@@ -1,6 +1,6 @@
 <ModOps>
 
-  <!-- Specialist AE-AllProdMoneyFromResidencesStackable-C -->
+  <!-- Specialist AE-AllProd-Income-C -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -10,13 +10,13 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Fulfills delivery orders for residents in the surrounding area. &#xD;Hint: This area effect only affects residential buildings around the production building, but can stack.</Text>
+          <Text>Fulfills delivery orders for residents in the surrounding area. &#xD(Industry-AreaEffects-Pack)</Text>
           <LineId>1600000285</LineId> 
       </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-ArmoriesMoneyByHealthHappiness-R -->
+  <!-- Specialist AE-Armories-Money-NHealthHappy-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -26,13 +26,13 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>“Everyone should have at least one, if not several, weapons! What could possibly go wrong?”</Text>
+          <Text>“Everyone should have at least one, if not several, weapons! What could possibly go wrong?”&#xD(Industry-AreaEffects-Pack)</Text>
           <LineId>1600000255</LineId> 
       </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-KitchenPrestigeHappinessByWF-R -->
+  <!-- Specialist AE-Kitchen-PrestigeHappy-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -42,13 +42,13 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Prepares food like an inspiring spectacle. But who cleans up the mess?</Text>
+          <Text>Prepares food like an inspiring spectacle. But who cleans up the mess?&#xD(Industry-AreaEffects-Pack)</Text>
           <LineId>1600000259</LineId> 
       </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-CraftsmanKnowledgeByHealth-R -->
+  <!-- Specialist AE-Crafters-Know-NHealth-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -58,13 +58,13 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>“Only through practice you can solidify knowledge!... Ouch! Medicus!”</Text>
+          <Text>“Only through practice you can solidify knowledge!... Ouch! Medicus!”&#xD(Industry-AreaEffects-Pack)</Text>
           <LineId>1600000267</LineId> 
       </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-AllStoneCutterMoneyByHealth-R -->
+  <!-- Specialist AE-StoneCutter-Money-NHealth-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -74,7 +74,7 @@
       </Text>
       <!-- Description -->
       <Text>
-          <Text>Uses the best stone in the region to create busts of his clients.</Text>
+          <Text>Uses the best stone in the region to create busts of his clients.&#xD(Industry-AreaEffects-Pack)</Text>
           <LineId>1600000310</LineId> 
       </Text>
     </ModOp>

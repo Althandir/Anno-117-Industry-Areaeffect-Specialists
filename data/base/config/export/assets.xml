@@ -20,15 +20,15 @@
 
 <!-- Common Specialists -->
 <Group>
-    <Include File="items-common/AE-AllProdMoneyFromResidencesStackable-C.xml" />
+    <Include File="items-common/AE-AllProd-Income-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
 <Group>
-    <Include File="items-rare/AE-AllStoneCutterMoneyByHealth-R.xml" />
-    <Include File="items-rare/AE-ArmoriesMoneyByHealthHappiness-R.xml" />
-    <Include File="items-rare/AE-KitchenPrestigeHappinessByWF-R.xml" />
-    <Include File="items-rare/AE-CraftsmanKnowledgeByHealth-R.xml" />
+    <Include File="items-rare/AE-StoneCutter-Money-NHealth-R.xml" />
+    <Include File="items-rare/AE-Armories-Money-NHealthHappy-R.xml" />
+    <Include File="items-rare/AE-Kitchen-PrestigeHappy-R.xml" />
+    <Include File="items-rare/AE-Crafters-Know-NHealth-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
@@ -43,7 +43,7 @@
 
 <!-- Add to Pools -->
 <Include File="pools/AssetList/AssetListPool.xml" />
-<Include File="pools/RewardPool/RewardPool-AllItems&Specialists.xml" />
+<Include File="pools/RewardPool/AllItems&Specialists.xml" />
 
 <!-- Add to Traderpools --> 
 <Include File="pools/Traders/pools-common.xml" />

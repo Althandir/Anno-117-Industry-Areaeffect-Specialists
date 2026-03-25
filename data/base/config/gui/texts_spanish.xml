@@ -1,6 +1,6 @@
 <ModOps>
 
-  <!-- Specialist AE-AllProdMoneyFromResidencesStackable-C -->
+  <!-- Specialist AE-AllProd-Income-C -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -16,7 +16,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-ArmoriesMoneyByHealthHappiness-R -->
+  <!-- Specialist AE-Armories-Money-NHealthHappy-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -32,7 +32,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-KitchenPrestigeHappinessByWF-R -->
+  <!-- Specialist AE-Kitchen-PrestigeHappy-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -48,7 +48,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-CraftsmanKnowledgeByHealth-R -->
+  <!-- Specialist AE-Crafters-Know-NHealth-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -64,7 +64,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-AllStoneCutterMoneyByHealth-R -->
+  <!-- Specialist AE-StoneCutter-Money-NHealth-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
