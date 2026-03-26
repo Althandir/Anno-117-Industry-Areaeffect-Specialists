@@ -38,7 +38,7 @@
 
 <!-- Legendary Specialists -->
 <Group>
-
+    <Include File="items-legendary/AdditionalGoodsExtractors-L.xml" />
 </Group>
 
 <!-- Add to Pools -->
