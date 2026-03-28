@@ -41,6 +41,16 @@
     <Include File="items-legendary/AdditionalGoodsExtractors-L.xml" />
 </Group>
 
+<Include File="items-refactor/AE-HealthFireHappyShrines-L.xml" />
+<Include File="items-refactor/AE-NR-CeresShrine-R.xml" />
+<Include File="items-refactor/AE-NR-CernunnosShrine-R.xml" />
+<Include File="items-refactor/AE-NR-EponaShrine-R.xml" />
+<Include File="items-refactor/AE-NR-MarsShrine-R.xml" />
+<Include File="items-refactor/AE-NR-MercuryShrine-R.xml" />
+<Include File="items-refactor/AE-NR-MinervaShrine-R.xml" />
+<Include File="items-refactor/AE-NR-NeptuneShrine-R.xml" />
+
+
 <!-- Add to Pools -->
 <Include File="pools/AssetList/AssetListPool.xml" />
 <Include File="pools/RewardPool/AllItems&Specialists.xml" />
