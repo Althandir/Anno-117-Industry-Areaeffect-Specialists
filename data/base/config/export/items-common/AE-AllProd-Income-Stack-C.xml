@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000284</GUID>
-            <Name>Specialist AE-AllProd-Income-C</Name>
-            <IconFilename>data/base/graphics/icons/c_m_AE-AllProd-Income-C.png</IconFilename>
+            <Name>Specialist AE-AllProd-Income-Stack-C</Name>
+            <IconFilename>data/base/graphics/icons/c_m_AE-AllProd-Income-Stack-C.png</IconFilename>
             <InfoDescription>1600000285</InfoDescription>
           </Standard>
           <Effect>
@@ -53,8 +53,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000285</GUID>
-                    <Name>Specialist AE-AllProd-Income-C BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/c_m_AE-AllProd-Income-C.png</IconFilename>
+                    <Name>Specialist AE-AllProd-Income-Stack-C BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/c_m_AE-AllProd-Income-Stack-C.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000284</OasisId>
@@ -90,8 +90,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000286</GUID>
-                    <Name>Specialist AE-AllProd-Income-C FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/c_m_AE-AllProd-Income-C.png</IconFilename>
+                    <Name>Specialist AE-AllProd-Income-Stack-C FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/c_m_AE-AllProd-Income-Stack-C.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -103,7 +103,7 @@
                     </Buffs>
                     <Targets>
                         <Item>
-                            <GUID>43097</GUID>
+                            <GUID>31046</GUID>
                         </Item>
                     </Targets>
                     <ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID>
@@ -122,8 +122,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000287</GUID>
-                    <Name>Specialist AE-AllProd-Income-C FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/c_m_AE-AllProd-Income-C.png</IconFilename>
+                    <Name>Specialist AE-AllProd-Income-Stack-C FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/c_m_AE-AllProd-Income-Stack-C.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000284</OasisId>
@@ -142,7 +142,7 @@
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
-                    <IsStackable>0</IsStackable>
+                    <IsStackable>1</IsStackable>
                     <ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID>
                 </Buff>
                 <ResidenceUpgrade>

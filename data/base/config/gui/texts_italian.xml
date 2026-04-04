@@ -2,7 +2,7 @@
     <!-- Common Specialists -->
     <Group>
 
-        <!-- Specialist AE-AllProd-Income-C -->
+        <!-- Specialist AE-AllProd-Income-Stack-C -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -102,7 +102,7 @@
     <!-- Refactor Specialists -->
     <Group>
 
-        <!-- Specialist AE-HealthFireHappyShrines-L -->
+        <!-- Specialist AE-Cloth-L -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -124,7 +124,7 @@
         </Group>
 
         
-        <!-- Specialist AE-NR-CeresShrine-R -->
+        <!-- Specialist AE-CeresGoods-Belief-R -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -140,7 +140,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-NR-CernunnosShrine-R -->
+        <!-- Specialist AE-MatProd-FireS-NProd-R -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -156,7 +156,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-NR-EponaShrine-R -->
+        <!-- Specialist AE-Animals-Happy-NProdHealth-R -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->

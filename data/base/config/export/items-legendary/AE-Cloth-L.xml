@@ -7,12 +7,12 @@
         <Values>
             <Standard>
                 <GUID>1600000432</GUID>
-                <Name>Specialist AE-HealthFireHappyShrines-L</Name>
+                <Name>Specialist AE-Cloth-L</Name>
                 <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 <InfoDescription>1600000433</InfoDescription>
             </Standard>
             <Effect>
-                <EffectScope>ObjectsInArea</EffectScope>  
+                <EffectScope>Radius</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                     <Item>
@@ -21,14 +21,14 @@
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
                 <Item>
-                    <GUID>108697</GUID>
+                    <GUID>3079</GUID>
                 </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Religion</Niche>  
-                <TradePrice>1000000</TradePrice> 
+                <Niche>Economy</Niche>  
+                <TradePrice>650000</TradePrice> 
                 <BarkPool>0</BarkPool> <!-- <GUID>0</GUID> -->
                 <Rarity>Legendary</Rarity> 
             </Item>
@@ -44,16 +44,16 @@
                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                 <Values>
                     <PreConditionList>
-                        <!-- Condition 1 - 4x Shrine on Area -->
+                        <!-- Condition 1 - 8x Weaver on Area -->
                         <Condition>
                             <Template>ConditionObjectCount</Template>
                             <Values>
                                 <Condition/>
                                 <ConditionObjectCount>
-                                    <Amount>4</Amount>
+                                    <Amount>8</Amount>
                                 </ConditionObjectCount>
                                 <ObjectFilter>
-                                    <ObjectGUID>108697</ObjectGUID>
+                                    <ObjectGUID>3079</ObjectGUID>
                                     <ObjectLocations>
                                         <Template>LocationFilter</Template>
                                         <Values>
@@ -99,7 +99,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000433</GUID>
-                    <Name>Specialist AE-HealthFireHappyShrines-L BuildingBuff</Name>
+                    <Name>Specialist AE-Cloth-L BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
@@ -114,7 +114,15 @@
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
                 <ResidenceUpgrade/>
-                <FactoryUpgrade/>
+                <FactoryUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>2121</Product>
+                            <AdditionalOutputCycle>4</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
                 <CityInstitutionUpgrade/>
@@ -133,11 +141,11 @@
             <Values>
                 <Standard>
                     <GUID>1600000434</GUID>
-                    <Name>Specialist AE-HealthFireHappyShrines-L FunctionalEffect</Name>
+                    <Name>Specialist AE-Cloth-L FunctionalEffect</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Effect>
-                    <EffectScope>StreetDistance</EffectScope>
+                    <EffectScope>Radius</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
@@ -165,7 +173,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000435</GUID>
-                    <Name>Specialist AE-HealthFireHappyShrines-L FunctionalEffect BuildingBuff</Name>
+                    <Name>Specialist AE-Cloth-L FunctionalEffect BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
@@ -174,21 +182,21 @@
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Health>
+                        <Knowledge>
                             <AmountOrPercent>
-                                <Value>0.25</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Health>
-                        <Happiness>
+                        </Knowledge>
+                        <Prestige>
                             <AmountOrPercent>
-                                <Value>0.25</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Happiness>
+                        </Prestige>
                         <FireSafety>
                             <AmountOrPercent>
-                                <Value>0.25</Value>
+                                <Value>0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </FireSafety>
@@ -221,7 +229,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000436</GUID>
-                    <Name>Specialist AE-HealthFireHappyShrines-L Boosted BuildingBuff</Name>
+                    <Name>Specialist AE-Cloth-L Boosted BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
@@ -236,14 +244,17 @@
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
                 <ResidenceUpgrade/>
-                <FactoryUpgrade/>
+                <FactoryUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>2121</Product>
+                            <AdditionalOutputCycle>2</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
                 <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade>
-                    <MaintenanceFactorUpgrade>
-                        <Value>-50</Value>
-                        <Percental>1</Percental>
-                    </MaintenanceFactorUpgrade>
-                </MaintenanceUpgrade>
+                <MaintenanceUpgrade/>
                 <CityInstitutionUpgrade/>
                 <IncidentInfectableUpgrade/>
                 <RecruitmentUpgrade/>
@@ -260,11 +271,11 @@
             <Values>
                 <Standard>
                     <GUID>1600000437</GUID>
-                    <Name>Specialist AE-HealthFireHappyShrines-L Boosted FunctionalEffect</Name>
+                    <Name>Specialist AE-Cloth-L Boosted FunctionalEffect</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Effect>
-                    <EffectScope>StreetDistance</EffectScope>
+                    <EffectScope>Radius</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
@@ -292,7 +303,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000438</GUID>
-                    <Name>Specialist AE-HealthFireHappyShrines-L Boosted FunctionalEffect BuildingBuff</Name>
+                    <Name>Specialist AE-Cloth-L Boosted FunctionalEffect BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
@@ -301,21 +312,21 @@
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Health>
+                        <Knowledge>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>3</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Health>
-                        <Happiness>
+                        </Knowledge>
+                        <Prestige>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Happiness>
+                        </Prestige>
                         <FireSafety>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </FireSafety>

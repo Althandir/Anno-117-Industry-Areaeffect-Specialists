@@ -20,7 +20,7 @@
 
 <!-- Common Specialists -->
 <Group>
-    <Include File="items-common/AE-AllProd-Income-C.xml" />
+    <Include File="items-common/AE-AllProd-Income-Stack-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
@@ -29,22 +29,22 @@
     <Include File="items-rare/AE-Armories-Money-NHealthHappy-R.xml" />
     <Include File="items-rare/AE-Kitchen-PrestigeHappy-R.xml" />
     <Include File="items-rare/AE-Crafters-Know-NHealth-R.xml" />
+
+    <Include File="items-rare/AE-CeresGoods-Belief-R.xml" />
+    <Include File="items-rare/AE-MatProd-FireS-NProd-R.xml" />
+    <Include File="items-rare/AE-Animals-Happy-NProdHealth-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
 <Group>
-
+    <Include File="items-epic/AE-FuelConsumer-FireS-NProd-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->
 <Group>
-    <Include File="items-legendary/AdditionalGoodsExtractors-L.xml" />
+    <Include File="items-legendary/AE-Cloth-L.xml" />
 </Group>
 
-<Include File="items-refactor/AE-HealthFireHappyShrines-L.xml" />
-<Include File="items-refactor/AE-NR-CeresShrine-R.xml" />
-<Include File="items-refactor/AE-NR-CernunnosShrine-R.xml" />
-<Include File="items-refactor/AE-NR-EponaShrine-R.xml" />
 <Include File="items-refactor/AE-NR-MarsShrine-R.xml" />
 <Include File="items-refactor/AE-NR-MercuryShrine-R.xml" />
 <Include File="items-refactor/AE-NR-MinervaShrine-R.xml" />

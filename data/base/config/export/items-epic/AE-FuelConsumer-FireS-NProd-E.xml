@@ -1,0 +1,163 @@
+<ModOps>
+<!-- Item Definition GUID:1600000134 - 1600000136 + 1600000617 | LineID:1600000134 - 1600000135 -->
+    <Group>
+        <ModOp Type="addNextSibling" GUID="106410">
+        <Asset>
+            <Template>Item</Template>
+            <Values>
+            <Standard>
+                <GUID>1600000134</GUID>
+                <Name>Specialist AE-FuelConsumer-FireS-NProd-E</Name>
+                <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                <InfoDescription>1600000135</InfoDescription>
+            </Standard>
+            <Effect>
+                <EffectScope>Radius</EffectScope> 
+                <SourceCategory>Item</SourceCategory>
+                <Buffs>
+                <Item>
+                    <GUID>1600000135</GUID>
+                </Item>
+                </Buffs>
+                <Targets> <!-- Targets of Buff -->
+                <Item>
+                    <GUID>71197</GUID>
+                </Item>
+                </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
+            </Effect>
+            <Item>
+                <Niche>Economy</Niche> 
+                <TradePrice>80000</TradePrice>
+                <BarkPool>83322</BarkPool> <!-- <GUID>83322</GUID> -->
+                <Rarity>Epic</Rarity> 
+            </Item>
+            <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <Text>
+                <OasisId>1600000134</OasisId>
+            </Text>
+
+            </Values>
+        </Asset>
+        </ModOp>
+    </Group>
+
+    <!-- Buff Definitions-->
+    <Group>
+        <!-- BuildingEffect Definition -->
+        <ModOp Type="addNextSibling" GUID="80193">
+            <Asset>
+                <Template>BuildingBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1600000135</GUID>
+                        <Name>Specialist AE-FuelConsumer-FireS-NProd-E BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    </Standard>
+                    <Text>
+                        <OasisId>1600000134</OasisId>
+                    </Text>
+                    <HealthUpgrade/>
+                    <BuildingUpgrade>
+                    <AdditionalFunctionalEffect>1600000617</AdditionalFunctionalEffect>
+                    </BuildingUpgrade>
+                    <DistributionUpgrade/>
+                    <Buff>
+                        <SourceCategory>Item</SourceCategory>
+                    </Buff>
+                    <ResidenceUpgrade/>
+                    <FactoryUpgrade>
+                        <ProductivityUpgrade>
+                            <Value>-10</Value>
+                            <Percental>1</Percental>
+                        </ProductivityUpgrade>
+                    </FactoryUpgrade>
+                    <ModuleOwnerUpgrade/>
+                    <MaintenanceUpgrade/>
+                    <CityInstitutionUpgrade/>
+                    <IncidentInfectableUpgrade/>
+                    <RecruitmentUpgrade/>
+                    <AqueductUpgrade/>
+                    <WarehouseUpgrade/>
+                    <IrrigationUpgrade/>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="135498">
+            <Asset>
+                <Template>Effect</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1600000617</GUID>
+                        <Name>Specialist AE-FuelConsumer-FireS-NProd-E FunctionalEffect</Name>
+                        <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    </Standard>
+                    <Effect>
+                        <EffectScope>Radius</EffectScope>
+                        <SourceCategory>Adjacency</SourceCategory>
+                        <Buffs>
+                            <Item>
+                                <GUID>1600000136</GUID>
+                            </Item>
+                        </Buffs>
+                        <Targets>
+                            <Item>
+                                <GUID>43097</GUID>
+                            </Item>
+                        </Targets>
+                        <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+                        <HideInGovernorsBar>1</HideInGovernorsBar>
+                    </Effect>
+                    <Text>
+                        <OasisId>1600000432</OasisId>
+                    </Text>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="80193">
+            <Asset>
+                <Template>BuildingBuff</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1600000136</GUID>
+                        <Name>Specialist AE-FuelConsumer-FireS-NProd-E BuildingBuff Boosted</Name>
+                        <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    </Standard>
+                    <Text>
+                        <OasisId>1600000134</OasisId>
+                    </Text>
+                    <HealthUpgrade/>
+                    <BuildingUpgrade>
+                        <AdditionalAttributes>
+                            <FireSafety>
+                                <AmountOrPercent>
+                                    <Value>2</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </FireSafety>
+                        </AdditionalAttributes>
+                    </BuildingUpgrade>
+                    <DistributionUpgrade/>
+                    <Buff>
+                        <SourceCategory>Item</SourceCategory>
+                    </Buff>
+                    <ResidenceUpgrade/>
+                    <FactoryUpgrade/>
+                    <ModuleOwnerUpgrade/>
+                    <MaintenanceUpgrade/>
+                    <CityInstitutionUpgrade/>
+                    <IncidentInfectableUpgrade/>
+                    <RecruitmentUpgrade/>
+                    <AqueductUpgrade/>
+                    <WarehouseUpgrade/>
+                    <IrrigationUpgrade/>
+                </Values>
+            </Asset>
+        </ModOp>
+    </Group>
+
+</ModOps>

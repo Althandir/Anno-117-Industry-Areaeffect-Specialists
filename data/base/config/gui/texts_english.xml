@@ -2,7 +2,7 @@
     <!-- Common Specialists -->
     <Group>
 
-        <!-- Specialist AE-AllProd-Income-C -->
+        <!-- Specialist AE-AllProd-Income-Stack-C -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -12,7 +12,7 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Fulfills delivery orders for residents in the surrounding area. &#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>Fulfills delivery orders for residents in the surrounding area. &#xD;Note: This Area Effect only affects Residences but is allowed to stack on them.&#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000285</LineId> 
             </Text>
         </ModOp>
@@ -97,34 +97,32 @@
     <!-- Legendary Specialists -->
     <Group>
 
+        <!-- Specialist AE-Cloth-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000432</LineId> <!-- <GUID>1600000432</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>PlaceholderText (Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000433</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000434</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
     </Group>
 
     <!-- Refactor Specialists -->
     <Group>
 
-        <!-- Specialist AE-HealthFireHappyShrines-L -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Magnanimus Vias, The Great Hearted Spirit</Text>
-                <LineId>1600000432</LineId> <!-- <GUID>1600000432</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>Has been born to keep every virtues of the deities deep in his heart and assists the citizens to follow their desired path to salvation.</Text>
-                <LineId>1600000433</LineId> 
-            </Text>
-            <!-- Boosted Hint -->
-            <Text>
-                <Text>Have at least 4 Shrines of any deity on this Island.</Text>
-                <LineId>1600000434</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
-
-        
-        <!-- Specialist AE-NR-CeresShrine-R -->
+        <!-- Specialist AE-CeresGoods-Belief-R -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -140,7 +138,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-NR-CernunnosShrine-R -->
+        <!-- Specialist AE-MatProd-FireS-NProd-R -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -156,7 +154,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-NR-EponaShrine-R -->
+        <!-- Specialist AE-Animals-Happy-NProdHealth-R -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
