@@ -33,7 +33,7 @@
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Religion</Niche>  
+                <Niche>Culture</Niche>  
                 <TradePrice>15000</TradePrice> 
                 <BarkPool>0</BarkPool> <!-- <GUID>83298</GUID> -->
                 <Rarity>Rare</Rarity> 

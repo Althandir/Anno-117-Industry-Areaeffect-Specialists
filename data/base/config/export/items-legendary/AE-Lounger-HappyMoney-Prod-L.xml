@@ -1,22 +1,22 @@
 <ModOps>
-<!-- Item Definition GUID:1600000432 - 1600000438 | LineID:1600000432 - 1600000434  -->
+<!-- Item Definition GUID:1600000621 - 1600000627 | LineID:1600000621 - 1600000623  -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>ItemWithBoost</Template>
         <Values>
             <Standard>
-                <GUID>1600000432</GUID>
-                <Name>Specialist AE-Cloth-L</Name>
+                <GUID>1600000621</GUID>
+                <Name>Specialist AE-Lounger-HappyMoney-Prod-L</Name>
                 <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
-                <InfoDescription>1600000433</InfoDescription>
+                <InfoDescription>1600000622</InfoDescription>
             </Standard>
             <Effect>
                 <EffectScope>Radius</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                     <Item>
-                        <GUID>1600000433</GUID>
+                        <GUID>1600000622</GUID>
                     </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
@@ -27,7 +27,7 @@
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Economy</Niche>  
+                <Niche>Finance</Niche>  
                 <TradePrice>650000</TradePrice> 
                 <BarkPool>0</BarkPool> <!-- <GUID>0</GUID> -->
                 <Rarity>Legendary</Rarity> 
@@ -36,7 +36,7 @@
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000432</OasisId>
+                <OasisId>1600000621</OasisId>
             </Text>
 
             <ItemWithBoost>
@@ -44,7 +44,7 @@
                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                 <Values>
                     <PreConditionList>
-                        <!-- Condition 1 - 8x Weaver on Area -->
+                        <!-- Condition 1 - 8x Cushion on Island -->
                         <Condition>
                             <Template>ConditionObjectCount</Template>
                             <Values>
@@ -53,7 +53,7 @@
                                     <Amount>8</Amount>
                                 </ConditionObjectCount>
                                 <ObjectFilter>
-                                    <ObjectGUID>3079</ObjectGUID>
+                                    <ObjectGUID>8887</ObjectGUID>
                                     <ObjectLocations>
                                         <Template>LocationFilter</Template>
                                         <Values>
@@ -79,10 +79,10 @@
                 </BoostCondition>
                 <BoostBuffs>
                 <Item>
-                    <GUID>1600000436</GUID>
+                    <GUID>1600000625</GUID>
                 </Item>
                 </BoostBuffs>
-                <BoostHint>1600000434</BoostHint>
+                <BoostHint>1600000623</BoostHint>
             </ItemWithBoost>
 
         </Values>
@@ -98,31 +98,23 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000433</GUID>
-                    <Name>Specialist AE-Cloth-L BuildingBuff</Name>
+                    <GUID>1600000622</GUID>
+                    <Name>Specialist AE-Lounger-HappyMoney-Prod-L BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000432</OasisId>
+                    <OasisId>1600000621</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000434</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000623</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
                 <ResidenceUpgrade/>
-                <FactoryUpgrade>
-                    <AdditionalOutput>
-                        <Item>
-                            <Product>2121</Product>
-                            <AdditionalOutputCycle>4</AdditionalOutputCycle>
-                            <Amount>1</Amount>
-                        </Item>
-                    </AdditionalOutput>
-                </FactoryUpgrade>
+                <FactoryUpgrade/>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
                 <CityInstitutionUpgrade/>
@@ -140,8 +132,8 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000434</GUID>
-                    <Name>Specialist AE-Cloth-L FunctionalEffect</Name>
+                    <GUID>1600000623</GUID>
+                    <Name>Specialist AE-Lounger-HappyMoney-Prod-L FunctionalEffect</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Effect>
@@ -149,7 +141,7 @@
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000435</GUID>
+                            <GUID>1600000624</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -161,7 +153,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000432</OasisId>
+                    <OasisId>1600000621</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -172,34 +164,28 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000435</GUID>
-                    <Name>Specialist AE-Cloth-L FunctionalEffect BuildingBuff</Name>
+                    <GUID>1600000624</GUID>
+                    <Name>Specialist AE-Lounger-HappyMoney-Prod-L FunctionalEffect BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000432</OasisId>
+                    <OasisId>1600000621</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Knowledge>
+                        <Happiness>
                             <AmountOrPercent>
                                 <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Knowledge>
-                        <Prestige>
+                        <Money>
                             <AmountOrPercent>
-                                <Value>1</Value>
+                                <Value>1.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Prestige>
-                        <FireSafety>
-                            <AmountOrPercent>
-                                <Value>0.5</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </FireSafety>
+                        </Money>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
@@ -228,16 +214,16 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000436</GUID>
-                    <Name>Specialist AE-Cloth-L Boosted BuildingBuff</Name>
+                    <GUID>1600000625</GUID>
+                    <Name>Specialist AE-Lounger-HappyMoney-Prod-L Boosted BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000432</OasisId>
+                    <OasisId>1600000621</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000437</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000626</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
@@ -245,13 +231,10 @@
                 </Buff>
                 <ResidenceUpgrade/>
                 <FactoryUpgrade>
-                    <AdditionalOutput>
-                        <Item>
-                            <Product>2121</Product>
-                            <AdditionalOutputCycle>2</AdditionalOutputCycle>
-                            <Amount>1</Amount>
-                        </Item>
-                    </AdditionalOutput>
+                    <ProductivityUpgrade>
+                        <Value>50</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
                 </FactoryUpgrade>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
@@ -270,8 +253,8 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000437</GUID>
-                    <Name>Specialist AE-Cloth-L Boosted FunctionalEffect</Name>
+                    <GUID>1600000626</GUID>
+                    <Name>Specialist AE-Lounger-HappyMoney-Prod-L Boosted FunctionalEffect</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Effect>
@@ -279,7 +262,7 @@
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000438</GUID>
+                            <GUID>1600000627</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -291,7 +274,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000432</OasisId>
+                    <OasisId>1600000621</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -302,34 +285,28 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000438</GUID>
-                    <Name>Specialist AE-Cloth-L Boosted FunctionalEffect BuildingBuff</Name>
+                    <GUID>1600000627</GUID>
+                    <Name>Specialist AE-Lounger-HappyMoney-Prod-L Boosted FunctionalEffect BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000432</OasisId>
+                    <OasisId>1600000621</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Knowledge>
-                            <AmountOrPercent>
-                                <Value>3</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Knowledge>
-                        <Prestige>
+                        <Happiness>
                             <AmountOrPercent>
                                 <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Prestige>
-                        <FireSafety>
+                        </Happiness>
+                        <Money>
                             <AmountOrPercent>
-                                <Value>1</Value>
+                                <Value>2</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </FireSafety>
+                        </Money>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>

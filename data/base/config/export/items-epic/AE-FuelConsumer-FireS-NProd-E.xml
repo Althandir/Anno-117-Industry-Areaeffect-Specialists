@@ -27,7 +27,7 @@
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Economy</Niche> 
+                <Niche>Military</Niche> 
                 <TradePrice>80000</TradePrice>
                 <BarkPool>83322</BarkPool> <!-- <GUID>83322</GUID> -->
                 <Rarity>Epic</Rarity> 
@@ -112,7 +112,7 @@
                         <HideInGovernorsBar>1</HideInGovernorsBar>
                     </Effect>
                     <Text>
-                        <OasisId>1600000432</OasisId>
+                        <OasisId>1600000134</OasisId>
                     </Text>
                 </Values>
             </Asset>

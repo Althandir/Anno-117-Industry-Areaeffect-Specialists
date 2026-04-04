@@ -6,14 +6,14 @@
 
 ###  
 #   GUID-Ranges:  
-#   1600000xxx - 1600000xxx 
-#
-#
-#
-#
-#
-#
-#
+#   1600000284 - 1600000287 
+#   1600000134 - 1600000136 + 1600000617
+#   1600000258 - 1600000261
+#   1600000416 - 1600000419 + 1600000618 - 1600000620
+#   1600000432 - 1600000438
+#   1600000621 - 1600000627
+#   1600000254 - 1600000257
+#   1600000400 - 1600000427
 ###
 -->
 <ModOps>
@@ -27,9 +27,9 @@
 <Group>
     <Include File="items-rare/AE-StoneCutter-Money-NHealth-R.xml" />
     <Include File="items-rare/AE-Armories-Money-NHealthHappy-R.xml" />
-    <Include File="items-rare/AE-Kitchen-PrestigeHappy-R.xml" />
     <Include File="items-rare/AE-Crafters-Know-NHealth-R.xml" />
-
+    <Include File="items-rare/AE-MinervaGoods-Belief-R.xml" />
+    <Include File="items-rare/AE-MarsGoods-Belief-R.xml" />
     <Include File="items-rare/AE-CeresGoods-Belief-R.xml" />
     <Include File="items-rare/AE-MatProd-FireS-NProd-R.xml" />
     <Include File="items-rare/AE-Animals-Happy-NProdHealth-R.xml" />
@@ -37,23 +37,23 @@
 
 <!-- Epic Specialists -->
 <Group>
+    <Include File="items-epic/AE-Cushion-MoneyPrestHappy-E.xml" />
     <Include File="items-epic/AE-FuelConsumer-FireS-NProd-E.xml" />
+    <Include File="items-epic/AE-Kitchen-PrestigeHappy-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->
 <Group>
-    <Include File="items-legendary/AE-Cloth-L.xml" />
+    <Include File="items-legendary/AE-Chariot-PopHealth-Prod-L.xml" />
+    <Include File="items-legendary/AE-Cloth-KnowFireS-AddGoods-L.xml" />
+    <Include File="items-legendary/AE-Lounger-HappyMoney-Prod-L.xml" />
 </Group>
-
-<Include File="items-refactor/AE-NR-MarsShrine-R.xml" />
-<Include File="items-refactor/AE-NR-MercuryShrine-R.xml" />
-<Include File="items-refactor/AE-NR-MinervaShrine-R.xml" />
-<Include File="items-refactor/AE-NR-NeptuneShrine-R.xml" />
-
 
 <!-- Add to Pools -->
 <Include File="pools/AssetList/AssetListPool.xml" />
 <Include File="pools/RewardPool/AllItems&Specialists.xml" />
+
+
 
 <!-- Add to Traderpools --> 
 <Include File="pools/Traders/pools-common.xml" />

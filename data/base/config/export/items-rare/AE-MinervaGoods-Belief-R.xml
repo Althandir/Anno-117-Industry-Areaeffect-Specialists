@@ -7,7 +7,7 @@
             <Values>
             <Standard>
                 <GUID>1600000420</GUID>
-                <Name>Specialist AE-NR-MinervaShrine-R</Name>
+                <Name>Specialist AE-MinervaGoods-Belief-R</Name>
                 <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 <InfoDescription>1600000421</InfoDescription>
             </Standard>
@@ -52,7 +52,7 @@
                 <Values>
                     <Standard>
                         <GUID>1600000421</GUID>
-                        <Name>Specialist AE-NR-MinervaShrine-R BuildingBuff</Name>
+                        <Name>Specialist AE-MinervaGoods-Belief-R BuildingBuff</Name>
                         <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                     </Standard>
                     <Text>
@@ -66,43 +66,7 @@
                     <Buff>
                         <SourceCategory>Item</SourceCategory>
                     </Buff>
-                    <ResidenceUpgrade> 
-                        <GoodConsumptionUpgrade>
-                            <Item>
-                                <ProvidedNeed>2141</ProvidedNeed>
-                                <AmountInPercent>20</AmountInPercent>
-                            </Item>
-                            <Item>
-                                <ProvidedNeed>2142</ProvidedNeed>
-                                <AmountInPercent>20</AmountInPercent>
-                            </Item>
-                            <Item>
-                                <ProvidedNeed>2161</ProvidedNeed>
-                                <AmountInPercent>10</AmountInPercent>
-                            </Item>
-                        </GoodConsumptionUpgrade>
-                        <NeedProvidedNeedAttributes>
-                        <ChangeNeedAttributesOf>
-                            <Item>
-                                <ProvidedProduct>2141</ProvidedProduct> <!-- <GUID>2141</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>2142</ProvidedProduct> <!-- <GUID>2142</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>2161</ProvidedProduct> <!-- <GUID>2161</GUID> -->
-                            </Item>
-                        </ChangeNeedAttributesOf>
-                        <AdditionalNeedAttributes>
-                            <Belief>
-                                <AmountOrPercent>
-                                    <Value>2</Value>
-                                    <Percental>0</Percental>
-                                </AmountOrPercent>
-                            </Belief>
-                        </AdditionalNeedAttributes>
-                        </NeedProvidedNeedAttributes>
-                    </ResidenceUpgrade>
+                    <ResidenceUpgrade/>
                     <FactoryUpgrade/>
                     <ModuleOwnerUpgrade/>
                     <MaintenanceUpgrade/>
@@ -122,11 +86,11 @@
                 <Values>
                     <Standard>
                         <GUID>1600000422</GUID>
-                        <Name>Specialist AE-NR-MinervaShrine-R FunctionalEffect</Name>
+                        <Name>Specialist AE-MinervaGoods-Belief-R FunctionalEffect</Name>
                         <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                     </Standard>
                     <Effect>
-                        <EffectScope>StreetDistance</EffectScope>
+                        <EffectScope>Radius</EffectScope>
                         <SourceCategory>Adjacency</SourceCategory>
                         <Buffs>
                             <Item>
@@ -135,7 +99,7 @@
                         </Buffs>
                         <Targets>
                             <Item>
-                                <GUID>31046</GUID>
+                                <GUID>43097</GUID>
                             </Item>
                         </Targets>
                         <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
@@ -154,55 +118,28 @@
                 <Values>
                     <Standard>
                         <GUID>1600000423</GUID>
-                        <Name>Specialist AE-NR-MinervaShrine-R FunctionalEffect BuildingBuff</Name>
+                        <Name>Specialist AE-MinervaGoods-Belief-R FunctionalEffect BuildingBuff</Name>
                         <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000420</OasisId>
                     </Text>
                     <HealthUpgrade/>
-                    <BuildingUpgrade/>
+                    <BuildingUpgrade>
+                        <AdditionalAttributes>
+                            <Belief>
+                                <AmountOrPercent>
+                                    <Value>1.5</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Belief>
+                        </AdditionalAttributes>
+                    </BuildingUpgrade>
                     <DistributionUpgrade/>
                     <Buff>
                         <SourceCategory>Adjacency</SourceCategory>
                     </Buff>
-                    <ResidenceUpgrade> 
-                        <GoodConsumptionUpgrade>
-                            <Item>
-                                <ProvidedNeed>2141</ProvidedNeed>
-                                <AmountInPercent>20</AmountInPercent>
-                            </Item>
-                            <Item>
-                                <ProvidedNeed>2142</ProvidedNeed>
-                                <AmountInPercent>20</AmountInPercent>
-                            </Item>
-                            <Item>
-                                <ProvidedNeed>2161</ProvidedNeed>
-                                <AmountInPercent>10</AmountInPercent>
-                            </Item>
-                        </GoodConsumptionUpgrade>
-                        <NeedProvidedNeedAttributes>
-                        <ChangeNeedAttributesOf>
-                            <Item>
-                                <ProvidedProduct>2141</ProvidedProduct> <!-- <GUID>2141</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>2142</ProvidedProduct> <!-- <GUID>2142</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>2161</ProvidedProduct> <!-- <GUID>2161</GUID> -->
-                            </Item>
-                        </ChangeNeedAttributesOf>
-                        <AdditionalNeedAttributes>
-                            <Belief>
-                                <AmountOrPercent>
-                                    <Value>2</Value>
-                                    <Percental>0</Percental>
-                                </AmountOrPercent>
-                            </Belief>
-                        </AdditionalNeedAttributes>
-                        </NeedProvidedNeedAttributes>
-                    </ResidenceUpgrade>
+                    <ResidenceUpgrade/> 
                     <FactoryUpgrade/>
                     <ModuleOwnerUpgrade/>
                     <MaintenanceUpgrade/>

@@ -7,7 +7,7 @@
             <Values>
             <Standard>
                 <GUID>1600000412</GUID>
-                <Name>Specialist AE-NR-MarsShrine-R</Name>
+                <Name>Specialist AE-Cushion-MoneyPrestHappy-Prod-E</Name>
                 <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 <InfoDescription>1600000413</InfoDescription>
             </Standard>
@@ -21,15 +21,15 @@
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
                 <Item>
-                    <GUID>80564</GUID>
+                    <GUID>8887</GUID>
                 </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Religion</Niche>  
-                <TradePrice>15000</TradePrice> 
-                <BarkPool>0</BarkPool> <!-- <GUID>83298</GUID> -->
+                <Niche>Finance</Niche>  
+                <TradePrice>80000</TradePrice> 
+                <BarkPool>0</BarkPool> <!-- <GUID>0</GUID> -->
                 <Rarity>Rare</Rarity> 
             </Item>
             <Locked>
@@ -52,7 +52,7 @@
                 <Values>
                     <Standard>
                         <GUID>1600000413</GUID>
-                        <Name>Specialist AE-NR-MarsShrine-R BuildingBuff</Name>
+                        <Name>Specialist AE-Cushion-MoneyPrestHappy-Prod-E BuildingBuff</Name>
                         <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                     </Standard>
                     <Text>
@@ -66,44 +66,13 @@
                     <Buff>
                         <SourceCategory>Item</SourceCategory>
                     </Buff>
-                    <ResidenceUpgrade> 
-                        <GoodConsumptionUpgrade>
-                            <Item>
-                                <ProvidedNeed>2144</ProvidedNeed>
-                                <AmountInPercent>35</AmountInPercent>
-                            </Item>
-                            <Item>
-                                <ProvidedNeed>31706</ProvidedNeed>
-                                <AmountInPercent>15</AmountInPercent>
-                            </Item>
-                            <Item>
-                                <ProvidedNeed>2163</ProvidedNeed>
-                                <AmountInPercent>5</AmountInPercent>
-                            </Item>
-                        </GoodConsumptionUpgrade>
-                        <NeedProvidedNeedAttributes>
-                        <ChangeNeedAttributesOf>
-                            <Item>
-                                <ProvidedProduct>2144</ProvidedProduct> <!-- <GUID>2144</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>31706</ProvidedProduct> <!-- <GUID>31706</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>2163</ProvidedProduct> <!-- <GUID>2163</GUID> -->
-                            </Item>
-                        </ChangeNeedAttributesOf>
-                        <AdditionalNeedAttributes>
-                            <Belief>
-                                <AmountOrPercent>
-                                    <Value>2</Value>
-                                    <Percental>0</Percental>
-                                </AmountOrPercent>
-                            </Belief>
-                        </AdditionalNeedAttributes>
-                        </NeedProvidedNeedAttributes>
-                    </ResidenceUpgrade>
-                    <FactoryUpgrade/>
+                    <ResidenceUpgrade/>
+                    <FactoryUpgrade>
+                        <ProductivityUpgrade>
+                            <Value>20</Value>
+                            <Percental>1</Percental>
+                        </ProductivityUpgrade>
+                    </FactoryUpgrade>
                     <ModuleOwnerUpgrade/>
                     <MaintenanceUpgrade/>
                     <CityInstitutionUpgrade/>
@@ -122,11 +91,11 @@
                 <Values>
                     <Standard>
                         <GUID>1600000414</GUID>
-                        <Name>Specialist AE-NR-MarsShrine-R FunctionalEffect</Name>
+                        <Name>Specialist AE-Cushion-MoneyPrestHappy-Prod-E FunctionalEffect</Name>
                         <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                     </Standard>
                     <Effect>
-                        <EffectScope>StreetDistance</EffectScope>
+                        <EffectScope>Radius</EffectScope>
                         <SourceCategory>Adjacency</SourceCategory>
                         <Buffs>
                             <Item>
@@ -135,7 +104,7 @@
                         </Buffs>
                         <Targets>
                             <Item>
-                                <GUID>31046</GUID>
+                                <GUID>43097</GUID>
                             </Item>
                         </Targets>
                         <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
@@ -154,55 +123,40 @@
                 <Values>
                     <Standard>
                         <GUID>1600000415</GUID>
-                        <Name>Specialist AE-NR-MarsShrine-R FunctionalEffect BuildingBuff</Name>
+                        <Name>Specialist AE-Cushion-MoneyPrestHappy-Prod-E FunctionalEffect BuildingBuff</Name>
                         <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000412</OasisId>
                     </Text>
                     <HealthUpgrade/>
-                    <BuildingUpgrade/>
+                    <BuildingUpgrade>
+                        <AdditionalAttributes>
+                            <Money>
+                                <AmountOrPercent>
+                                    <Value>0.5</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Money>
+                            <Prestige>
+                                <AmountOrPercent>
+                                    <Value>0.5</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Prestige>
+                            <Happiness>
+                                <AmountOrPercent>
+                                    <Value>0.5</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Happiness>
+                        </AdditionalAttributes>
+                    </BuildingUpgrade>
                     <DistributionUpgrade/>
                     <Buff>
                         <SourceCategory>Adjacency</SourceCategory>
                     </Buff>
-                    <ResidenceUpgrade> 
-                        <GoodConsumptionUpgrade>
-                            <Item>
-                                <ProvidedNeed>2144</ProvidedNeed>
-                                <AmountInPercent>35</AmountInPercent>
-                            </Item>
-                            <Item>
-                                <ProvidedNeed>31706</ProvidedNeed>
-                                <AmountInPercent>15</AmountInPercent>
-                            </Item>
-                            <Item>
-                                <ProvidedNeed>2163</ProvidedNeed>
-                                <AmountInPercent>5</AmountInPercent>
-                            </Item>
-                        </GoodConsumptionUpgrade>
-                        <NeedProvidedNeedAttributes>
-                        <ChangeNeedAttributesOf>
-                            <Item>
-                                <ProvidedProduct>2144</ProvidedProduct> <!-- <GUID>2144</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>31706</ProvidedProduct> <!-- <GUID>31706</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>2163</ProvidedProduct> <!-- <GUID>2163</GUID> -->
-                            </Item>
-                        </ChangeNeedAttributesOf>
-                        <AdditionalNeedAttributes>
-                            <Belief>
-                                <AmountOrPercent>
-                                    <Value>2</Value>
-                                    <Percental>0</Percental>
-                                </AmountOrPercent>
-                            </Belief>
-                        </AdditionalNeedAttributes>
-                        </NeedProvidedNeedAttributes>
-                    </ResidenceUpgrade>
+                    <ResidenceUpgrade/>
                     <FactoryUpgrade/>
                     <ModuleOwnerUpgrade/>
                     <MaintenanceUpgrade/>

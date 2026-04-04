@@ -7,7 +7,7 @@
             <Values>
             <Standard>
                 <GUID>1600000424</GUID>
-                <Name>Specialist AE-NR-NeptuneShrine-R</Name>
+                <Name>Specialist AE-MarsGoods-Belief-R</Name>
                 <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 <InfoDescription>1600000425</InfoDescription>
             </Standard>
@@ -21,7 +21,7 @@
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
                 <Item>
-                    <GUID>30947</GUID>
+                    <GUID>80564</GUID>
                 </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
@@ -29,7 +29,7 @@
             <Item>
                 <Niche>Religion</Niche>  
                 <TradePrice>15000</TradePrice> 
-                <BarkPool>0</BarkPool> <!-- <GUID>83298</GUID> -->
+                <BarkPool>0</BarkPool> <!-- <GUID>0</GUID> -->
                 <Rarity>Rare</Rarity> 
             </Item>
             <Locked>
@@ -52,7 +52,7 @@
                 <Values>
                     <Standard>
                         <GUID>1600000425</GUID>
-                        <Name>Specialist AE-NR-NeptuneShrine-R BuildingBuff</Name>
+                        <Name>Specialist AE-MarsGoods-Belief-R BuildingBuff</Name>
                         <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                     </Standard>
                     <Text>
@@ -66,43 +66,7 @@
                     <Buff>
                         <SourceCategory>Item</SourceCategory>
                     </Buff>
-                    <ResidenceUpgrade> 
-                        <GoodConsumptionUpgrade>
-                            <Item>
-                                <ProvidedNeed>2088</ProvidedNeed>
-                                <AmountInPercent>20</AmountInPercent>
-                            </Item>
-                            <Item>
-                                <ProvidedNeed>2097</ProvidedNeed>
-                                <AmountInPercent>20</AmountInPercent>
-                            </Item>
-                            <Item>
-                                <ProvidedNeed>2139</ProvidedNeed>
-                                <AmountInPercent>20</AmountInPercent>
-                            </Item>
-                        </GoodConsumptionUpgrade>
-                        <NeedProvidedNeedAttributes>
-                        <ChangeNeedAttributesOf>
-                            <Item>
-                                <ProvidedProduct>2088</ProvidedProduct> <!-- <GUID>2088</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>2097</ProvidedProduct> <!-- <GUID>2097</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>2139</ProvidedProduct> <!-- <GUID>2139</GUID> -->
-                            </Item>
-                        </ChangeNeedAttributesOf>
-                        <AdditionalNeedAttributes>
-                            <Belief>
-                                <AmountOrPercent>
-                                    <Value>2</Value>
-                                    <Percental>0</Percental>
-                                </AmountOrPercent>
-                            </Belief>
-                        </AdditionalNeedAttributes>
-                        </NeedProvidedNeedAttributes>
-                    </ResidenceUpgrade>
+                    <ResidenceUpgrade/>
                     <FactoryUpgrade/>
                     <ModuleOwnerUpgrade/>
                     <MaintenanceUpgrade/>
@@ -122,11 +86,11 @@
                 <Values>
                     <Standard>
                         <GUID>1600000426</GUID>
-                        <Name>Specialist AE-NR-NeptuneShrine-R FunctionalEffect</Name>
+                        <Name>Specialist AE-MarsGoods-Belief-R FunctionalEffect</Name>
                         <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                     </Standard>
                     <Effect>
-                        <EffectScope>StreetDistance</EffectScope>
+                        <EffectScope>Radius</EffectScope>
                         <SourceCategory>Adjacency</SourceCategory>
                         <Buffs>
                             <Item>
@@ -135,7 +99,7 @@
                         </Buffs>
                         <Targets>
                             <Item>
-                                <GUID>31046</GUID>
+                                <GUID>43097</GUID>
                             </Item>
                         </Targets>
                         <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
@@ -154,55 +118,28 @@
                 <Values>
                     <Standard>
                         <GUID>1600000427</GUID>
-                        <Name>Specialist AE-NR-NeptuneShrine-R FunctionalEffect BuildingBuff</Name>
+                        <Name>Specialist AE-MarsGoods-Belief-R FunctionalEffect BuildingBuff</Name>
                         <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000424</OasisId>
                     </Text>
                     <HealthUpgrade/>
-                    <BuildingUpgrade/>
+                    <BuildingUpgrade>
+                        <AdditionalAttributes>
+                            <Belief>
+                                <AmountOrPercent>
+                                    <Value>1.5</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Belief>
+                        </AdditionalAttributes>
+                    </BuildingUpgrade>
                     <DistributionUpgrade/>
                     <Buff>
                         <SourceCategory>Adjacency</SourceCategory>
                     </Buff>
-                    <ResidenceUpgrade> 
-                        <GoodConsumptionUpgrade>
-                            <Item>
-                                <ProvidedNeed>2088</ProvidedNeed>
-                                <AmountInPercent>20</AmountInPercent>
-                            </Item>
-                            <Item>
-                                <ProvidedNeed>2097</ProvidedNeed>
-                                <AmountInPercent>20</AmountInPercent>
-                            </Item>
-                            <Item>
-                                <ProvidedNeed>2139</ProvidedNeed>
-                                <AmountInPercent>20</AmountInPercent>
-                            </Item>
-                        </GoodConsumptionUpgrade>
-                        <NeedProvidedNeedAttributes>
-                        <ChangeNeedAttributesOf>
-                            <Item>
-                                <ProvidedProduct>2088</ProvidedProduct> <!-- <GUID>2088</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>2097</ProvidedProduct> <!-- <GUID>2097</GUID> -->
-                            </Item>
-                            <Item>
-                                <ProvidedProduct>2139</ProvidedProduct> <!-- <GUID>2139</GUID> -->
-                            </Item>
-                        </ChangeNeedAttributesOf>
-                        <AdditionalNeedAttributes>
-                            <Belief>
-                                <AmountOrPercent>
-                                    <Value>2</Value>
-                                    <Percental>0</Percental>
-                                </AmountOrPercent>
-                            </Belief>
-                        </AdditionalNeedAttributes>
-                        </NeedProvidedNeedAttributes>
-                    </ResidenceUpgrade>
+                    <ResidenceUpgrade/>
                     <FactoryUpgrade/>
                     <ModuleOwnerUpgrade/>
                     <MaintenanceUpgrade/>

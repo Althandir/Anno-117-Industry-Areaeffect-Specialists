@@ -23,9 +23,25 @@
     <!-- Rare Specialists -->
     <Group>
 
-        <!-- Specialist AE-Armories-Money-NHealthHappy-R -->
+        <!-- Specialist AE-Animals-Happy-NProdHealth-R -->
         <Group>
         <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000408</LineId> <!-- <GUID>1600000408</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000409</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Armories-Money-NHealthHappy-R -->
+        <Group>
+            <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
                 <Text>Unverantwortlicher Waffenhändler</Text>
@@ -36,28 +52,12 @@
                 <Text>"Jeder sollte mindestens eine wenn nicht sogar mehrere Waffen haben! Was soll denn da schief gehen?"&#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000255</LineId> 
             </Text>
-        </ModOp>
-        </Group>
-
-        <!-- Specialist AE-Kitchen-PrestigeHappy-R -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Kunstköchin</Text>
-                <LineId>1600000258</LineId> <!-- <GUID>1600000258</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>Bereitet Essen zu wie ein inspirierendes Schauspiel. Aber wer räumt nun die Sauerei weg?&#xD;(Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000259</LineId> 
-            </Text>
-        </ModOp>
+            </ModOp>
         </Group>
 
         <!-- Specialist AE-Crafters-Know-NHealth-R -->
         <Group>
-        <ModOp Add="/TextExport/Texts">
+            <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
                 <Text>Praxisorientierter Lehrer</Text>
@@ -68,12 +68,12 @@
                 <Text>"Nur durch Praxis kann man Wissen festigen!... Auaa! Medicus!"&#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000267</LineId> 
             </Text>
-        </ModOp>
+            </ModOp>
         </Group>
 
         <!-- Specialist AE-StoneCutter-Money-NHealth-R -->
         <Group>
-        <ModOp Add="/TextExport/Texts">
+            <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
                 <Text>Unabhängiger Bildhauer</Text>
@@ -84,7 +84,7 @@
                 <Text>Nutzt den besten Stein der Region um Büsten von seinen Kunden herzustellen.&#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000310</LineId> 
             </Text>
-        </ModOp>
+            </ModOp>
         </Group>
 
         <!-- Specialist AE-CeresGoods-Belief-R -->
@@ -99,6 +99,38 @@
             <Text>
                 <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000401</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-MarsGoods-Belief-R -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000424</LineId> <!-- <GUID>1600000424</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000425</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-MinervaGoods-Belief-R -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000420</LineId> <!-- <GUID>1600000420</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000421</LineId> 
             </Text>
         </ModOp>
         </Group>
@@ -119,33 +151,67 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-Animals-Happy-NProdHealth-R -->
+
+
+    </Group>
+
+    <!-- Epic Specialists -->
+    <Group>
+        
+        <!-- Specialist AE-Kitchen-PrestigeHappy-E -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Kunstköchin</Text>
+                <LineId>1600000258</LineId> <!-- <GUID>1600000258</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Bereitet Essen zu wie ein inspirierendes Schauspiel. Aber wer räumt nun die Sauerei weg? &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000259</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Cushion-MoneyPrestHappy-E -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
                 <Text>PlaceholderText</Text>
-                <LineId>1600000408</LineId> <!-- <GUID>1600000408</GUID> -->
+                <LineId>1600000412</LineId> <!-- <GUID>1600000412</GUID> -->
             </Text>
             <!-- Description -->
             <Text>
                 <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000409</LineId> 
+                <LineId>1600000413</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-FuelConsumer-FireS-NProd-E -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000134</LineId> <!-- <GUID>1600000134</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000135</LineId> 
             </Text>
         </ModOp>
         </Group>
 
     </Group>
 
-    <!-- Epic Specialists -->
-    <Group>
-
-    </Group>
-
     <!-- Legendary Specialists -->
     <Group>
 
-        <!-- Specialist AE-Cloth-L -->
+        <!-- Specialist AE-Cloth-KnowFireS-AddGoods-L -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -165,6 +231,49 @@
             </Text>
         </ModOp>
         </Group>
+
+        <!-- Specialist AE-Chariot-PopHealth-Prod-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000416</LineId> <!-- <GUID>1600000416</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000417</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000418</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Lounger-HappyMoney-Prod-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000621</LineId> <!-- <GUID>1600000621</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000622</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000623</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
     </Group>
 
 </ModOps>
