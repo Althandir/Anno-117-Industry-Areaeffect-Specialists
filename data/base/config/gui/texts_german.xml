@@ -193,12 +193,12 @@
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>Aeddan der Zaghafte, Ängstlicher Schmied</Text>
+                <Text>Strictus Vaporosus II, Sicherheitsparagraphenreiter</Text>
                 <LineId>1600000134</LineId> <!-- <GUID>1600000134</GUID> -->
             </Text>
             <!-- Description -->
             <Text>
-                <Text>"Pass auf dass die Esse nicht zu heiß wird!" &#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>"Nach Paragraph 5, Sektion 2 A der römischen Brandsicherheitsverordnung darf diese Esse nur zwischen dem Sonnenaufgang und bis zur Mittagsversammlung genutzt werden! Sektion 12, G, sagte ebenfalls...." &#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000135</LineId> 
             </Text>
         </ModOp>

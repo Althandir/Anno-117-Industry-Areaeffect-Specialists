@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000134</GUID>
                 <Name>Specialist AE-FuelConsumer-FireS-NProd-E</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                <IconFilename>data/base/graphics/icons/m_AE-FuelConsumer-FireS-NProd-E.png</IconFilename>
                 <InfoDescription>1600000135</InfoDescription>
             </Standard>
             <Effect>
@@ -54,7 +54,7 @@
                     <Standard>
                         <GUID>1600000135</GUID>
                         <Name>Specialist AE-FuelConsumer-FireS-NProd-E BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                        <IconFilename>data/base/graphics/icons/m_AE-FuelConsumer-FireS-NProd-E.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000134</OasisId>
@@ -93,7 +93,7 @@
                     <Standard>
                         <GUID>1600000617</GUID>
                         <Name>Specialist AE-FuelConsumer-FireS-NProd-E FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                        <IconFilename>data/base/graphics/icons/m_AE-FuelConsumer-FireS-NProd-E.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>Radius</EffectScope>
@@ -124,8 +124,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000136</GUID>
-                        <Name>Specialist AE-FuelConsumer-FireS-NProd-E BuildingBuff Boosted</Name>
-                        <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                        <Name>Specialist AE-FuelConsumer-FireS-NProd-E FunctionalEffect BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/m_AE-FuelConsumer-FireS-NProd-E.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000134</OasisId>
