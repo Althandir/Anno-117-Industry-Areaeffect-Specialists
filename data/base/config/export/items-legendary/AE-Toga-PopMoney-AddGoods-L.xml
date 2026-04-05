@@ -234,7 +234,7 @@
                     <AdditionalOutput>
                         <Item>
                             <Product>2145</Product>
-                            <AdditionalOutputCycle>8</AdditionalOutputCycle>
+                            <AdditionalOutputCycle>4</AdditionalOutputCycle>
                             <Amount>1</Amount>
                         </Item>
                     </AdditionalOutput>
