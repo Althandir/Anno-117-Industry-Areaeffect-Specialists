@@ -211,7 +211,7 @@
     <!-- Legendary Specialists -->
     <Group>
 
-        <!-- Specialist AE-Cloth-KnowFireS-AddGoods-L -->
+        <!-- Specialist AE-Cloth-KnowFireS-Prod-L -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -226,7 +226,7 @@
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText</Text>
+                <Text>PlaceholderText (8x Weaver on Island)</Text>
                 <LineId>1600000434</LineId> 
             </Text>
         </ModOp>
@@ -247,7 +247,7 @@
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText</Text>
+                <Text>PlaceholderText (2x Equitum Campus on Island)</Text>
                 <LineId>1600000418</LineId> 
             </Text>
         </ModOp>
@@ -268,7 +268,7 @@
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText</Text>
+                <Text>PlaceholderText (150 Patrician Residences on Island)</Text>
                 <LineId>1600000623</LineId> 
             </Text>
         </ModOp>
@@ -289,7 +289,7 @@
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText</Text>
+                <Text>PlaceholderText (42x Productions on Island)</Text>
                 <LineId>1600000630</LineId> 
             </Text>
         </ModOp>
@@ -310,7 +310,7 @@
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText</Text>
+                <Text>PlaceholderText (10x Medicus on Island)</Text>
                 <LineId>1600000637</LineId> 
             </Text>
         </ModOp>

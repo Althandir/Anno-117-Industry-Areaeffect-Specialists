@@ -46,8 +46,9 @@
 <Group>
     <Include File="items-legendary/AE-AllProd-Income-Stack-L.xml" />
     <Include File="items-legendary/AE-Chariot-PopHealth-Prod-L.xml" />
-    <Include File="items-legendary/AE-Cloth-KnowFireS-AddGoods-L.xml" />
+    <Include File="items-legendary/AE-Cloth-KnowFireS-Prod-L.xml" />
     <Include File="items-legendary/AE-Lounger-HappyMoney-Prod-L.xml" />
+    <Include File="items-legendary/AE-Toga-PopMoney-AddGoods-L.xml" />
 </Group>
 
 <!-- Add to Pools -->

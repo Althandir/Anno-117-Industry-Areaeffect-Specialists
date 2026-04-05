@@ -44,16 +44,16 @@
                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                 <Values>
                     <PreConditionList>
-                        <!-- Condition 1 - 8x Cushion on Island -->
+                        <!-- Condition 1 - 150 Patrician Residences on Island -->
                         <Condition>
                             <Template>ConditionObjectCount</Template>
                             <Values>
                                 <Condition/>
                                 <ConditionObjectCount>
-                                    <Amount>8</Amount>
+                                    <Amount>150</Amount>
                                 </ConditionObjectCount>
                                 <ObjectFilter>
-                                    <ObjectGUID>8887</ObjectGUID>
+                                    <ObjectGUID>3145</ObjectGUID>
                                     <ObjectLocations>
                                         <Template>LocationFilter</Template>
                                         <Values>
@@ -114,7 +114,12 @@
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
                 <ResidenceUpgrade/>
-                <FactoryUpgrade/>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
                 <CityInstitutionUpgrade/>
@@ -232,7 +237,7 @@
                 <ResidenceUpgrade/>
                 <FactoryUpgrade>
                     <ProductivityUpgrade>
-                        <Value>50</Value>
+                        <Value>75</Value>
                         <Percental>1</Percental>
                     </ProductivityUpgrade>
                 </FactoryUpgrade>

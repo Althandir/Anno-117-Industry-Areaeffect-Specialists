@@ -7,7 +7,7 @@
         <Values>
             <Standard>
                 <GUID>1600000432</GUID>
-                <Name>Specialist AE-Cloth-KnowFireS-AddGoods-L</Name>
+                <Name>Specialist AE-Cloth-KnowFireS-Prod-L</Name>
                 <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 <InfoDescription>1600000433</InfoDescription>
             </Standard>
@@ -44,7 +44,7 @@
                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                 <Values>
                     <PreConditionList>
-                        <!-- Condition 1 - 8x Weaver on Area -->
+                        <!-- Condition 1 - 8x Weaver on Island -->
                         <Condition>
                             <Template>ConditionObjectCount</Template>
                             <Values>
@@ -99,7 +99,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000433</GUID>
-                    <Name>Specialist AE-Cloth-KnowFireS-AddGoods-L BuildingBuff</Name>
+                    <Name>Specialist AE-Cloth-KnowFireS-Prod-L BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
@@ -115,13 +115,10 @@
                 </Buff>
                 <ResidenceUpgrade/>
                 <FactoryUpgrade>
-                    <AdditionalOutput>
-                        <Item>
-                            <Product>2121</Product>
-                            <AdditionalOutputCycle>4</AdditionalOutputCycle>
-                            <Amount>1</Amount>
-                        </Item>
-                    </AdditionalOutput>
+                    <ProductivityUpgrade>
+                        <Value>15</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
                 </FactoryUpgrade>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
@@ -141,7 +138,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000434</GUID>
-                    <Name>Specialist AE-Cloth-KnowFireS-AddGoods-L FunctionalEffect</Name>
+                    <Name>Specialist AE-Cloth-KnowFireS-Prod-L FunctionalEffect</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Effect>
@@ -173,7 +170,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000435</GUID>
-                    <Name>Specialist AE-Cloth-KnowFireS-AddGoods-L FunctionalEffect BuildingBuff</Name>
+                    <Name>Specialist AE-Cloth-KnowFireS-Prod-L FunctionalEffect BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
@@ -229,7 +226,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000436</GUID>
-                    <Name>Specialist AE-Cloth-KnowFireS-AddGoods-L Boosted BuildingBuff</Name>
+                    <Name>Specialist AE-Cloth-KnowFireS-Prod-L Boosted BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
@@ -245,13 +242,10 @@
                 </Buff>
                 <ResidenceUpgrade/>
                 <FactoryUpgrade>
-                    <AdditionalOutput>
-                        <Item>
-                            <Product>2121</Product>
-                            <AdditionalOutputCycle>2</AdditionalOutputCycle>
-                            <Amount>1</Amount>
-                        </Item>
-                    </AdditionalOutput>
+                    <ProductivityUpgrade>
+                        <Value>30</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
                 </FactoryUpgrade>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
@@ -271,7 +265,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000437</GUID>
-                    <Name>Specialist AE-Cloth-KnowFireS-AddGoods-L Boosted FunctionalEffect</Name>
+                    <Name>Specialist AE-Cloth-KnowFireS-Prod-L Boosted FunctionalEffect</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Effect>
@@ -303,7 +297,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000438</GUID>
-                    <Name>Specialist AE-Cloth-KnowFireS-AddGoods-L Boosted FunctionalEffect BuildingBuff</Name>
+                    <Name>Specialist AE-Cloth-KnowFireS-Prod-L Boosted FunctionalEffect BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
