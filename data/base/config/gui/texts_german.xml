@@ -157,7 +157,7 @@
 
     <!-- Epic Specialists -->
     <Group>
-        
+
         <!-- Specialist AE-Kitchen-PrestigeHappy-E -->
         <Group>
         <ModOp Add="/TextExport/Texts">
@@ -274,6 +274,47 @@
         </ModOp>
         </Group>
 
+        <!-- Specialist AE-AllProd-Income-Stack-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000628</LineId> <!-- <GUID>1600000628</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000629</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000630</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Toga-PopMoney-AddGoods-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000635</LineId> <!-- <GUID>1600000628</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000636</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000637</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
     </Group>
 
 </ModOps>
