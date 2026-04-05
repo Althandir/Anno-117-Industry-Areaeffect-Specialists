@@ -1,42 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000412 - 1600000415 | LineID:1600000412 - 1600000413  -->
+<!-- Item Definition GUID:1600000424 - 1600000427 | LineID:1600000424 - 1600000425  -->
     <Group>
         <ModOp Type="addNextSibling" GUID="106410">
         <Asset>
             <Template>Item</Template>
             <Values>
             <Standard>
-                <GUID>1600000412</GUID>
-                <Name>Specialist AE-Cushion-MoneyPrestHappy-Prod-E</Name>
-                <IconFilename>data/base/graphics/icons/m_AE-Cushion-MoneyPrestHappy-E.png</IconFilename>
-                <InfoDescription>1600000413</InfoDescription>
+                <GUID>1600000424</GUID>
+                <Name>Specialist AE-Amphores-Pop-R</Name>
+                <IconFilename>data/base/graphics/icons/m_AE-Amphores-Pop-R.png</IconFilename>
+                <InfoDescription>1600000425</InfoDescription>
             </Standard>
             <Effect>
                 <EffectScope>Radius</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                 <Item>
-                    <GUID>1600000413</GUID>
+                    <GUID>1600000425</GUID>
                 </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
                 <Item>
-                    <GUID>8887</GUID>
+                    <GUID>80564</GUID>
                 </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Finance</Niche>  
-                <TradePrice>80000</TradePrice> 
+                <Niche>Agriculture</Niche>  
+                <TradePrice>15000</TradePrice> 
                 <BarkPool>0</BarkPool> <!-- <GUID>0</GUID> -->
-                <Rarity>Epic</Rarity> 
+                <Rarity>Rare</Rarity> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000412</OasisId>
+                <OasisId>1600000424</OasisId>
             </Text>
             </Values>
         </Asset>
@@ -51,16 +51,16 @@
                 <Template>BuildingBuff</Template>
                 <Values>
                     <Standard>
-                        <GUID>1600000413</GUID>
-                        <Name>Specialist AE-Cushion-MoneyPrestHappy-Prod-E BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/m_AE-Cushion-MoneyPrestHappy-E.png</IconFilename>
+                        <GUID>1600000425</GUID>
+                        <Name>Specialist AE-Amphores-Pop-R BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/m_AE-Amphores-Pop-R.png</IconFilename>
                     </Standard>
                     <Text>
-                        <OasisId>1600000412</OasisId>
+                        <OasisId>1600000424</OasisId>
                     </Text>
                     <HealthUpgrade/>
                     <BuildingUpgrade>
-                        <AdditionalFunctionalEffect>1600000414</AdditionalFunctionalEffect>
+                        <AdditionalFunctionalEffect>1600000426</AdditionalFunctionalEffect>
                     </BuildingUpgrade>
                     <DistributionUpgrade/>
                     <Buff>
@@ -90,16 +90,16 @@
                 <Template>Effect</Template>
                 <Values>
                     <Standard>
-                        <GUID>1600000414</GUID>
-                        <Name>Specialist AE-Cushion-MoneyPrestHappy-Prod-E FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/m_AE-Cushion-MoneyPrestHappy-E.png</IconFilename>
+                        <GUID>1600000426</GUID>
+                        <Name>Specialist AE-Amphores-Pop-R FunctionalEffect</Name>
+                        <IconFilename>data/base/graphics/icons/m_AE-Amphores-Pop-R.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>Radius</EffectScope>
                         <SourceCategory>Adjacency</SourceCategory>
                         <Buffs>
                             <Item>
-                                <GUID>1600000415</GUID>
+                                <GUID>1600000427</GUID>
                             </Item>
                         </Buffs>
                         <Targets>
@@ -111,7 +111,7 @@
                         <HideInGovernorsBar>1</HideInGovernorsBar>
                     </Effect>
                     <Text>
-                        <OasisId>1600000412</OasisId>
+                        <OasisId>1600000424</OasisId>
                     </Text>
                 </Values>
             </Asset>
@@ -122,34 +122,22 @@
                 <Template>BuildingBuff</Template>
                 <Values>
                     <Standard>
-                        <GUID>1600000415</GUID>
-                        <Name>Specialist AE-Cushion-MoneyPrestHappy-Prod-E FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/m_AE-Cushion-MoneyPrestHappy-E.png</IconFilename>
+                        <GUID>1600000427</GUID>
+                        <Name>Specialist AE-Amphores-Pop-R FunctionalEffect BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/m_AE-Amphores-Pop-R.png</IconFilename>
                     </Standard>
                     <Text>
-                        <OasisId>1600000412</OasisId>
+                        <OasisId>1600000424</OasisId>
                     </Text>
                     <HealthUpgrade/>
                     <BuildingUpgrade>
                         <AdditionalAttributes>
-                            <Money>
-                                <AmountOrPercent>
-                                    <Value>0.5</Value>
-                                    <Percental>0</Percental>
-                                </AmountOrPercent>
-                            </Money>
-                            <Prestige>
+                            <Population>
                                 <AmountOrPercent>
                                     <Value>1</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
-                            </Prestige>
-                            <Happiness>
-                                <AmountOrPercent>
-                                    <Value>0.5</Value>
-                                    <Percental>0</Percental>
-                                </AmountOrPercent>
-                            </Happiness>
+                            </Population>
                         </AdditionalAttributes>
                     </BuildingUpgrade>
                     <DistributionUpgrade/>

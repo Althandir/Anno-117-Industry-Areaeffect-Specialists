@@ -1,42 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000424 - 1600000427 | LineID:1600000424 - 1600000425  -->
+<!-- Item Definition GUID:1600000642 - 1600000645 | LineID:1600000642 - 1600000643  -->
     <Group>
         <ModOp Type="addNextSibling" GUID="106410">
         <Asset>
             <Template>Item</Template>
             <Values>
             <Standard>
-                <GUID>1600000424</GUID>
-                <Name>Specialist AE-MarsGoods-Belief-R</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
-                <InfoDescription>1600000425</InfoDescription>
+                <GUID>1600000642</GUID>
+                <Name>Specialist AE-CGreen-HealthBelief-E</Name>
+                <IconFilename>data/base/graphics/icons/c_f_AE-CGreen-HealthBelief-E.png</IconFilename>
+                <InfoDescription>1600000643</InfoDescription>
             </Standard>
             <Effect>
                 <EffectScope>Radius</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                 <Item>
-                    <GUID>1600000425</GUID>
+                    <GUID>1600000643</GUID>
                 </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
                 <Item>
-                    <GUID>80564</GUID>
+                    <GUID>5469</GUID>
                 </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Religion</Niche>  
-                <TradePrice>15000</TradePrice> 
+                <Niche>Agriculture</Niche>  
+                <TradePrice>80000</TradePrice> 
                 <BarkPool>0</BarkPool> <!-- <GUID>0</GUID> -->
-                <Rarity>Rare</Rarity> 
+                <Rarity>Epic</Rarity> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000424</OasisId>
+                <OasisId>1600000642</OasisId>
             </Text>
             </Values>
         </Asset>
@@ -51,23 +51,28 @@
                 <Template>BuildingBuff</Template>
                 <Values>
                     <Standard>
-                        <GUID>1600000425</GUID>
-                        <Name>Specialist AE-MarsGoods-Belief-R BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                        <GUID>1600000643</GUID>
+                        <Name>Specialist AE-CGreen-HealthBelief-E BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/c_f_AE-CGreen-HealthBelief-E.png</IconFilename>
                     </Standard>
                     <Text>
-                        <OasisId>1600000424</OasisId>
+                        <OasisId>1600000642</OasisId>
                     </Text>
                     <HealthUpgrade/>
                     <BuildingUpgrade>
-                        <AdditionalFunctionalEffect>1600000426</AdditionalFunctionalEffect>
+                        <AdditionalFunctionalEffect>1600000644</AdditionalFunctionalEffect>
                     </BuildingUpgrade>
                     <DistributionUpgrade/>
                     <Buff>
                         <SourceCategory>Item</SourceCategory>
                     </Buff>
                     <ResidenceUpgrade/>
-                    <FactoryUpgrade/>
+                    <FactoryUpgrade>
+                        <ProductivityUpgrade>
+                            <Value>15</Value>
+                            <Percental>1</Percental>
+                        </ProductivityUpgrade>
+                    </FactoryUpgrade>
                     <ModuleOwnerUpgrade/>
                     <MaintenanceUpgrade/>
                     <CityInstitutionUpgrade/>
@@ -85,16 +90,16 @@
                 <Template>Effect</Template>
                 <Values>
                     <Standard>
-                        <GUID>1600000426</GUID>
-                        <Name>Specialist AE-MarsGoods-Belief-R FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                        <GUID>1600000644</GUID>
+                        <Name>Specialist AE-CGreen-HealthBelief-E FunctionalEffect</Name>
+                        <IconFilename>data/base/graphics/icons/c_f_AE-CGreen-HealthBelief-E.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>Radius</EffectScope>
                         <SourceCategory>Adjacency</SourceCategory>
                         <Buffs>
                             <Item>
-                                <GUID>1600000427</GUID>
+                                <GUID>1600000645</GUID>
                             </Item>
                         </Buffs>
                         <Targets>
@@ -106,7 +111,7 @@
                         <HideInGovernorsBar>1</HideInGovernorsBar>
                     </Effect>
                     <Text>
-                        <OasisId>1600000424</OasisId>
+                        <OasisId>1600000642</OasisId>
                     </Text>
                 </Values>
             </Asset>
@@ -117,19 +122,25 @@
                 <Template>BuildingBuff</Template>
                 <Values>
                     <Standard>
-                        <GUID>1600000427</GUID>
-                        <Name>Specialist AE-MarsGoods-Belief-R FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                        <GUID>1600000645</GUID>
+                        <Name>Specialist AE-CGreen-HealthBelief-E FunctionalEffect BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/c_f_AE-CGreen-HealthBelief-E.png</IconFilename>
                     </Standard>
                     <Text>
-                        <OasisId>1600000424</OasisId>
+                        <OasisId>1600000642</OasisId>
                     </Text>
                     <HealthUpgrade/>
                     <BuildingUpgrade>
                         <AdditionalAttributes>
+                            <Health>
+                                <AmountOrPercent>
+                                    <Value>1</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Health>
                             <Belief>
                                 <AmountOrPercent>
-                                    <Value>1.5</Value>
+                                    <Value>0.5</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
                             </Belief>

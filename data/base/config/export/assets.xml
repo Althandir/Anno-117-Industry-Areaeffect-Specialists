@@ -28,26 +28,33 @@
     <Include File="items-rare/AE-StoneCutter-Money-NHealth-R.xml" />
     <Include File="items-rare/AE-Armories-Money-NHealthHappy-R.xml" />
     <Include File="items-rare/AE-Crafters-Know-NHealth-R.xml" />
-    <Include File="items-rare/AE-MinervaGoods-Belief-R.xml" />
-    <Include File="items-rare/AE-MarsGoods-Belief-R.xml" />
-    <Include File="items-rare/AE-CeresGoods-Belief-R.xml" />
+    <Include File="items-rare/AE-Amphores-Pop-R.xml" />
     <Include File="items-rare/AE-MatProd-FireS-NProd-R.xml" />
     <Include File="items-rare/AE-Animals-Happy-NProdHealth-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
 <Group>
+    <Include File="items-epic/AE-Fibularium-MoneyBelief-E.xml" />
+    <Include File="items-epic/AE-Caviar-Belief-NPresti-E.xml" />
+    <Include File="items-epic/AE-CGreen-HealthBelief-E.xml" />
     <Include File="items-epic/AE-Cushion-MoneyPrestHappy-E.xml" />
     <Include File="items-epic/AE-FuelConsumer-FireS-NProd-E.xml" />
+    <Include File="items-epic/AE-Headpiece-FireSPresti-E.xml" />
     <Include File="items-epic/AE-Kitchen-PrestigeHappy-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->
 <Group>
     <Include File="items-legendary/AE-AllProd-Income-Stack-L.xml" />
+    <Include File="items-legendary/AE-Birrus-PopPresti-Prod-L.xml" />
+    <Include File="items-legendary/AE-BTongue-Money-AddGoods-L.xml" />
     <Include File="items-legendary/AE-Chariot-PopHealth-Prod-L.xml" />
     <Include File="items-legendary/AE-Cloth-KnowFireS-Prod-L.xml" />
+    <Include File="items-legendary/AE-HairWig-Health-Prod-L.xml" />
     <Include File="items-legendary/AE-Lounger-HappyMoney-Prod-L.xml" />
+    <Include File="items-legendary/AE-Mirror-PopMoney-Prod-L.xml" />
+    <Include File="items-legendary/AE-RGlass-BeliefMoney-AddGoods-L.xml" />
     <Include File="items-legendary/AE-Toga-PopMoney-AddGoods-L.xml" />
 </Group>
 

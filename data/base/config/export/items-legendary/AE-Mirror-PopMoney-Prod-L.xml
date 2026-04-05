@@ -1,27 +1,27 @@
 <ModOps>
-<!-- Item Definition GUID:1600000635 - 1600000641 | LineID:1600000635 - 1600000637  -->
+<!-- Item Definition GUID:1600000664 - 1600000670 | LineID:1600000664 - 1600000666  -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>ItemWithBoost</Template>
         <Values>
             <Standard>
-                <GUID>1600000635</GUID>
-                <Name>Specialist AE-Toga-MoneyPresti-AddGoods-L</Name>
+                <GUID>1600000664</GUID>
+                <Name>Specialist AE-Mirror-PopMoney-Prod-L</Name>
                 <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
-                <InfoDescription>1600000636</InfoDescription>
+                <InfoDescription>1600000665</InfoDescription>
             </Standard>
             <Effect>
                 <EffectScope>Radius</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                     <Item>
-                        <GUID>1600000636</GUID>
+                        <GUID>1600000665</GUID>
                     </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
                 <Item>
-                    <GUID>3191</GUID>
+                    <GUID>5615</GUID>
                 </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
@@ -36,7 +36,7 @@
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000635</OasisId>
+                <OasisId>1600000664</OasisId>
             </Text>
 
             <ItemWithBoost>
@@ -44,16 +44,16 @@
                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                 <Values>
                     <PreConditionList>
-                        <!-- Condition 1 - 10x Medicus on Island -->
+                        <!-- Condition 1 - 4x Fanum on Island -->
                         <Condition>
                             <Template>ConditionObjectCount</Template>
                             <Values>
                                 <Condition/>
                                 <ConditionObjectCount>
-                                    <Amount>10</Amount>
+                                    <Amount>4</Amount>
                                 </ConditionObjectCount>
                                 <ObjectFilter>
-                                    <ObjectGUID>38561</ObjectGUID>
+                                    <ObjectGUID>6728</ObjectGUID>
                                     <ObjectLocations>
                                         <Template>LocationFilter</Template>
                                         <Values>
@@ -79,10 +79,10 @@
                 </BoostCondition>
                 <BoostBuffs>
                 <Item>
-                    <GUID>1600000639</GUID>
+                    <GUID>1600000668</GUID>
                 </Item>
                 </BoostBuffs>
-                <BoostHint>1600000637</BoostHint>
+                <BoostHint>1600000666</BoostHint>
             </ItemWithBoost>
 
         </Values>
@@ -98,16 +98,16 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000636</GUID>
-                    <Name>Specialist AE-Toga-MoneyPresti-AddGoods-L BuildingBuff</Name>
+                    <GUID>1600000665</GUID>
+                    <Name>Specialist AE-Mirror-PopMoney-Prod-L BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000635</OasisId>
+                    <OasisId>1600000664</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000637</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000666</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
@@ -115,13 +115,10 @@
                 </Buff>
                 <ResidenceUpgrade/>
                 <FactoryUpgrade>
-                    <AdditionalOutput>
-                        <Item>
-                            <Product>2145</Product>
-                            <AdditionalOutputCycle>10</AdditionalOutputCycle>
-                            <Amount>1</Amount>
-                        </Item>
-                    </AdditionalOutput>
+                    <ProductivityUpgrade>
+                        <Value>10</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
                 </FactoryUpgrade>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
@@ -140,8 +137,8 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000637</GUID>
-                    <Name>Specialist AE-Toga-MoneyPresti-AddGoods-L FunctionalEffect</Name>
+                    <GUID>1600000666</GUID>
+                    <Name>Specialist AE-Mirror-PopMoney-Prod-L FunctionalEffect</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Effect>
@@ -149,7 +146,7 @@
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000638</GUID>
+                            <GUID>1600000667</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -161,7 +158,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000635</OasisId>
+                    <OasisId>1600000664</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -172,12 +169,12 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000638</GUID>
-                    <Name>Specialist AE-Toga-MoneyPresti-AddGoods-L FunctionalEffect BuildingBuff</Name>
+                    <GUID>1600000667</GUID>
+                    <Name>Specialist AE-Mirror-PopMoney-Prod-L FunctionalEffect BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000635</OasisId>
+                    <OasisId>1600000664</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
@@ -222,16 +219,16 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000639</GUID>
-                    <Name>Specialist AE-Toga-MoneyPresti-AddGoods-L Boosted BuildingBuff</Name>
+                    <GUID>1600000668</GUID>
+                    <Name>Specialist AE-Mirror-PopMoney-Prod-L Boosted BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000635</OasisId>
+                    <OasisId>1600000664</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000640</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000669</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
@@ -239,13 +236,10 @@
                 </Buff>
                 <ResidenceUpgrade/>
                 <FactoryUpgrade>
-                    <AdditionalOutput>
-                        <Item>
-                            <Product>2145</Product>
-                            <AdditionalOutputCycle>4</AdditionalOutputCycle>
-                            <Amount>1</Amount>
-                        </Item>
-                    </AdditionalOutput>
+                    <ProductivityUpgrade>
+                        <Value>50</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
                 </FactoryUpgrade>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
@@ -264,8 +258,8 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000640</GUID>
-                    <Name>Specialist AE-Toga-MoneyPresti-AddGoods-L Boosted FunctionalEffect</Name>
+                    <GUID>1600000669</GUID>
+                    <Name>Specialist AE-Mirror-PopMoney-Prod-L Boosted FunctionalEffect</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Effect>
@@ -273,7 +267,7 @@
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000641</GUID>
+                            <GUID>1600000670</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -285,7 +279,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000635</OasisId>
+                    <OasisId>1600000664</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -296,12 +290,12 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000641</GUID>
-                    <Name>Specialist AE-Toga-MoneyPresti-AddGoods-L Boosted FunctionalEffect BuildingBuff</Name>
+                    <GUID>1600000670</GUID>
+                    <Name>Specialist AE-Mirror-PopMoney-Prod-L Boosted FunctionalEffect BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000635</OasisId>
+                    <OasisId>1600000664</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>

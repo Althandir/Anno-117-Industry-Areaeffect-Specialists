@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000628</GUID>
                 <Name>Specialist AE-AllProd-Income-Stack-L</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                <IconFilename>data/base/graphics/icons/AE-AllProd-Income-Stack-L.png</IconFilename>
                 <InfoDescription>1600000629</InfoDescription>
             </Standard>
             <Effect>
@@ -100,7 +100,7 @@
                 <Standard>
                     <GUID>1600000629</GUID>
                     <Name>Specialist AE-AllProd-Income-Stack-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-AllProd-Income-Stack-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000628</OasisId>
@@ -134,7 +134,7 @@
                 <Standard>
                     <GUID>1600000630</GUID>
                     <Name>Specialist AE-AllProd-Income-Stack-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-AllProd-Income-Stack-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -166,7 +166,7 @@
                 <Standard>
                     <GUID>1600000631</GUID>
                     <Name>Specialist AE-AllProd-Income-Stack-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-AllProd-Income-Stack-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000628</OasisId>
@@ -212,7 +212,7 @@
                 <Standard>
                     <GUID>1600000632</GUID>
                     <Name>Specialist AE-AllProd-Income-Stack-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-AllProd-Income-Stack-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000628</OasisId>
@@ -246,7 +246,7 @@
                 <Standard>
                     <GUID>1600000633</GUID>
                     <Name>Specialist AE-AllProd-Income-Stack-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-AllProd-Income-Stack-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -278,7 +278,7 @@
                 <Standard>
                     <GUID>1600000634</GUID>
                     <Name>Specialist AE-AllProd-Income-Stack-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-AllProd-Income-Stack-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000628</OasisId>
