@@ -241,22 +241,22 @@
     <!-- Legendary Specialists -->
     <Group>
 
-        <!-- Specialist AE-Cloth-KnowFireS-Prod-L -->
+        <!-- Specialist AE-Lyre-KnowFireS-Prod-L -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>PlaceholderText, experimentelle Näherin</Text>
+                <Text>PlaceholderText, Inspirierende Lyrenmacherin</Text>
                 <LineId>1600000432</LineId> <!-- <GUID>1600000432</GUID> -->
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Ihre ungewöhnlichen Webereien sind ungewöhnlich feuerresistent. Diese Strickkunst sollte mit unseren Bürgern geteilt werden. &#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>Der Ton ihrer Lyren inspiriert alle Zuhörer zu neuen Innovativen. &#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000433</LineId> 
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>Will Teil eines Weber Collegia sein. (8x Weber auf Insel)</Text>
+                <Text>Will Teil eines Lyren-Collegia sein. (8x Lyrenmacher auf Insel)</Text>
                 <LineId>1600000434</LineId> 
             </Text>
         </ModOp>
@@ -435,17 +435,17 @@
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>PlaceholderText</Text>
+                <Text>Malleator Linguis, Zungen-Hämmerer</Text>
                 <LineId>1600000678</LineId> <!-- <GUID>1600000678</GUID> -->
             </Text>
             <!-- Description -->
             <Text>
-                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>Seine Zubereitung von Vogelzungen macht macht den Geschmack etwas erträglicher. Welche Rolle da wohl der Hammer spielt? &#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000679</LineId> 
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText (9x Custodes on Island)</Text>
+                <Text>Wird regelmäßig des Mordes verdächtigt. Sicherheitshalber sollten immer ein paar Wachen bei ihm sein. (9x Custodes on Island)</Text>
                 <LineId>1600000680</LineId> 
             </Text>
         </ModOp>

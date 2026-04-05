@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000678</GUID>
                 <Name>Specialist AE-BTongue-Money-AddGoods-L</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                <IconFilename>data/base/graphics/icons/m_AE-BTongue-Money-AddGoods-L.png</IconFilename>
                 <InfoDescription>1600000679</InfoDescription>
             </Standard>
             <Effect>
@@ -100,7 +100,7 @@
                 <Standard>
                     <GUID>1600000679</GUID>
                     <Name>Specialist AE-BTongue-Money-AddGoods-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/m_AE-BTongue-Money-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000678</OasisId>
@@ -142,7 +142,7 @@
                 <Standard>
                     <GUID>1600000680</GUID>
                     <Name>Specialist AE-BTongue-Money-AddGoods-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/m_AE-BTongue-Money-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -174,7 +174,7 @@
                 <Standard>
                     <GUID>1600000681</GUID>
                     <Name>Specialist AE-BTongue-Money-AddGoods-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/m_AE-BTongue-Money-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000678</OasisId>
@@ -224,7 +224,7 @@
                 <Standard>
                     <GUID>1600000682</GUID>
                     <Name>Specialist AE-BTongue-Money-AddGoods-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/m_AE-BTongue-Money-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000678</OasisId>
@@ -266,7 +266,7 @@
                 <Standard>
                     <GUID>1600000683</GUID>
                     <Name>Specialist AE-BTongue-Money-AddGoods-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/m_AE-BTongue-Money-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -298,7 +298,7 @@
                 <Standard>
                     <GUID>1600000684</GUID>
                     <Name>Specialist AE-BTongue-Money-AddGoods-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/m_AE-BTongue-Money-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000678</OasisId>

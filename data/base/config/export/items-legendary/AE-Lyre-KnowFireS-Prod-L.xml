@@ -7,8 +7,8 @@
         <Values>
             <Standard>
                 <GUID>1600000432</GUID>
-                <Name>Specialist AE-Cloth-KnowFireS-Prod-L</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                <Name>Specialist AE-Lyre-KnowFireS-Prod-L</Name>
+                <IconFilename>data/base/graphics/icons/f_AE-Lyre-KnowFireS-Prod-L.png</IconFilename>
                 <InfoDescription>1600000433</InfoDescription>
             </Standard>
             <Effect>
@@ -21,7 +21,7 @@
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
                 <Item>
-                    <GUID>3079</GUID>
+                    <GUID>4832</GUID>
                 </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
@@ -44,7 +44,7 @@
                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                 <Values>
                     <PreConditionList>
-                        <!-- Condition 1 - 8x Weaver on Island -->
+                        <!-- Condition 1 - 8x Lyre Maker on Island -->
                         <Condition>
                             <Template>ConditionObjectCount</Template>
                             <Values>
@@ -53,7 +53,7 @@
                                     <Amount>8</Amount>
                                 </ConditionObjectCount>
                                 <ObjectFilter>
-                                    <ObjectGUID>3079</ObjectGUID>
+                                    <ObjectGUID>4832</ObjectGUID>
                                     <ObjectLocations>
                                         <Template>LocationFilter</Template>
                                         <Values>
@@ -99,8 +99,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000433</GUID>
-                    <Name>Specialist AE-Cloth-KnowFireS-Prod-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <Name>Specialist AE-Lyre-KnowFireS-Prod-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Lyre-KnowFireS-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000432</OasisId>
@@ -138,8 +138,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000434</GUID>
-                    <Name>Specialist AE-Cloth-KnowFireS-Prod-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <Name>Specialist AE-Lyre-KnowFireS-Prod-L FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Lyre-KnowFireS-Prod-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -170,8 +170,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000435</GUID>
-                    <Name>Specialist AE-Cloth-KnowFireS-Prod-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <Name>Specialist AE-Lyre-KnowFireS-Prod-L FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Lyre-KnowFireS-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000432</OasisId>
@@ -220,8 +220,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000436</GUID>
-                    <Name>Specialist AE-Cloth-KnowFireS-Prod-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <Name>Specialist AE-Lyre-KnowFireS-Prod-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Lyre-KnowFireS-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000432</OasisId>
@@ -237,7 +237,7 @@
                 <ResidenceUpgrade/>
                 <FactoryUpgrade>
                     <ProductivityUpgrade>
-                        <Value>30</Value>
+                        <Value>50</Value>
                         <Percental>1</Percental>
                     </ProductivityUpgrade>
                 </FactoryUpgrade>
@@ -259,8 +259,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000437</GUID>
-                    <Name>Specialist AE-Cloth-KnowFireS-Prod-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <Name>Specialist AE-Lyre-KnowFireS-Prod-L Boosted FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Lyre-KnowFireS-Prod-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -291,8 +291,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000438</GUID>
-                    <Name>Specialist AE-Cloth-KnowFireS-Prod-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <Name>Specialist AE-Lyre-KnowFireS-Prod-L Boosted FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Lyre-KnowFireS-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000432</OasisId>
