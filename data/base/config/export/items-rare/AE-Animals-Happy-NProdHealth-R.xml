@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000408</GUID>
                 <Name>Specialist AE-Animals-Happy-NProdHealth-R</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                <IconFilename>data/base/graphics/icons/f_AE-Animals-Happy-NProdHealth-R.png</IconFilename>
                 <InfoDescription>1600000409</InfoDescription>
             </Standard>
             <Effect>
@@ -59,7 +59,7 @@
                     <Standard>
                         <GUID>1600000409</GUID>
                         <Name>Specialist AE-Animals-Happy-NProdHealth-R BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                        <IconFilename>data/base/graphics/icons/f_AE-Animals-Happy-NProdHealth-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000408</OasisId>
@@ -93,7 +93,7 @@
                     <Standard>
                         <GUID>1600000410</GUID>
                         <Name>Specialist AE-Animals-Happy-NProdHealth-R FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                        <IconFilename>data/base/graphics/icons/f_AE-Animals-Happy-NProdHealth-R.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>Radius</EffectScope>
@@ -125,7 +125,7 @@
                     <Standard>
                         <GUID>1600000411</GUID>
                         <Name>Specialist AE-Animals-Happy-NProdHealth-R FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                        <IconFilename>data/base/graphics/icons/f_AE-Animals-Happy-NProdHealth-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000408</OasisId>

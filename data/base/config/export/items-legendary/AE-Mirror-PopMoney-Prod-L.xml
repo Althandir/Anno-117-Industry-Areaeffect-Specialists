@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000664</GUID>
                 <Name>Specialist AE-Mirror-PopMoney-Prod-L</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                <IconFilename>data/base/graphics/icons/nb_AE-Mirror-PopMoney-Prod-L.png</IconFilename>
                 <InfoDescription>1600000665</InfoDescription>
             </Standard>
             <Effect>
@@ -100,7 +100,7 @@
                 <Standard>
                     <GUID>1600000665</GUID>
                     <Name>Specialist AE-Mirror-PopMoney-Prod-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/nb_AE-Mirror-PopMoney-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000664</OasisId>
@@ -139,7 +139,7 @@
                 <Standard>
                     <GUID>1600000666</GUID>
                     <Name>Specialist AE-Mirror-PopMoney-Prod-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/nb_AE-Mirror-PopMoney-Prod-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -171,7 +171,7 @@
                 <Standard>
                     <GUID>1600000667</GUID>
                     <Name>Specialist AE-Mirror-PopMoney-Prod-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/nb_AE-Mirror-PopMoney-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000664</OasisId>
@@ -221,7 +221,7 @@
                 <Standard>
                     <GUID>1600000668</GUID>
                     <Name>Specialist AE-Mirror-PopMoney-Prod-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/nb_AE-Mirror-PopMoney-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000664</OasisId>
@@ -260,7 +260,7 @@
                 <Standard>
                     <GUID>1600000669</GUID>
                     <Name>Specialist AE-Mirror-PopMoney-Prod-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/nb_AE-Mirror-PopMoney-Prod-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -292,7 +292,7 @@
                 <Standard>
                     <GUID>1600000670</GUID>
                     <Name>Specialist AE-Mirror-PopMoney-Prod-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/nb_AE-Mirror-PopMoney-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000664</OasisId>

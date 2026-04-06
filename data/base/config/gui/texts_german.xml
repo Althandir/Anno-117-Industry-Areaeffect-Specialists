@@ -277,7 +277,7 @@
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText (2x Equitum Campus on Island)</Text>
+                <Text>Braucht mehrere Testgelände für die Streitwägen. (2x Equitum Campus on Island)</Text>
                 <LineId>1600000418</LineId> 
             </Text>
         </ModOp>
@@ -288,17 +288,17 @@
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>PlaceholderText</Text>
+                <Text>PlaceholderText, Liegenmeisterin</Text>
                 <LineId>1600000621</LineId> <!-- <GUID>1600000621</GUID> -->
             </Text>
             <!-- Description -->
             <Text>
-                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>"Sonderaktion! Probeliegen! Probieren Sie unsere Liegen aus. Ideal zum Einschlafen!&#xD; Hinweis: Einschlafen auf der Liege verpflichtet zum Kauf."&#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000622</LineId> 
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText (150 Patrician Residences on Island)</Text>
+                <Text>Sucht eine ausreichend große Kundschaft. (150 Patrician Residences on Island)</Text>
                 <LineId>1600000623</LineId> 
             </Text>
         </ModOp>

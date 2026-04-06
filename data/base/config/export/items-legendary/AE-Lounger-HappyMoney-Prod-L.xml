@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000621</GUID>
                 <Name>Specialist AE-Lounger-HappyMoney-Prod-L</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                <IconFilename>data/base/graphics/icons/r_f_AE-Lounger-HappyMoney-Prod-L.png</IconFilename>
                 <InfoDescription>1600000622</InfoDescription>
             </Standard>
             <Effect>
@@ -100,7 +100,7 @@
                 <Standard>
                     <GUID>1600000622</GUID>
                     <Name>Specialist AE-Lounger-HappyMoney-Prod-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/r_f_AE-Lounger-HappyMoney-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000621</OasisId>
@@ -139,7 +139,7 @@
                 <Standard>
                     <GUID>1600000623</GUID>
                     <Name>Specialist AE-Lounger-HappyMoney-Prod-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/r_f_AE-Lounger-HappyMoney-Prod-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -171,7 +171,7 @@
                 <Standard>
                     <GUID>1600000624</GUID>
                     <Name>Specialist AE-Lounger-HappyMoney-Prod-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/r_f_AE-Lounger-HappyMoney-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000621</OasisId>
@@ -221,7 +221,7 @@
                 <Standard>
                     <GUID>1600000625</GUID>
                     <Name>Specialist AE-Lounger-HappyMoney-Prod-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/r_f_AE-Lounger-HappyMoney-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000621</OasisId>
@@ -260,7 +260,7 @@
                 <Standard>
                     <GUID>1600000626</GUID>
                     <Name>Specialist AE-Lounger-HappyMoney-Prod-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/r_f_AE-Lounger-HappyMoney-Prod-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -292,7 +292,7 @@
                 <Standard>
                     <GUID>1600000627</GUID>
                     <Name>Specialist AE-Lounger-HappyMoney-Prod-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.jpeg</IconFilename>
+                    <IconFilename>data/base/graphics/icons/r_f_AE-Lounger-HappyMoney-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000621</OasisId>
