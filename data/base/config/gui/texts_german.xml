@@ -246,7 +246,7 @@
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>PlaceholderText, Inspirierende Lyrenmacherin</Text>
+                <Text>He-Ma-Te, Inspirierende Lyrenmacherin</Text>
                 <LineId>1600000432</LineId> <!-- <GUID>1600000432</GUID> -->
             </Text>
             <!-- Description -->
@@ -277,7 +277,7 @@
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>Braucht mehrere Testgelände für die Streitwägen. (2x Equitum Campus on Island)</Text>
+                <Text>Braucht mehrere Testgelände für die Streitwägen. (2x Equitum Campus auf Insel)</Text>
                 <LineId>1600000418</LineId> 
             </Text>
         </ModOp>
@@ -298,7 +298,7 @@
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>Sucht eine ausreichend große Kundschaft. (150 Patrician Residences on Island)</Text>
+                <Text>Sucht eine ausreichend große Kundschaft. (150 Patrizier Wohngebäude auf Insel)</Text>
                 <LineId>1600000623</LineId> 
             </Text>
         </ModOp>
@@ -330,17 +330,17 @@
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>PlaceholderText</Text>
+                <Text>Vercanomagus, Kreativer Schneider</Text>
                 <LineId>1600000635</LineId> <!-- <GUID>1600000628</GUID> -->
             </Text>
             <!-- Description -->
             <Text>
-                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>Stellt sich regelmäßig die Frage: "Wie kann man eine Toga mit einer Hose verbinden?"&#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000636</LineId> 
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText (10x Medicus on Island)</Text>
+                <Text>Ist ein Stammbesucher bei den Medicus. (10x Medicus auf Insel)</Text>
                 <LineId>1600000637</LineId> 
             </Text>
         </ModOp>
@@ -361,7 +361,7 @@
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText (125 Alderman Residences on Island)</Text>
+                <Text>PlaceholderText (125 Alderman Residences auf Insel)</Text>
                 <LineId>1600000652</LineId> 
             </Text>
         </ModOp>
@@ -382,7 +382,7 @@
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText (2x Aqueduct Basin on Island)</Text>
+                <Text>PlaceholderText (2x Aqueduct Basin auf Insel)</Text>
                 <LineId>1600000659</LineId> 
             </Text>
         </ModOp>
@@ -403,7 +403,7 @@
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText (4x Fanum on Island)</Text>
+                <Text>PlaceholderText (4x Fanum auf Insel)</Text>
                 <LineId>1600000666</LineId> 
             </Text>
         </ModOp>
@@ -424,7 +424,7 @@
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText (2x Temple on Island)</Text>
+                <Text>PlaceholderText (2x Temple auf Insel)</Text>
                 <LineId>1600000673</LineId> 
             </Text>
         </ModOp>
@@ -445,7 +445,7 @@
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>Wird regelmäßig des Mordes verdächtigt. Sicherheitshalber sollten immer ein paar Wachen bei ihm sein. (9x Custodes on Island)</Text>
+                <Text>Wird regelmäßig des Mordes verdächtigt. Sicherheitshalber sollten immer ein paar Wachen bei ihm sein. (9x Custodes auf Insel)</Text>
                 <LineId>1600000680</LineId> 
             </Text>
         </ModOp>
