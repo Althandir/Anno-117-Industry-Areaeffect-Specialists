@@ -87,22 +87,6 @@
             </ModOp>
         </Group>
 
-        <!-- Specialist AE-Amphores-Pop-R -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Amphorenlagerist</Text>
-                <LineId>1600000424</LineId> <!-- <GUID>1600000424</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>Mit sovielen Amphoren kann man jede Katastrophe überstehen. &#xD;(Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000425</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
-
         <!-- Specialist AE-MatProd-FireS-NProd-R -->
         <Group>
         <ModOp Add="/TextExport/Texts">
@@ -241,6 +225,27 @@
     <!-- Legendary Specialists -->
     <Group>
 
+        <!-- Specialist AE-Amphores-PopFireS-AddGoods-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Unscheinbarer Amphorenkünstler</Text>
+                <LineId>1600000424</LineId> <!-- <GUID>1600000424</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Dieser Bürger nutzt eine Technik um Amphoren sehr robust gegen Feuer zu machen. Niemand kennt jedoch seinen Namen... und auffallen tut er auch kaum. &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000425</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>Möchte in der Masse der Menschen untergehen. (5000 Einwohner auf der Insel)</Text>
+                <LineId>1600000426</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
         <!-- Specialist AE-Lyre-KnowFireS-Prod-L -->
         <Group>
         <ModOp Add="/TextExport/Texts">
@@ -293,7 +298,7 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>"Sonderaktion! Probeliegen! Probieren Sie unsere Liegen aus. Ideal zum Einschlafen!&#xD; Hinweis: Einschlafen auf der Liege verpflichtet zum Kauf."&#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>"Neue Sonderaktion: Probeliegen!&#xD;Probiert unsere großartigen Liegen aus. Perfekt zum Einschlafen und in ganz Rom bekannt!&#xD;Einschlafen auf einer Liege verpflichtet zum Kauf."&#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000622</LineId> 
             </Text>
             <!-- Boosted Hint -->

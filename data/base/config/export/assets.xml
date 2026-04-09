@@ -14,6 +14,15 @@
 #   1600000621 - 1600000627
 #   1600000254 - 1600000257
 #   1600000400 - 1600000427
+#   1600000628 - 1600000634
+#   1600000635 - 1600000641
+#   1600000642 - 1600000645
+#   1600000646 - 1600000649
+#   1600000650 - 1600000656
+#   1600000657 - 1600000663
+#   1600000664 - 1600000670
+#   1600000671 - 1600000677
+#   1600000678 - 1600000684
 ###
 -->
 <ModOps>
@@ -28,7 +37,6 @@
     <Include File="items-rare/AE-StoneCutter-Money-NHealth-R.xml" />
     <Include File="items-rare/AE-Armories-Money-NHealthHappy-R.xml" />
     <Include File="items-rare/AE-Crafters-Know-NHealth-R.xml" />
-    <Include File="items-rare/AE-Amphores-Pop-R.xml" />
     <Include File="items-rare/AE-MatProd-FireS-NProd-R.xml" />
     <Include File="items-rare/AE-Animals-Happy-NProdHealth-R.xml" />
 </Group>
@@ -47,6 +55,7 @@
 <!-- Legendary Specialists -->
 <Group>
     <Include File="items-legendary/AE-AllProd-Income-Stack-L.xml" />
+    <Include File="items-legendary/AE-Amphores-PopFireS-AddGoods-L.xml" />
     <Include File="items-legendary/AE-Birrus-PopPresti-Prod-L.xml" />
     <Include File="items-legendary/AE-BTongue-Money-AddGoods-L.xml" />
     <Include File="items-legendary/AE-Chariot-PopHealth-Prod-L.xml" />

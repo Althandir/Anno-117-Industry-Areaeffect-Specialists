@@ -87,22 +87,6 @@
             </ModOp>
         </Group>
 
-        <!-- Specialist AE-Amphores-Pop-R -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>PlaceholderText</Text>
-                <LineId>1600000424</LineId> <!-- <GUID>1600000424</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000425</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
-
         <!-- Specialist AE-MatProd-FireS-NProd-R -->
         <Group>
         <ModOp Add="/TextExport/Texts">
@@ -240,6 +224,27 @@
 
     <!-- Legendary Specialists -->
     <Group>
+
+        <!-- Specialist AE-Amphores-PopFireS-AddGoods-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000424</LineId> <!-- <GUID>1600000424</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000425</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>PlaceholderText (5000 Population on Island)</Text>
+                <LineId>1600000426</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
 
         <!-- Specialist AE-Lyre-KnowFireS-Prod-L -->
         <Group>
