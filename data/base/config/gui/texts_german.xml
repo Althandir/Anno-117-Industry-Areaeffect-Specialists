@@ -272,12 +272,12 @@
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>PlaceholderText</Text>
+                <Text>Glano Tascio, perfektionistischer Wagenbauer</Text>
                 <LineId>1600000416</LineId> <!-- <GUID>1600000416</GUID> -->
             </Text>
             <!-- Description -->
             <Text>
-                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>Seine schnellen und robusten Streitwägen sind ideal für ein Rennen. Selbst im Einsatz für die Auxillia zeigt sich seine keltische Qualität. &#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000417</LineId> 
             </Text>
             <!-- Boosted Hint -->
@@ -293,12 +293,12 @@
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>PlaceholderText, Liegenmeisterin</Text>
+                <Text>Livia Lectuaria, Gerissene Liegenmeisterin</Text>
                 <LineId>1600000621</LineId> <!-- <GUID>1600000621</GUID> -->
             </Text>
             <!-- Description -->
             <Text>
-                <Text>"Neue Sonderaktion: Probeliegen!&#xD;Probiert unsere großartigen Liegen aus. Perfekt zum Einschlafen und in ganz Rom bekannt!&#xD;Einschlafen auf einer Liege verpflichtet zum Kauf."&#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>"Wer auf einer Lectuaria-Liege träumt, hat sich bereits für sie entschieden. Ein Nickerchen gilt als verbindliche Willenserklärung zum Erwerb des Möbelstücks. Keine Rücknahme bei Sabberflecken."&#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000622</LineId> 
             </Text>
             <!-- Boosted Hint -->
@@ -356,17 +356,17 @@
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>PlaceholderText</Text>
+                <Text>Bevera, schützende Hutmacherin</Text>
                 <LineId>1600000650</LineId> <!-- <GUID>1600000650</GUID> -->
             </Text>
             <!-- Description -->
             <Text>
-                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>Ihre Hüte halten während jedem Sturm in Albion stand.&#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000651</LineId> 
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText (125 Alderman Residences auf Insel)</Text>
+                <Text>Unter Ältesten eine bekannte Expertin. (125 Ältesten Wohngebäude auf Insel)</Text>
                 <LineId>1600000652</LineId> 
             </Text>
         </ModOp>
@@ -377,17 +377,17 @@
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>PlaceholderText</Text>
+                <Text>Lucius Capillus Calvus, das Haarorakel</Text>
                 <LineId>1600000657</LineId> <!-- <GUID>1600000657</GUID> -->
             </Text>
             <!-- Description -->
             <Text>
-                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>"Geh zu Calvus, wenn kein Calvus mehr sein willst." &#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000658</LineId> 
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText (2x Aqueduct Basin auf Insel)</Text>
+                <Text>Testet gerne ob seine Perücken im Wasser halten. (2x Aquäduktsammelbecken auf Insel)</Text>
                 <LineId>1600000659</LineId> 
             </Text>
         </ModOp>
@@ -398,17 +398,17 @@
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>PlaceholderText</Text>
+                <Text>Narcissicus, der robuste Spiegel</Text>
                 <LineId>1600000664</LineId> <!-- <GUID>1600000664</GUID> -->
             </Text>
             <!-- Description -->
             <Text>
-                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>Keine Seele wird jemals verletzt werden und 7 Jahre zur Heilung brauchen, da seine Spiegel niemals brechen können.&#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000665</LineId> 
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText (4x Fanum auf Insel)</Text>
+                <Text>Reiste von Fanum zu Fanum um seine eigene Seele zu heilen. (4x Fanum auf Insel)</Text>
                 <LineId>1600000666</LineId> 
             </Text>
         </ModOp>
@@ -419,17 +419,17 @@
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>PlaceholderText</Text>
+                <Text>Decima Rima, Artifex Fragilis</Text>
                 <LineId>1600000671</LineId> <!-- <GUID>1600000671</GUID> -->
             </Text>
             <!-- Description -->
             <Text>
-                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>"Wie soll ich denn mehr Glas verkaufen, wenn es nie kaputt geht?" &#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000672</LineId> 
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>PlaceholderText (2x Temple auf Insel)</Text>
+                <Text>Tabernas sind ihre neuen Hauptkunden. (10x Taberna auf Insel)</Text>
                 <LineId>1600000673</LineId> 
             </Text>
         </ModOp>
