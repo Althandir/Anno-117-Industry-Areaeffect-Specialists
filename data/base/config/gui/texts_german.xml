@@ -161,12 +161,12 @@
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>Gaius Fabricius Squalo-Mollis, Kuschelkissenhersteller</Text>
+                <Text>Pa-nefer, Kuschelkissenhersteller</Text>
                 <LineId>1600000412</LineId> <!-- <GUID>1600000412</GUID> -->
             </Text>
             <!-- Description -->
             <Text>
-                <Text>"Meine Kissen sind die flauschigsten im gesamten Reich! Ob man Kissen auch in Form eines Haies herstellen kann?" &#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>"Ob man Kissen auch in Form eines Haies herstellen kann? Carcharias Softis wären unglaublich toll!" &#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000413</LineId> 
             </Text>
         </ModOp>
@@ -235,7 +235,7 @@
             </Text>
             <!-- Description -->
             <Text>
-                <Text>Dieser Bürger nutzt eine Technik um Amphoren sehr robust gegen Feuer zu machen. Niemand kennt jedoch seinen Namen... und auffallen tut er auch kaum. &#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>Dieser Bürger nutzt eine Technik um Amphoren sehr robust gegen Feuer zu machen. Jedoch kennt Niemand seinen Namen... und auffallen tut er auch kaum. &#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000425</LineId> 
             </Text>
             <!-- Boosted Hint -->
