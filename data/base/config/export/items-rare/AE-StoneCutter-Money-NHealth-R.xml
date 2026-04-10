@@ -1,80 +1,80 @@
 <ModOps>
-<!-- Item Definition GUID:1600000266 - 1600000269 | LineID:1600000266 - 1600000267 -->
+<!-- Item Definition GUID:1600000309 - 1600000312 | LineID:1600000309 - 1600000310 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
           <Standard>
-            <GUID>1600000266</GUID>
-            <Name>Specialist AE-CraftsmanKnowledgeByHealth-R</Name>
-            <IconFilename>data/base/graphics/icons/male_AE-CraftsmanKnowledgeByHealth-R.png</IconFilename>
-            <InfoDescription>1600000267</InfoDescription>
+            <GUID>1600000309</GUID>
+            <Name>Specialist AE-StoneCutter-Money-NHealth-R</Name>
+            <IconFilename>data/base/graphics/icons/c_m_AE-StoneCutter-Money-NHealth-R.png</IconFilename>
+            <InfoDescription>1600000310</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>  
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600000267</GUID>
+                <GUID>1600000310</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>50612</GUID>
+                <GUID>41811</GUID>
               </Item>
               <Item>
-                <GUID>50613</GUID>
-              </Item>
-              <Item>
-                <GUID>50604</GUID>
+                <GUID>3138</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Item>
-            <Niche>Research</Niche>
+            <Niche>Finance</Niche> 
             <TradePrice>17500</TradePrice> 
-            <BarkPool>80242</BarkPool> <!-- <GUID>80242</GUID> -->
+            <BarkPool>83312</BarkPool> <!-- <GUID>83312</GUID> -->
             <Rarity>Rare</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600000266</OasisId>
+            <OasisId>1600000309</OasisId>
           </Text>
+
         </Values>
       </Asset>
     </ModOp>
   </Group>
 
-  <!-- Buff Definitions-->
-  <Group>
+    <!-- Buff Definitions-->
+    <Group>
     <!-- BuildingEffect Definition -->
     <ModOp Type="addNextSibling" GUID="80193">
         <Asset>
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000267</GUID>
-                    <Name>Specialist AE-CraftsmanKnowledgeByHealth-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/male_AE-CraftsmanKnowledgeByHealth-R.png</IconFilename>
+                    <GUID>1600000310</GUID>
+                    <Name>Specialist AE-StoneCutter-Money-NHealth-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/c_m_AE-StoneCutter-Money-NHealth-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000266</OasisId>
+                    <OasisId>1600000309</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000268</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000311</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
+                    <ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID>
                 </Buff>
                 <ResidenceUpgrade>
                 </ResidenceUpgrade>
-                <FactoryUpgrade/>
+                <FactoryUpgrade>
+                </FactoryUpgrade>
                 <ModuleOwnerUpgrade/>
                 <MaintenanceUpgrade/>
                 <CityInstitutionUpgrade/>
@@ -86,22 +86,22 @@
             </Values>
         </Asset>
     </ModOp>
-    
+    <!-- Area Effect Definition -->
     <ModOp Type="addNextSibling" GUID="135498">
         <Asset>
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000268</GUID>
-                    <Name>Specialist AE-CraftsmanKnowledgeByHealth-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/male_AE-CraftsmanKnowledgeByHealth-R.png</IconFilename>
+                    <GUID>1600000311</GUID>
+                    <Name>Specialist AE-StoneCutter-Money-NHealth-R FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/c_m_AE-StoneCutter-Money-NHealth-R.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000269</GUID>
+                            <GUID>1600000312</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -109,55 +109,58 @@
                             <GUID>43097</GUID>
                         </Item>
                     </Targets>
-                    <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+                    <ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID>
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000266</OasisId>
+                    <OasisId>1600000309</OasisId>
                 </Text>
             </Values>
         </Asset>
     </ModOp>
-
+    <!-- BuildingBuff by AreaEffect Definition -->
     <ModOp Type="addNextSibling" GUID="80193">
         <Asset>
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000269</GUID>
-                    <Name>Specialist AE-CraftsmanKnowledgeByHealth-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/male_AE-CraftsmanKnowledgeByHealth-R.png</IconFilename>
+                    <GUID>1600000312</GUID>
+                    <Name>Specialist AE-StoneCutter-Money-NHealth-R FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/c_m_AE-StoneCutter-Money-NHealth-R.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000266</OasisId>
+                    <OasisId>1600000309</OasisId>
                 </Text>
                 <HealthUpgrade/>
                 <BuildingUpgrade>
-                  <AdditionalAttributes>
-                      <Knowledge>
-                          <AmountOrPercent>
-                              <Value>2</Value>
-                              <Percental>0</Percental>
-                          </AmountOrPercent>
-                      </Knowledge>
-                      <Health>
-                          <AmountOrPercent>
-                              <Value>-1</Value>
-                              <Percental>0</Percental>
-                          </AmountOrPercent>
-                      </Health>
-                  </AdditionalAttributes>
+                    <AdditionalAttributes>
+                        <Money>
+                            <AmountOrPercent>
+                                <Value>3</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Money>
+                        <Health>
+                            <AmountOrPercent>
+                                <Value>-2</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Health>
+                    </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                     <IsStackable>0</IsStackable>
+                    <ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID>
                 </Buff>
                 <ResidenceUpgrade>
                 </ResidenceUpgrade>
-                <FactoryUpgrade/>
+                <FactoryUpgrade>
+                </FactoryUpgrade>
                 <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
+                <MaintenanceUpgrade>
+                </MaintenanceUpgrade>
                 <CityInstitutionUpgrade/>
                 <IncidentInfectableUpgrade/>
                 <RecruitmentUpgrade/>
@@ -168,5 +171,6 @@
         </Asset>
     </ModOp>
 
-  </Group>
+    </Group>
+
 </ModOps>

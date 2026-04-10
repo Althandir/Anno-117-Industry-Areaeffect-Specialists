@@ -6,44 +6,94 @@
 
 ###  
 #   GUID-Ranges:  
-#   1600000xxx - 1600000xxx 
-#
-#
-#
-#
-#
-#
-#
+#   1600000284 - 1600000287 
+#   1600000134 - 1600000136 + 1600000617
+#   1600000258 - 1600000261
+#   1600000416 - 1600000419 + 1600000618 - 1600000620
+#   1600000432 - 1600000438
+#   1600000621 - 1600000627
+#   1600000254 - 1600000257
+#   1600000400 - 1600000427
+#   1600000628 - 1600000634
+#   1600000635 - 1600000641
+#   1600000642 - 1600000645
+#   1600000646 - 1600000649
+#   1600000650 - 1600000656
+#   1600000657 - 1600000663
+#   1600000664 - 1600000670
+#   1600000671 - 1600000677
+#   1600000678 - 1600000684
 ###
 -->
 <ModOps>
 
 <!-- Common Specialists -->
 <Group>
-    <Include File="items-common/AE-AllProdMoneyFromResidencesStackable-C.xml" />
+    <Include File="items-common/AE-AllProd-Income-Stack-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
 <Group>
-    <Include File="items-rare/AE-AllStoneCutterMoneyByHealth-R.xml" />
-    <Include File="items-rare/AE-ArmoriesMoneyByHealthHappiness-R.xml" />
-    <Include File="items-rare/AE-KitchenPrestigeHappinessByWF-R.xml" />
-    <Include File="items-rare/AE-CraftsmanKnowledgeByHealth-R.xml" />
+    <Include File="items-rare/AE-StoneCutter-Money-NHealth-R.xml" />
+    <Include File="items-rare/AE-Armories-Money-NHealthHappy-R.xml" />
+    <Include File="items-rare/AE-Crafters-Know-NHealth-R.xml" />
+    <Include File="items-rare/AE-MatProd-FireS-NProd-R.xml" />
+    <Include File="items-rare/AE-Animals-Happy-NProdHealth-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
 <Group>
-
+    <Include File="items-epic/AE-Fibularium-MoneyBelief-E.xml" />
+    <Include File="items-epic/AE-Caviar-Belief-NPresti-E.xml" />
+    <Include File="items-epic/AE-CGreen-HealthBelief-E.xml" />
+    <Include File="items-epic/AE-Cushion-MoneyPrestHappy-E.xml" />
+    <Include File="items-epic/AE-FuelConsumer-FireS-NProd-E.xml" />
+    <Include File="items-epic/AE-Headpiece-FireSPresti-E.xml" />
+    <Include File="items-epic/AE-Kitchen-PrestigeHappy-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->
 <Group>
-
+    <Include File="items-legendary/AE-AllProd-Income-Stack-L.xml" />
+    <Include File="items-legendary/AE-Amphores-PopFireS-AddGoods-L.xml" />
+    <Include File="items-legendary/AE-Birrus-PopPresti-Prod-L.xml" />
+    <Include File="items-legendary/AE-BTongue-Money-AddGoods-L.xml" />
+    <Include File="items-legendary/AE-Chariot-PopHealth-Prod-L.xml" />
+    <Include File="items-legendary/AE-Lyre-KnowFireS-Prod-L.xml" />
+    <Include File="items-legendary/AE-HairWig-Health-Prod-L.xml" />
+    <Include File="items-legendary/AE-Lounger-HappyMoney-Prod-L.xml" />
+    <Include File="items-legendary/AE-Mirror-PopMoney-Prod-L.xml" />
+    <Include File="items-legendary/AE-RGlass-BeliefMoney-AddGoods-L.xml" />
+    <Include File="items-legendary/AE-Soap-HappyBelief-AddGoods-L.xml" />
+    <Include File="items-legendary/AE-Toga-PopMoney-AddGoods-L.xml" />
 </Group>
 
 <!-- Add to Pools -->
 <Include File="pools/AssetList/AssetListPool.xml" />
-<Include File="pools/RewardPool/RewardPool-AllItems&Specialists.xml" />
+<Include File="pools/RewardPool/AllItems&Specialists.xml" />
+
+<Include File="pools/RewardPool/Culture-R.xml" />
+
+<Include File="pools/RewardPool/Diplomacy-E.xml" />
+<Include File="pools/RewardPool/Diplomacy-L.xml" />
+
+<Include File="pools/RewardPool/Finance-C.xml" />
+<Include File="pools/RewardPool/Finance-E.xml" />
+<Include File="pools/RewardPool/Finance-L.xml" />
+<Include File="pools/RewardPool/Finance-R.xml" />
+
+<Include File="pools/RewardPool/Military-E.xml" />
+<Include File="pools/RewardPool/Military-L.xml" />
+<Include File="pools/RewardPool/Military-R.xml" />
+
+<Include File="pools/RewardPool/Nature-E.xml" />
+<Include File="pools/RewardPool/Nature-L.xml" />
+
+<Include File="pools/RewardPool/Religion-E.xml" />
+<Include File="pools/RewardPool/Religion-L.xml" />
+
+<Include File="pools/RewardPool/Research-L.xml" />
+<Include File="pools/RewardPool/Research-R.xml" />
 
 <!-- Add to Traderpools --> 
 <Include File="pools/Traders/pools-common.xml" />

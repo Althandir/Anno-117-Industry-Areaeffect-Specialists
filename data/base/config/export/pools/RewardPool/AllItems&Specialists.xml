@@ -1,8 +1,8 @@
 <ModOps>
-    
-<!-- Add to AssetList -->
+<!-- Add to RewardPools -->
+<!-- RewardList All Items & Specialists Items-->
 <Group>
-    <ModOp Type="add" GUID="113059" Path="/Values/AssetPool/AssetList">
+    <ModOp Type="add" GUID="43037,82598" Path="/Values/RewardPool/ItemsPool">
         <!-- Common -->
         <Item>
             <ItemLink>1600000284</ItemLink>
@@ -82,6 +82,7 @@
         <Item>
             <ItemLink>1600000420</ItemLink>
         </Item>
+
     </ModOp>
 </Group>
 

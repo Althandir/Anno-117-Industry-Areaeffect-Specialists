@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000258</GUID>
-            <Name>Specialist AE-KitchenPrestigeHappinessByWF-R</Name>
-            <IconFilename>data/base/graphics/icons/female_AE-KitchenPrestigeHappinessByWF-R.png</IconFilename>
+            <Name>Specialist AE-Kitchen-PrestigeHappy-E</Name>
+            <IconFilename>data/base/graphics/icons/f_AE-Kitchen-PrestigeHappy-E.png</IconFilename>
             <InfoDescription>1600000259</InfoDescription>
           </Standard>
           <Effect>
@@ -28,9 +28,9 @@
           </Effect>
           <Item>
             <Niche>Diplomacy</Niche>
-            <TradePrice>17500</TradePrice> 
+            <TradePrice>60000</TradePrice> 
             <BarkPool>83327</BarkPool> <!-- <GUID>83327</GUID> -->
-            <Rarity>Rare</Rarity> 
+            <Rarity>Epic</Rarity> 
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
@@ -52,8 +52,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000259</GUID>
-                    <Name>Specialist AE-KitchenPrestigeHappinessByWF-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/female_AE-KitchenPrestigeHappinessByWF-R.png</IconFilename>
+                    <Name>Specialist AE-Kitchen-PrestigeHappy-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Kitchen-PrestigeHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000258</OasisId>
@@ -74,16 +74,7 @@
                     </ProductivityUpgrade>
                 </FactoryUpgrade>
                 <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade>
-                  <WorkforceMaintenanceFactorUpgrade>
-                    <Value>15</Value>
-                    <Percental>1</Percental>
-                  </WorkforceMaintenanceFactorUpgrade>
-                  <MaintenanceFactorUpgrade>
-                    <Value>0</Value>
-                    <Percental>1</Percental>
-                  </MaintenanceFactorUpgrade>
-                </MaintenanceUpgrade>
+                <MaintenanceUpgrade/>
                 <CityInstitutionUpgrade/>
                 <IncidentInfectableUpgrade/>
                 <RecruitmentUpgrade/>
@@ -100,8 +91,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000260</GUID>
-                    <Name>Specialist AE-KitchenPrestigeHappinessByWF-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/female_AE-KitchenPrestigeHappinessByWF-R.png</IconFilename>
+                    <Name>Specialist AE-Kitchen-PrestigeHappy-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Kitchen-PrestigeHappy-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -132,8 +123,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000261</GUID>
-                    <Name>Specialist AE-KitchenPrestigeHappinessByWF-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/female_AE-KitchenPrestigeHappinessByWF-R.png</IconFilename>
+                    <Name>Specialist AE-Kitchen-PrestigeHappy-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Kitchen-PrestigeHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000258</OasisId>
@@ -141,36 +132,18 @@
                 <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Money>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>                        
-                        </Money>
                         <Prestige>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Prestige>
                         <Happiness>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Happiness>
-                        <Health>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-				        </Health>
-                        <FireSafety>
-                            <AmountOrPercent>
-                                <Value>0</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-				        </FireSafety>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <DistributionUpgrade/>

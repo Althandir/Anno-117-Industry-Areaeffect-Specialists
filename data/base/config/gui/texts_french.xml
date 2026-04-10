@@ -1,82 +1,482 @@
 <ModOps>
+    <!-- Common Specialists -->
+    <Group>
 
-  <!-- Specialist AE-AllProdMoneyFromResidencesStackable-C -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Fournisseur</Text>
-          <LineId>1600000284</LineId> <!-- <GUID>1600000284</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Réalise les commandes de livraison pour les résidents des environs. &#xD;Indice: cet effet de zone n'affecte que les bâtiments résidentiels situés autour du bâtiment de production, mais peut se cumuler.</Text>
-          <LineId>1600000285</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+        <!-- Specialist AE-AllProd-Income-Stack-C -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Supplier</Text>
+                <LineId>1600000284</LineId> <!-- <GUID>1600000284</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Fulfills delivery orders for residents in the surrounding area. &#xD;Note: This Area Effect only affects Residences but is allowed to stack on them.&#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000285</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
 
-  <!-- Specialist AE-ArmoriesMoneyByHealthHappiness-R -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Marchand d'armes irresponsable</Text>
-          <LineId>1600000254</LineId> <!-- <GUID>1600000254</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>“Tout le monde devrait avoir au moins une arme, voire plusieurs ! Qu'est-ce qui pourrait bien mal tourner ?”</Text>
-          <LineId>1600000255</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    </Group>
 
-  <!-- Specialist AE-KitchenPrestigeHappinessByWF-R -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Artiste culinaire</Text>
-          <LineId>1600000258</LineId> <!-- <GUID>1600000258</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Prépare les plats comme un spectacle inspirant. Mais qui nettoie après ?</Text>
-          <LineId>1600000259</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+    <!-- Rare Specialists -->
+    <Group>
 
-  <!-- Specialist AE-CraftsmanKnowledgeByHealth-R -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Formateur axé sur la pratique</Text>
-          <LineId>1600000266</LineId> <!-- <GUID>1600000266</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>“Ce n'est qu'en pratiquant que tu peux consolider tes connaissances !... Aïe ! Médecin !”</Text>
-          <LineId>1600000267</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+        <!-- Specialist AE-Animals-Happy-NProdHealth-R -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Unconventional Pet Breeder</Text>
+                <LineId>1600000408</LineId> <!-- <GUID>1600000408</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>"Pigs and sheep can also be kept as pets." &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000409</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
 
-  <!-- Specialist AE-AllStoneCutterMoneyByHealth-R -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-          <Text>Sculpteur indépendant</Text>
-          <LineId>1600000309</LineId> <!-- <GUID>1600000309</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-          <Text>Utilise la meilleure pierre de la région pour créer les bustes de ses clients.</Text>
-          <LineId>1600000310</LineId> 
-      </Text>
-    </ModOp>
-  </Group>
+        <!-- Specialist AE-Armories-Money-NHealthHappy-R -->
+        <Group>
+            <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Irresponsible Arms Trader</Text>
+                <LineId>1600000254</LineId> <!-- <GUID>1600000254</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>"Everyone should have at least one, if not several, weapons! What could possibly go wrong?"&#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000255</LineId> 
+            </Text>
+            </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Crafters-Know-NHealth-R -->
+        <Group>
+            <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Practice-oriented Instructor</Text>
+                <LineId>1600000266</LineId> <!-- <GUID>1600000266</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>"Only through practice you can solidify knowledge!... Ouch! Medicus!"&#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000267</LineId> 
+            </Text>
+            </ModOp>
+        </Group>
+
+        <!-- Specialist AE-StoneCutter-Money-NHealth-R -->
+        <Group>
+            <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Independent Sculptor</Text>
+                <LineId>1600000309</LineId> <!-- <GUID>1600000309</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Uses the best stone in the region to create busts of his clients.&#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000310</LineId> 
+            </Text>
+            </ModOp>
+        </Group>
+
+        <!-- Specialist AE-MatProd-FireS-NProd-R -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Local Carpenter</Text>
+                <LineId>1600000404</LineId> <!-- <GUID>1600000404</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Is responsible for the maintenance of all nearby buildings. &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000405</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+    </Group>
+
+    <!-- Epic Specialists -->
+    <Group>
+
+        <!-- Specialist AE-Fibularium-MoneyBelief-E -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Nova Fibbularia, Renowned Brooch Designer</Text>
+                <LineId>1600000420</LineId> <!-- <GUID>1600000420</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Her brooches are the most sought-after in the entire kingdom. &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000421</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Caviar-Belief-NPresti-E -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Occultia, Fish Reader</Text>
+                <LineId>1600000400</LineId> <!-- <GUID>1600000400</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>"The guts are telling me... you'll find your true love. Soon..."&#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000401</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Kitchen-PrestigeHappy-E -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Talented Artistic Cook</Text>
+                <LineId>1600000258</LineId> <!-- <GUID>1600000258</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Cooking is like an inspiring performance. But who’s going to clean up the mess? &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000259</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Cushion-MoneyPrestHappy-E -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Pa-nefer, Cuddly Pillow Manufacturer</Text>
+                <LineId>1600000412</LineId> <!-- <GUID>1600000412</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>"I wonder if it's possible to make pillows shaped like sharks? Carcharias Softis would be absolutely amazing!" &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000413</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-FuelConsumer-FireS-NProd-E -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Strictus Vaporosus II, Safety Paragraph Rider</Text>
+                <LineId>1600000134</LineId> <!-- <GUID>1600000134</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>"According to Section 5, Subsection 2 A of the Roman Fire Safety Regulations, this fireplace may only be used between sunrise and the noon assembly! Subsection 12, G, also states...." &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000135</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-CGreen-HealthBelief-E -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Cernunia Aricin, Green Alchemist</Text>
+                <LineId>1600000642</LineId> <!-- <GUID>1600000642</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Her alchemy might even benefit the general health of the community.. &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000643</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Headpiece-FireSPresti-E -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Experienced Headrest Upholsterer</Text>
+                <LineId>1600000646</LineId> <!-- <GUID>1600000646</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>His headpieces are surprisingly sturdy. &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000647</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+    </Group>
+
+    <!-- Legendary Specialists -->
+    <Group>
+
+        <!-- Specialist AE-Amphores-PopFireS-AddGoods-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>The Invisible Amphora Artist</Text>
+                <LineId>1600000424</LineId> <!-- <GUID>1600000424</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>This citizen uses a technique to make amphorae highly fire-resistant. However, no one knows his name... and he hardly stands out. &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000425</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>He wants to blend in with the crowd. (5000 Population on Island)</Text>
+                <LineId>1600000426</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Lyre-KnowFireS-Prod-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>He-Ma-Te, Inspiring Lyre Maker</Text>
+                <LineId>1600000432</LineId> <!-- <GUID>1600000432</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>The sound of their lyres inspires all listeners to new innovations. &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000433</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>Wants to be part of a lyre collegium. (8x Lyremaker on Island)</Text>
+                <LineId>1600000434</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Chariot-PopHealth-Prod-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Glano Tascio, Perfectionist Carriage Builder</Text>
+                <LineId>1600000416</LineId> <!-- <GUID>1600000416</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>His fast and sturdy chariots are ideal for racing. Even when serving for the Auxillia, his Celtic mettle shines through.  &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000417</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>Requires multiple test sites for the war chariots. (2x Equitum Campus on Island)</Text>
+                <LineId>1600000418</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Lounger-HappyMoney-Prod-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Livia Lectuaria, The Cunning Queen of Loungers</Text>
+                <LineId>1600000621</LineId> <!-- <GUID>1600000621</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>"Anyone who dozes off on a Lectuaria lounger has already decided to buy it. Taking a nap is considered a binding declaration of intent to purchase the piece of furniture. No returns due to drool stains." &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000622</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>Looking for a sufficiently large customer base. (150 Patrician Residences on Island)</Text>
+                <LineId>1600000623</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-AllProd-Income-Stack-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Manlius Portus Magnus, Praebitor Maximus</Text>
+                <LineId>1600000628</LineId> <!-- <GUID>1600000628</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>He bought up the entire supply of Aegyptian papyrus just to fold it into shipping boxes and supply every single store, no matter how small, with them. Surprisingly, everyone uses his service. &#xD;Note: This area effect only affects residential buildings but can stack. &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000629</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>Needs a sufficiently large customer base for his shipping boxes. (42x Production Buildings on Island)</Text>
+                <LineId>1600000630</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Toga-PopMoney-AddGoods-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Vercanomagus, Creative Tailor</Text>
+                <LineId>1600000635</LineId> <!-- <GUID>1600000628</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>He often asks himself: “How can you pair a toga with pants?” &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000636</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>He is a regular at the Medicus. (10x Medicus on Island)</Text>
+                <LineId>1600000637</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Birrus-PopPresti-Prod-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Bevera, Protective Hatmaker</Text>
+                <LineId>1600000650</LineId> <!-- <GUID>1600000650</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>Their hats can withstand any storm in Albion. &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000651</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>A well-known expert among the elders. (125 Alderman Residences on Island)</Text>
+                <LineId>1600000652</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-HairWig-Health-Prod-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Lucius Capillus Calvus, The Hair Oracle</Text>
+                <LineId>1600000657</LineId> <!-- <GUID>1600000657</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>"Go to Calvus if you don't want to be a Calvus anymore." &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000658</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>Likes to test whether his wigs stays intact in water. (2x Aqueduct Basin on Island)</Text>
+                <LineId>1600000659</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Mirror-PopMoney-Prod-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Narcissicus, the sturdy Mirrormaker</Text>
+                <LineId>1600000664</LineId> <!-- <GUID>1600000664</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>No soul will ever be hurt and need seven years to heal, because his mirrors can never break. &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000665</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>Travels from Fanum to Fanum to heal his own soul. (4x Fanum on Island)</Text>
+                <LineId>1600000666</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-RGlass-BeliefMoney-AddGoods-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Decima Rima, Artifex Fragilis</Text>
+                <LineId>1600000671</LineId> <!-- <GUID>1600000671</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>"How am I supposed to sell more glass if it never breaks?" &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000672</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>Taverns are her new main customers. (10x Taverns on Island)</Text>
+                <LineId>1600000673</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-BTongue-Money-AddGoods-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Malleator Linguis, Tongue Hammerer</Text>
+                <LineId>1600000678</LineId> <!-- <GUID>1600000678</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>His way of preparing bird tongues makes the taste a little more bearable. I wonder what role the hammer plays in that? &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000679</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>He's regularly suspected of murder. To be on the safe side, there should always be a few guards with him. (9x Custodes on Island)</Text>
+                <LineId>1600000680</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Soap-HappyBelief-AddGoods-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>Phileros, Saponarius Amoris</Text>
+                <LineId>1600000678</LineId> <!-- <GUID>1600000678</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>With his new formula, he adds fresh, soft scents to the soap and brings a touch of Amor to the streets. &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000679</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>He'd like to live on a beautiful island.(5000 Prestige on Island)</Text>
+                <LineId>1600000680</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+    </Group>
+
 </ModOps>
