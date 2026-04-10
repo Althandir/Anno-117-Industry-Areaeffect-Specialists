@@ -456,6 +456,26 @@
         </ModOp>
         </Group>
 
+        <!-- Specialist AE-Soap-HappyBelief-AddGoods-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000678</LineId> <!-- <GUID>1600000678</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000679</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>(5000 Prestige auf Insel)</Text>
+                <LineId>1600000680</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
     </Group>
 
 </ModOps>

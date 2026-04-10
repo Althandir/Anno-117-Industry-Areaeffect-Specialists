@@ -64,6 +64,7 @@
     <Include File="items-legendary/AE-Lounger-HappyMoney-Prod-L.xml" />
     <Include File="items-legendary/AE-Mirror-PopMoney-Prod-L.xml" />
     <Include File="items-legendary/AE-RGlass-BeliefMoney-AddGoods-L.xml" />
+    <Include File="items-legendary/AE-Soap-HappyBelief-AddGoods-L.xml" />
     <Include File="items-legendary/AE-Toga-PopMoney-AddGoods-L.xml" />
 </Group>
 

@@ -408,7 +408,7 @@
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>Reiste von Fanum zu Fanum um seine eigene Seele zu heilen. (4x Fanum auf Insel)</Text>
+                <Text>Reist von Fanum zu Fanum um seine eigene Seele zu heilen. (4x Fanum auf Insel)</Text>
                 <LineId>1600000666</LineId> 
             </Text>
         </ModOp>
@@ -452,6 +452,27 @@
             <Text>
                 <Text>Wird regelmäßig des Mordes verdächtigt. Sicherheitshalber sollten immer ein paar Wachen bei ihm sein. (9x Custodes auf Insel)</Text>
                 <LineId>1600000680</LineId> 
+            </Text>
+        </ModOp>
+        </Group>
+
+        <!-- Specialist AE-Soap-HappyBelief-AddGoods-L -->
+        <Group>
+        <ModOp Add="/TextExport/Texts">
+            <!-- Title -->
+            <Text>
+                <Text>PlaceholderText</Text>
+                <LineId>1600000688</LineId> <!-- <GUID>1600000688</GUID> -->
+            </Text>
+            <!-- Description -->
+            <Text>
+                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000689</LineId> 
+            </Text>
+            <!-- Boosted Hint -->
+            <Text>
+                <Text>Möchte auf einer bekannten Insel leben. (5000 Prestige auf Insel)</Text>
+                <LineId>1600000690</LineId> 
             </Text>
         </ModOp>
         </Group>
