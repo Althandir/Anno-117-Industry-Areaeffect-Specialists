@@ -461,17 +461,17 @@
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>PlaceholderText</Text>
+                <Text>Phileros, Saponarius Amoris</Text>
                 <LineId>1600000688</LineId> <!-- <GUID>1600000688</GUID> -->
             </Text>
             <!-- Description -->
             <Text>
-                <Text>PlaceholderText &#xD;(Industry-AreaEffects-Pack)</Text>
+                <Text>Fügt der Seife durch eine neue Rezeptur frische, weiche Düfte hinzu und bringt den Hauch von Amor in die Straßen.&#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000689</LineId> 
             </Text>
             <!-- Boosted Hint -->
             <Text>
-                <Text>Möchte auf einer bekannten Insel leben. (5000 Prestige auf Insel)</Text>
+                <Text>Möchte auf einer schönen Insel leben. (5000 Prestige auf Insel)</Text>
                 <LineId>1600000690</LineId> 
             </Text>
         </ModOp>
