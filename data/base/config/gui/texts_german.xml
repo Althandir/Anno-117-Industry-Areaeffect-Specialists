@@ -293,7 +293,7 @@
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>Livia Lectuaria, Gerissene Liegenmeisterin</Text>
+                <Text>Livia Lectuaria, die gerissene Liegenkönigin</Text>
                 <LineId>1600000621</LineId> <!-- <GUID>1600000621</GUID> -->
             </Text>
             <!-- Description -->
@@ -398,7 +398,7 @@
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
             <Text>
-                <Text>Narcissicus, der robuste Spiegel</Text>
+                <Text>Narcissicus, der robuste Spiegelmacher</Text>
                 <LineId>1600000664</LineId> <!-- <GUID>1600000664</GUID> -->
             </Text>
             <!-- Description -->
