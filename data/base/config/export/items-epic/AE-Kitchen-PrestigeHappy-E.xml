@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000258</GUID>
-            <Name>Specialist AE-Kitchen-PrestigeHappy-R</Name>
-            <IconFilename>data/base/graphics/icons/f_AE-Kitchen-PrestigeHappy-R.png</IconFilename>
+            <Name>Specialist AE-Kitchen-PrestigeHappy-E</Name>
+            <IconFilename>data/base/graphics/icons/f_AE-Kitchen-PrestigeHappy-E.png</IconFilename>
             <InfoDescription>1600000259</InfoDescription>
           </Standard>
           <Effect>
@@ -52,8 +52,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000259</GUID>
-                    <Name>Specialist AE-Kitchen-PrestigeHappy-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-Kitchen-PrestigeHappy-R.png</IconFilename>
+                    <Name>Specialist AE-Kitchen-PrestigeHappy-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Kitchen-PrestigeHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000258</OasisId>
@@ -91,8 +91,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000260</GUID>
-                    <Name>Specialist AE-Kitchen-PrestigeHappy-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-Kitchen-PrestigeHappy-R.png</IconFilename>
+                    <Name>Specialist AE-Kitchen-PrestigeHappy-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Kitchen-PrestigeHappy-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -123,8 +123,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000261</GUID>
-                    <Name>Specialist AE-Kitchen-PrestigeHappy-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-Kitchen-PrestigeHappy-R.png</IconFilename>
+                    <Name>Specialist AE-Kitchen-PrestigeHappy-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-Kitchen-PrestigeHappy-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000258</OasisId>

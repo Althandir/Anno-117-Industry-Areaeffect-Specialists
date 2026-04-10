@@ -1,0 +1,24 @@
+<ModOps>
+<!-- Add to RewardPools -->
+<!-- RewardList Finance Legendary -->
+<Group>
+    <ModOp Type="add" GUID="121863" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+        <ItemLink>1600000621</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000628</ItemLink>
+    </Item> 
+    <Item>
+        <ItemLink>1600000635</ItemLink>
+    </Item> 
+    <Item>
+        <ItemLink>1600000664</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000678</ItemLink>
+    </Item> 
+    </ModOp>
+</Group>
+
+</ModOps>
