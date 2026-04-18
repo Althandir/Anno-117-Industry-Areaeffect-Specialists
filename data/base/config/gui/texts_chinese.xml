@@ -462,17 +462,17 @@
             <!-- Title -->
             <Text>
                 <Text>Phileros, Saponarius Amoris</Text>
-                <LineId>1600000678</LineId> <!-- <GUID>1600000678</GUID> -->
+                <LineId>1600000688</LineId> <!-- <GUID>1600000688</GUID> -->
             </Text>
             <!-- Description -->
             <Text>
                 <Text>With his new formula, he adds fresh, soft scents to the soap and brings a touch of Amor to the streets. &#xD;(Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000679</LineId> 
+                <LineId>1600000689</LineId> 
             </Text>
             <!-- Boosted Hint -->
             <Text>
                 <Text>He'd like to live on a beautiful island.(5000 Prestige on Island)</Text>
-                <LineId>1600000680</LineId> 
+                <LineId>1600000690</LineId> 
             </Text>
         </ModOp>
         </Group>
