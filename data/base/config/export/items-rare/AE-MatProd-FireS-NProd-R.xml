@@ -29,7 +29,7 @@
             <Item>
                 <Niche>Military</Niche>  
                 <TradePrice>15000</TradePrice> 
-                <BarkPool>0</BarkPool> <!-- <GUID>83298</GUID> -->
+                <BarkPool>83320</BarkPool> <!-- <GUID>83320</GUID> -->
                 <Rarity>Rare</Rarity> 
             </Item>
             <Locked>

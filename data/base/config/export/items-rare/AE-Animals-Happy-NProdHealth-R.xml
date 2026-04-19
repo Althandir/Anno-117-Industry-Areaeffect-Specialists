@@ -35,7 +35,7 @@
             <Item>
                 <Niche>Culture</Niche>  
                 <TradePrice>15000</TradePrice> 
-                <BarkPool>0</BarkPool> <!-- <GUID>83298</GUID> -->
+                <BarkPool>83336</BarkPool> <!-- <GUID>83336</GUID> -->
                 <Rarity>Rare</Rarity> 
             </Item>
             <Locked>
