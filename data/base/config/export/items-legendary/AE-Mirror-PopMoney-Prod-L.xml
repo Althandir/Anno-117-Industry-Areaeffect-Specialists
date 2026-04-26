@@ -28,7 +28,7 @@
             </Effect>
             <Item>
                 <Niche>Finance</Niche>  
-                <TradePrice>650000</TradePrice> 
+                <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice> 
                 <BarkPool>83319</BarkPool> <!-- <GUID>83319</GUID> -->
                 <Rarity>Legendary</Rarity> 
             </Item>
