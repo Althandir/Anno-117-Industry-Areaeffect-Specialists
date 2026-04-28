@@ -28,7 +28,7 @@
             </Effect>
             <Item>
                 <Niche>Military</Niche> 
-                <TradePrice>80000</TradePrice>
+                <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice>
                 <BarkPool>83322</BarkPool> <!-- <GUID>83322</GUID> -->
                 <Rarity>Epic</Rarity> 
             </Item>
