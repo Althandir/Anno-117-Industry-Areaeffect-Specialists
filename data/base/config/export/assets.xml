@@ -56,7 +56,7 @@
 <Group>
     <Include File="items-legendary/AE-AllProd-Income-Stack-L.xml" />
     <Include File="items-legendary/AE-Amphores-PopFireS-AddGoods-L.xml" />
-    <Include File="items-legendary/AE-Birrus-PopPresti-Prod-L.xml" />
+    <Include File="items-legendary/AE-PeltHat-PopPresti-Prod-L.xml" />
     <Include File="items-legendary/AE-BTongue-Money-AddGoods-L.xml" />
     <Include File="items-legendary/AE-Chariot-PopHealth-Prod-L.xml" />
     <Include File="items-legendary/AE-Lyre-KnowFireS-Prod-L.xml" />

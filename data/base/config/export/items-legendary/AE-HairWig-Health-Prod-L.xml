@@ -116,7 +116,7 @@
                 <ResidenceUpgrade/>
                 <FactoryUpgrade>
                     <ProductivityUpgrade>
-                        <Value>10</Value>
+                        <Value>15</Value>
                         <Percental>1</Percental>
                     </ProductivityUpgrade>
                 </FactoryUpgrade>
@@ -308,7 +308,7 @@
                         </Health>
                         <FireSafety>
                             <AmountOrPercent>
-                                <Value>1</Value>
+                                <Value>1.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </FireSafety>
