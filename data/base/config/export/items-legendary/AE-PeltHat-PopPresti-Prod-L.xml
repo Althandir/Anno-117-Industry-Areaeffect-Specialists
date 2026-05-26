@@ -7,8 +7,8 @@
         <Values>
             <Standard>
                 <GUID>1600000650</GUID>
-                <Name>Specialist AE-Birrus-PopPresti-Prod-L</Name>
-                <IconFilename>data/base/graphics/icons/f_AE-Birrus-PopPresti-Prod-L.png</IconFilename>
+                <Name>Specialist AE-PeltHat-PopPresti-Prod-L</Name>
+                <IconFilename>data/base/graphics/icons/f_AE-PeltHat-PopPresti-Prod-L.png</IconFilename>
                 <InfoDescription>1600000651</InfoDescription>
             </Standard>
             <Effect>
@@ -99,8 +99,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000651</GUID>
-                    <Name>Specialist AE-Birrus-PopPresti-Prod-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-Birrus-PopPresti-Prod-L.png</IconFilename>
+                    <Name>Specialist AE-PeltHat-PopPresti-Prod-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-PeltHat-PopPresti-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000650</OasisId>
@@ -138,8 +138,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000652</GUID>
-                    <Name>Specialist AE-Birrus-PopPresti-Prod-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-Birrus-PopPresti-Prod-L.png</IconFilename>
+                    <Name>Specialist AE-PeltHat-PopPresti-Prod-L FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-PeltHat-PopPresti-Prod-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -170,8 +170,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000653</GUID>
-                    <Name>Specialist AE-Birrus-PopPresti-Prod-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-Birrus-PopPresti-Prod-L.png</IconFilename>
+                    <Name>Specialist AE-PeltHat-PopPresti-Prod-L FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-PeltHat-PopPresti-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000650</OasisId>
@@ -220,8 +220,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000654</GUID>
-                    <Name>Specialist AE-Birrus-PopPresti-Prod-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-Birrus-PopPresti-Prod-L.png</IconFilename>
+                    <Name>Specialist AE-PeltHat-PopPresti-Prod-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-PeltHat-PopPresti-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000650</OasisId>
@@ -259,8 +259,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000655</GUID>
-                    <Name>Specialist AE-Birrus-PopPresti-Prod-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-Birrus-PopPresti-Prod-L.png</IconFilename>
+                    <Name>Specialist AE-PeltHat-PopPresti-Prod-L Boosted FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-PeltHat-PopPresti-Prod-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -291,8 +291,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000656</GUID>
-                    <Name>Specialist AE-Birrus-PopPresti-Prod-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-Birrus-PopPresti-Prod-L.png</IconFilename>
+                    <Name>Specialist AE-PeltHat-PopPresti-Prod-L Boosted FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/f_AE-PeltHat-PopPresti-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000650</OasisId>
