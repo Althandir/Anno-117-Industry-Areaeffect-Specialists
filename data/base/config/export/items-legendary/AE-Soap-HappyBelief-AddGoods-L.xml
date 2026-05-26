@@ -117,7 +117,7 @@
                         <AdditionalOutput>
                             <Item>
                                 <Product>2143</Product>
-                                <AdditionalOutputCycle>10</AdditionalOutputCycle>
+                                <AdditionalOutputCycle>8</AdditionalOutputCycle>
                                 <Amount>1</Amount>
                             </Item>
                         </AdditionalOutput>
@@ -241,7 +241,7 @@
                         <AdditionalOutput>
                             <Item>
                                 <Product>2143</Product>
-                                <AdditionalOutputCycle>4</AdditionalOutputCycle>
+                                <AdditionalOutputCycle>3</AdditionalOutputCycle>
                                 <Amount>1</Amount>
                             </Item>
                         </AdditionalOutput>
