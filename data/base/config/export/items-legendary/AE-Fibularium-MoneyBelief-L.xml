@@ -41,38 +41,25 @@
 
 
           <ItemWithBoost>
+            <!-- Condition - min. 300 Silver (NOT ORE) in Storage -->
             <BoostCondition>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
                 <PreConditionList>
-                  <!-- Condition 1 - 2x Aqueduct Basin on Island -->
                   <Condition>
-                    <Template>ConditionObjectCount</Template>
+                    <Template>ConditionPlayerCounter</Template>
                     <Values>
                       <Condition/>
-                      <ConditionObjectCount>
-                        <Amount>2</Amount>
-                      </ConditionObjectCount>
-                      <ObjectFilter>
-                        <ObjectGUID>42568</ObjectGUID>
-                        <ObjectLocations>
-                          <Template>LocationFilter</Template>
-                          <Values>
-                            <LocationFilter>
-                              <ObjectLocations>
-                                <ObjectFilter>
-                                  <Template>ObjectFilter</Template>
-                                  <Values>
-                                    <ObjectFilter>
-                                      <UseContextObjects>1</UseContextObjects>
-                                    </ObjectFilter>
-                                  </Values>
-                                </ObjectFilter>
-                              </ObjectLocations>
-                            </LocationFilter>
-                          </Values>
-                        </ObjectLocations>
-                      </ObjectFilter>
+                      <ConditionPlayerCounter>
+                        <PlayerCounter>GoodsInStock</PlayerCounter>
+                        <Context>2129</Context>
+                        <CounterAmount>300</CounterAmount>
+                        <CounterScope>Area</CounterScope>
+                      </ConditionPlayerCounter>
+                      <ConditionLocationProps/>
+                      <ConditionCounterProps/>
+                      <ConditionPropsComparable/>
+                      <ConditionPropsExaminableObjects/>
                     </Values>
                   </Condition>
                 </PreConditionList>
@@ -287,3 +274,4 @@
   </Group>
 
 </ModOps>
+
