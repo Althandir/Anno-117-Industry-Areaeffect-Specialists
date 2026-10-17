@@ -121,6 +121,11 @@
                 <Text>Ihre Broschen sind die begehrtesten im ganzen Reich. &#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000421</LineId> 
             </Text>
+            <!-- Boosted Description -->
+            <Text>
+                <Text>PLACEHOLDER (2x AqueductBasin on Island)</Text>
+                <LineId>1600000422</LineId> 
+            </Text>
         </ModOp>
         </Group>
 
@@ -152,6 +157,11 @@
             <Text>
                 <Text>Bereitet Essen zu wie ein inspirierendes Schauspiel. Aber wer räumt nun die Sauerei weg? &#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000259</LineId> 
+            </Text>
+            <!-- Boosted Description -->
+            <Text>
+                <Text>PLACEHOLDER (2x AqueductBasin on Island)</Text>
+                <LineId>1600000260</LineId> 
             </Text>
         </ModOp>
         </Group>
