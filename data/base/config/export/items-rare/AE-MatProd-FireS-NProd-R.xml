@@ -69,7 +69,7 @@
                     <ResidenceUpgrade/>
                     <FactoryUpgrade>
                         <ProductivityUpgrade>
-                            <Value>-25</Value>
+                            <Value>-35</Value>
                             <Percental>1</Percental>
                         </ProductivityUpgrade>
                     </FactoryUpgrade>

@@ -70,7 +70,7 @@
                     <ResidenceUpgrade/>
                     <FactoryUpgrade>
                         <ProductivityUpgrade>
-                            <Value>-10</Value>
+                            <Value>-20</Value>
                             <Percental>1</Percental>
                         </ProductivityUpgrade>
                     </FactoryUpgrade>
@@ -144,6 +144,7 @@
                     <DistributionUpgrade/>
                     <Buff>
                         <SourceCategory>Item</SourceCategory>
+                        <IsStackable>1</IsStackable>
                     </Buff>
                     <ResidenceUpgrade/>
                     <FactoryUpgrade/>
