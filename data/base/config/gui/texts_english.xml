@@ -121,6 +121,11 @@
                 <Text>Her brooches are the most sought-after in the entire kingdom. &#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000421</LineId> 
             </Text>
+            <!-- Boosted Description -->
+            <Text>
+                <Text>PLACEHOLDER (2x AqueductBasin on Island) &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000422</LineId> 
+            </Text>
         </ModOp>
         </Group>
 
@@ -152,6 +157,11 @@
             <Text>
                 <Text>Cooking is like an inspiring performance. But who’s going to clean up the mess? &#xD;(Industry-AreaEffects-Pack)</Text>
                 <LineId>1600000259</LineId> 
+            </Text>
+            <!-- Boosted Description -->
+            <Text>
+                <Text>PLACEHOLDER (2x AqueductBasin on Island) &#xD;(Industry-AreaEffects-Pack)</Text>
+                <LineId>1600000260</LineId> 
             </Text>
         </ModOp>
         </Group>
