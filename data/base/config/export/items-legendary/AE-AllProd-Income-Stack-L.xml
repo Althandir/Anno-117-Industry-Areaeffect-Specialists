@@ -12,7 +12,7 @@
                 <InfoDescription>1600000629</InfoDescription>
             </Standard>
             <Effect>
-                <EffectScope>Radius</EffectScope>  
+                <EffectScope>ObjectsInArea</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                     <Item>
@@ -176,7 +176,7 @@
                     <AdditionalAttributes>
                         <Money>
                             <AmountOrPercent>
-                                <Value>1</Value>
+                                <Value>0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Money>
@@ -288,7 +288,7 @@
                     <AdditionalAttributes>
                         <Money>
                             <AmountOrPercent>
-                                <Value>2</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Money>
