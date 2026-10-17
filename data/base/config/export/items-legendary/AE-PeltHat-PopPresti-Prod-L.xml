@@ -12,7 +12,7 @@
                 <InfoDescription>1600000651</InfoDescription>
             </Standard>
             <Effect>
-                <EffectScope>Radius</EffectScope>  
+                <EffectScope>ObjectsInArea</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                     <Item>
@@ -105,29 +105,18 @@
                 <Text>
                     <OasisId>1600000650</OasisId>
                 </Text>
-                <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalFunctionalEffect>1600000652</AdditionalFunctionalEffect>
-                </BuildingUpgrade>
-                <DistributionUpgrade/>
+                </BuildingUpgrade>                
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
-                </Buff>
-                <ResidenceUpgrade/>
+                </Buff>                
                 <FactoryUpgrade>
                     <ProductivityUpgrade>
-                        <Value>15</Value>
+                        <Value><ModValue Insert="$ProductivityBuff_Legendary_NonBoosted"/></Value>
                         <Percental>1</Percental>
                     </ProductivityUpgrade>
                 </FactoryUpgrade>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
             </Values>
         </Asset>
     </ModOp>
@@ -176,7 +165,6 @@
                 <Text>
                     <OasisId>1600000650</OasisId>
                 </Text>
-                <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
                         <Population>
@@ -192,21 +180,10 @@
                             </AmountOrPercent>
                         </Prestige>
                     </AdditionalAttributes>
-                </BuildingUpgrade>
-                <DistributionUpgrade/>
+                </BuildingUpgrade>                
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade/>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
             </Values>
         </Asset>
     </ModOp>
@@ -226,29 +203,18 @@
                 <Text>
                     <OasisId>1600000650</OasisId>
                 </Text>
-                <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalFunctionalEffect>1600000655</AdditionalFunctionalEffect>
-                </BuildingUpgrade>
-                <DistributionUpgrade/>
+                </BuildingUpgrade>                
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
-                </Buff>
-                <ResidenceUpgrade/>
+                </Buff>                
                 <FactoryUpgrade>
                     <ProductivityUpgrade>
-                        <Value>50</Value>
+                        <Value><ModValue Insert="$ProductivityBuff_Legendary_Boosted"/></Value>
                         <Percental>1</Percental>
                     </ProductivityUpgrade>
                 </FactoryUpgrade>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
             </Values>
         </Asset>
     </ModOp>
@@ -297,7 +263,6 @@
                 <Text>
                     <OasisId>1600000650</OasisId>
                 </Text>
-                <HealthUpgrade/>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
                         <Population>
@@ -313,21 +278,10 @@
                             </AmountOrPercent>
                         </Prestige>
                     </AdditionalAttributes>
-                </BuildingUpgrade>
-                <DistributionUpgrade/>
+                </BuildingUpgrade>                
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
-                <ResidenceUpgrade/>
-                <FactoryUpgrade/>
-                <ModuleOwnerUpgrade/>
-                <MaintenanceUpgrade/>
-                <CityInstitutionUpgrade/>
-                <IncidentInfectableUpgrade/>
-                <RecruitmentUpgrade/>
-                <AqueductUpgrade/>
-                <WarehouseUpgrade/>
-                <IrrigationUpgrade/>
             </Values>
         </Asset>
     </ModOp>

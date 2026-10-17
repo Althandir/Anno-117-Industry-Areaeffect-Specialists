@@ -81,6 +81,30 @@
     "TradePrice_Legendary":
     {
       "default": "600000"
+    },
+    "ProductivityBuff_Legendary_NonBoosted":
+    {
+      "default": "5"
+    },
+    "ProductivityBuff_Legendary_Boosted":
+    {
+      "default": "25"
+    },
+    "AdditionalGoods_Amount_Legendary_NonBoosted":
+    {
+      "default": "1"
+    },
+    "AdditionalGoods_Cycle_Legendary_NonBoosted":
+    {
+      "default": "20"
+    },
+    "AdditionalGoods_Amount_Legendary_Boosted":
+    {
+      "default": "1"
+    },
+    "AdditionalGoods_Cycle_Legendary_Boosted":
+    {
+      "default": "4"
     }
   }
 

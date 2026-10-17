@@ -100,6 +100,12 @@
           <Buff>
             <SourceCategory>Item</SourceCategory>
           </Buff>
+          <FactoryUpgrade>
+            <ProductivityUpgrade>
+              <Value><ModValue Insert="$ProductivityBuff_Legendary_NonBoosted"/></Value>
+              <Percental>1</Percental>
+            </ProductivityUpgrade>
+          </FactoryUpgrade>
         </Values>
       </Asset>
     </ModOp>
@@ -167,7 +173,6 @@
           <Buff>
             <SourceCategory>Adjacency</SourceCategory>
           </Buff>
-
         </Values>
       </Asset>
     </ModOp>
@@ -195,7 +200,7 @@
           </Buff>
           <FactoryUpgrade>
             <ProductivityUpgrade>
-              <Value>25</Value>
+              <Value><ModValue Insert="$ProductivityBuff_Legendary_Boosted"/></Value>
               <Percental>1</Percental>
             </ProductivityUpgrade>
           </FactoryUpgrade>
@@ -258,7 +263,7 @@
               </Money>
               <Belief>
                 <AmountOrPercent>
-                  <Value>1</Value>
+                  <Value>2</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Belief>
@@ -274,4 +279,5 @@
   </Group>
 
 </ModOps>
+
 
