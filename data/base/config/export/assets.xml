@@ -44,13 +44,10 @@
 
 <!-- Epic Specialists -->
 <Group>
-    <Include File="items-epic/AE-Fibularium-MoneyBelief-E.xml" />
     <Include File="items-epic/AE-Caviar-Belief-NPresti-E.xml" />
     <Include File="items-epic/AE-CGreen-HealthBelief-E.xml" />
-
     <Include File="items-epic/AE-FuelConsumer-FireS-NProd-E.xml" />
     <Include File="items-epic/AE-Headpiece-FireSPresti-E.xml" />
-    <Include File="items-epic/AE-Kitchen-PrestigeHappy-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->
@@ -67,6 +64,8 @@
     <Include File="items-legendary/AE-RGlass-BeliefMoney-AddGoods-L.xml" />
     <Include File="items-legendary/AE-Soap-HappyBelief-AddGoods-L.xml" />
     <Include File="items-legendary/AE-Toga-PopMoney-AddGoods-L.xml" />
+    <Include File="items-legendary/AE-Fibularium-MoneyBelief-L.xml" />
+    <Include File="items-legendary/AE-Kitchen-PrestigeHappy-L.xml" />
 </Group>
 
 <!-- Add to Pools -->
