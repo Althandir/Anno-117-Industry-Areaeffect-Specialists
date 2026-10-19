@@ -7,8 +7,8 @@
             <Values>
             <Standard>
                 <GUID>1600000412</GUID>
-                <Name>Specialist AE-Cushion-MoneyPrestHappy-R</Name>
-                <IconFilename>data/base/graphics/icons/m_AE-Cushion-MoneyPrestHappy-R.png</IconFilename>
+                <Name>Specialist AE-Cushion-PrestHappy-R</Name>
+                <IconFilename>data/base/graphics/icons/m_AE-Cushion-PrestHappy-R.png</IconFilename>
                 <InfoDescription>1600000413</InfoDescription>
             </Standard>
             <Effect>
@@ -27,7 +27,7 @@
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Finance</Niche>  
+                <Niche>Culture</Niche>  
                 <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
                 <BarkPool>83321</BarkPool> <!-- <GUID>83321</GUID> -->
                 <Rarity>Rare</Rarity> 
@@ -52,8 +52,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000413</GUID>
-                        <Name>Specialist AE-Cushion-MoneyPrestHappy-R BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/m_AE-Cushion-MoneyPrestHappy-R.png</IconFilename>
+                        <Name>Specialist AE-Cushion-PrestHappy-R BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/m_AE-Cushion-PrestHappy-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000412</OasisId>
@@ -91,8 +91,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000414</GUID>
-                        <Name>Specialist AE-Cushion-MoneyPrestHappy-R FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/m_AE-Cushion-MoneyPrestHappy-R.png</IconFilename>
+                        <Name>Specialist AE-Cushion-PrestHappy-R FunctionalEffect</Name>
+                        <IconFilename>data/base/graphics/icons/m_AE-Cushion-PrestHappy-R.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>Radius</EffectScope>
@@ -123,8 +123,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000415</GUID>
-                        <Name>Specialist AE-Cushion-MoneyPrestHappy-R FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/m_AE-Cushion-MoneyPrestHappy-R.png</IconFilename>
+                        <Name>Specialist AE-Cushion-PrestHappy-R FunctionalEffect BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/m_AE-Cushion-PrestHappy-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000412</OasisId>
@@ -132,12 +132,6 @@
                     <HealthUpgrade/>
                     <BuildingUpgrade>
                         <AdditionalAttributes>
-                            <Money>
-                                <AmountOrPercent>
-                                    <Value>0.5</Value>
-                                    <Percental>0</Percental>
-                                </AmountOrPercent>
-                            </Money>
                             <Prestige>
                                 <AmountOrPercent>
                                     <Value>1</Value>
@@ -146,7 +140,7 @@
                             </Prestige>
                             <Happiness>
                                 <AmountOrPercent>
-                                    <Value>0.5</Value>
+                                    <Value>1</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
                             </Happiness>

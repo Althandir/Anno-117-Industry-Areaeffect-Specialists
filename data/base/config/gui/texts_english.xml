@@ -166,7 +166,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-Cushion-MoneyPrestHappy-R -->
+        <!-- Specialist AE-Cushion-PrestHappy-R -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
