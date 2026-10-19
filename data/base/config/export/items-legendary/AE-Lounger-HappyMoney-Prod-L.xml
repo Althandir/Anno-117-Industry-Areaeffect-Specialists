@@ -175,7 +175,7 @@
                         </Happiness>
                         <Money>
                             <AmountOrPercent>
-                                <Value>1.5</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Money>
@@ -267,13 +267,13 @@
                     <AdditionalAttributes>
                         <Happiness>
                             <AmountOrPercent>
-                                <Value>1.5</Value>
+                                <Value>2</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Happiness>
                         <Money>
                             <AmountOrPercent>
-                                <Value>2</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Money>
