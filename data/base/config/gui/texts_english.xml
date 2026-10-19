@@ -123,7 +123,7 @@
             </Text>
             <!-- Boosted Description -->
             <Text>
-                <Text>PLACEHOLDER (2x AqueductBasin on Island)</Text>
+                <Text>"I more silver bars! Not the Ore!" (300 silver in storage)</Text>
                 <LineId>1600000422</LineId> 
             </Text>
         </ModOp>
@@ -160,7 +160,7 @@
             </Text>
             <!-- Boosted Description -->
             <Text>
-                <Text>PLACEHOLDER (2x AqueductBasin on Island)</Text>
+                <Text>"Without a solid basis, nothing can be done in my kitchen" (300 flour in storage)</Text>
                 <LineId>1600000260</LineId> 
             </Text>
         </ModOp>
