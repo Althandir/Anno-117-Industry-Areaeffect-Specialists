@@ -38,8 +38,8 @@
     <Include File="items-rare/AE-Armories-Money-NHealthHappy-R.xml" />
     <Include File="items-rare/AE-Crafters-Know-NHealth-R.xml" />
     <Include File="items-rare/AE-Cushion-MoneyPrestHappy-R.xml" />
-    <Include File="items-rare/AE-MatProd-FireS-NProd-R.xml" />
-    <Include File="items-rare/AE-Animals-Happy-NProdHealth-R.xml" />
+    <Include File="items-rare/AE-MatProd-FireS-R.xml" />
+    <Include File="items-rare/AE-Animals-Happy-NHealth-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->

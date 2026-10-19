@@ -7,8 +7,8 @@
             <Values>
             <Standard>
                 <GUID>1600000408</GUID>
-                <Name>Specialist AE-Animals-Happy-NProdHealth-R</Name>
-                <IconFilename>data/base/graphics/icons/f_AE-Animals-Happy-NProdHealth-R.png</IconFilename>
+                <Name>Specialist AE-Animals-Happy-NHealth-R</Name>
+                <IconFilename>data/base/graphics/icons/f_AE-Animals-Happy-NHealth-R.png</IconFilename>
                 <InfoDescription>1600000409</InfoDescription>
             </Standard>
             <Effect>
@@ -58,30 +58,18 @@
                 <Values>
                     <Standard>
                         <GUID>1600000409</GUID>
-                        <Name>Specialist AE-Animals-Happy-NProdHealth-R BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/f_AE-Animals-Happy-NProdHealth-R.png</IconFilename>
+                        <Name>Specialist AE-Animals-Happy-NHealth-R BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/f_AE-Animals-Happy-NHealth-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000408</OasisId>
                     </Text>
-                    <HealthUpgrade/>
                     <BuildingUpgrade>
                         <AdditionalFunctionalEffect>1600000410</AdditionalFunctionalEffect>
                     </BuildingUpgrade>
-                    <DistributionUpgrade/>
                     <Buff>
                         <SourceCategory>Item</SourceCategory>
                     </Buff>
-                    <ResidenceUpgrade/>
-                    <FactoryUpgrade/>  
-                    <ModuleOwnerUpgrade/>
-                    <MaintenanceUpgrade/>
-                    <CityInstitutionUpgrade/>
-                    <IncidentInfectableUpgrade/>
-                    <RecruitmentUpgrade/>
-                    <AqueductUpgrade/>
-                    <WarehouseUpgrade/>
-                    <IrrigationUpgrade/>
                 </Values>
             </Asset>
         </ModOp>
@@ -92,8 +80,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000410</GUID>
-                        <Name>Specialist AE-Animals-Happy-NProdHealth-R FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/f_AE-Animals-Happy-NProdHealth-R.png</IconFilename>
+                        <Name>Specialist AE-Animals-Happy-NHealth-R FunctionalEffect</Name>
+                        <IconFilename>data/base/graphics/icons/f_AE-Animals-Happy-NHealth-R.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>Radius</EffectScope>
@@ -124,13 +112,12 @@
                 <Values>
                     <Standard>
                         <GUID>1600000411</GUID>
-                        <Name>Specialist AE-Animals-Happy-NProdHealth-R FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/f_AE-Animals-Happy-NProdHealth-R.png</IconFilename>
+                        <Name>Specialist AE-Animals-Happy-NHealth-R FunctionalEffect BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/f_AE-Animals-Happy-NHealth-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000408</OasisId>
                     </Text>
-                    <HealthUpgrade/>
                     <BuildingUpgrade>
                         <AdditionalAttributes>
                             <Money>
@@ -153,20 +140,9 @@
                             </Health>
                         </AdditionalAttributes>
                     </BuildingUpgrade>
-                    <DistributionUpgrade/>
                     <Buff>
                         <SourceCategory>Adjacency</SourceCategory>
                     </Buff>
-                    <ResidenceUpgrade/>
-                    <FactoryUpgrade/>
-                    <ModuleOwnerUpgrade/>
-                    <MaintenanceUpgrade/>
-                    <CityInstitutionUpgrade/>
-                    <IncidentInfectableUpgrade/>
-                    <RecruitmentUpgrade/>
-                    <AqueductUpgrade/>
-                    <WarehouseUpgrade/>
-                    <IrrigationUpgrade/>
                 </Values>
             </Asset>
         </ModOp>

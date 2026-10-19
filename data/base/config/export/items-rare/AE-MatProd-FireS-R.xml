@@ -7,8 +7,8 @@
             <Values>
             <Standard>
                 <GUID>1600000404</GUID>
-                <Name>Specialist AE-MatProd-FireS-E</Name>
-                <IconFilename>data/base/graphics/icons/r_m_AE-MatProd-FireS-NProd-R.png</IconFilename>
+                <Name>Specialist AE-MatProd-FireS-R</Name>
+                <IconFilename>data/base/graphics/icons/r_m_AE-MatProd-FireS-R.png</IconFilename>
                 <InfoDescription>1600000405</InfoDescription>
             </Standard>
             <Effect>
@@ -52,35 +52,24 @@
                 <Values>
                     <Standard>
                         <GUID>1600000405</GUID>
-                        <Name>Specialist AE-MatProd-FireS-E BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/r_m_AE-MatProd-FireS-NProd-R.png</IconFilename>
+                        <Name>Specialist AE-MatProd-FireS-R BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/r_m_AE-MatProd-FireS-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000404</OasisId>
                     </Text>
-                    <HealthUpgrade/>
                     <BuildingUpgrade>
                         <AdditionalFunctionalEffect>1600000406</AdditionalFunctionalEffect>
                     </BuildingUpgrade>
-                    <DistributionUpgrade/>
                     <Buff>
                         <SourceCategory>Item</SourceCategory>
                     </Buff>
-                    <ResidenceUpgrade/>
                     <FactoryUpgrade>
                         <ProductivityUpgrade>
                             <Value>-35</Value>
                             <Percental>1</Percental>
                         </ProductivityUpgrade>
                     </FactoryUpgrade>
-                    <ModuleOwnerUpgrade/>
-                    <MaintenanceUpgrade/>
-                    <CityInstitutionUpgrade/>
-                    <IncidentInfectableUpgrade/>
-                    <RecruitmentUpgrade/>
-                    <AqueductUpgrade/>
-                    <WarehouseUpgrade/>
-                    <IrrigationUpgrade/>
                 </Values>
             </Asset>
         </ModOp>
@@ -91,8 +80,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000406</GUID>
-                        <Name>Specialist AE-MatProd-FireS-E FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/r_m_AE-MatProd-FireS-NProd-R.png</IconFilename>
+                        <Name>Specialist AE-MatProd-FireS-R FunctionalEffect</Name>
+                        <IconFilename>data/base/graphics/icons/r_m_AE-MatProd-FireS-R.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>Radius</EffectScope>
@@ -123,37 +112,31 @@
                 <Values>
                     <Standard>
                         <GUID>1600000407</GUID>
-                        <Name>Specialist AE-MatProd-FireS-E FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/r_m_AE-MatProd-FireS-NProd-R.png</IconFilename>
+                        <Name>Specialist AE-MatProd-FireS-R FunctionalEffect BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/r_m_AE-MatProd-FireS-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000404</OasisId>
                     </Text>
-                    <HealthUpgrade/>
+                    <HealthUpgrade>
+                        <BaseHealthUpgrade>
+                            <Value>35</Value>
+                            <Percental>1</Percental>
+                        </BaseHealthUpgrade>
+                    </HealthUpgrade>
                     <BuildingUpgrade>
                         <AdditionalAttributes>
                             <FireSafety>
                                 <AmountOrPercent>
-                                    <Value>2</Value>
+                                    <Value>1</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
                             </FireSafety>
                         </AdditionalAttributes>
                     </BuildingUpgrade>
-                    <DistributionUpgrade/>
                     <Buff>
                         <SourceCategory>Adjacency</SourceCategory>
                     </Buff>
-                    <ResidenceUpgrade/>
-                    <FactoryUpgrade/>
-                    <ModuleOwnerUpgrade/>
-                    <MaintenanceUpgrade/>
-                    <CityInstitutionUpgrade/>
-                    <IncidentInfectableUpgrade/>
-                    <RecruitmentUpgrade/>
-                    <AqueductUpgrade/>
-                    <WarehouseUpgrade/>
-                    <IrrigationUpgrade/>
                 </Values>
             </Asset>
         </ModOp>

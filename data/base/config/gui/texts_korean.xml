@@ -23,7 +23,7 @@
     <!-- Rare Specialists -->
     <Group>
 
-        <!-- Specialist AE-Animals-Happy-NProdHealth-R -->
+        <!-- Specialist AE-Animals-Happy-NHealth-R -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -87,7 +87,7 @@
             </ModOp>
         </Group>
 
-        <!-- Specialist AE-MatProd-FireS-NProd-R -->
+        <!-- Specialist AE-MatProd-FireS-R -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
