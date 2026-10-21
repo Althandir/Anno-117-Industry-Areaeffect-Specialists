@@ -9,19 +9,16 @@
         </Item>
         <!-- Epic -->
         <Item>
-            <ItemLink>1600000404</ItemLink>
-        </Item>     
-        <Item>
             <ItemLink>1600000134</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000412</ItemLink>
         </Item>
         <Item>
             <ItemLink>1600000642</ItemLink>
         </Item>
         <Item>
             <ItemLink>1600000646</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600000400</ItemLink>
         </Item>
         <!-- Legendary -->
         <Item>
@@ -60,12 +57,21 @@
         <Item>
             <ItemLink>1600000688</ItemLink>
         </Item>  
-        <!-- Rare -->
-        <Item>
-            <ItemLink>1600000254</ItemLink>
-        </Item>
         <Item>
             <ItemLink>1600000258</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600000420</ItemLink>
+        </Item>
+        <!-- Rare -->
+        <Item>
+            <ItemLink>1600000404</ItemLink>
+        </Item>     
+        <Item>
+            <ItemLink>1600000412</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600000254</ItemLink>
         </Item>
         <Item>
             <ItemLink>1600000266</ItemLink>
@@ -74,15 +80,8 @@
             <ItemLink>1600000309</ItemLink>
         </Item>
         <Item>
-            <ItemLink>1600000400</ItemLink>
-        </Item> 
-        <Item>
             <ItemLink>1600000408</ItemLink>
         </Item>
-        <Item>
-            <ItemLink>1600000420</ItemLink>
-        </Item>
-
     </ModOp>
 </Group>
 
