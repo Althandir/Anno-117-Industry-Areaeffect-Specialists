@@ -7,8 +7,8 @@
             <Values>
             <Standard>
                 <GUID>1600000400</GUID>
-                <Name>Specialist AE-Caviar-Belief-NPresti-E</Name>
-                <IconFilename>data/base/graphics/icons/r_f_AE-Caviar-Belief-NPresti-E.png</IconFilename>
+                <Name>Specialist AE-Caviar-Belief-NPresti-R</Name>
+                <IconFilename>data/base/graphics/icons/r_f_AE-Caviar-Belief-NPresti-R.png</IconFilename>
                 <InfoDescription>1600000401</InfoDescription>
             </Standard>
             <Effect>
@@ -28,9 +28,9 @@
             </Effect>
             <Item>
                 <Niche>Religion</Niche>  
-                <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice> 
+                <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
                 <BarkPool>83342</BarkPool> <!-- <GUID>83342</GUID> -->
-                <Rarity>Epic</Rarity> 
+                <Rarity>Rare</Rarity> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>
@@ -52,35 +52,25 @@
                 <Values>
                     <Standard>
                         <GUID>1600000401</GUID>
-                        <Name>Specialist AE-Caviar-Belief-NPresti-E BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/r_f_AE-Caviar-Belief-NPresti-E.png</IconFilename>
+                        <Name>Specialist AE-Caviar-Belief-NPresti-R BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/r_f_AE-Caviar-Belief-NPresti-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000400</OasisId>
                     </Text>
-                    <HealthUpgrade/>
                     <BuildingUpgrade>
                         <AdditionalFunctionalEffect>1600000402</AdditionalFunctionalEffect>
                     </BuildingUpgrade>
-                    <DistributionUpgrade/>
                     <Buff>
                         <SourceCategory>Item</SourceCategory>
                     </Buff>
                     <ResidenceUpgrade/>
                     <FactoryUpgrade>
                         <ProductivityUpgrade>
-                            <Value>15</Value>
+                            <Value>20</Value>
                             <Percental>1</Percental>
                         </ProductivityUpgrade>
                     </FactoryUpgrade>
-                    <ModuleOwnerUpgrade/>
-                    <MaintenanceUpgrade/>
-                    <CityInstitutionUpgrade/>
-                    <IncidentInfectableUpgrade/>
-                    <RecruitmentUpgrade/>
-                    <AqueductUpgrade/>
-                    <WarehouseUpgrade/>
-                    <IrrigationUpgrade/>
                 </Values>
             </Asset>
         </ModOp>
@@ -91,8 +81,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000402</GUID>
-                        <Name>Specialist AE-Caviar-Belief-NPresti-E FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/r_f_AE-Caviar-Belief-NPresti-E.png</IconFilename>
+                        <Name>Specialist AE-Caviar-Belief-NPresti-R FunctionalEffect</Name>
+                        <IconFilename>data/base/graphics/icons/r_f_AE-Caviar-Belief-NPresti-R.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>Radius</EffectScope>
@@ -123,13 +113,12 @@
                 <Values>
                     <Standard>
                         <GUID>1600000403</GUID>
-                        <Name>Specialist AE-Caviar-Belief-NPresti-E FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/r_f_AE-Caviar-Belief-NPresti-E.png</IconFilename>
+                        <Name>Specialist AE-Caviar-Belief-NPresti-R FunctionalEffect BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/r_f_AE-Caviar-Belief-NPresti-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000400</OasisId>
                     </Text>
-                    <HealthUpgrade/>
                     <BuildingUpgrade>
                         <AdditionalAttributes>
                             <Belief>
@@ -146,20 +135,9 @@
                             </Prestige>
                         </AdditionalAttributes>
                     </BuildingUpgrade>
-                    <DistributionUpgrade/>
                     <Buff>
                         <SourceCategory>Adjacency</SourceCategory>
                     </Buff>
-                    <ResidenceUpgrade/>
-                    <FactoryUpgrade/>
-                    <ModuleOwnerUpgrade/>
-                    <MaintenanceUpgrade/>
-                    <CityInstitutionUpgrade/>
-                    <IncidentInfectableUpgrade/>
-                    <RecruitmentUpgrade/>
-                    <AqueductUpgrade/>
-                    <WarehouseUpgrade/>
-                    <IrrigationUpgrade/>
                 </Values>
             </Asset>
         </ModOp>

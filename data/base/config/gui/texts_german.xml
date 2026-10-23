@@ -129,7 +129,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-Caviar-Belief-NPresti-E -->
+        <!-- Specialist AE-Caviar-Belief-NPresti-R -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -198,7 +198,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-CGreen-HealthBelief-E -->
+        <!-- Specialist AE-CGreen-HealthBelief-R -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -214,7 +214,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-Headpiece-FireSPresti-E -->
+        <!-- Specialist AE-Headpiece-FireSPresti-R -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->

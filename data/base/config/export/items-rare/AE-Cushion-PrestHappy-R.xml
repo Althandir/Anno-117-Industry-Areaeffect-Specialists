@@ -66,21 +66,12 @@
                     <Buff>
                         <SourceCategory>Item</SourceCategory>
                     </Buff>
-                    <ResidenceUpgrade/>
                     <FactoryUpgrade>
                         <ProductivityUpgrade>
-                            <Value>10</Value>
+                            <Value>20</Value>
                             <Percental>1</Percental>
                         </ProductivityUpgrade>
                     </FactoryUpgrade>
-                    <ModuleOwnerUpgrade/>
-                    <MaintenanceUpgrade/>
-                    <CityInstitutionUpgrade/>
-                    <IncidentInfectableUpgrade/>
-                    <RecruitmentUpgrade/>
-                    <AqueductUpgrade/>
-                    <WarehouseUpgrade/>
-                    <IrrigationUpgrade/>
                 </Values>
             </Asset>
         </ModOp>

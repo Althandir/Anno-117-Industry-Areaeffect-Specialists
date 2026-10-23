@@ -64,12 +64,6 @@
                     <Buff>
                         <SourceCategory>Item</SourceCategory>
                     </Buff>
-                    <FactoryUpgrade>
-                        <ProductivityUpgrade>
-                            <Value>-35</Value>
-                            <Percental>1</Percental>
-                        </ProductivityUpgrade>
-                    </FactoryUpgrade>
                 </Values>
             </Asset>
         </ModOp>
@@ -118,12 +112,6 @@
                     <Text>
                         <OasisId>1600000404</OasisId>
                     </Text>
-                    <HealthUpgrade>
-                        <BaseHealthUpgrade>
-                            <Value>35</Value>
-                            <Percental>1</Percental>
-                        </BaseHealthUpgrade>
-                    </HealthUpgrade>
                     <BuildingUpgrade>
                         <AdditionalAttributes>
                             <FireSafety>

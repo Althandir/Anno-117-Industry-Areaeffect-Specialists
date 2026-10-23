@@ -36,18 +36,18 @@
 <Group>
     <Include File="items-rare/AE-StoneCutter-Money-NHealth-R.xml" />
     <Include File="items-rare/AE-Armories-Money-NHealthHappy-R.xml" />
+    <Include File="items-rare/AE-CGreen-HealthBelief-R.xml" />
     <Include File="items-rare/AE-Crafters-Know-NHealth-R.xml" />
     <Include File="items-rare/AE-Cushion-PrestHappy-R.xml" />
     <Include File="items-rare/AE-MatProd-FireS-R.xml" />
     <Include File="items-rare/AE-Animals-Happy-NHealth-R.xml" />
+    <Include File="items-rare/AE-Headpiece-FireSPresti-R.xml" />
+    <Include File="items-rare/AE-Caviar-Belief-NPresti-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
 <Group>
-    <Include File="items-epic/AE-Caviar-Belief-NPresti-E.xml" />
-    <Include File="items-epic/AE-CGreen-HealthBelief-E.xml" />
     <Include File="items-epic/AE-FuelConsumer-FireS-NProd-E.xml" />
-    <Include File="items-epic/AE-Headpiece-FireSPresti-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->
@@ -86,10 +86,10 @@
 <Include File="pools/RewardPool/Military-L.xml" />
 <Include File="pools/RewardPool/Military-R.xml" />
 
-<Include File="pools/RewardPool/Nature-E.xml" />
+<Include File="pools/RewardPool/Nature-R.xml" />
 <Include File="pools/RewardPool/Nature-L.xml" />
 
-<Include File="pools/RewardPool/Religion-E.xml" />
+<Include File="pools/RewardPool/Religion-R.xml" />
 <Include File="pools/RewardPool/Religion-L.xml" />
 
 <Include File="pools/RewardPool/Research-L.xml" />
