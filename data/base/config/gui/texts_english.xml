@@ -108,7 +108,7 @@
     <!-- Epic Specialists -->
     <Group>
 
-        <!-- Specialist AE-Fibularium-MoneyBelief-L -->
+        <!-- Specialist AE-Brooch-AddGoods-L -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -145,7 +145,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-Kitchen-PrestigeHappy-L -->
+        <!-- Specialist AE-Gen-Kitchens-L -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->

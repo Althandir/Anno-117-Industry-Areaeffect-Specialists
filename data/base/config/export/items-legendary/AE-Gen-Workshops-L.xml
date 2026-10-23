@@ -1,0 +1,284 @@
+<ModOps>
+  <!-- Item Definition GUID:1600001075 - 1600001078 + 1600001079 - 1600001081 | LineID:1600001075 - 1600001077 -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+      <Asset>
+        <Template>ItemWithBoost</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001075</GUID>
+            <Name>Specialist AE-Gen-Workshops-L</Name>
+            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+            <InfoDescription>1600001076</InfoDescription>
+          </Standard>
+          <Effect>
+            <EffectScope>ObjectsInArea</EffectScope>
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600001076</GUID>
+              </Item>
+            </Buffs>
+            <Targets> <!-- Targets of Buff -->
+              <Item>
+                <GUID>50612</GUID>
+              </Item>
+            </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Item>
+            <Niche>Diplomacy</Niche>
+            <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice>
+            <BarkPool>83327</BarkPool> <!-- <GUID>83327</GUID> -->
+            <Rarity>Legendary</Rarity>
+          </Item>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <Text>
+            <OasisId>1600001075</OasisId>
+          </Text>
+
+          <ItemWithBoost>
+            <!-- Condition - min. 300 Flour in Storage -->
+            <BoostCondition>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <PreConditionList>
+                  <Condition>
+                    <Template>ConditionPlayerCounter</Template>
+                    <Values>
+                      <Condition/>
+                      <ConditionPlayerCounter>
+                        <PlayerCounter>GoodsInStock</PlayerCounter>
+                        <Context>2119</Context>
+                        <CounterAmount>300</CounterAmount>
+                        <CounterScope>Area</CounterScope>
+                      </ConditionPlayerCounter>
+                      <ConditionLocationProps/>
+                      <ConditionCounterProps/>
+                      <ConditionPropsComparable/>
+                      <ConditionPropsExaminableObjects/>
+                    </Values>
+                  </Condition>
+                </PreConditionList>
+              </Values>
+            </BoostCondition>
+            <BoostBuffs>
+              <Item>
+                <GUID>1600001079</GUID>
+              </Item>
+            </BoostBuffs>
+            <BoostHint>1600001077</BoostHint>
+          </ItemWithBoost>
+
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <!-- BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001076</GUID>
+            <Name>Specialist AE-Gen-Workshops-L BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600001075</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalFunctionalEffect>1600001077</AdditionalFunctionalEffect>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+          <FactoryUpgrade>
+            <ProductivityUpgrade>
+              <Value><ModValue Insert="$ProductivityBuff_Generic_Legendary_NonBoosted"/></Value>
+              <Percental>1</Percental>
+            </ProductivityUpgrade>
+          </FactoryUpgrade>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="135498">
+      <Asset>
+        <Template>Effect</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001077</GUID>
+            <Name>Specialist AE-Gen-Workshops-L FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Adjacency</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600001078</GUID>
+              </Item>
+            </Buffs>
+            <Targets>
+              <Item>
+                <GUID>43097</GUID>
+              </Item>
+            </Targets>
+            <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Text>
+            <OasisId>1600001075</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001078</GUID>
+            <Name>Specialist AE-Gen-Workshops-L FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600001075</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalAttributes>
+              <Prestige>
+                <AmountOrPercent>
+                  <Value>0.5</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Prestige>
+              <Happiness>
+                <AmountOrPercent>
+                  <Value>0.5</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Happiness>
+            </AdditionalAttributes>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Adjacency</SourceCategory>
+            <IsStackable>0</IsStackable>
+          </Buff>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <Group>
+    <!-- Boosted BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001079</GUID>
+            <Name>Specialist AE-Gen-Workshops-L Boosted BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600001075</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalFunctionalEffect>1600001080</AdditionalFunctionalEffect>
+          </BuildingUpgrade>
+          <FactoryUpgrade>
+            <ProductivityUpgrade>
+              <Value><ModValue Insert="$ProductivityBuff_Generic_Legendary_Boosted"/></Value>
+              <Percental>1</Percental>
+            </ProductivityUpgrade>
+          </FactoryUpgrade>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="135498">
+      <Asset>
+        <Template>Effect</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001080</GUID>
+            <Name>Specialist AE-Gen-Workshops-L Boosted FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Adjacency</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600001081</GUID>
+              </Item>
+            </Buffs>
+            <Targets>
+              <Item>
+                <GUID>43097</GUID>
+              </Item>
+            </Targets>
+            <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Text>
+            <OasisId>1600001075</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001081</GUID>
+            <Name>Specialist AE-Gen-Workshops-L Boosted FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600001075</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalAttributes>
+              <Prestige>
+                <AmountOrPercent>
+                  <Value>1</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Prestige>
+              <Happiness>
+                <AmountOrPercent>
+                  <Value>1</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Happiness>
+            </AdditionalAttributes>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Adjacency</SourceCategory>
+            <IsStackable>0</IsStackable>
+          </Buff>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+</ModOps>
+
+
+
+
+

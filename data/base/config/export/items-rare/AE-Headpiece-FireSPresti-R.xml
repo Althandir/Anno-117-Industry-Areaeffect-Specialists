@@ -30,7 +30,7 @@
                 <Niche>Military</Niche>  
                 <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
                 <BarkPool>83319</BarkPool> <!-- <GUID>83319</GUID> -->
-                <Rarity>Epic</Rarity> 
+                <Rarity>Rare</Rarity> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>

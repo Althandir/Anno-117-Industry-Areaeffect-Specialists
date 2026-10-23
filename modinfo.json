@@ -82,9 +82,17 @@
     {
       "default": "600000"
     },
-    "ProductivityBuff_Legendary_NonBoosted":
+    "ProductivityBuff_Generic_Legendary_NonBoosted":
     {
       "default": "5"
+    },
+    "ProductivityBuff_Generic_Legendary_Boosted":
+    {
+      "default": "15"
+    },
+    "ProductivityBuff_Legendary_NonBoosted":
+    {
+      "default": "10"
     },
     "ProductivityBuff_Legendary_Boosted":
     {
@@ -96,7 +104,7 @@
     },
     "AdditionalGoods_Cycle_Legendary_NonBoosted":
     {
-      "default": "20"
+      "default": "24"
     },
     "AdditionalGoods_Amount_Legendary_Boosted":
     {
@@ -104,7 +112,7 @@
     },
     "AdditionalGoods_Cycle_Legendary_Boosted":
     {
-      "default": "4"
+      "default": "12"
     }
   }
 

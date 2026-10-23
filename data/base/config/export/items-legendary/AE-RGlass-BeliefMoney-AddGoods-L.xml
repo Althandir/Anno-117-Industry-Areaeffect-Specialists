@@ -114,7 +114,7 @@
                 <FactoryUpgrade>
                     <AdditionalOutput>
                         <Item>
-                            <Product>2151</Product>
+                            <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
                             <AdditionalOutputCycle><ModValue Insert="$AdditionalGoods_Cycle_Legendary_NonBoosted"/></AdditionalOutputCycle>
                             <Amount><ModValue Insert="$AdditionalGoods_Amount_Legendary_NonBoosted"/></Amount>
                         </Item>
@@ -215,7 +215,7 @@
                 <FactoryUpgrade>
                     <AdditionalOutput>
                         <Item>
-                            <Product>2151</Product>
+                            <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
                             <AdditionalOutputCycle><ModValue Insert="$AdditionalGoods_Cycle_Legendary_Boosted"/></AdditionalOutputCycle>
                             <Amount><ModValue Insert="$AdditionalGoods_Amount_Legendary_Boosted"/></Amount>
                         </Item>
