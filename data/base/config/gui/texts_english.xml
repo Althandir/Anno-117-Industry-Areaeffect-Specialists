@@ -16,9 +16,6 @@
     </ModOp>
   </Group>
 
-
-
-
   <!-- Specialist AE-Animals-Happy-NHealth-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
@@ -98,9 +95,6 @@
       </Text>
     </ModOp>
   </Group>
-
-
-
 
   <!-- Specialist AE-Brooch-AddGoods-L -->
   <Group>
@@ -453,27 +447,6 @@
       <Text>
         <Text>He's regularly suspected of murder. To be on the safe side, there should always be a few guards with him. (9x Custodes on Island)</Text>
         <LineId>1600000680</LineId>
-      </Text>
-    </ModOp>
-  </Group>
-
-  <!-- Specialist AE-Soap-HappyBelief-AddGoods-L -->
-  <Group>
-    <ModOp Add="/TextExport/Texts">
-      <!-- Title -->
-      <Text>
-        <Text>Phileros, Saponarius Amoris</Text>
-        <LineId>1600000688</LineId> <!-- <GUID>1600000688</GUID> -->
-      </Text>
-      <!-- Description -->
-      <Text>
-        <Text>With his new formula, he adds fresh, soft scents to the soap and brings a touch of Amor to the streets. &#xD;(Industry-AreaEffects-Pack)</Text>
-        <LineId>1600000689</LineId>
-      </Text>
-      <!-- Boosted Hint -->
-      <Text>
-        <Text>He'd like to live on a beautiful island.(5000 Prestige on Island)</Text>
-        <LineId>1600000690</LineId>
       </Text>
     </ModOp>
   </Group>
