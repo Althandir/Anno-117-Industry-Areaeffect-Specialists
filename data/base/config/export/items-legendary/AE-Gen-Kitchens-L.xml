@@ -1,22 +1,22 @@
 <ModOps>
-  <!-- Item Definition GUID:1600001068 - 1600001071 + 1600001072 - 1600001074 | LineID:1600001068 - 1600001070 -->
+  <!-- Item Definition GUID:1600000258 - 1600000261 + 1600000296 - 1600000298 | LineID:1600000258 - 1600000260 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>ItemWithBoost</Template>
         <Values>
           <Standard>
-            <GUID>1600001068</GUID>
+            <GUID>1600000258</GUID>
             <Name>Specialist AE-Gen-Kitchens-L</Name>
             <IconFilename>data/base/graphics/icons/f_AE-Gen-Kitchens-L.png</IconFilename>
-            <InfoDescription>1600001069</InfoDescription>
+            <InfoDescription>1600000259</InfoDescription>
           </Standard>
           <Effect>
             <EffectScope>ObjectsInArea</EffectScope>
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600001069</GUID>
+                <GUID>1600000259</GUID>
               </Item>
             </Buffs>
             <Targets> <!-- Targets of Buff -->
@@ -36,7 +36,7 @@
             <DefaultLockedState>0</DefaultLockedState>
           </Locked>
           <Text>
-            <OasisId>1600001068</OasisId>
+            <OasisId>1600000258</OasisId>
           </Text>
 
           <ItemWithBoost>
@@ -66,10 +66,10 @@
             </BoostCondition>
             <BoostBuffs>
               <Item>
-                <GUID>1600001072</GUID>
+                <GUID>1600000296</GUID>
               </Item>
             </BoostBuffs>
-            <BoostHint>1600001070</BoostHint>
+            <BoostHint>1600000260</BoostHint>
           </ItemWithBoost>
 
         </Values>
@@ -85,15 +85,15 @@
         <Template>BuildingBuff</Template>
         <Values>
           <Standard>
-            <GUID>1600001069</GUID>
+            <GUID>1600000259</GUID>
             <Name>Specialist AE-Gen-Kitchens-L BuildingBuff</Name>
             <IconFilename>data/base/graphics/icons/f_AE-Gen-Kitchens-L.png</IconFilename>
           </Standard>
           <Text>
-            <OasisId>1600001068</OasisId>
+            <OasisId>1600000258</OasisId>
           </Text>
           <BuildingUpgrade>
-            <AdditionalFunctionalEffect>1600001070</AdditionalFunctionalEffect>
+            <AdditionalFunctionalEffect>1600000260</AdditionalFunctionalEffect>
           </BuildingUpgrade>
           <Buff>
             <SourceCategory>Item</SourceCategory>
@@ -113,7 +113,7 @@
         <Template>Effect</Template>
         <Values>
           <Standard>
-            <GUID>1600001070</GUID>
+            <GUID>1600000260</GUID>
             <Name>Specialist AE-Gen-Kitchens-L FunctionalEffect</Name>
             <IconFilename>data/base/graphics/icons/f_AE-Gen-Kitchens-L.png</IconFilename>
           </Standard>
@@ -122,7 +122,7 @@
             <SourceCategory>Adjacency</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600001071</GUID>
+                <GUID>1600000261</GUID>
               </Item>
             </Buffs>
             <Targets>
@@ -134,7 +134,7 @@
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Text>
-            <OasisId>1600001068</OasisId>
+            <OasisId>1600000258</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -145,12 +145,12 @@
         <Template>BuildingBuff</Template>
         <Values>
           <Standard>
-            <GUID>1600001071</GUID>
+            <GUID>1600000261</GUID>
             <Name>Specialist AE-Gen-Kitchens-L FunctionalEffect BuildingBuff</Name>
             <IconFilename>data/base/graphics/icons/f_AE-Gen-Kitchens-L.png</IconFilename>
           </Standard>
           <Text>
-            <OasisId>1600001068</OasisId>
+            <OasisId>1600000258</OasisId>
           </Text>
           <BuildingUpgrade>
             <AdditionalAttributes>
@@ -184,15 +184,15 @@
         <Template>BuildingBuff</Template>
         <Values>
           <Standard>
-            <GUID>1600001072</GUID>
+            <GUID>1600000296</GUID>
             <Name>Specialist AE-Gen-Kitchens-L Boosted BuildingBuff</Name>
             <IconFilename>data/base/graphics/icons/f_AE-Gen-Kitchens-L.png</IconFilename>
           </Standard>
           <Text>
-            <OasisId>1600001068</OasisId>
+            <OasisId>1600000258</OasisId>
           </Text>
           <BuildingUpgrade>
-            <AdditionalFunctionalEffect>1600001073</AdditionalFunctionalEffect>
+            <AdditionalFunctionalEffect>1600000297</AdditionalFunctionalEffect>
           </BuildingUpgrade>
           <FactoryUpgrade>
             <ProductivityUpgrade>
@@ -212,7 +212,7 @@
         <Template>Effect</Template>
         <Values>
           <Standard>
-            <GUID>1600001073</GUID>
+            <GUID>1600000297</GUID>
             <Name>Specialist AE-Gen-Kitchens-L Boosted FunctionalEffect</Name>
             <IconFilename>data/base/graphics/icons/f_AE-Gen-Kitchens-L.png</IconFilename>
           </Standard>
@@ -221,7 +221,7 @@
             <SourceCategory>Adjacency</SourceCategory>
             <Buffs>
               <Item>
-                <GUID>1600001074</GUID>
+                <GUID>1600000298</GUID>
               </Item>
             </Buffs>
             <Targets>
@@ -233,7 +233,7 @@
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
           <Text>
-            <OasisId>1600001068</OasisId>
+            <OasisId>1600000258</OasisId>
           </Text>
         </Values>
       </Asset>
@@ -244,12 +244,12 @@
         <Template>BuildingBuff</Template>
         <Values>
           <Standard>
-            <GUID>1600001074</GUID>
+            <GUID>1600000298</GUID>
             <Name>Specialist AE-Gen-Kitchens-L Boosted FunctionalEffect BuildingBuff</Name>
             <IconFilename>data/base/graphics/icons/f_AE-Gen-Kitchens-L.png</IconFilename>
           </Standard>
           <Text>
-            <OasisId>1600001068</OasisId>
+            <OasisId>1600000258</OasisId>
           </Text>
           <BuildingUpgrade>
             <AdditionalAttributes>
