@@ -1,42 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000671 - 1600000677 | LineID:1600000671 - 1600000673  -->
+<!-- Item Definition GUID:1600000657 - 1600000663 | LineID:1600000657 - 1600000659  -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>ItemWithBoost</Template>
         <Values>
             <Standard>
-                <GUID>1600000671</GUID>
-                <Name>Specialist AE-RGlass-BeliefMoney-AddGoods-L</Name>
-                <IconFilename>data/base/graphics/icons/r_f_AE-RGlass-BeliefMoney-AddGoods-L.png</IconFilename>
-                <InfoDescription>1600000672</InfoDescription>
+                <GUID>1600000657</GUID>
+                <Name>Specialist AE-HairWig-Prod-L</Name>
+                <IconFilename>data/base/graphics/icons/m_AE-HairWig-Prod-L.png</IconFilename>
+                <InfoDescription>1600000658</InfoDescription>
             </Standard>
             <Effect>
                 <EffectScope>ObjectsInArea</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                     <Item>
-                        <GUID>1600000672</GUID>
+                        <GUID>1600000658</GUID>
                     </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
                 <Item>
-                    <GUID>3202</GUID>
+                    <GUID>31769</GUID>
                 </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Religion</Niche>  
+                <Niche>Agriculture</Niche>  
                 <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice> 
-                <BarkPool>83356</BarkPool> <!-- <GUID>83356</GUID> -->
+                <BarkPool>80242</BarkPool> <!-- <GUID>80242</GUID> -->
                 <Rarity>Legendary</Rarity> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000671</OasisId>
+                <OasisId>1600000657</OasisId>
             </Text>
 
             <ItemWithBoost>
@@ -44,16 +44,16 @@
                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                 <Values>
                     <PreConditionList>
-                        <!-- Condition 1 - 10x Tavern on Island -->
+                        <!-- Condition 1 - 4x Aqueduct Distributor on Island -->
                         <Condition>
                             <Template>ConditionObjectCount</Template>
                             <Values>
                                 <Condition/>
                                 <ConditionObjectCount>
-                                    <Amount>10</Amount>
+                                    <Amount>4</Amount>
                                 </ConditionObjectCount>
                                 <ObjectFilter>
-                                    <ObjectGUID>3528</ObjectGUID>
+                                    <ObjectGUID>50228</ObjectGUID>
                                     <ObjectLocations>
                                         <Template>LocationFilter</Template>
                                         <Values>
@@ -79,10 +79,10 @@
                 </BoostCondition>
                 <BoostBuffs>
                 <Item>
-                    <GUID>1600000675</GUID>
+                    <GUID>1600000661</GUID>
                 </Item>
                 </BoostBuffs>
-                <BoostHint>1600000673</BoostHint>
+                <BoostHint>1600000659</BoostHint>
             </ItemWithBoost>
 
         </Values>
@@ -98,27 +98,24 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000672</GUID>
-                    <Name>Specialist AE-RGlass-BeliefMoney-AddGoods-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_f_AE-RGlass-BeliefMoney-AddGoods-L.png</IconFilename>
+                    <GUID>1600000658</GUID>
+                    <Name>Specialist AE-HairWig-Prod-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/m_AE-HairWig-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000671</OasisId>
+                    <OasisId>1600000657</OasisId>
                 </Text>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000673</AdditionalFunctionalEffect>
-                </BuildingUpgrade>                
+                    <AdditionalFunctionalEffect>1600000659</AdditionalFunctionalEffect>
+                </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
-                </Buff>                
+                </Buff>
                 <FactoryUpgrade>
-                    <AdditionalOutput>
-                        <Item>
-                            <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-                            <AdditionalOutputCycle><ModValue Insert="$AdditionalGoods_Cycle_Legendary_NonBoosted"/></AdditionalOutputCycle>
-                            <Amount><ModValue Insert="$AdditionalGoods_Amount_Legendary_NonBoosted"/></Amount>
-                        </Item>
-                    </AdditionalOutput>
+                    <ProductivityUpgrade>
+                        <Value><ModValue Insert="$ProductivityBuff_Legendary_NonBoosted"/></Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
                 </FactoryUpgrade>
             </Values>
         </Asset>
@@ -129,16 +126,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000673</GUID>
-                    <Name>Specialist AE-RGlass-BeliefMoney-AddGoods-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/r_f_AE-RGlass-BeliefMoney-AddGoods-L.png</IconFilename>
+                    <GUID>1600000659</GUID>
+                    <Name>Specialist AE-HairWig-Prod-L FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/m_AE-HairWig-Prod-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000674</GUID>
+                            <GUID>1600000660</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -150,7 +147,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000671</OasisId>
+                    <OasisId>1600000657</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -161,29 +158,29 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000674</GUID>
-                    <Name>Specialist AE-RGlass-BeliefMoney-AddGoods-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_f_AE-RGlass-BeliefMoney-AddGoods-L.png</IconFilename>
+                    <GUID>1600000660</GUID>
+                    <Name>Specialist AE-HairWig-Prod-L FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/m_AE-HairWig-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000671</OasisId>
+                    <OasisId>1600000657</OasisId>
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Belief>
+                        <Health>
                             <AmountOrPercent>
                                 <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Belief>
-                        <Money>
+                        </Health>
+                        <FireSafety>
                             <AmountOrPercent>
-                                <Value>1</Value>
+                                <Value>0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Money>
+                        </FireSafety>
                     </AdditionalAttributes>
-                </BuildingUpgrade>                
+                </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
@@ -199,27 +196,24 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000675</GUID>
-                    <Name>Specialist AE-RGlass-BeliefMoney-AddGoods-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_f_AE-RGlass-BeliefMoney-AddGoods-L.png</IconFilename>
+                    <GUID>1600000661</GUID>
+                    <Name>Specialist AE-HairWig-Prod-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/m_AE-HairWig-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000671</OasisId>
+                    <OasisId>1600000657</OasisId>
                 </Text>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000676</AdditionalFunctionalEffect>
-                </BuildingUpgrade>                
+                    <AdditionalFunctionalEffect>1600000662</AdditionalFunctionalEffect>
+                </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
-                </Buff>                
+                </Buff>
                 <FactoryUpgrade>
-                    <AdditionalOutput>
-                        <Item>
-                            <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-                            <AdditionalOutputCycle><ModValue Insert="$AdditionalGoods_Cycle_Legendary_Boosted"/></AdditionalOutputCycle>
-                            <Amount><ModValue Insert="$AdditionalGoods_Amount_Legendary_Boosted"/></Amount>
-                        </Item>
-                    </AdditionalOutput>
+                    <ProductivityUpgrade>
+                        <Value><ModValue Insert="$ProductivityBuff_Legendary_Boosted"/></Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
                 </FactoryUpgrade>
             </Values>
         </Asset>
@@ -230,16 +224,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000676</GUID>
-                    <Name>Specialist AE-RGlass-BeliefMoney-AddGoods-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/r_f_AE-RGlass-BeliefMoney-AddGoods-L.png</IconFilename>
+                    <GUID>1600000662</GUID>
+                    <Name>Specialist AE-HairWig-Prod-L Boosted FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/m_AE-HairWig-Prod-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000677</GUID>
+                            <GUID>1600000663</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -251,7 +245,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000671</OasisId>
+                    <OasisId>1600000657</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -262,29 +256,29 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000677</GUID>
-                    <Name>Specialist AE-RGlass-BeliefMoney-AddGoods-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/r_f_AE-RGlass-BeliefMoney-AddGoods-L.png</IconFilename>
+                    <GUID>1600000663</GUID>
+                    <Name>Specialist AE-HairWig-Prod-L Boosted FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/m_AE-HairWig-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000671</OasisId>
+                    <OasisId>1600000657</OasisId>
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Belief>
+                        <Health>
                             <AmountOrPercent>
                                 <Value>2</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Belief>
-                        <Money>
+                        </Health>
+                        <FireSafety>
                             <AmountOrPercent>
-                                <Value>2</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Money>
+                        </FireSafety>
                     </AdditionalAttributes>
-                </BuildingUpgrade>                
+                </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>

@@ -1,27 +1,27 @@
 <ModOps>
-<!-- Item Definition GUID:1600000635 - 1600000641 | LineID:1600000635 - 1600000637  -->
+<!-- Item Definition GUID:1600000621 - 1600000627 | LineID:1600000621 - 1600000623  -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>ItemWithBoost</Template>
         <Values>
             <Standard>
-                <GUID>1600000635</GUID>
-                <Name>Specialist AE-Toga-PopMoney-AddGoods-L</Name>
-                <IconFilename>data/base/graphics/icons/c_m_AE-Toga-PopMoney-AddGoods-L.png</IconFilename>
-                <InfoDescription>1600000636</InfoDescription>
+                <GUID>1600000621</GUID>
+                <Name>Specialist AE-Lounger-Prod-L</Name>
+                <IconFilename>data/base/graphics/icons/r_f_AE-Lounger-Prod-L.png</IconFilename>
+                <InfoDescription>1600000622</InfoDescription>
             </Standard>
             <Effect>
                 <EffectScope>ObjectsInArea</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                     <Item>
-                        <GUID>1600000636</GUID>
+                        <GUID>1600000622</GUID>
                     </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
                 <Item>
-                    <GUID>3191</GUID>
+                    <GUID>3198</GUID>
                 </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
@@ -29,14 +29,14 @@
             <Item>
                 <Niche>Finance</Niche>  
                 <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice> 
-                <BarkPool>80243</BarkPool> <!-- <GUID>80243</GUID> -->
+                <BarkPool>83357</BarkPool> <!-- <GUID>83357</GUID> -->
                 <Rarity>Legendary</Rarity> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000635</OasisId>
+                <OasisId>1600000621</OasisId>
             </Text>
 
             <ItemWithBoost>
@@ -44,16 +44,16 @@
                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                 <Values>
                     <PreConditionList>
-                        <!-- Condition 1 - 10x Medicus on Island -->
+                        <!-- Condition 1 - 150 Patrician Residences on Island -->
                         <Condition>
                             <Template>ConditionObjectCount</Template>
                             <Values>
                                 <Condition/>
                                 <ConditionObjectCount>
-                                    <Amount>10</Amount>
+                                    <Amount>150</Amount>
                                 </ConditionObjectCount>
                                 <ObjectFilter>
-                                    <ObjectGUID>38561</ObjectGUID>
+                                    <ObjectGUID>3145</ObjectGUID>
                                     <ObjectLocations>
                                         <Template>LocationFilter</Template>
                                         <Values>
@@ -79,10 +79,10 @@
                 </BoostCondition>
                 <BoostBuffs>
                 <Item>
-                    <GUID>1600000639</GUID>
+                    <GUID>1600000625</GUID>
                 </Item>
                 </BoostBuffs>
-                <BoostHint>1600000637</BoostHint>
+                <BoostHint>1600000623</BoostHint>
             </ItemWithBoost>
 
         </Values>
@@ -98,27 +98,24 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000636</GUID>
-                    <Name>Specialist AE-Toga-PopMoney-AddGoods-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/c_m_AE-Toga-PopMoney-AddGoods-L.png</IconFilename>
+                    <GUID>1600000622</GUID>
+                    <Name>Specialist AE-Lounger-Prod-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_f_AE-Lounger-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000635</OasisId>
+                    <OasisId>1600000621</OasisId>
                 </Text>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000637</AdditionalFunctionalEffect>
-                </BuildingUpgrade>                
+                    <AdditionalFunctionalEffect>1600000623</AdditionalFunctionalEffect>
+                </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
-                </Buff>                
+                </Buff>
                 <FactoryUpgrade>
-                    <AdditionalOutput>
-                        <Item>
-                            <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-                            <AdditionalOutputCycle><ModValue Insert="$AdditionalGoods_Cycle_Legendary_NonBoosted"/></AdditionalOutputCycle>
-                            <Amount><ModValue Insert="$AdditionalGoods_Amount_Legendary_NonBoosted"/></Amount>
-                        </Item>
-                    </AdditionalOutput>
+                    <ProductivityUpgrade>
+                        <Value><ModValue Insert="$ProductivityBuff_Legendary_NonBoosted"/></Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
                 </FactoryUpgrade>
             </Values>
         </Asset>
@@ -129,16 +126,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000637</GUID>
-                    <Name>Specialist AE-Toga-PopMoney-AddGoods-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/c_m_AE-Toga-PopMoney-AddGoods-L.png</IconFilename>
+                    <GUID>1600000623</GUID>
+                    <Name>Specialist AE-Lounger-Prod-L FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/r_f_AE-Lounger-Prod-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000638</GUID>
+                            <GUID>1600000624</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -150,7 +147,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000635</OasisId>
+                    <OasisId>1600000621</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -161,21 +158,21 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000638</GUID>
-                    <Name>Specialist AE-Toga-PopMoney-AddGoods-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/c_m_AE-Toga-PopMoney-AddGoods-L.png</IconFilename>
+                    <GUID>1600000624</GUID>
+                    <Name>Specialist AE-Lounger-Prod-L FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_f_AE-Lounger-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000635</OasisId>
+                    <OasisId>1600000621</OasisId>
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Population>
+                        <Happiness>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Population>
+                        </Happiness>
                         <Money>
                             <AmountOrPercent>
                                 <Value>1</Value>
@@ -183,7 +180,7 @@
                             </AmountOrPercent>
                         </Money>
                     </AdditionalAttributes>
-                </BuildingUpgrade>                
+                </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
@@ -199,27 +196,24 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000639</GUID>
-                    <Name>Specialist AE-Toga-PopMoney-AddGoods-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/c_m_AE-Toga-PopMoney-AddGoods-L.png</IconFilename>
+                    <GUID>1600000625</GUID>
+                    <Name>Specialist AE-Lounger-Prod-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_f_AE-Lounger-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000635</OasisId>
+                    <OasisId>1600000621</OasisId>
                 </Text>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000640</AdditionalFunctionalEffect>
-                </BuildingUpgrade>                
+                    <AdditionalFunctionalEffect>1600000626</AdditionalFunctionalEffect>
+                </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
-                </Buff>                
+                </Buff>
                 <FactoryUpgrade>
-                    <AdditionalOutput>
-                        <Item>
-                            <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-                            <AdditionalOutputCycle><ModValue Insert="$AdditionalGoods_Cycle_Legendary_Boosted"/></AdditionalOutputCycle>
-                            <Amount><ModValue Insert="$AdditionalGoods_Amount_Legendary_Boosted"/></Amount>
-                        </Item>
-                    </AdditionalOutput>
+                    <ProductivityUpgrade>
+                        <Value><ModValue Insert="$ProductivityBuff_Legendary_Boosted"/></Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
                 </FactoryUpgrade>
             </Values>
         </Asset>
@@ -230,16 +224,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000640</GUID>
-                    <Name>Specialist AE-Toga-PopMoney-AddGoods-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/c_m_AE-Toga-PopMoney-AddGoods-L.png</IconFilename>
+                    <GUID>1600000626</GUID>
+                    <Name>Specialist AE-Lounger-Prod-L Boosted FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/r_f_AE-Lounger-Prod-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000641</GUID>
+                            <GUID>1600000627</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -251,7 +245,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000635</OasisId>
+                    <OasisId>1600000621</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -262,29 +256,29 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000641</GUID>
-                    <Name>Specialist AE-Toga-PopMoney-AddGoods-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/c_m_AE-Toga-PopMoney-AddGoods-L.png</IconFilename>
+                    <GUID>1600000627</GUID>
+                    <Name>Specialist AE-Lounger-Prod-L Boosted FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/r_f_AE-Lounger-Prod-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000635</OasisId>
+                    <OasisId>1600000621</OasisId>
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Population>
-                            <AmountOrPercent>
-                                <Value>1</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Population>
-                        <Money>
+                        <Happiness>
                             <AmountOrPercent>
                                 <Value>2</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
+                        </Happiness>
+                        <Money>
+                            <AmountOrPercent>
+                                <Value>1</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
                         </Money>
                     </AdditionalAttributes>
-                </BuildingUpgrade>                
+                </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>

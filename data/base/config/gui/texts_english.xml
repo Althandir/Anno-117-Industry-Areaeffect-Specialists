@@ -16,7 +16,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Animals-Happy-NHealth-R -->
+  <!-- Specialist AE-Animals-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -32,7 +32,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Armories-Money-NHealthHappy-R -->
+  <!-- Specialist AE-Armories-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -64,7 +64,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-StoneCutter-Money-NHealth-R -->
+  <!-- Specialist AE-StoneCutter-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -220,7 +220,7 @@
 
 
 
-  <!-- Specialist AE-Amphores-PopFireS-AddGoods-L -->
+  <!-- Specialist AE-Amphores-AddGoods-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -241,7 +241,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Lyre-KnowFireS-Prod-L -->
+  <!-- Specialist AE-Lyres-Prod-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -262,7 +262,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Chariot-PopHealth-Prod-L -->
+  <!-- Specialist AE-Chariot-Prod-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -283,7 +283,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Lounger-HappyMoney-Prod-L -->
+  <!-- Specialist AE-Lounger-Prod-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -325,7 +325,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Toga-PopMoney-AddGoods-L -->
+  <!-- Specialist AE-Toga-AddGoods-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -367,7 +367,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-HairWig-Health-Prod-L -->
+  <!-- Specialist AE-HairWig-Prod-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -388,7 +388,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Mirror-PopPrest-Prod-L -->
+  <!-- Specialist AE-Mirror-Prod-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -409,7 +409,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-RGlass-BeliefMoney-AddGoods-L -->
+  <!-- Specialist AE-RGlass-AddGoods-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -430,7 +430,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-BTongue-Money-AddGoods-L -->
+  <!-- Specialist AE-BTongue-AddGoods-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -451,7 +451,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Soap-HappyBelief-AddGoods-L -->
+  <!-- Specialist AE-Soap-AddGoods-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
