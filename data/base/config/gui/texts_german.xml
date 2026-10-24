@@ -344,7 +344,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-PeltHat-PopPresti-Prod-L -->
+  <!-- Specialist AE-PeltHat-Prod-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
