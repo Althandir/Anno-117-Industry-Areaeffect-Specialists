@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600001180</GUID>
                 <Name>Specialist AE-Necklaces-AddGoods-L</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/AE-Necklaces-AddGoods-L.png</IconFilename>
                 <InfoDescription>1600001181</InfoDescription>
             </Standard>
             <Effect>
@@ -100,7 +100,7 @@
                 <Standard>
                     <GUID>1600001181</GUID>
                     <Name>Specialist AE-Necklaces-AddGoods-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-Necklaces-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600001180</OasisId>
@@ -131,7 +131,7 @@
                 <Standard>
                     <GUID>1600001182</GUID>
                     <Name>Specialist AE-Necklaces-AddGoods-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-Necklaces-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -163,7 +163,7 @@
                 <Standard>
                     <GUID>1600001183</GUID>
                     <Name>Specialist AE-Necklaces-AddGoods-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-Necklaces-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600001180</OasisId>
@@ -201,7 +201,7 @@
                 <Standard>
                     <GUID>1600001184</GUID>
                     <Name>Specialist AE-Necklaces-AddGoods-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-Necklaces-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600001180</OasisId>
@@ -232,7 +232,7 @@
                 <Standard>
                     <GUID>1600001185</GUID>
                     <Name>Specialist AE-Necklaces-AddGoods-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-Necklaces-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -264,7 +264,7 @@
                 <Standard>
                     <GUID>1600001186</GUID>
                     <Name>Specialist AE-Necklaces-AddGoods-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-Necklaces-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600001180</OasisId>
