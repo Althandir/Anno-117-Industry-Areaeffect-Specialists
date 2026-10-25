@@ -82,9 +82,13 @@
     {
       "default": "600000"
     },
-    "ConsumptionModifier_Legendary":
+    "ConsumptionModifier_Legendary_NonBoosted":
     {
-      "default": "-25.0"
+      "default": "-15.0"
+    },
+    "ConsumptionModifier_Legendary_Boosted":
+    {
+      "default": "-15.0"
     },
     "ProductivityBuff_Generic_Legendary_NonBoosted":
     {
@@ -110,11 +114,11 @@
     {
       "default": "20"
     },
-    "ProductivityBuff_Legendary_NonBoosted":
+    "UNUSED_ProductivityBuff_Legendary_NonBoosted":
     {
       "default": "0"
     },
-    "ProductivityBuff_Legendary_Boosted":
+    "UNUSED_ProductivityBuff_Legendary_Boosted":
     {
       "default": "0"
     },
