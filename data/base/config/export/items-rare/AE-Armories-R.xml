@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000254</GUID>
             <Name>Specialist AE-Armories-R</Name>
-            <IconFilename>data/base/graphics/icons/c_m_AE-Armories-R.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/Indu-AE/c_m_AE-Armories-R.png</IconFilename>
             <InfoDescription>1600000255</InfoDescription>
           </Standard>
           <Effect>
@@ -53,7 +53,7 @@
                 <Standard>
                     <GUID>1600000255</GUID>
                     <Name>Specialist AE-Armories-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/c_m_AE-Armories-R.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/Indu-AE/c_m_AE-Armories-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000254</OasisId>
@@ -75,7 +75,7 @@
                 <Standard>
                     <GUID>1600000256</GUID>
                     <Name>Specialist AE-Armories-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/c_m_AE-Armories-R.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/Indu-AE/c_m_AE-Armories-R.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -107,7 +107,7 @@
                 <Standard>
                     <GUID>1600000257</GUID>
                     <Name>Specialist AE-Armories-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/c_m_AE-Armories-R.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/Indu-AE/c_m_AE-Armories-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000254</OasisId>

@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000404</GUID>
                 <Name>Specialist AE-MatProd-FireS-R</Name>
-                <IconFilename>data/base/graphics/icons/r_m_AE-MatProd-FireS-R.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/Indu-AE/r_m_AE-MatProd-FireS-R.png</IconFilename>
                 <InfoDescription>1600000405</InfoDescription>
             </Standard>
             <Effect>
@@ -53,7 +53,7 @@
                     <Standard>
                         <GUID>1600000405</GUID>
                         <Name>Specialist AE-MatProd-FireS-R BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/r_m_AE-MatProd-FireS-R.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/Indu-AE/r_m_AE-MatProd-FireS-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000404</OasisId>
@@ -75,7 +75,7 @@
                     <Standard>
                         <GUID>1600000406</GUID>
                         <Name>Specialist AE-MatProd-FireS-R FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/r_m_AE-MatProd-FireS-R.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/Indu-AE/r_m_AE-MatProd-FireS-R.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>Radius</EffectScope>
@@ -107,7 +107,7 @@
                     <Standard>
                         <GUID>1600000407</GUID>
                         <Name>Specialist AE-MatProd-FireS-R FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/r_m_AE-MatProd-FireS-R.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/Indu-AE/r_m_AE-MatProd-FireS-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000404</OasisId>

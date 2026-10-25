@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000134</GUID>
                 <Name>Specialist AE-FuelConsumer-E</Name>
-                <IconFilename>data/base/graphics/icons/m_AE-FuelConsumer-E.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/Indu-AE/m_AE-FuelConsumer-E.png</IconFilename>
                 <InfoDescription>1600000135</InfoDescription>
             </Standard>
             <Effect>
@@ -54,7 +54,7 @@
                     <Standard>
                         <GUID>1600000135</GUID>
                         <Name>Specialist AE-FuelConsumer-E BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/m_AE-FuelConsumer-E.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/Indu-AE/m_AE-FuelConsumer-E.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000134</OasisId>
@@ -82,7 +82,7 @@
                     <Standard>
                         <GUID>1600000617</GUID>
                         <Name>Specialist AE-FuelConsumer-E FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/m_AE-FuelConsumer-E.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/Indu-AE/m_AE-FuelConsumer-E.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>Radius</EffectScope>
@@ -114,7 +114,7 @@
                     <Standard>
                         <GUID>1600000136</GUID>
                         <Name>Specialist AE-FuelConsumer-E FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/m_AE-FuelConsumer-E.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/Indu-AE/m_AE-FuelConsumer-E.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000134</OasisId>
