@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000400</GUID>
                 <Name>Specialist AE-Caviar-R</Name>
-                <IconFilename>data/base/graphics/icons/Indu-AE/r_f_AE-Caviar-R.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_f_AE-Caviar-R.png</IconFilename>
                 <InfoDescription>1600000401</InfoDescription>
             </Standard>
             <Effect>
@@ -53,7 +53,7 @@
                     <Standard>
                         <GUID>1600000401</GUID>
                         <Name>Specialist AE-Caviar-R BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/Indu-AE/r_f_AE-Caviar-R.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_f_AE-Caviar-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000400</OasisId>
@@ -82,7 +82,7 @@
                     <Standard>
                         <GUID>1600000402</GUID>
                         <Name>Specialist AE-Caviar-R FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/Indu-AE/r_f_AE-Caviar-R.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_f_AE-Caviar-R.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>Radius</EffectScope>
@@ -114,7 +114,7 @@
                     <Standard>
                         <GUID>1600000403</GUID>
                         <Name>Specialist AE-Caviar-R FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/Indu-AE/r_f_AE-Caviar-R.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_f_AE-Caviar-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000400</OasisId>

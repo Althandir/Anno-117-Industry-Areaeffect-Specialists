@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600001061</GUID>
             <Name>Specialist AE-Gen-Artisans-L</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE/AE-Gen-Artisans-L.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Gen-Artisans-L.png</IconFilename>
             <InfoDescription>1600001062</InfoDescription>
           </Standard>
           <Effect>
@@ -87,7 +87,7 @@
           <Standard>
             <GUID>1600001062</GUID>
             <Name>Specialist AE-Gen-Artisans-L BuildingBuff</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE/AE-Gen-Artisans-L.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Gen-Artisans-L.png</IconFilename>
           </Standard>
           <Text>
             <OasisId>1600001061</OasisId>
@@ -115,7 +115,7 @@
           <Standard>
             <GUID>1600001063</GUID>
             <Name>Specialist AE-Gen-Artisans-L FunctionalEffect</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE/AE-Gen-Artisans-L.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Gen-Artisans-L.png</IconFilename>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>
@@ -147,7 +147,7 @@
           <Standard>
             <GUID>1600001064</GUID>
             <Name>Specialist AE-Gen-Artisans-L FunctionalEffect BuildingBuff</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE/AE-Gen-Artisans-L.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Gen-Artisans-L.png</IconFilename>
           </Standard>
           <Text>
             <OasisId>1600001061</OasisId>
@@ -186,7 +186,7 @@
           <Standard>
             <GUID>1600001065</GUID>
             <Name>Specialist AE-Gen-Artisans-L Boosted BuildingBuff</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE/AE-Gen-Artisans-L.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Gen-Artisans-L.png</IconFilename>
           </Standard>
           <Text>
             <OasisId>1600001061</OasisId>
@@ -214,7 +214,7 @@
           <Standard>
             <GUID>1600001066</GUID>
             <Name>Specialist AE-Gen-Artisans-L Boosted FunctionalEffect</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE/AE-Gen-Artisans-L.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Gen-Artisans-L.png</IconFilename>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>
@@ -246,7 +246,7 @@
           <Standard>
             <GUID>1600001067</GUID>
             <Name>Specialist AE-Gen-Artisans-L Boosted FunctionalEffect BuildingBuff</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE/AE-Gen-Artisans-L.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Gen-Artisans-L.png</IconFilename>
           </Standard>
           <Text>
             <OasisId>1600001061</OasisId>

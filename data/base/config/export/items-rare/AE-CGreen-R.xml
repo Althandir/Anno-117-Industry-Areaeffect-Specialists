@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000642</GUID>
                 <Name>Specialist AE-CGreen-R</Name>
-                <IconFilename>data/base/graphics/icons/Indu-AE/c_f_AE-CGreen-R.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_f_AE-CGreen-R.png</IconFilename>
                 <InfoDescription>1600000643</InfoDescription>
             </Standard>
             <Effect>
@@ -53,7 +53,7 @@
                     <Standard>
                         <GUID>1600000643</GUID>
                         <Name>Specialist AE-CGreen-R BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/Indu-AE/c_f_AE-CGreen-R.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_f_AE-CGreen-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000642</OasisId>
@@ -81,7 +81,7 @@
                     <Standard>
                         <GUID>1600000644</GUID>
                         <Name>Specialist AE-CGreen-R FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/Indu-AE/c_f_AE-CGreen-R.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_f_AE-CGreen-R.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>Radius</EffectScope>
@@ -113,7 +113,7 @@
                     <Standard>
                         <GUID>1600000645</GUID>
                         <Name>Specialist AE-CGreen-R FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/Indu-AE/c_f_AE-CGreen-R.png</IconFilename>
+                        <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_f_AE-CGreen-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000642</OasisId>
