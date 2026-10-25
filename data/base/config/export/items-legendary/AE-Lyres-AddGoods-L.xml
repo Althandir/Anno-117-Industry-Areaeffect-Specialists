@@ -208,10 +208,10 @@
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalFunctionalEffect>1600000437</AdditionalFunctionalEffect>
-                </BuildingUpgrade>                
+                </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
-                </Buff>                
+                </Buff>
                 <FactoryUpgrade>
                     <AdditionalOutput>
                         <Item>

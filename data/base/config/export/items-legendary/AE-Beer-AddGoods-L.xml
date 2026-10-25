@@ -107,10 +107,10 @@
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalFunctionalEffect>1600001147</AdditionalFunctionalEffect>
-                </BuildingUpgrade>                
+                </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
-                </Buff>                
+                </Buff>
                 <FactoryUpgrade>
                     <AdditionalOutput>
                         <Item>
@@ -183,7 +183,15 @@
                             </AmountOrPercent>
                         </Money>
                     </AdditionalAttributes>
-                </BuildingUpgrade>                
+                </BuildingUpgrade>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeedProduct>31700</ProvidedNeedProduct>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
@@ -208,10 +216,10 @@
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalFunctionalEffect>1600001150</AdditionalFunctionalEffect>
-                </BuildingUpgrade>                
+                </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
-                </Buff>                
+                </Buff>
                 <FactoryUpgrade>
                     <AdditionalOutput>
                         <Item>
@@ -284,7 +292,15 @@
                             </AmountOrPercent>
                         </Money>
                     </AdditionalAttributes>
-                </BuildingUpgrade>                
+                </BuildingUpgrade>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeedProduct>31700</ProvidedNeedProduct>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>

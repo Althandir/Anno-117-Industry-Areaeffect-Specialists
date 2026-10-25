@@ -107,10 +107,10 @@
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalFunctionalEffect>1600000666</AdditionalFunctionalEffect>
-                </BuildingUpgrade>                
+                </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
-                </Buff>                
+                </Buff>
                 <FactoryUpgrade>
                     <AdditionalOutput>
                         <Item>
@@ -183,7 +183,7 @@
                             </AmountOrPercent>
                         </Prestige>
                     </AdditionalAttributes>
-                </BuildingUpgrade>                
+                </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Adjacency</SourceCategory>
                 </Buff>
@@ -208,7 +208,7 @@
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalFunctionalEffect>1600000669</AdditionalFunctionalEffect>
-                </BuildingUpgrade>                
+                </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
                 </Buff>

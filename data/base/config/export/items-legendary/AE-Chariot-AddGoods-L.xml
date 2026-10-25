@@ -183,7 +183,7 @@
                                 </AmountOrPercent>
                             </Prestige>
                         </AdditionalAttributes>
-                    </BuildingUpgrade>                    
+                    </BuildingUpgrade>    
                     <Buff>
                         <SourceCategory>Adjacency</SourceCategory>
                     </Buff>
@@ -209,7 +209,7 @@
                     </Text>    
                     <BuildingUpgrade>
                         <AdditionalFunctionalEffect>1600000619</AdditionalFunctionalEffect>
-                    </BuildingUpgrade>                    
+                    </BuildingUpgrade>    
                     <Buff>
                         <SourceCategory>Item</SourceCategory>
                     </Buff>
