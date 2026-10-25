@@ -183,6 +183,14 @@
               </Belief>
             </AdditionalAttributes>
           </BuildingUpgrade>
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeedProduct>2154</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
           <Buff>
             <SourceCategory>Adjacency</SourceCategory>
           </Buff>
@@ -284,6 +292,14 @@
               </Belief>
             </AdditionalAttributes>
           </BuildingUpgrade>
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeedProduct>2154</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
           <Buff>
             <SourceCategory>Adjacency</SourceCategory>
           </Buff>
@@ -293,3 +309,5 @@
   </Group>
 
 </ModOps>
+
+
