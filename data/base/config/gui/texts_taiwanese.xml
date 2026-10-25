@@ -55,7 +55,7 @@
             </ModOp>
         </Group>
 
-        <!-- Specialist AE-Crafters-Know-NHealth-R -->
+        <!-- Specialist AE-Crafters-R -->
         <Group>
             <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -172,7 +172,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-FuelConsumer-FireS-NProd-E -->
+        <!-- Specialist AE-FuelConsumer-E -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->

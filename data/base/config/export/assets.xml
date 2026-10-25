@@ -37,7 +37,7 @@
     <Include File="items-rare/AE-StoneCutter-R.xml" />
     <Include File="items-rare/AE-Armories-R.xml" />
     <Include File="items-rare/AE-CGreen-HealthBelief-R.xml" />
-    <Include File="items-rare/AE-Crafters-Know-NHealth-R.xml" />
+    <Include File="items-rare/AE-Crafters-R.xml" />
     <Include File="items-rare/AE-Cushion-PrestHappy-R.xml" />
     <Include File="items-rare/AE-MatProd-FireS-R.xml" />
     <Include File="items-rare/AE-Animals-R.xml" />
@@ -47,7 +47,7 @@
 
 <!-- Epic Specialists -->
 <Group>
-    <Include File="items-epic/AE-FuelConsumer-FireS-NProd-E.xml" />
+    <Include File="items-epic/AE-FuelConsumer-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->

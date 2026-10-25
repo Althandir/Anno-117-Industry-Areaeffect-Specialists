@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000266</GUID>
-            <Name>Specialist AE-Crafters-Know-NHealth-R</Name>
-            <IconFilename>data/base/graphics/icons/m_AE-Crafters-Know-NHealth-R.png</IconFilename>
+            <Name>Specialist AE-Crafters-R</Name>
+            <IconFilename>data/base/graphics/icons/m_AE-Crafters-R.png</IconFilename>
             <InfoDescription>1600000267</InfoDescription>
           </Standard>
           <Effect>
@@ -58,8 +58,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000267</GUID>
-                    <Name>Specialist AE-Crafters-Know-NHealth-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/m_AE-Crafters-Know-NHealth-R.png</IconFilename>
+                    <Name>Specialist AE-Crafters-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/m_AE-Crafters-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000266</OasisId>
@@ -80,8 +80,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000268</GUID>
-                    <Name>Specialist AE-Crafters-Know-NHealth-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/m_AE-Crafters-Know-NHealth-R.png</IconFilename>
+                    <Name>Specialist AE-Crafters-R FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/m_AE-Crafters-R.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -112,8 +112,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000269</GUID>
-                    <Name>Specialist AE-Crafters-Know-NHealth-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/m_AE-Crafters-Know-NHealth-R.png</IconFilename>
+                    <Name>Specialist AE-Crafters-R FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/m_AE-Crafters-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000266</OasisId>
