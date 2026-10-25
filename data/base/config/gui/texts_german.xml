@@ -260,7 +260,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Chariot-Prod-L -->
+  <!-- Specialist AE-Chariot-AddGoods-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
