@@ -84,11 +84,11 @@
     },
     "ConsumptionModifier_Legendary_NonBoosted":
     {
-      "default": "-15.0"
+      "default": "-20.0"
     },
     "ConsumptionModifier_Legendary_Boosted":
     {
-      "default": "-15.0"
+      "default": "-33.0"
     },
     "ProductivityBuff_Generic_Legendary_NonBoosted":
     {
@@ -128,7 +128,7 @@
     },
     "AdditionalGoods_Cycle_Legendary_NonBoosted":
     {
-      "default": "20"
+      "default": "24"
     },
     "AdditionalGoods_Amount_Legendary_Boosted":
     {
@@ -136,7 +136,7 @@
     },
     "AdditionalGoods_Cycle_Legendary_Boosted":
     {
-      "default": "10"
+      "default": "12"
     }
   }
 
