@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600001082</GUID>
                 <Name>Specialist AE-Oyster-AddGoods-L</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/AE-Oyster-AddGoods-L.png</IconFilename>
                 <InfoDescription>1600001083</InfoDescription>
             </Standard>
             <Effect>
@@ -100,7 +100,7 @@
                 <Standard>
                     <GUID>1600001083</GUID>
                     <Name>Specialist AE-Oyster-AddGoods-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-Oyster-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600001082</OasisId>
@@ -131,7 +131,7 @@
                 <Standard>
                     <GUID>1600001084</GUID>
                     <Name>Specialist AE-Oyster-AddGoods-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-Oyster-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -163,7 +163,7 @@
                 <Standard>
                     <GUID>1600001085</GUID>
                     <Name>Specialist AE-Oyster-AddGoods-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-Oyster-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600001082</OasisId>
@@ -201,7 +201,7 @@
                 <Standard>
                     <GUID>1600001086</GUID>
                     <Name>Specialist AE-Oyster-AddGoods-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-Oyster-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600001082</OasisId>
@@ -232,7 +232,7 @@
                 <Standard>
                     <GUID>1600001087</GUID>
                     <Name>Specialist AE-Oyster-AddGoods-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-Oyster-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -264,7 +264,7 @@
                 <Standard>
                     <GUID>1600001088</GUID>
                     <Name>Specialist AE-Oyster-AddGoods-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/AE-Oyster-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600001082</OasisId>
