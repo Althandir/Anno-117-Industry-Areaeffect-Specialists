@@ -36,13 +36,13 @@
 <Group>
     <Include File="items-rare/AE-StoneCutter-R.xml" />
     <Include File="items-rare/AE-Armories-R.xml" />
-    <Include File="items-rare/AE-CGreen-HealthBelief-R.xml" />
+    <Include File="items-rare/AE-CGreen-R.xml" />
     <Include File="items-rare/AE-Crafters-R.xml" />
-    <Include File="items-rare/AE-Cushion-PrestHappy-R.xml" />
+    <Include File="items-rare/AE-Cushion-R.xml" />
     <Include File="items-rare/AE-MatProd-FireS-R.xml" />
     <Include File="items-rare/AE-Animals-R.xml" />
-    <Include File="items-rare/AE-Headpiece-FireSPresti-R.xml" />
-    <Include File="items-rare/AE-Caviar-Belief-NPresti-R.xml" />
+    <Include File="items-rare/AE-Headpiece-R.xml" />
+    <Include File="items-rare/AE-Caviar-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->

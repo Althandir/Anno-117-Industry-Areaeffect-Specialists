@@ -1,42 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600000646 - 1600000649 | LineID:1600000646 - 1600000647  -->
+<!-- Item Definition GUID:1600000642 - 1600000645 | LineID:1600000642 - 1600000643  -->
     <Group>
         <ModOp Type="addNextSibling" GUID="106410">
         <Asset>
             <Template>Item</Template>
             <Values>
             <Standard>
-                <GUID>1600000646</GUID>
-                <Name>Specialist AE-Headpiece-FireSPresti-R</Name>
-                <IconFilename>data/base/graphics/icons/r_m_AE-Headpiece-FireSPresti-R.png</IconFilename>
-                <InfoDescription>1600000647</InfoDescription>
+                <GUID>1600000642</GUID>
+                <Name>Specialist AE-CGreen-R</Name>
+                <IconFilename>data/base/graphics/icons/c_f_AE-CGreen-R.png</IconFilename>
+                <InfoDescription>1600000643</InfoDescription>
             </Standard>
             <Effect>
                 <EffectScope>Radius</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                 <Item>
-                    <GUID>1600000647</GUID>
+                    <GUID>1600000643</GUID>
                 </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
                 <Item>
-                    <GUID>31766</GUID>
+                    <GUID>5469</GUID>
                 </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Military</Niche>  
+                <Niche>Agriculture</Niche>  
                 <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
-                <BarkPool>83319</BarkPool> <!-- <GUID>83319</GUID> -->
+                <BarkPool>83351</BarkPool> <!-- <GUID>83351</GUID> -->
                 <Rarity>Rare</Rarity> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000646</OasisId>
+                <OasisId>1600000642</OasisId>
             </Text>
             </Values>
         </Asset>
@@ -51,15 +51,15 @@
                 <Template>BuildingBuff</Template>
                 <Values>
                     <Standard>
-                        <GUID>1600000647</GUID>
-                        <Name>Specialist AE-Headpiece-FireSPresti-R BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/r_m_AE-Headpiece-FireSPresti-R.png</IconFilename>
+                        <GUID>1600000643</GUID>
+                        <Name>Specialist AE-CGreen-R BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/c_f_AE-CGreen-R.png</IconFilename>
                     </Standard>
                     <Text>
-                        <OasisId>1600000646</OasisId>
+                        <OasisId>1600000642</OasisId>
                     </Text>
                     <BuildingUpgrade>
-                        <AdditionalFunctionalEffect>1600000648</AdditionalFunctionalEffect>
+                        <AdditionalFunctionalEffect>1600000644</AdditionalFunctionalEffect>
                     </BuildingUpgrade>
                     <Buff>
                         <SourceCategory>Item</SourceCategory>
@@ -79,16 +79,16 @@
                 <Template>Effect</Template>
                 <Values>
                     <Standard>
-                        <GUID>1600000648</GUID>
-                        <Name>Specialist AE-Headpiece-FireSPresti-R FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/r_m_AE-Headpiece-FireSPresti-R.png</IconFilename>
+                        <GUID>1600000644</GUID>
+                        <Name>Specialist AE-CGreen-R FunctionalEffect</Name>
+                        <IconFilename>data/base/graphics/icons/c_f_AE-CGreen-R.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>Radius</EffectScope>
                         <SourceCategory>Adjacency</SourceCategory>
                         <Buffs>
                             <Item>
-                                <GUID>1600000649</GUID>
+                                <GUID>1600000645</GUID>
                             </Item>
                         </Buffs>
                         <Targets>
@@ -100,7 +100,7 @@
                         <HideInGovernorsBar>1</HideInGovernorsBar>
                     </Effect>
                     <Text>
-                        <OasisId>1600000646</OasisId>
+                        <OasisId>1600000642</OasisId>
                     </Text>
                 </Values>
             </Asset>
@@ -111,28 +111,27 @@
                 <Template>BuildingBuff</Template>
                 <Values>
                     <Standard>
-                        <GUID>1600000649</GUID>
-                        <Name>Specialist AE-Headpiece-FireSPresti-R FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/r_m_AE-Headpiece-FireSPresti-R.png</IconFilename>
+                        <GUID>1600000645</GUID>
+                        <Name>Specialist AE-CGreen-R FunctionalEffect BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/c_f_AE-CGreen-R.png</IconFilename>
                     </Standard>
                     <Text>
-                        <OasisId>1600000646</OasisId>
+                        <OasisId>1600000642</OasisId>
                     </Text>
-                    <HealthUpgrade/>
                     <BuildingUpgrade>
                         <AdditionalAttributes>
-                            <FireSafety>
+                            <Health>
                                 <AmountOrPercent>
                                     <Value>1</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
-                            </FireSafety>
-                            <Prestige>
+                            </Health>
+                            <Belief>
                                 <AmountOrPercent>
-                                    <Value>1</Value>
+                                    <Value>0.5</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
-                            </Prestige>
+                            </Belief>
                         </AdditionalAttributes>
                     </BuildingUpgrade>
                     <Buff>
