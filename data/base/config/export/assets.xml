@@ -72,12 +72,12 @@
     <Include File="items-legendary/AE-Gen-Victuallers-L.xml" />
     <Include File="items-legendary/AE-Gen-Workshops-L.xml" />
 
-    <Include File="items-legendary/AE-HairWig-Prod-L.xml" />
-    <Include File="items-legendary/AE-Lounger-Prod-L.xml" />
-    <Include File="items-legendary/AE-Lyres-Prod-L.xml" />
-    <Include File="items-legendary/AE-Mirror-Prod-L.xml" />
+    <Include File="items-legendary/AE-HairWig-AddGoods-L.xml" />
+    <Include File="items-legendary/AE-Lounger-AddGoods-L.xml" />
+    <Include File="items-legendary/AE-Lyres-AddGoods-L.xml" />
+    <Include File="items-legendary/AE-Mirror-AddGoods-L.xml" />
     <Include File="items-legendary/AE-Oyster-AddGoods-L.xml" />
-    <Include File="items-legendary/AE-PeltHat-Prod-L.xml" />
+    <Include File="items-legendary/AE-PeltHat-AddGoods-L.xml" />
     <Include File="items-legendary/AE-RGlass-AddGoods-L.xml" />
     <Include File="items-legendary/AE-RoastBeef-AddGoods-L.xml" />
     <Include File="items-legendary/AE-Soap-AddGoods-L.xml" />

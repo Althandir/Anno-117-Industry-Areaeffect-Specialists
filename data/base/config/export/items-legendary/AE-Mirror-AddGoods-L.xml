@@ -7,8 +7,8 @@
         <Values>
             <Standard>
                 <GUID>1600000664</GUID>
-                <Name>Specialist AE-Mirror-Prod-L</Name>
-                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/nb_AE-Mirror-Prod-L.png</IconFilename>
+                <Name>Specialist AE-Mirror-AddGoods-L</Name>
+                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/nb_AE-Mirror-AddGoods-L.png</IconFilename>
                 <InfoDescription>1600000665</InfoDescription>
             </Standard>
             <Effect>
@@ -99,8 +99,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000665</GUID>
-                    <Name>Specialist AE-Mirror-Prod-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/nb_AE-Mirror-Prod-L.png</IconFilename>
+                    <Name>Specialist AE-Mirror-AddGoods-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/nb_AE-Mirror-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000664</OasisId>
@@ -112,10 +112,13 @@
                     <SourceCategory>Item</SourceCategory>
                 </Buff>                
                 <FactoryUpgrade>
-                    <ProductivityUpgrade>
-                        <Value><ModValue Insert="$ProductivityBuff_Legendary_NonBoosted"/></Value>
-                        <Percental>1</Percental>
-                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                            <AdditionalOutputCycle><ModValue Insert="$AdditionalGoods_Cycle_Legendary_NonBoosted"/></AdditionalOutputCycle>
+                            <Amount><ModValue Insert="$AdditionalGoods_Amount_Legendary_NonBoosted"/></Amount>
+                        </Item>
+                    </AdditionalOutput>
                 </FactoryUpgrade>
             </Values>
         </Asset>
@@ -127,8 +130,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000666</GUID>
-                    <Name>Specialist AE-Mirror-Prod-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/nb_AE-Mirror-Prod-L.png</IconFilename>
+                    <Name>Specialist AE-Mirror-AddGoods-L FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/nb_AE-Mirror-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -159,8 +162,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000667</GUID>
-                    <Name>Specialist AE-Mirror-Prod-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/nb_AE-Mirror-Prod-L.png</IconFilename>
+                    <Name>Specialist AE-Mirror-AddGoods-L FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/nb_AE-Mirror-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000664</OasisId>
@@ -197,8 +200,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000668</GUID>
-                    <Name>Specialist AE-Mirror-Prod-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/nb_AE-Mirror-Prod-L.png</IconFilename>
+                    <Name>Specialist AE-Mirror-AddGoods-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/nb_AE-Mirror-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000664</OasisId>
@@ -210,10 +213,13 @@
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
                 <FactoryUpgrade>
-                    <ProductivityUpgrade>
-                        <Value><ModValue Insert="$ProductivityBuff_Legendary_Boosted"/></Value>
-                        <Percental>1</Percental>
-                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                            <AdditionalOutputCycle><ModValue Insert="$AdditionalGoods_Cycle_Legendary_Boosted"/></AdditionalOutputCycle>
+                            <Amount><ModValue Insert="$AdditionalGoods_Amount_Legendary_Boosted"/></Amount>
+                        </Item>
+                    </AdditionalOutput>
                 </FactoryUpgrade>
             </Values>
         </Asset>
@@ -225,8 +231,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000669</GUID>
-                    <Name>Specialist AE-Mirror-Prod-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/nb_AE-Mirror-Prod-L.png</IconFilename>
+                    <Name>Specialist AE-Mirror-AddGoods-L Boosted FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/nb_AE-Mirror-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -257,8 +263,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000670</GUID>
-                    <Name>Specialist AE-Mirror-Prod-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/nb_AE-Mirror-Prod-L.png</IconFilename>
+                    <Name>Specialist AE-Mirror-AddGoods-L Boosted FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/nb_AE-Mirror-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000664</OasisId>

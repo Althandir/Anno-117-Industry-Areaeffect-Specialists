@@ -284,6 +284,14 @@
               </FireSafety>
             </AdditionalAttributes>
           </BuildingUpgrade>
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeedProduct>2146</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary"/></AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
           <Buff>
             <SourceCategory>Adjacency</SourceCategory>
           </Buff>
@@ -293,4 +301,5 @@
   </Group>
 
 </ModOps>
+
 
