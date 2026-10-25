@@ -106,6 +106,14 @@
               <Percental>1</Percental>
             </ProductivityUpgrade>
           </FactoryUpgrade>
+          <ResidenceUpgrade> <!--Info for Player-->
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeedProduct>2154</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
         </Values>
       </Asset>
     </ModOp>
@@ -212,6 +220,14 @@
               <Percental>1</Percental>
             </ProductivityUpgrade>
           </FactoryUpgrade>
+          <ResidenceUpgrade> <!--Info for Player-->
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeedProduct>2154</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
         </Values>
       </Asset>
     </ModOp>
@@ -295,6 +311,8 @@
   </Group>
 
 </ModOps>
+
+
 
 
 

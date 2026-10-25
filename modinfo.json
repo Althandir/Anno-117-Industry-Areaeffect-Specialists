@@ -100,11 +100,11 @@
     },
     "AdditionalGoods_Amount_Generic_Legendary_NonBoosted":
     {
-      "default": "0"
+      "default": "1"
     },
     "AdditionalGoods_Cycle_Generic_Legendary_NonBoosted":
     {
-      "default": "0"
+      "default": "20"
     },
     "AdditionalGoods_Amount_Generic_Legendary_Boosted":
     {
@@ -112,7 +112,7 @@
     },
     "AdditionalGoods_Cycle_Generic_Legendary_Boosted":
     {
-      "default": "20"
+      "default": "10"
     },
     "UNUSED_ProductivityBuff_Legendary_NonBoosted":
     {
@@ -124,11 +124,11 @@
     },
     "AdditionalGoods_Amount_Legendary_NonBoosted":
     {
-      "default": "0"
+      "default": "1"
     },
     "AdditionalGoods_Cycle_Legendary_NonBoosted":
     {
-      "default": "0"
+      "default": "20"
     },
     "AdditionalGoods_Amount_Legendary_Boosted":
     {
@@ -136,7 +136,7 @@
     },
     "AdditionalGoods_Cycle_Legendary_Boosted":
     {
-      "default": "12"
+      "default": "10"
     }
   }
 
