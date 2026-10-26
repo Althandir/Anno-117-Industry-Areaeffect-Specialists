@@ -178,15 +178,9 @@
                     </Text>    
                     <BuildingUpgrade>
                         <AdditionalAttributes>
-                            <Health>
-                                <AmountOrPercent>
-                                    <Value>1</Value>
-                                    <Percental>0</Percental>
-                                </AmountOrPercent>
-                            </Health>
                             <Prestige>
                                 <AmountOrPercent>
-                                    <Value>1</Value>
+                                    <Value>2</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
                             </Prestige>
@@ -302,15 +296,9 @@
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
                             </Population>
-                            <Health>
-                                <AmountOrPercent>
-                                    <Value>1</Value>
-                                    <Percental>0</Percental>
-                                </AmountOrPercent>
-                            </Health>
                             <Prestige>
                                 <AmountOrPercent>
-                                    <Value>1</Value>
+                                    <Value>2</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
                             </Prestige>

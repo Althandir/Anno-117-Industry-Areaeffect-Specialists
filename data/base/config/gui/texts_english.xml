@@ -487,7 +487,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>"Mixing herbs into beer preserves the flavor for generations." (400 herbs in storage)</Text>
         <LineId>1600001147</LineId>
       </Text>
     </ModOp>
@@ -508,7 +508,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>His Bread is looked upon on by Ceres. (6x Shrine of Ceres on Island)</Text>
         <LineId>1600001112</LineId>
       </Text>
     </ModOp>
@@ -529,7 +529,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>"A greek scribe once told me a cheese varity can be obtained from sheep. I will need to test this." (3x Sheep Pastures on Island)</Text>
         <LineId>1600001119</LineId>
       </Text>
     </ModOp>
@@ -550,7 +550,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>Uses a special bronze stamp to mark her quality cloaks. (500 bronze in storage)</Text>
         <LineId>1600001126</LineId>
       </Text>
     </ModOp>
@@ -571,7 +571,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>"Without a good bard there is nothing to celebrate!" (6x Bardic Hearth on Island)</Text>
         <LineId>1600001154</LineId>
       </Text>
     </ModOp>
@@ -592,7 +592,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>"My garum is only allowed to be served in the finest glass you have." (350x Fine Glass in Storage)</Text>
         <LineId>1600001168</LineId>
       </Text>
     </ModOp>
@@ -613,7 +613,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>Is calmed down by a strong army. (At least 30 Troops anywhere. Garrison does not count)</Text>
         <LineId>1600001056</LineId>
       </Text>
     </ModOp>

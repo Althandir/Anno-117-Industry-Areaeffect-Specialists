@@ -40,7 +40,7 @@
           </Text>
 
           <ItemWithBoost>
-            <!-- Condition - min. 300 Flour in Storage -->
+            <!-- Condition - min. 30 Troops anywhere (No Garrison) -->
             <BoostCondition>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
@@ -50,10 +50,9 @@
                     <Values>
                       <Condition/>
                       <ConditionPlayerCounter>
-                        <PlayerCounter>GoodsInStock</PlayerCounter>
-                        <Context>2119</Context>
-                        <CounterAmount>300</CounterAmount>
-                        <CounterScope>Area</CounterScope>
+                        <PlayerCounter>ArmyStrength</PlayerCounter>
+                        <Context>131971</Context>
+                        <CounterAmount>30</CounterAmount>
                       </ConditionPlayerCounter>
                       <ConditionLocationProps/>
                       <ConditionCounterProps/>
@@ -163,16 +162,16 @@
             <AdditionalAttributes>
               <Prestige>
                 <AmountOrPercent>
-                  <Value>0.5</Value>
+                  <Value>2</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Prestige>
-              <Happiness>
+              <FireSafety>
                 <AmountOrPercent>
-                  <Value>0.5</Value>
+                  <Value>1</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
-              </Happiness>
+              </FireSafety>
             </AdditionalAttributes>
           </BuildingUpgrade>
           <Buff>
@@ -269,16 +268,22 @@
             <AdditionalAttributes>
               <Prestige>
                 <AmountOrPercent>
-                  <Value>1</Value>
+                  <Value>2</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Prestige>
-              <Happiness>
+              <Knowledge>
                 <AmountOrPercent>
                   <Value>1</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
-              </Happiness>
+              </Knowledge>
+              <FireSafety>
+                <AmountOrPercent>
+                  <Value>2</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </FireSafety>
             </AdditionalAttributes>
           </BuildingUpgrade>
           <Buff>
