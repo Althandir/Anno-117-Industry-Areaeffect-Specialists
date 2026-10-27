@@ -330,7 +330,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-Toga-AddGoods-L -->
+        <!-- Specialist AE-TogaTr-AddGoods-L -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->

@@ -7,8 +7,8 @@
         <Values>
             <Standard>
                 <GUID>1600000635</GUID>
-                <Name>Specialist AE-Toga-AddGoods-L</Name>
-                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-Toga-AddGoods-L.png</IconFilename>
+                <Name>Specialist AE-TogaTr-AddGoods-L</Name>
+                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-TogaTr-AddGoods-L.png</IconFilename>
                 <InfoDescription>1600000636</InfoDescription>
             </Standard>
             <Effect>
@@ -22,6 +22,9 @@
                 <Targets> <!-- Targets of Buff -->
                 <Item>
                     <GUID>3191</GUID>
+                </Item>
+                <Item>
+                    <GUID>5608</GUID>
                 </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
@@ -99,8 +102,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000636</GUID>
-                    <Name>Specialist AE-Toga-AddGoods-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-Toga-AddGoods-L.png</IconFilename>
+                    <Name>Specialist AE-TogaTr-AddGoods-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-TogaTr-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000635</OasisId>
@@ -126,6 +129,10 @@
                             <ProvidedNeedProduct>2145</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
                         </Item>
+                        <Item>
+                            <ProvidedNeedProduct>2158</ProvidedNeedProduct>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+                        </Item>
                     </GoodConsumptionUpgrade>
                 </ResidenceUpgrade>
             </Values>
@@ -138,8 +145,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000637</GUID>
-                    <Name>Specialist AE-Toga-AddGoods-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-Toga-AddGoods-L.png</IconFilename>
+                    <Name>Specialist AE-TogaTr-AddGoods-L FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-TogaTr-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -170,8 +177,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000638</GUID>
-                    <Name>Specialist AE-Toga-AddGoods-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-Toga-AddGoods-L.png</IconFilename>
+                    <Name>Specialist AE-TogaTr-AddGoods-L FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-TogaTr-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000635</OasisId>
@@ -198,6 +205,10 @@
                             <ProvidedNeedProduct>2145</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
                         </Item>
+                        <Item>
+                            <ProvidedNeedProduct>2158</ProvidedNeedProduct>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+                        </Item>
                     </GoodConsumptionUpgrade>
                 </ResidenceUpgrade>
                 <Buff>
@@ -216,8 +227,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000639</GUID>
-                    <Name>Specialist AE-Toga-AddGoods-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-Toga-AddGoods-L.png</IconFilename>
+                    <Name>Specialist AE-TogaTr-AddGoods-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-TogaTr-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000635</OasisId>
@@ -243,6 +254,10 @@
                             <ProvidedNeedProduct>2145</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
                         </Item>
+                        <Item>
+                            <ProvidedNeedProduct>2158</ProvidedNeedProduct>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+                        </Item>
                     </GoodConsumptionUpgrade>
                 </ResidenceUpgrade>
             </Values>
@@ -255,8 +270,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000640</GUID>
-                    <Name>Specialist AE-Toga-AddGoods-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-Toga-AddGoods-L.png</IconFilename>
+                    <Name>Specialist AE-TogaTr-AddGoods-L Boosted FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-TogaTr-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -287,8 +302,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000641</GUID>
-                    <Name>Specialist AE-Toga-AddGoods-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-Toga-AddGoods-L.png</IconFilename>
+                    <Name>Specialist AE-TogaTr-AddGoods-L Boosted FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-TogaTr-AddGoods-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000635</OasisId>
@@ -313,6 +328,10 @@
                     <GoodConsumptionUpgrade>
                         <Item>
                             <ProvidedNeedProduct>2145</ProvidedNeedProduct>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeedProduct>2158</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>

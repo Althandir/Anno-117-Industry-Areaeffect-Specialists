@@ -325,7 +325,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Toga-AddGoods-L -->
+  <!-- Specialist AE-TogaTr-AddGoods-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -634,7 +634,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>Mosaics in different colors are their muse. (400x Mosaics in Storage)</Text>
         <LineId>1600001063</LineId>
       </Text>
     </ModOp>
@@ -655,7 +655,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>Only competition keeps her inner fire burning. (30x Clothiers on Island)</Text>
         <LineId>1600001133</LineId>
       </Text>
     </ModOp>
@@ -676,7 +676,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>Always in need of fresh drinkable water. (10x Wells on Island)</Text>
         <LineId>1600001140</LineId>
       </Text>
     </ModOp>
@@ -697,7 +697,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>Tries to find different perspectives and ideas. (24x Workshops on Island)</Text>
         <LineId>1600001077</LineId>
       </Text>
     </ModOp>
@@ -718,7 +718,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>Gold? GOOOOOOLLLLD?! Goooooooooooooooold! (500x Gold in Storage)</Text>
         <LineId>1600001182</LineId>
       </Text>
     </ModOp>
@@ -739,7 +739,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>"Glass keeps the quality of my oil high." (300x Glass in Storage)</Text>
         <LineId>1600001175</LineId>
       </Text>
     </ModOp>
@@ -760,7 +760,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>"Where is my collection of sea shells?" (100x Sea Shells in Storage)</Text>
         <LineId>1600001084</LineId>
       </Text>
     </ModOp>
@@ -781,7 +781,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>Seasons the meat with some small white corn. (200x Salt in Storage)</Text>
         <LineId>1600001105</LineId>
       </Text>
     </ModOp>
@@ -802,7 +802,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>Everyone will get a special tunic from me. Let me get my strings... (150x Strings in Storage)</Text>
         <LineId>1600001161</LineId>
       </Text>
     </ModOp>
@@ -823,7 +823,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>Only Scholars and Scribes are interested. (8000 Knowledge on Island)</Text>
         <LineId>1600001091</LineId>
       </Text>
     </ModOp>
@@ -844,7 +844,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER (PLACEHOLDER_CONDITION)</Text>
+        <Text>"Having a grape now and then has never ruined anyone’s day." (300x Grapes in Storage)</Text>
         <LineId>1600001098</LineId>
       </Text>
     </ModOp>
