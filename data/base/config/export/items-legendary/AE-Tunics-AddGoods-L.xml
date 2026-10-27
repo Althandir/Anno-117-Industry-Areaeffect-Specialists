@@ -40,42 +40,29 @@
             </Text>
 
             <ItemWithBoost>
+                <!-- Condition - min. 150 Strings in Storage -->
                 <BoostCondition>
-                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                <Values>
-                    <PreConditionList>
-                        <!-- Condition 1 - 8x on Island -->
+                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                    <Values>
+                        <PreConditionList>
                         <Condition>
-                            <Template>ConditionObjectCount</Template>
+                            <Template>ConditionPlayerCounter</Template>
                             <Values>
                                 <Condition/>
-                                <ConditionObjectCount>
-                                    <Amount>8</Amount>
-                                </ConditionObjectCount>
-                                <ObjectFilter>
-                                    <ObjectGUID>38561</ObjectGUID>
-                                    <ObjectLocations>
-                                        <Template>LocationFilter</Template>
-                                        <Values>
-                                            <LocationFilter>
-                                                <ObjectLocations>
-                                                    <ObjectFilter>
-                                                        <Template>ObjectFilter</Template>
-                                                        <Values>
-                                                            <ObjectFilter>
-                                                                <UseContextObjects>1</UseContextObjects>
-                                                            </ObjectFilter>
-                                                        </Values>
-                                                    </ObjectFilter>
-                                                </ObjectLocations>
-                                            </LocationFilter>
-                                        </Values>
-                                    </ObjectLocations>
-                                </ObjectFilter>
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>GoodsInStock</PlayerCounter>
+                                    <Context>2135</Context>
+                                    <CounterAmount>150</CounterAmount>
+                                    <CounterScope>Area</CounterScope>
+                                </ConditionPlayerCounter>
+                                <ConditionLocationProps/>
+                                <ConditionCounterProps/>
+                                <ConditionPropsComparable/>
+                                <ConditionPropsExaminableObjects/>
                             </Values>
                         </Condition>
-                    </PreConditionList>
-                </Values>
+                        </PreConditionList>
+                    </Values>
                 </BoostCondition>
                 <BoostBuffs>
                 <Item>
@@ -180,16 +167,10 @@
                     <AdditionalAttributes>
                         <Population>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Population>
-                        <Money>
-                            <AmountOrPercent>
                                 <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Money>
+                        </Population>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <ResidenceUpgrade>
@@ -303,7 +284,7 @@
                         </Population>
                         <Money>
                             <AmountOrPercent>
-                                <Value>2</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Money>

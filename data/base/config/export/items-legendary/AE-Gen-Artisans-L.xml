@@ -40,7 +40,7 @@
           </Text>
 
           <ItemWithBoost>
-            <!-- Condition - min. 300 Flour in Storage -->
+            <!-- Condition - min. 400 Mosaics in Storage -->
             <BoostCondition>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
@@ -51,8 +51,8 @@
                       <Condition/>
                       <ConditionPlayerCounter>
                         <PlayerCounter>GoodsInStock</PlayerCounter>
-                        <Context>2119</Context>
-                        <CounterAmount>300</CounterAmount>
+                        <Context>2152</Context>
+                        <CounterAmount>400</CounterAmount>
                         <CounterScope>Area</CounterScope>
                       </ConditionPlayerCounter>
                       <ConditionLocationProps/>
@@ -163,16 +163,10 @@
             <AdditionalAttributes>
               <Prestige>
                 <AmountOrPercent>
-                  <Value>0.5</Value>
+                  <Value>1</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Prestige>
-              <Happiness>
-                <AmountOrPercent>
-                  <Value>0.5</Value>
-                  <Percental>0</Percental>
-                </AmountOrPercent>
-              </Happiness>
             </AdditionalAttributes>
           </BuildingUpgrade>
           <Buff>
@@ -269,16 +263,16 @@
             <AdditionalAttributes>
               <Prestige>
                 <AmountOrPercent>
-                  <Value>1</Value>
+                  <Value>2</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Prestige>
-              <Happiness>
+              <Knowledge>
                 <AmountOrPercent>
                   <Value>1</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
-              </Happiness>
+              </Knowledge>
             </AdditionalAttributes>
           </BuildingUpgrade>
           <Buff>
@@ -291,6 +285,7 @@
   </Group>
 
 </ModOps>
+
 
 
 

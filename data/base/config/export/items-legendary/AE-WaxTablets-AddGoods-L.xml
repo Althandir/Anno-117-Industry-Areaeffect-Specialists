@@ -42,40 +42,40 @@
             <ItemWithBoost>
                 <BoostCondition>
                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                <Values>
-                    <PreConditionList>
-                        <!-- Condition 1 - 8x on Island -->
-                        <Condition>
-                            <Template>ConditionObjectCount</Template>
+                    <Values>
+                        <PreConditionList>
+                        <!-- Condition - 8000 Knowledge -->
+                            <Condition>
+                            <Template>ConditionNeedAttributeCounter</Template>
                             <Values>
                                 <Condition/>
-                                <ConditionObjectCount>
-                                    <Amount>8</Amount>
-                                </ConditionObjectCount>
-                                <ObjectFilter>
-                                    <ObjectGUID>38561</ObjectGUID>
-                                    <ObjectLocations>
-                                        <Template>LocationFilter</Template>
-                                        <Values>
-                                            <LocationFilter>
-                                                <ObjectLocations>
-                                                    <ObjectFilter>
-                                                        <Template>ObjectFilter</Template>
-                                                        <Values>
-                                                            <ObjectFilter>
-                                                                <UseContextObjects>1</UseContextObjects>
-                                                            </ObjectFilter>
-                                                        </Values>
-                                                    </ObjectFilter>
-                                                </ObjectLocations>
-                                            </LocationFilter>
-                                        </Values>
-                                    </ObjectLocations>
-                                </ObjectFilter>
+                                <ConditionNeedAttributeCounter>
+                                <NeedAttributeType>Knowledge</NeedAttributeType>
+                                <NeedAttributeAmount>8000</NeedAttributeAmount>
+                                </ConditionNeedAttributeCounter>
+                                <ConditionLocationFilter>
+                                <LocationFilter>
+                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                    <Values>
+                                    <LocationFilter>
+                                        <ObjectLocations>
+                                        <ObjectFilter>
+                                            <Template>ObjectFilter</Template>
+                                            <Values>
+                                            <ObjectFilter>
+                                                <UseContextObjects>1</UseContextObjects>
+                                            </ObjectFilter>
+                                            </Values>
+                                        </ObjectFilter>
+                                        </ObjectLocations>
+                                    </LocationFilter>
+                                    </Values>
+                                </LocationFilter>
+                                </ConditionLocationFilter>
                             </Values>
-                        </Condition>
-                    </PreConditionList>
-                </Values>
+                            </Condition>
+                        </PreConditionList>
+                    </Values>
                 </BoostCondition>
                 <BoostBuffs>
                 <Item>
@@ -178,18 +178,12 @@
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Population>
+                        <Knowledge>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>1.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Population>
-                        <Money>
-                            <AmountOrPercent>
-                                <Value>1</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Money>
+                        </Knowledge>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <ResidenceUpgrade>
@@ -295,18 +289,18 @@
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Population>
+                        <Money>
                             <AmountOrPercent>
                                 <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Population>
-                        <Money>
+                        </Money>
+                        <Knowledge>
                             <AmountOrPercent>
                                 <Value>2</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Money>
+                        </Knowledge>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <ResidenceUpgrade>
