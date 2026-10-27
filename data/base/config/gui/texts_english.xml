@@ -850,5 +850,46 @@
     </ModOp>
   </Group>
 
+  <!-- Specialist AE-Porrige-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>PLACEHOLDER AE-Porrige-L</Text>
+        <LineId>1600001187</LineId> <!-- <GUID>1600001187</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>PLACEHOLDER AE-Porrige-L &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001188</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>PLACEHOLDER AE-Porrige-L (5000 Prestige on Island)</Text>
+        <LineId>1600001189</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Sandals-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>PLACEHOLDER AE-Sandals-L</Text>
+        <LineId>1600001194</LineId> <!-- <GUID>1600001194</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>PLACEHOLDER AE-Sandals-L &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001195</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>PLACEHOLDER AE-Sandals-L (5000 Prestige on Island)</Text>
+        <LineId>1600001196</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
 </ModOps>

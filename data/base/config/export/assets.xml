@@ -78,8 +78,10 @@
     <Include File="items-legendary/AE-Mirror-AddGoods-L.xml" />
     <Include File="items-legendary/AE-Oyster-AddGoods-L.xml" />
     <Include File="items-legendary/AE-PeltHat-AddGoods-L.xml" />
+    <Include File="items-legendary/AE-Porrige-L.xml" />
     <Include File="items-legendary/AE-RGlass-AddGoods-L.xml" />
     <Include File="items-legendary/AE-RoastBeef-AddGoods-L.xml" />
+    <Include File="items-legendary/AE-Sandals-L.xml" />
     <Include File="items-legendary/AE-Soap-AddGoods-L.xml" />
     <Include File="items-legendary/AE-TogaTr-AddGoods-L.xml" />
     <Include File="items-legendary/AE-Tunics-AddGoods-L.xml" />
