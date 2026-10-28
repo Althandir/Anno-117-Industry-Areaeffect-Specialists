@@ -84,43 +84,19 @@
     },
     "ConsumptionModifier_Legendary_NonBoosted":
     {
-      "default": "-20.0"
+      "default": "-25.0"
     },
     "ConsumptionModifier_Legendary_Boosted":
     {
-      "default": "-33.0"
+      "default": "-40.0"
     },
     "ProductivityBuff_Generic_Legendary_NonBoosted":
     {
-      "default": "0"
+      "default": "5"
     },
     "ProductivityBuff_Generic_Legendary_Boosted":
     {
-      "default": "0"
-    },
-    "AdditionalGoods_Amount_Generic_Legendary_NonBoosted":
-    {
-      "default": "1"
-    },
-    "AdditionalGoods_Cycle_Generic_Legendary_NonBoosted":
-    {
-      "default": "20"
-    },
-    "AdditionalGoods_Amount_Generic_Legendary_Boosted":
-    {
-      "default": "1"
-    },
-    "AdditionalGoods_Cycle_Generic_Legendary_Boosted":
-    {
-      "default": "10"
-    },
-    "UNUSED_ProductivityBuff_Legendary_NonBoosted":
-    {
-      "default": "0"
-    },
-    "UNUSED_ProductivityBuff_Legendary_Boosted":
-    {
-      "default": "0"
+      "default": "15"
     },
     "AdditionalGoods_Amount_Legendary_NonBoosted":
     {
