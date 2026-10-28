@@ -1,27 +1,27 @@
 <ModOps>
-<!-- Item Definition GUID:1600001117 - 1600001123 | LineID:1600001117 - 1600001119  -->
+<!-- Item Definition GUID:1600001159 - 1600001165 | LineID:1600001159 - 1600001161  -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>ItemWithBoost</Template>
         <Values>
             <Standard>
-                <GUID>1600001117</GUID>
-                <Name>Specialist AE-Cheese-AddGoods-L</Name>
-                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Cheese-AddGoods-L.png</IconFilename>
-                <InfoDescription>1600001118</InfoDescription>
+                <GUID>1600001159</GUID>
+                <Name>Specialist AE-Tunics-L</Name>
+                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Tunics-L.png</IconFilename>
+                <InfoDescription>1600001160</InfoDescription>
             </Standard>
             <Effect>
                 <EffectScope>ObjectsInArea</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                     <Item>
-                        <GUID>1600001118</GUID>
+                        <GUID>1600001160</GUID>
                     </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
                 <Item>
-                    <GUID>50571</GUID>
+                    <GUID>50232</GUID>
                 </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
@@ -36,53 +36,40 @@
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600001117</OasisId>
+                <OasisId>1600001159</OasisId>
             </Text>
 
             <ItemWithBoost>
+                <!-- Condition - min. 150 Strings in Storage -->
                 <BoostCondition>
-                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                <Values>
-                    <PreConditionList>
-                        <!-- Condition 1 - 3x Sheepfarm on Island -->
+                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                    <Values>
+                        <PreConditionList>
                         <Condition>
-                            <Template>ConditionObjectCount</Template>
+                            <Template>ConditionPlayerCounter</Template>
                             <Values>
                                 <Condition/>
-                                <ConditionObjectCount>
-                                    <Amount>3</Amount>
-                                </ConditionObjectCount>
-                                <ObjectFilter>
-                                    <ObjectGUID>50293</ObjectGUID>
-                                    <ObjectLocations>
-                                        <Template>LocationFilter</Template>
-                                        <Values>
-                                            <LocationFilter>
-                                                <ObjectLocations>
-                                                    <ObjectFilter>
-                                                        <Template>ObjectFilter</Template>
-                                                        <Values>
-                                                            <ObjectFilter>
-                                                                <UseContextObjects>1</UseContextObjects>
-                                                            </ObjectFilter>
-                                                        </Values>
-                                                    </ObjectFilter>
-                                                </ObjectLocations>
-                                            </LocationFilter>
-                                        </Values>
-                                    </ObjectLocations>
-                                </ObjectFilter>
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>GoodsInStock</PlayerCounter>
+                                    <Context>2135</Context>
+                                    <CounterAmount>150</CounterAmount>
+                                    <CounterScope>Area</CounterScope>
+                                </ConditionPlayerCounter>
+                                <ConditionLocationProps/>
+                                <ConditionCounterProps/>
+                                <ConditionPropsComparable/>
+                                <ConditionPropsExaminableObjects/>
                             </Values>
                         </Condition>
-                    </PreConditionList>
-                </Values>
+                        </PreConditionList>
+                    </Values>
                 </BoostCondition>
                 <BoostBuffs>
                 <Item>
-                    <GUID>1600001121</GUID>
+                    <GUID>1600001163</GUID>
                 </Item>
                 </BoostBuffs>
-                <BoostHint>1600001119</BoostHint>
+                <BoostHint>1600001161</BoostHint>
             </ItemWithBoost>
 
         </Values>
@@ -98,15 +85,15 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600001118</GUID>
-                    <Name>Specialist AE-Cheese-AddGoods-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Cheese-AddGoods-L.png</IconFilename>
+                    <GUID>1600001160</GUID>
+                    <Name>Specialist AE-Tunics-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Tunics-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600001117</OasisId>
+                    <OasisId>1600001159</OasisId>
                 </Text>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600001119</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600001161</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
@@ -123,7 +110,7 @@
                 <ResidenceUpgrade> <!--Info for Player-->
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2153</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2141</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
@@ -137,16 +124,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600001119</GUID>
-                    <Name>Specialist AE-Cheese-AddGoods-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Cheese-AddGoods-L.png</IconFilename>
+                    <GUID>1600001161</GUID>
+                    <Name>Specialist AE-Tunics-L FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Tunics-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600001120</GUID>
+                            <GUID>1600001162</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -158,7 +145,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600001117</OasisId>
+                    <OasisId>1600001159</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -169,12 +156,12 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600001120</GUID>
-                    <Name>Specialist AE-Cheese-AddGoods-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Cheese-AddGoods-L.png</IconFilename>
+                    <GUID>1600001162</GUID>
+                    <Name>Specialist AE-Tunics-L FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Tunics-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600001117</OasisId>
+                    <OasisId>1600001159</OasisId>
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
@@ -189,7 +176,7 @@
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2153</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2141</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
@@ -209,15 +196,15 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600001121</GUID>
-                    <Name>Specialist AE-Cheese-AddGoods-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Cheese-AddGoods-L.png</IconFilename>
+                    <GUID>1600001163</GUID>
+                    <Name>Specialist AE-Tunics-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Tunics-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600001117</OasisId>
+                    <OasisId>1600001159</OasisId>
                 </Text>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600001122</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600001164</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
@@ -234,7 +221,7 @@
                 <ResidenceUpgrade> <!--Info for Player-->
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2153</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2141</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
@@ -248,16 +235,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600001122</GUID>
-                    <Name>Specialist AE-Cheese-AddGoods-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Cheese-AddGoods-L.png</IconFilename>
+                    <GUID>1600001164</GUID>
+                    <Name>Specialist AE-Tunics-L Boosted FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Tunics-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600001123</GUID>
+                            <GUID>1600001165</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -269,7 +256,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600001117</OasisId>
+                    <OasisId>1600001159</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -280,12 +267,12 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600001123</GUID>
-                    <Name>Specialist AE-Cheese-AddGoods-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Cheese-AddGoods-L.png</IconFilename>
+                    <GUID>1600001165</GUID>
+                    <Name>Specialist AE-Tunics-L Boosted FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Tunics-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600001117</OasisId>
+                    <OasisId>1600001159</OasisId>
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
@@ -295,18 +282,18 @@
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Population>
-                        <Knowledge>
+                        <Money>
                             <AmountOrPercent>
                                 <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Knowledge>
+                        </Money>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2153</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2141</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>

@@ -1,42 +1,45 @@
 <ModOps>
-<!-- Item Definition GUID:1600000671 - 1600000677 | LineID:1600000671 - 1600000673  -->
+<!-- Item Definition GUID:1600000635 - 1600000641 | LineID:1600000635 - 1600000637  -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>ItemWithBoost</Template>
         <Values>
             <Standard>
-                <GUID>1600000671</GUID>
-                <Name>Specialist AE-RGlass-AddGoods-L</Name>
-                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_f_AE-RGlass-AddGoods-L.png</IconFilename>
-                <InfoDescription>1600000672</InfoDescription>
+                <GUID>1600000635</GUID>
+                <Name>Specialist AE-TogaTr-L</Name>
+                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-TogaTr-L.png</IconFilename>
+                <InfoDescription>1600000636</InfoDescription>
             </Standard>
             <Effect>
                 <EffectScope>ObjectsInArea</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                     <Item>
-                        <GUID>1600000672</GUID>
+                        <GUID>1600000636</GUID>
                     </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
                 <Item>
-                    <GUID>3202</GUID>
+                    <GUID>3191</GUID>
+                </Item>
+                <Item>
+                    <GUID>5608</GUID>
                 </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Religion</Niche>  
+                <Niche>Finance</Niche>  
                 <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice> 
-                <BarkPool>83356</BarkPool> <!-- <GUID>83356</GUID> -->
+                <BarkPool>80243</BarkPool> <!-- <GUID>80243</GUID> -->
                 <Rarity>Legendary</Rarity> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000671</OasisId>
+                <OasisId>1600000635</OasisId>
             </Text>
 
             <ItemWithBoost>
@@ -44,7 +47,7 @@
                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                 <Values>
                     <PreConditionList>
-                        <!-- Condition 1 - 10x Tavern on Island -->
+                        <!-- Condition 1 - 10x Medicus on Island -->
                         <Condition>
                             <Template>ConditionObjectCount</Template>
                             <Values>
@@ -53,7 +56,7 @@
                                     <Amount>10</Amount>
                                 </ConditionObjectCount>
                                 <ObjectFilter>
-                                    <ObjectGUID>3528</ObjectGUID>
+                                    <ObjectGUID>38561</ObjectGUID>
                                     <ObjectLocations>
                                         <Template>LocationFilter</Template>
                                         <Values>
@@ -79,10 +82,10 @@
                 </BoostCondition>
                 <BoostBuffs>
                 <Item>
-                    <GUID>1600000675</GUID>
+                    <GUID>1600000639</GUID>
                 </Item>
                 </BoostBuffs>
-                <BoostHint>1600000673</BoostHint>
+                <BoostHint>1600000637</BoostHint>
             </ItemWithBoost>
 
         </Values>
@@ -98,15 +101,15 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000672</GUID>
-                    <Name>Specialist AE-RGlass-AddGoods-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_f_AE-RGlass-AddGoods-L.png</IconFilename>
+                    <GUID>1600000636</GUID>
+                    <Name>Specialist AE-TogaTr-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-TogaTr-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000671</OasisId>
+                    <OasisId>1600000635</OasisId>
                 </Text>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000673</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000637</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
@@ -123,8 +126,12 @@
                 <ResidenceUpgrade> <!--Info for Player-->
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2151</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2145</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeedProduct>2158</ProvidedNeedProduct>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                 </ResidenceUpgrade>
@@ -137,16 +144,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000673</GUID>
-                    <Name>Specialist AE-RGlass-AddGoods-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_f_AE-RGlass-AddGoods-L.png</IconFilename>
+                    <GUID>1600000637</GUID>
+                    <Name>Specialist AE-TogaTr-L FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-TogaTr-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000674</GUID>
+                            <GUID>1600000638</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -158,7 +165,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000671</OasisId>
+                    <OasisId>1600000635</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -169,21 +176,21 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000674</GUID>
-                    <Name>Specialist AE-RGlass-AddGoods-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_f_AE-RGlass-AddGoods-L.png</IconFilename>
+                    <GUID>1600000638</GUID>
+                    <Name>Specialist AE-TogaTr-L FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-TogaTr-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000671</OasisId>
+                    <OasisId>1600000635</OasisId>
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Belief>
+                        <Population>
                             <AmountOrPercent>
-                                <Value>1</Value>
+                                <Value>0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Belief>
+                        </Population>
                         <Money>
                             <AmountOrPercent>
                                 <Value>1</Value>
@@ -195,8 +202,12 @@
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2151</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2145</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeedProduct>2158</ProvidedNeedProduct>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
                 </ResidenceUpgrade>
@@ -215,15 +226,15 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000675</GUID>
-                    <Name>Specialist AE-RGlass-AddGoods-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_f_AE-RGlass-AddGoods-L.png</IconFilename>
+                    <GUID>1600000639</GUID>
+                    <Name>Specialist AE-TogaTr-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-TogaTr-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000671</OasisId>
+                    <OasisId>1600000635</OasisId>
                 </Text>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000676</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000640</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
@@ -240,7 +251,11 @@
                 <ResidenceUpgrade> <!--Info for Player-->
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2151</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2145</ProvidedNeedProduct>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeedProduct>2158</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
@@ -254,16 +269,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000676</GUID>
-                    <Name>Specialist AE-RGlass-AddGoods-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_f_AE-RGlass-AddGoods-L.png</IconFilename>
+                    <GUID>1600000640</GUID>
+                    <Name>Specialist AE-TogaTr-L Boosted FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-TogaTr-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000677</GUID>
+                            <GUID>1600000641</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -275,7 +290,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000671</OasisId>
+                    <OasisId>1600000635</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -286,21 +301,21 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000677</GUID>
-                    <Name>Specialist AE-RGlass-AddGoods-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_f_AE-RGlass-AddGoods-L.png</IconFilename>
+                    <GUID>1600000641</GUID>
+                    <Name>Specialist AE-TogaTr-L Boosted FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_m_AE-TogaTr-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000671</OasisId>
+                    <OasisId>1600000635</OasisId>
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Belief>
+                        <Population>
                             <AmountOrPercent>
-                                <Value>2</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Belief>
+                        </Population>
                         <Money>
                             <AmountOrPercent>
                                 <Value>2</Value>
@@ -312,7 +327,11 @@
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2151</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2145</ProvidedNeedProduct>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeedProduct>2158</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>

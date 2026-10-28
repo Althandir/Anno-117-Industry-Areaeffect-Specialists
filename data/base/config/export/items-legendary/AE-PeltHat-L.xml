@@ -1,42 +1,42 @@
 <ModOps>
-<!-- Item Definition GUID:1600001110 - 1600001116 | LineID:1600001110 - 1600001112  -->
+<!-- Item Definition GUID:1600000650 - 1600000656 | LineID:1600000650 - 1600000652  -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>ItemWithBoost</Template>
         <Values>
             <Standard>
-                <GUID>1600001110</GUID>
-                <Name>Specialist AE-Bread-AddGoods-L</Name>
-                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Bread-AddGoods-L.png</IconFilename>
-                <InfoDescription>1600001111</InfoDescription>
+                <GUID>1600000650</GUID>
+                <Name>Specialist AE-PeltHat-L</Name>
+                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/f_AE-PeltHat-L.png</IconFilename>
+                <InfoDescription>1600000651</InfoDescription>
             </Standard>
             <Effect>
                 <EffectScope>ObjectsInArea</EffectScope>  
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                     <Item>
-                        <GUID>1600001111</GUID>
+                        <GUID>1600000651</GUID>
                     </Item>
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
                 <Item>
-                    <GUID>50235</GUID>
+                    <GUID>31770</GUID>
                 </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Finance</Niche>  
+                <Niche>Diplomacy</Niche>  
                 <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice> 
-                <BarkPool>80243</BarkPool> <!-- <GUID>80243</GUID> -->
+                <BarkPool>83314</BarkPool> <!-- <GUID>83314</GUID> -->
                 <Rarity>Legendary</Rarity> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600001110</OasisId>
+                <OasisId>1600000650</OasisId>
             </Text>
 
             <ItemWithBoost>
@@ -44,16 +44,16 @@
                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                 <Values>
                     <PreConditionList>
-                        <!-- Condition 1 - 6x Shrine of Ceres on Island -->
+                        <!-- Condition 1 - 125 Alderman Residences on Island -->
                         <Condition>
                             <Template>ConditionObjectCount</Template>
                             <Values>
                                 <Condition/>
                                 <ConditionObjectCount>
-                                    <Amount>6</Amount>
+                                    <Amount>125</Amount>
                                 </ConditionObjectCount>
                                 <ObjectFilter>
-                                    <ObjectGUID>82494</ObjectGUID>
+                                    <ObjectGUID>6472</ObjectGUID>
                                     <ObjectLocations>
                                         <Template>LocationFilter</Template>
                                         <Values>
@@ -79,10 +79,10 @@
                 </BoostCondition>
                 <BoostBuffs>
                 <Item>
-                    <GUID>1600001114</GUID>
+                    <GUID>1600000654</GUID>
                 </Item>
                 </BoostBuffs>
-                <BoostHint>1600001112</BoostHint>
+                <BoostHint>1600000652</BoostHint>
             </ItemWithBoost>
 
         </Values>
@@ -98,15 +98,15 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600001111</GUID>
-                    <Name>Specialist AE-Bread-AddGoods-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Bread-AddGoods-L.png</IconFilename>
+                    <GUID>1600000651</GUID>
+                    <Name>Specialist AE-PeltHat-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/f_AE-PeltHat-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600001110</OasisId>
+                    <OasisId>1600000650</OasisId>
                 </Text>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600001112</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000652</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
@@ -123,7 +123,7 @@
                 <ResidenceUpgrade> <!--Info for Player-->
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2137</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>31707</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
@@ -137,16 +137,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600001112</GUID>
-                    <Name>Specialist AE-Bread-AddGoods-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Bread-AddGoods-L.png</IconFilename>
+                    <GUID>1600000652</GUID>
+                    <Name>Specialist AE-PeltHat-L FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/f_AE-PeltHat-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600001113</GUID>
+                            <GUID>1600000653</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -158,7 +158,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600001110</OasisId>
+                    <OasisId>1600000650</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -169,33 +169,33 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600001113</GUID>
-                    <Name>Specialist AE-Bread-AddGoods-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Bread-AddGoods-L.png</IconFilename>
+                    <GUID>1600000653</GUID>
+                    <Name>Specialist AE-PeltHat-L FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/f_AE-PeltHat-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600001110</OasisId>
+                    <OasisId>1600000650</OasisId>
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Happiness>
-                            <AmountOrPercent>
-                                <Value>0.5</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Happiness>
-                        <Belief>
+                        <Population>
                             <AmountOrPercent>
                                 <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Belief>
+                        </Population>
+                        <Prestige>
+                            <AmountOrPercent>
+                                <Value>1</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Prestige>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2137</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>31707</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
@@ -215,15 +215,15 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600001114</GUID>
-                    <Name>Specialist AE-Bread-AddGoods-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Bread-AddGoods-L.png</IconFilename>
+                    <GUID>1600000654</GUID>
+                    <Name>Specialist AE-PeltHat-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/f_AE-PeltHat-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600001110</OasisId>
+                    <OasisId>1600000650</OasisId>
                 </Text>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600001115</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000655</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
@@ -240,7 +240,7 @@
                 <ResidenceUpgrade> <!--Info for Player-->
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2137</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>31707</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
@@ -254,16 +254,16 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600001115</GUID>
-                    <Name>Specialist AE-Bread-AddGoods-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Bread-AddGoods-L.png</IconFilename>
+                    <GUID>1600000655</GUID>
+                    <Name>Specialist AE-PeltHat-L Boosted FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/f_AE-PeltHat-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600001116</GUID>
+                            <GUID>1600000656</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -275,7 +275,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600001110</OasisId>
+                    <OasisId>1600000650</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -286,33 +286,33 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600001116</GUID>
-                    <Name>Specialist AE-Bread-AddGoods-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Bread-AddGoods-L.png</IconFilename>
+                    <GUID>1600000656</GUID>
+                    <Name>Specialist AE-PeltHat-L Boosted FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/f_AE-PeltHat-L.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600001110</OasisId>
+                    <OasisId>1600000650</OasisId>
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Happiness>
+                        <Population>
                             <AmountOrPercent>
                                 <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Happiness>
-                        <Belief>
+                        </Population>
+                        <Prestige>
                             <AmountOrPercent>
-                                <Value>2</Value>
+                                <Value>3</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Belief>
+                        </Prestige>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2137</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>31707</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>

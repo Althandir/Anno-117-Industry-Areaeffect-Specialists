@@ -1,6 +1,6 @@
 <ModOps>
 
-  <!-- Specialist AE-AllProd-Income-Stack-C -->
+  <!-- Specialist AE-AllProd-Stack-C -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -80,7 +80,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-MatProd-FireS-R -->
+  <!-- Specialist AE-MatProd-R -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -96,7 +96,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Brooch-AddGoods-L -->
+  <!-- Specialist AE-Brooch-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -170,7 +170,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-FuelConsumer-E -->
+  <!-- Specialist AE-Fuel-Stack-E -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -220,7 +220,7 @@
 
 
 
-  <!-- Specialist AE-Amphores-AddGoods-L -->
+  <!-- Specialist AE-Amphores-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -262,7 +262,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Chariot-AddGoods-L -->
+  <!-- Specialist AE-Chariot-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -304,7 +304,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-AllProd-Income-Stack-L -->
+  <!-- Specialist AE-AllProd-Stack-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -325,7 +325,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-TogaTr-AddGoods-L -->
+  <!-- Specialist AE-TogaTr-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -409,7 +409,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-RGlass-AddGoods-L -->
+  <!-- Specialist AE-RGlass-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -430,7 +430,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-BTongue-AddGoods-L -->
+  <!-- Specialist AE-BTongue-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -451,7 +451,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Soap-AddGoods-L -->
+  <!-- Specialist AE-Soap-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -472,12 +472,12 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Beer-AddGoods-L -->
+  <!-- Specialist AE-Beer-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Beer-AddGoods-L</Text>
+        <Text>PLACEHOLDER AE-Beer-L</Text>
         <LineId>1600001145</LineId> <!-- <GUID>1600001145</GUID> -->
       </Text>
       <!-- Description -->
@@ -493,12 +493,12 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Bread-AddGoods-L -->
+  <!-- Specialist AE-Bread-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Bread-AddGoods-L</Text>
+        <Text>PLACEHOLDER AE-Bread-L</Text>
         <LineId>1600001110</LineId> <!-- <GUID>1600001110</GUID> -->
       </Text>
       <!-- Description -->
@@ -514,12 +514,12 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Cheese-AddGoods-L -->
+  <!-- Specialist AE-Cheese-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Cheese-AddGoods-L</Text>
+        <Text>PLACEHOLDER AE-Cheese-L</Text>
         <LineId>1600001117</LineId> <!-- <GUID>1600001117</GUID> -->
       </Text>
       <!-- Description -->
@@ -535,12 +535,12 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Cloaks-AddGoods-L -->
+  <!-- Specialist AE-Cloaks-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Cloaks-AddGoods-L</Text>
+        <Text>PLACEHOLDER AE-Cloaks-L</Text>
         <LineId>1600001124</LineId> <!-- <GUID>1600001124</GUID> -->
       </Text>
       <!-- Description -->
@@ -556,12 +556,12 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-DHorns-AddGoods-L -->
+  <!-- Specialist AE-DHorns-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-DHorns-AddGoods-L</Text>
+        <Text>PLACEHOLDER AE-DHorns-L</Text>
         <LineId>1600001152</LineId> <!-- <GUID>1600001152</GUID> -->
       </Text>
       <!-- Description -->
@@ -577,12 +577,12 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Garum-AddGoods-L -->
+  <!-- Specialist AE-Garum-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Garum-AddGoods-L</Text>
+        <Text>PLACEHOLDER AE-Garum-L</Text>
         <LineId>1600001166</LineId> <!-- <GUID>1600001166</GUID> -->
       </Text>
       <!-- Description -->
@@ -703,12 +703,12 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Necklaces-AddGoods-L -->
+  <!-- Specialist AE-Necklaces-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Necklaces-AddGoods-L</Text>
+        <Text>PLACEHOLDER AE-Necklaces-L</Text>
         <LineId>1600001180</LineId> <!-- <GUID>1600001180</GUID> -->
       </Text>
       <!-- Description -->
@@ -724,12 +724,12 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-OliveOil-AddGoods-L -->
+  <!-- Specialist AE-OliveOil-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-OliveOil-AddGoods-L</Text>
+        <Text>PLACEHOLDER AE-OliveOil-L</Text>
         <LineId>1600001173</LineId> <!-- <GUID>1600001173</GUID> -->
       </Text>
       <!-- Description -->
@@ -745,12 +745,12 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Oyster-AddGoods-L -->
+  <!-- Specialist AE-Oyster-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Oyster-AddGoods-L</Text>
+        <Text>PLACEHOLDER AE-Oyster-L</Text>
         <LineId>1600001082</LineId> <!-- <GUID>1600001082</GUID> -->
       </Text>
       <!-- Description -->
@@ -766,12 +766,12 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-RoastBeef-AddGoods-L -->
+  <!-- Specialist AE-RoastBeef-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-RoastBeef-AddGoods-L</Text>
+        <Text>PLACEHOLDER AE-RoastBeef-L</Text>
         <LineId>1600001103</LineId> <!-- <GUID>1600001103</GUID> -->
       </Text>
       <!-- Description -->
@@ -787,12 +787,12 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Tunics-AddGoods-L -->
+  <!-- Specialist AE-Tunics-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Tunics-AddGoods-L</Text>
+        <Text>PLACEHOLDER AE-Tunics-L</Text>
         <LineId>1600001159</LineId> <!-- <GUID>1600001159</GUID> -->
       </Text>
       <!-- Description -->
@@ -808,12 +808,12 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-WaxTablets-AddGoods-L -->
+  <!-- Specialist AE-WaxTablets-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-WaxTablets-AddGoods-L</Text>
+        <Text>PLACEHOLDER AE-WaxTablets-L</Text>
         <LineId>1600001089</LineId> <!-- <GUID>1600001089</GUID> -->
       </Text>
       <!-- Description -->
@@ -829,12 +829,12 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Wine-AddGoods-L -->
+  <!-- Specialist AE-Wine-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Wine-AddGoods-L</Text>
+        <Text>PLACEHOLDER AE-Wine-L</Text>
         <LineId>1600001096</LineId> <!-- <GUID>1600001096</GUID> -->
       </Text>
       <!-- Description -->

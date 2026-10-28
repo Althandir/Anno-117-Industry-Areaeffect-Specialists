@@ -7,8 +7,8 @@
             <Values>
             <Standard>
                 <GUID>1600000404</GUID>
-                <Name>Specialist AE-MatProd-FireS-R</Name>
-                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-FireS-R.png</IconFilename>
+                <Name>Specialist AE-MatProd-R</Name>
+                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-R.png</IconFilename>
                 <InfoDescription>1600000405</InfoDescription>
             </Standard>
             <Effect>
@@ -52,8 +52,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000405</GUID>
-                        <Name>Specialist AE-MatProd-FireS-R BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-FireS-R.png</IconFilename>
+                        <Name>Specialist AE-MatProd-R BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000404</OasisId>
@@ -74,8 +74,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000406</GUID>
-                        <Name>Specialist AE-MatProd-FireS-R FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-FireS-R.png</IconFilename>
+                        <Name>Specialist AE-MatProd-R FunctionalEffect</Name>
+                        <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-R.png</IconFilename>
                     </Standard>
                     <Effect>
                         <EffectScope>Radius</EffectScope>
@@ -106,8 +106,8 @@
                 <Values>
                     <Standard>
                         <GUID>1600000407</GUID>
-                        <Name>Specialist AE-MatProd-FireS-R FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-FireS-R.png</IconFilename>
+                        <Name>Specialist AE-MatProd-R FunctionalEffect BuildingBuff</Name>
+                        <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-R.png</IconFilename>
                     </Standard>
                     <Text>
                         <OasisId>1600000404</OasisId>
