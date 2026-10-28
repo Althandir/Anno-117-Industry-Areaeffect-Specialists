@@ -613,7 +613,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>Is calmed down by a strong army. (At least 30 Troops anywhere. Garrison does not count)</Text>
+        <Text>Is calmed down by a strong army. (At least 20 Troops anywhere. Garrison does not count)</Text>
         <LineId>1600001056</LineId>
       </Text>
     </ModOp>

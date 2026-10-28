@@ -40,7 +40,7 @@
           </Text>
 
           <ItemWithBoost>
-            <!-- Condition - min. 30 Troops anywhere (No Garrison) -->
+            <!-- Condition - min. 20 Troops anywhere (No Garrison) -->
             <BoostCondition>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
@@ -50,9 +50,8 @@
                     <Values>
                       <Condition/>
                       <ConditionPlayerCounter>
-                        <PlayerCounter>ArmyStrength</PlayerCounter>
                         <Context>131971</Context>
-                        <CounterAmount>30</CounterAmount>
+                        <CounterAmount>20</CounterAmount>
                       </ConditionPlayerCounter>
                       <ConditionLocationProps/>
                       <ConditionCounterProps/>
