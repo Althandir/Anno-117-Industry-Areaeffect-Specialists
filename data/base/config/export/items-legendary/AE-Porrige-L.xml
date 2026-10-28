@@ -40,7 +40,7 @@
             </Text>
 
             <ItemWithBoost>
-                <!-- Condition - min. 300 Grapes in Storage -->
+                <!-- Condition - min. 300 Saltwort in Storage -->
                 <BoostCondition>
                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                     <Values>
@@ -51,7 +51,7 @@
                                 <Condition/>
                                 <ConditionPlayerCounter>
                                     <PlayerCounter>GoodsInStock</PlayerCounter>
-                                    <Context>2070</Context>
+                                    <Context>7985</Context>
                                     <CounterAmount>300</CounterAmount>
                                     <CounterScope>Area</CounterScope>
                                 </ConditionPlayerCounter>
@@ -110,7 +110,7 @@
                 <ResidenceUpgrade> <!--Info for Player-->
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2138</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2136</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
@@ -165,12 +165,12 @@
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Prestige>
+                        <Health>
                             <AmountOrPercent>
                                 <Value>0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Prestige>
+                        </Health>
                         <Money>
                             <AmountOrPercent>
                                 <Value>0.5</Value>
@@ -182,7 +182,7 @@
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2138</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2136</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
@@ -227,7 +227,7 @@
                 <ResidenceUpgrade> <!--Info for Player-->
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2138</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2136</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
@@ -282,30 +282,24 @@
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Prestige>
+                        <Health>
                             <AmountOrPercent>
                                 <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Prestige>
+                        </Health>
                         <Money>
                             <AmountOrPercent>
                                 <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Money>
-                        <FireSafety>
-                            <AmountOrPercent>
-                                <Value>0.5</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </FireSafety>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2138</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2136</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>

@@ -865,7 +865,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER AE-Porrige-L (5000 Prestige on Island)</Text>
+        <Text>"A kraut from Albion lets the porrige taste much better." (300 Saltwort in Storage)</Text>
         <LineId>1600001189</LineId>
       </Text>
     </ModOp>
@@ -886,7 +886,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>PLACEHOLDER AE-Sandals-L (5000 Prestige on Island)</Text>
+        <Text>Often gets lost and needs statues for orientation. (25 Statues on Island)</Text>
         <LineId>1600001196</LineId>
       </Text>
     </ModOp>

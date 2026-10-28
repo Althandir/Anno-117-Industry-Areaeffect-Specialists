@@ -40,29 +40,27 @@
             </Text>
 
             <ItemWithBoost>
-                <!-- Condition - min. 300 Grapes in Storage -->
+                <!-- Condition - min. 25 Statues on Island -->
                 <BoostCondition>
-                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                    <Values>
-                        <PreConditionList>
-                        <Condition>
-                            <Template>ConditionPlayerCounter</Template>
-                            <Values>
-                                <Condition/>
-                                <ConditionPlayerCounter>
-                                    <PlayerCounter>GoodsInStock</PlayerCounter>
-                                    <Context>2070</Context>
-                                    <CounterAmount>300</CounterAmount>
-                                    <CounterScope>Area</CounterScope>
-                                </ConditionPlayerCounter>
-                                <ConditionLocationProps/>
-                                <ConditionCounterProps/>
-                                <ConditionPropsComparable/>
-                                <ConditionPropsExaminableObjects/>
-                            </Values>
-                        </Condition>
-                        </PreConditionList>
-                    </Values>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                    <PreConditionList>
+                    <Condition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                        <Condition/>
+                        <ConditionPlayerCounter>
+                            <Context>82617</Context>
+                            <CounterAmount>25</CounterAmount>
+                            <CounterScope>Area</CounterScope>
+                        </ConditionPlayerCounter>
+                        <ConditionLocationProps/>
+                        <ConditionCounterProps/>
+                        <ConditionPropsComparable/>
+                        </Values>
+                    </Condition>
+                    </PreConditionList>
+                </Values>
                 </BoostCondition>
                 <BoostBuffs>
                 <Item>
@@ -110,7 +108,7 @@
                 <ResidenceUpgrade> <!--Info for Player-->
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2138</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2144</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
@@ -165,15 +163,15 @@
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Prestige>
+                        <FireSafety>
                             <AmountOrPercent>
                                 <Value>0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Prestige>
+                        </FireSafety>
                         <Money>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Money>
@@ -182,7 +180,7 @@
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2138</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2144</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
@@ -227,7 +225,7 @@
                 <ResidenceUpgrade> <!--Info for Player-->
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2138</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2144</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
@@ -282,30 +280,24 @@
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Prestige>
+                        <FireSafety>
                             <AmountOrPercent>
                                 <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Prestige>
+                        </FireSafety>
                         <Money>
                             <AmountOrPercent>
                                 <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Money>
-                        <FireSafety>
-                            <AmountOrPercent>
-                                <Value>0.5</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </FireSafety>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <ResidenceUpgrade>
                     <GoodConsumptionUpgrade>
                         <Item>
-                            <ProvidedNeedProduct>2138</ProvidedNeedProduct>
+                            <ProvidedNeedProduct>2144</ProvidedNeedProduct>
                             <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
                         </Item>
                     </GoodConsumptionUpgrade>
