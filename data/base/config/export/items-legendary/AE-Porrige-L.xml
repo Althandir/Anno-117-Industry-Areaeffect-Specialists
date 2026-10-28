@@ -167,16 +167,10 @@
                     <AdditionalAttributes>
                         <Health>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Health>
-                        <Money>
-                            <AmountOrPercent>
-                                <Value>0.5</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Money>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <ResidenceUpgrade>
@@ -284,16 +278,10 @@
                     <AdditionalAttributes>
                         <Health>
                             <AmountOrPercent>
-                                <Value>1</Value>
+                                <Value>2</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Health>
-                        <Money>
-                            <AmountOrPercent>
-                                <Value>1</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Money>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <ResidenceUpgrade>
