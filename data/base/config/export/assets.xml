@@ -95,9 +95,12 @@
 <Include File="pools/RewardPool/AllItems&Specialists.xml" />
 
 <Include File="pools/RewardPool/Culture-R.xml" />
+<Include File="pools/RewardPool/Culture-L.xml" />
 
 <Include File="pools/RewardPool/Diplomacy-E.xml" />
 <Include File="pools/RewardPool/Diplomacy-L.xml" />
+
+<Include File="pools/RewardPool/Economy-L.xml" />
 
 <Include File="pools/RewardPool/Finance-C.xml" />
 <Include File="pools/RewardPool/Finance-E.xml" />

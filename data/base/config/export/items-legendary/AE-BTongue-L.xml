@@ -27,7 +27,7 @@
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Finance</Niche>  
+                <Niche>Diplomacy</Niche>  
                 <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice> 
                 <BarkPool>83312</BarkPool> <!-- <GUID>83312</GUID> -->
                 <Rarity>Legendary</Rarity> 
@@ -180,13 +180,13 @@
                     <AdditionalAttributes>
                         <Money>
                             <AmountOrPercent>
-                                <Value>1</Value>
+                                <Value>0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Money>
                         <Prestige>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Prestige>
@@ -297,13 +297,13 @@
                     <AdditionalAttributes>
                         <Money>
                             <AmountOrPercent>
-                                <Value>2</Value>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Money>
                         <Prestige>
                             <AmountOrPercent>
-                                <Value>1</Value>
+                                <Value>2</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Prestige>

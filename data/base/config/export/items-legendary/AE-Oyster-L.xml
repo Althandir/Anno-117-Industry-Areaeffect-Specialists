@@ -27,7 +27,7 @@
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Finance</Niche>  
+                <Niche>Religion</Niche>  
                 <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice> 
                 <BarkPool>80243</BarkPool> <!-- <GUID>80243</GUID> -->
                 <Rarity>Legendary</Rarity> 
@@ -165,12 +165,12 @@
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Population>
+                        <Belief>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>2</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Population>
+                        </Belief>
                         <Money>
                             <AmountOrPercent>
                                 <Value>1</Value>
@@ -282,15 +282,15 @@
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Population>
-                            <AmountOrPercent>
-                                <Value>1</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Population>
-                        <Money>
+                        <Belief>
                             <AmountOrPercent>
                                 <Value>2</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Belief>
+                        <Money>
+                            <AmountOrPercent>
+                                <Value>1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Money>
