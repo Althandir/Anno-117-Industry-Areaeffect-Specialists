@@ -178,12 +178,12 @@
           </Text>
           <BuildingUpgrade>
             <AdditionalAttributes>
-              <Happiness>
+              <Prestige>
                 <AmountOrPercent>
                   <Value>1</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
-              </Happiness>
+              </Prestige>
               <Money>
                 <AmountOrPercent>
                   <Value>1</Value>
@@ -295,15 +295,15 @@
           </Text>
           <BuildingUpgrade>
             <AdditionalAttributes>
-              <Happiness>
+              <Prestige>
                 <AmountOrPercent>
                   <Value>2</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
-              </Happiness>
+              </Prestige>
               <Money>
                 <AmountOrPercent>
-                  <Value>1</Value>
+                  <Value>2</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Money>
