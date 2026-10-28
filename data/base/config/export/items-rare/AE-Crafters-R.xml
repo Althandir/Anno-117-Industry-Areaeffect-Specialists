@@ -1,5 +1,5 @@
 <ModOps>
-<!-- Item Definition GUID:1600000266 - 1600000269 | LineID:1600000266 - 1600000267 -->
+  <!-- Item Definition GUID:1600000266 - 1600000269 | LineID:1600000266 - 1600000267 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
@@ -12,7 +12,7 @@
             <InfoDescription>1600000267</InfoDescription>
           </Standard>
           <Effect>
-            <EffectScope>Radius</EffectScope>  
+            <EffectScope>Radius</EffectScope>
             <SourceCategory>Item</SourceCategory>
             <Buffs>
               <Item>
@@ -34,9 +34,9 @@
           </Effect>
           <Item>
             <Niche>Research</Niche>
-            <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
+            <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice>
             <BarkPool>80242</BarkPool> <!-- <GUID>80242</GUID> -->
-            <Rarity>Rare</Rarity> 
+            <Rarity>Rare</Rarity>
           </Item>
           <Locked>
             <DefaultLockedState>0</DefaultLockedState>
@@ -53,94 +53,94 @@
   <Group>
     <!-- BuildingEffect Definition -->
     <ModOp Type="addNextSibling" GUID="80193">
-        <Asset>
-            <Template>BuildingBuff</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600000267</GUID>
-                    <Name>Specialist AE-Crafters-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/m_AE-Crafters-R.png</IconFilename>
-                </Standard>
-                <Text>
-                    <OasisId>1600000266</OasisId>
-                </Text>
-                <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000268</AdditionalFunctionalEffect>
-                </BuildingUpgrade>
-                <Buff>
-                    <SourceCategory>Item</SourceCategory>
-                </Buff>
-            </Values>
-        </Asset>
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000267</GUID>
+            <Name>Specialist AE-Crafters-R BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/m_AE-Crafters-R.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000266</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalFunctionalEffect>1600000268</AdditionalFunctionalEffect>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
     </ModOp>
-    
+
     <ModOp Type="addNextSibling" GUID="135498">
-        <Asset>
-            <Template>Effect</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600000268</GUID>
-                    <Name>Specialist AE-Crafters-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/m_AE-Crafters-R.png</IconFilename>
-                </Standard>
-                <Effect>
-                    <EffectScope>Radius</EffectScope>
-                    <SourceCategory>Adjacency</SourceCategory>
-                    <Buffs>
-                        <Item>
-                            <GUID>1600000269</GUID>
-                        </Item>
-                    </Buffs>
-                    <Targets>
-                        <Item>
-                            <GUID>43097</GUID>
-                        </Item>
-                    </Targets>
-                    <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
-                    <HideInGovernorsBar>1</HideInGovernorsBar>
-                </Effect>
-                <Text>
-                    <OasisId>1600000266</OasisId>
-                </Text>
-            </Values>
-        </Asset>
+      <Asset>
+        <Template>Effect</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000268</GUID>
+            <Name>Specialist AE-Crafters-R FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/m_AE-Crafters-R.png</IconFilename>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Adjacency</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000269</GUID>
+              </Item>
+            </Buffs>
+            <Targets>
+              <Item>
+                <GUID>43097</GUID>
+              </Item>
+            </Targets>
+            <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Text>
+            <OasisId>1600000266</OasisId>
+          </Text>
+        </Values>
+      </Asset>
     </ModOp>
 
     <ModOp Type="addNextSibling" GUID="80193">
-        <Asset>
-            <Template>BuildingBuff</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600000269</GUID>
-                    <Name>Specialist AE-Crafters-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/m_AE-Crafters-R.png</IconFilename>
-                </Standard>
-                <Text>
-                    <OasisId>1600000266</OasisId>
-                </Text>
-                <HealthUpgrade/>
-                <BuildingUpgrade>
-                  <AdditionalAttributes>
-                      <Knowledge>
-                          <AmountOrPercent>
-                              <Value>3</Value>
-                              <Percental>0</Percental>
-                          </AmountOrPercent>
-                      </Knowledge>
-                      <Health>
-                          <AmountOrPercent>
-                              <Value>-1</Value>
-                              <Percental>0</Percental>
-                          </AmountOrPercent>
-                      </Health>
-                  </AdditionalAttributes>
-                </BuildingUpgrade>
-                <Buff>
-                    <SourceCategory>Adjacency</SourceCategory>
-                    <IsStackable>0</IsStackable>
-                </Buff>
-            </Values>
-        </Asset>
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000269</GUID>
+            <Name>Specialist AE-Crafters-R FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/m_AE-Crafters-R.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000266</OasisId>
+          </Text>
+          <HealthUpgrade/>
+          <BuildingUpgrade>
+            <AdditionalAttributes>
+              <Knowledge>
+                <AmountOrPercent>
+                  <Value>3</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Knowledge>
+              <Health>
+                <AmountOrPercent>
+                  <Value>-1</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Health>
+            </AdditionalAttributes>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Adjacency</SourceCategory>
+            <IsStackable>0</IsStackable>
+          </Buff>
+        </Values>
+      </Asset>
     </ModOp>
 
   </Group>

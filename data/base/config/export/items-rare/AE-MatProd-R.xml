@@ -1,133 +1,133 @@
 <ModOps>
-<!-- Item Definition GUID:1600000404 - 1600000407 | LineID:1600000404 - 1600000405  -->
-    <Group>
-        <ModOp Type="addNextSibling" GUID="106410">
-        <Asset>
-            <Template>Item</Template>
-            <Values>
-            <Standard>
-                <GUID>1600000404</GUID>
-                <Name>Specialist AE-MatProd-R</Name>
-                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-R.png</IconFilename>
-                <InfoDescription>1600000405</InfoDescription>
-            </Standard>
-            <Effect>
-                <EffectScope>Radius</EffectScope>  
-                <SourceCategory>Item</SourceCategory>
-                <Buffs>
-                <Item>
-                    <GUID>1600000405</GUID>
-                </Item>
-                </Buffs>
-                <Targets> <!-- Targets of Buff -->
-                <Item>
-                    <GUID>50613</GUID>
-                </Item>
-                </Targets>
-                <HideInGovernorsBar>1</HideInGovernorsBar>
-            </Effect>
-            <Item>
-                <Niche>Military</Niche>  
-                <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
-                <BarkPool>83320</BarkPool> <!-- <GUID>83320</GUID> -->
-                <Rarity>Rare</Rarity> 
-            </Item>
-            <Locked>
-                <DefaultLockedState>0</DefaultLockedState>
-            </Locked>
-            <Text>
-                <OasisId>1600000404</OasisId>
-            </Text>
-            </Values>
-        </Asset>
-        </ModOp>
-    </Group>
+  <!-- Item Definition GUID:1600000404 - 1600000407 | LineID:1600000404 - 1600000405  -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+      <Asset>
+        <Template>Item</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000404</GUID>
+            <Name>Specialist AE-MatProd-R</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-R.png</IconFilename>
+            <InfoDescription>1600000405</InfoDescription>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000405</GUID>
+              </Item>
+            </Buffs>
+            <Targets> <!-- Targets of Buff -->
+              <Item>
+                <GUID>50613</GUID>
+              </Item>
+            </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Item>
+            <Niche>Military</Niche>
+            <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice>
+            <BarkPool>83320</BarkPool> <!-- <GUID>83320</GUID> -->
+            <Rarity>Rare</Rarity>
+          </Item>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <Text>
+            <OasisId>1600000404</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
 
-    <!-- Buff Definitions-->
-    <Group>
-        <!-- Buff Definition -->
-        <ModOp Type="addNextSibling" GUID="80193">
-            <Asset>
-                <Template>BuildingBuff</Template>
-                <Values>
-                    <Standard>
-                        <GUID>1600000405</GUID>
-                        <Name>Specialist AE-MatProd-R BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-R.png</IconFilename>
-                    </Standard>
-                    <Text>
-                        <OasisId>1600000404</OasisId>
-                    </Text>
-                    <BuildingUpgrade>
-                        <AdditionalFunctionalEffect>1600000406</AdditionalFunctionalEffect>
-                    </BuildingUpgrade>
-                    <Buff>
-                        <SourceCategory>Item</SourceCategory>
-                    </Buff>
-                </Values>
-            </Asset>
-        </ModOp>
-        
-        <ModOp Type="addNextSibling" GUID="135498">
-            <Asset>
-                <Template>Effect</Template>
-                <Values>
-                    <Standard>
-                        <GUID>1600000406</GUID>
-                        <Name>Specialist AE-MatProd-R FunctionalEffect</Name>
-                        <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-R.png</IconFilename>
-                    </Standard>
-                    <Effect>
-                        <EffectScope>Radius</EffectScope>
-                        <SourceCategory>Adjacency</SourceCategory>
-                        <Buffs>
-                            <Item>
-                                <GUID>1600000407</GUID>
-                            </Item>
-                        </Buffs>
-                        <Targets>
-                            <Item>
-                                <GUID>31046</GUID>
-                            </Item>
-                        </Targets>
-                        <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
-                        <HideInGovernorsBar>1</HideInGovernorsBar>
-                    </Effect>
-                    <Text>
-                        <OasisId>1600000404</OasisId>
-                    </Text>
-                </Values>
-            </Asset>
-        </ModOp>
+  <!-- Buff Definitions-->
+  <Group>
+    <!-- Buff Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000405</GUID>
+            <Name>Specialist AE-MatProd-R BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-R.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000404</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalFunctionalEffect>1600000406</AdditionalFunctionalEffect>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
+    </ModOp>
 
-        <ModOp Type="addNextSibling" GUID="80193">
-            <Asset>
-                <Template>BuildingBuff</Template>
-                <Values>
-                    <Standard>
-                        <GUID>1600000407</GUID>
-                        <Name>Specialist AE-MatProd-R FunctionalEffect BuildingBuff</Name>
-                        <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-R.png</IconFilename>
-                    </Standard>
-                    <Text>
-                        <OasisId>1600000404</OasisId>
-                    </Text>
-                    <BuildingUpgrade>
-                        <AdditionalAttributes>
-                            <FireSafety>
-                                <AmountOrPercent>
-                                    <Value>1</Value>
-                                    <Percental>0</Percental>
-                                </AmountOrPercent>
-                            </FireSafety>
-                        </AdditionalAttributes>
-                    </BuildingUpgrade>
-                    <Buff>
-                        <SourceCategory>Adjacency</SourceCategory>
-                    </Buff>
-                </Values>
-            </Asset>
-        </ModOp>
-    </Group>
+    <ModOp Type="addNextSibling" GUID="135498">
+      <Asset>
+        <Template>Effect</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000406</GUID>
+            <Name>Specialist AE-MatProd-R FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-R.png</IconFilename>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Adjacency</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000407</GUID>
+              </Item>
+            </Buffs>
+            <Targets>
+              <Item>
+                <GUID>31046</GUID>
+              </Item>
+            </Targets>
+            <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Text>
+            <OasisId>1600000404</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000407</GUID>
+            <Name>Specialist AE-MatProd-R FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/r_m_AE-MatProd-R.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600000404</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalAttributes>
+              <FireSafety>
+                <AmountOrPercent>
+                  <Value>1</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </FireSafety>
+            </AdditionalAttributes>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Adjacency</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
 
 </ModOps>

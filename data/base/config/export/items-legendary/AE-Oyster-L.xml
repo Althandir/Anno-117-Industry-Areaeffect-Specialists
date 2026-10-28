@@ -1,76 +1,76 @@
 <ModOps>
-<!-- Item Definition GUID:1600001082 - 1600001088 | LineID:1600001082 - 1600001084  -->
+  <!-- Item Definition GUID:1600001082 - 1600001088 | LineID:1600001082 - 1600001084  -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>ItemWithBoost</Template>
         <Values>
-            <Standard>
-                <GUID>1600001082</GUID>
-                <Name>Specialist AE-Oyster-L</Name>
-                <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Oyster-L.png</IconFilename>
-                <InfoDescription>1600001083</InfoDescription>
-            </Standard>
-            <Effect>
-                <EffectScope>ObjectsInArea</EffectScope>  
-                <SourceCategory>Item</SourceCategory>
-                <Buffs>
-                    <Item>
-                        <GUID>1600001083</GUID>
-                    </Item>
-                </Buffs>
-                <Targets> <!-- Targets of Buff -->
-                <Item>
-                    <GUID>3186</GUID>
-                </Item>
-                </Targets>
-                <HideInGovernorsBar>1</HideInGovernorsBar>
-            </Effect>
-            <Item>
-                <Niche>Religion</Niche>  
-                <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice> 
-                <BarkPool>80243</BarkPool> <!-- <GUID>80243</GUID> -->
-                <Rarity>Legendary</Rarity> 
-            </Item>
-            <Locked>
-                <DefaultLockedState>0</DefaultLockedState>
-            </Locked>
-            <Text>
-                <OasisId>1600001082</OasisId>
-            </Text>
+          <Standard>
+            <GUID>1600001082</GUID>
+            <Name>Specialist AE-Oyster-L</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Oyster-L.png</IconFilename>
+            <InfoDescription>1600001083</InfoDescription>
+          </Standard>
+          <Effect>
+            <EffectScope>ObjectsInArea</EffectScope>
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600001083</GUID>
+              </Item>
+            </Buffs>
+            <Targets> <!-- Targets of Buff -->
+              <Item>
+                <GUID>3186</GUID>
+              </Item>
+            </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Item>
+            <Niche>Religion</Niche>
+            <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice>
+            <BarkPool>80243</BarkPool> <!-- <GUID>80243</GUID> -->
+            <Rarity>Legendary</Rarity>
+          </Item>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <Text>
+            <OasisId>1600001082</OasisId>
+          </Text>
 
-            <ItemWithBoost>
-                <!-- Condition - min. 100 Sea Shells in Storage -->
-                <BoostCondition>
-                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+          <ItemWithBoost>
+            <!-- Condition - min. 100 Sea Shells in Storage -->
+            <BoostCondition>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <PreConditionList>
+                  <Condition>
+                    <Template>ConditionPlayerCounter</Template>
                     <Values>
-                        <PreConditionList>
-                        <Condition>
-                            <Template>ConditionPlayerCounter</Template>
-                            <Values>
-                                <Condition/>
-                                <ConditionPlayerCounter>
-                                    <PlayerCounter>GoodsInStock</PlayerCounter>
-                                    <Context>8420</Context>
-                                    <CounterAmount>100</CounterAmount>
-                                    <CounterScope>Area</CounterScope>
-                                </ConditionPlayerCounter>
-                                <ConditionLocationProps/>
-                                <ConditionCounterProps/>
-                                <ConditionPropsComparable/>
-                                <ConditionPropsExaminableObjects/>
-                            </Values>
-                        </Condition>
-                        </PreConditionList>
+                      <Condition/>
+                      <ConditionPlayerCounter>
+                        <PlayerCounter>GoodsInStock</PlayerCounter>
+                        <Context>8420</Context>
+                        <CounterAmount>100</CounterAmount>
+                        <CounterScope>Area</CounterScope>
+                      </ConditionPlayerCounter>
+                      <ConditionLocationProps/>
+                      <ConditionCounterProps/>
+                      <ConditionPropsComparable/>
+                      <ConditionPropsExaminableObjects/>
                     </Values>
-                </BoostCondition>
-                <BoostBuffs>
-                <Item>
-                    <GUID>1600001086</GUID>
-                </Item>
-                </BoostBuffs>
-                <BoostHint>1600001084</BoostHint>
-            </ItemWithBoost>
+                  </Condition>
+                </PreConditionList>
+              </Values>
+            </BoostCondition>
+            <BoostBuffs>
+              <Item>
+                <GUID>1600001086</GUID>
+              </Item>
+            </BoostBuffs>
+            <BoostHint>1600001084</BoostHint>
+          </ItemWithBoost>
 
         </Values>
       </Asset>
@@ -81,235 +81,235 @@
   <Group>
     <!-- Normal Definition -->
     <ModOp Type="addNextSibling" GUID="80193">
-        <Asset>
-            <Template>BuildingBuff</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600001083</GUID>
-                    <Name>Specialist AE-Oyster-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Oyster-L.png</IconFilename>
-                </Standard>
-                <Text>
-                    <OasisId>1600001082</OasisId>
-                </Text>
-                <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600001084</AdditionalFunctionalEffect>
-                </BuildingUpgrade>
-                <Buff>
-                    <SourceCategory>Item</SourceCategory>
-                </Buff>
-                <FactoryUpgrade>
-                    <AdditionalOutput>
-                        <Item>
-                            <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-                            <AdditionalOutputCycle><ModValue Insert="$AdditionalGoods_Cycle_Legendary_NonBoosted"/></AdditionalOutputCycle>
-                            <Amount><ModValue Insert="$AdditionalGoods_Amount_Legendary_NonBoosted"/></Amount>
-                        </Item>
-                    </AdditionalOutput>
-                </FactoryUpgrade>
-                <ResidenceUpgrade> <!--Info for Player-->
-                    <GoodConsumptionUpgrade>
-                        <Item>
-                            <ProvidedNeedProduct>2140</ProvidedNeedProduct>
-                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
-                        </Item>
-                    </GoodConsumptionUpgrade>
-                </ResidenceUpgrade>
-            </Values>
-        </Asset>
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001083</GUID>
+            <Name>Specialist AE-Oyster-L BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Oyster-L.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600001082</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalFunctionalEffect>1600001084</AdditionalFunctionalEffect>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+          <FactoryUpgrade>
+            <AdditionalOutput>
+              <Item>
+                <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                <AdditionalOutputCycle><ModValue Insert="$AdditionalGoods_Cycle_Legendary_NonBoosted"/></AdditionalOutputCycle>
+                <Amount><ModValue Insert="$AdditionalGoods_Amount_Legendary_NonBoosted"/></Amount>
+              </Item>
+            </AdditionalOutput>
+          </FactoryUpgrade>
+          <ResidenceUpgrade> <!--Info for Player-->
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeedProduct>2140</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+        </Values>
+      </Asset>
     </ModOp>
-    
+
     <ModOp Type="addNextSibling" GUID="135498">
-        <Asset>
-            <Template>Effect</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600001084</GUID>
-                    <Name>Specialist AE-Oyster-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Oyster-L.png</IconFilename>
-                </Standard>
-                <Effect>
-                    <EffectScope>Radius</EffectScope>
-                    <SourceCategory>Adjacency</SourceCategory>
-                    <Buffs>
-                        <Item>
-                            <GUID>1600001085</GUID>
-                        </Item>
-                    </Buffs>
-                    <Targets>
-                        <Item>
-                            <GUID>43097</GUID>
-                        </Item>
-                    </Targets>
-                    <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
-                    <HideInGovernorsBar>1</HideInGovernorsBar>
-                </Effect>
-                <Text>
-                    <OasisId>1600001082</OasisId>
-                </Text>
-            </Values>
-        </Asset>
+      <Asset>
+        <Template>Effect</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001084</GUID>
+            <Name>Specialist AE-Oyster-L FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Oyster-L.png</IconFilename>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Adjacency</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600001085</GUID>
+              </Item>
+            </Buffs>
+            <Targets>
+              <Item>
+                <GUID>43097</GUID>
+              </Item>
+            </Targets>
+            <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Text>
+            <OasisId>1600001082</OasisId>
+          </Text>
+        </Values>
+      </Asset>
     </ModOp>
 
     <ModOp Type="addNextSibling" GUID="80193">
-        <Asset>
-            <Template>BuildingBuff</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600001085</GUID>
-                    <Name>Specialist AE-Oyster-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Oyster-L.png</IconFilename>
-                </Standard>
-                <Text>
-                    <OasisId>1600001082</OasisId>
-                </Text>
-                <BuildingUpgrade>
-                    <AdditionalAttributes>
-                        <Belief>
-                            <AmountOrPercent>
-                                <Value>2</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Belief>
-                        <Money>
-                            <AmountOrPercent>
-                                <Value>1</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Money>
-                    </AdditionalAttributes>
-                </BuildingUpgrade>
-                <ResidenceUpgrade>
-                    <GoodConsumptionUpgrade>
-                        <Item>
-                            <ProvidedNeedProduct>2140</ProvidedNeedProduct>
-                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
-                        </Item>
-                    </GoodConsumptionUpgrade>
-                </ResidenceUpgrade>
-                <Buff>
-                    <SourceCategory>Adjacency</SourceCategory>
-                </Buff>
-            </Values>
-        </Asset>
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001085</GUID>
+            <Name>Specialist AE-Oyster-L FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Oyster-L.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600001082</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalAttributes>
+              <Belief>
+                <AmountOrPercent>
+                  <Value>2</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Belief>
+              <Money>
+                <AmountOrPercent>
+                  <Value>1</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Money>
+            </AdditionalAttributes>
+          </BuildingUpgrade>
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeedProduct>2140</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <Buff>
+            <SourceCategory>Adjacency</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
     </ModOp>
   </Group>
 
-    <Group>
+  <Group>
     <!-- Boosted Definition -->
     <ModOp Type="addNextSibling" GUID="80193">
-        <Asset>
-            <Template>BuildingBuff</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600001086</GUID>
-                    <Name>Specialist AE-Oyster-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Oyster-L.png</IconFilename>
-                </Standard>
-                <Text>
-                    <OasisId>1600001082</OasisId>
-                </Text>
-                <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600001087</AdditionalFunctionalEffect>
-                </BuildingUpgrade>
-                <Buff>
-                    <SourceCategory>Item</SourceCategory>
-                </Buff>
-                <FactoryUpgrade>
-                    <AdditionalOutput>
-                        <Item>
-                            <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-                            <AdditionalOutputCycle><ModValue Insert="$AdditionalGoods_Cycle_Legendary_Boosted"/></AdditionalOutputCycle>
-                            <Amount><ModValue Insert="$AdditionalGoods_Amount_Legendary_Boosted"/></Amount>
-                        </Item>
-                    </AdditionalOutput>
-                </FactoryUpgrade>
-                <ResidenceUpgrade> <!--Info for Player-->
-                    <GoodConsumptionUpgrade>
-                        <Item>
-                            <ProvidedNeedProduct>2140</ProvidedNeedProduct>
-                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
-                        </Item>
-                    </GoodConsumptionUpgrade>
-                </ResidenceUpgrade>
-            </Values>
-        </Asset>
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001086</GUID>
+            <Name>Specialist AE-Oyster-L Boosted BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Oyster-L.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600001082</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalFunctionalEffect>1600001087</AdditionalFunctionalEffect>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+          <FactoryUpgrade>
+            <AdditionalOutput>
+              <Item>
+                <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                <AdditionalOutputCycle><ModValue Insert="$AdditionalGoods_Cycle_Legendary_Boosted"/></AdditionalOutputCycle>
+                <Amount><ModValue Insert="$AdditionalGoods_Amount_Legendary_Boosted"/></Amount>
+              </Item>
+            </AdditionalOutput>
+          </FactoryUpgrade>
+          <ResidenceUpgrade> <!--Info for Player-->
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeedProduct>2140</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+        </Values>
+      </Asset>
     </ModOp>
-    
+
     <ModOp Type="addNextSibling" GUID="135498">
-        <Asset>
-            <Template>Effect</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600001087</GUID>
-                    <Name>Specialist AE-Oyster-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Oyster-L.png</IconFilename>
-                </Standard>
-                <Effect>
-                    <EffectScope>Radius</EffectScope>
-                    <SourceCategory>Adjacency</SourceCategory>
-                    <Buffs>
-                        <Item>
-                            <GUID>1600001088</GUID>
-                        </Item>
-                    </Buffs>
-                    <Targets>
-                        <Item>
-                            <GUID>43097</GUID>
-                        </Item>
-                    </Targets>
-                    <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
-                    <HideInGovernorsBar>1</HideInGovernorsBar>
-                </Effect>
-                <Text>
-                    <OasisId>1600001082</OasisId>
-                </Text>
-            </Values>
-        </Asset>
+      <Asset>
+        <Template>Effect</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001087</GUID>
+            <Name>Specialist AE-Oyster-L Boosted FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Oyster-L.png</IconFilename>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Adjacency</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600001088</GUID>
+              </Item>
+            </Buffs>
+            <Targets>
+              <Item>
+                <GUID>43097</GUID>
+              </Item>
+            </Targets>
+            <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Text>
+            <OasisId>1600001082</OasisId>
+          </Text>
+        </Values>
+      </Asset>
     </ModOp>
 
     <ModOp Type="addNextSibling" GUID="80193">
-        <Asset>
-            <Template>BuildingBuff</Template>
-            <Values>
-                <Standard>
-                    <GUID>1600001088</GUID>
-                    <Name>Specialist AE-Oyster-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Oyster-L.png</IconFilename>
-                </Standard>
-                <Text>
-                    <OasisId>1600001082</OasisId>
-                </Text>
-                <BuildingUpgrade>
-                    <AdditionalAttributes>
-                        <Belief>
-                            <AmountOrPercent>
-                                <Value>2</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Belief>
-                        <Money>
-                            <AmountOrPercent>
-                                <Value>1</Value>
-                                <Percental>0</Percental>
-                            </AmountOrPercent>
-                        </Money>
-                    </AdditionalAttributes>
-                </BuildingUpgrade>
-                <ResidenceUpgrade>
-                    <GoodConsumptionUpgrade>
-                        <Item>
-                            <ProvidedNeedProduct>2140</ProvidedNeedProduct>
-                            <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
-                        </Item>
-                    </GoodConsumptionUpgrade>
-                </ResidenceUpgrade>
-                <Buff>
-                    <SourceCategory>Adjacency</SourceCategory>
-                </Buff>
-            </Values>
-        </Asset>
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001088</GUID>
+            <Name>Specialist AE-Oyster-L Boosted FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Oyster-L.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600001082</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalAttributes>
+              <Belief>
+                <AmountOrPercent>
+                  <Value>2</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Belief>
+              <Money>
+                <AmountOrPercent>
+                  <Value>1</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Money>
+            </AdditionalAttributes>
+          </BuildingUpgrade>
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeedProduct>2140</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <Buff>
+            <SourceCategory>Adjacency</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
     </ModOp>
-    </Group>
+  </Group>
 
 </ModOps>
