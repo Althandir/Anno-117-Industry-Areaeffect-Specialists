@@ -131,7 +131,7 @@
               </Item>
               <Item>
                 <ProvidedNeedProduct>2158</ProvidedNeedProduct>
-                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
               </Item>
             </GoodConsumptionUpgrade>
           </ResidenceUpgrade>
