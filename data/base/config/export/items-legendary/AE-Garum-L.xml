@@ -21,7 +21,7 @@
             </Buffs>
             <Targets> <!-- Targets of Buff -->
               <Item>
-                <GUID>50232</GUID>
+                <GUID>3185</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
