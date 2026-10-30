@@ -685,12 +685,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Gen-Workshops-L</Text>
+        <Text>Quintus Faber, Ideenreicher Handwerker</Text>
         <LineId>1600001075</LineId> <!-- <GUID>1600001075</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>"Meine Ideen müssen praktisch erprobt werden." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001076</LineId>
       </Text>
       <!-- Boosted Hint -->
@@ -853,7 +853,7 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Porridge-L, Erfischende Breiköchin</Text>
+        <Text>Livia Pultaria, Erfischende Breiköchin</Text>
         <LineId>1600001187</LineId> <!-- <GUID>1600001187</GUID> -->
       </Text>
       <!-- Description -->
@@ -874,17 +874,17 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Sandals-L</Text>
+        <Text>Valeria Caligaria, Stabile Sandalenmacherin</Text>
         <LineId>1600001194</LineId> <!-- <GUID>1600001194</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER AE-Sandals-L &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>"Ohne gute Sandalen bekommst du keinen festen Stand." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001195</LineId>
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>Often gets lost and needs statues for orientation. (25 Statues on Island)</Text>
+        <Text>Verläuft sich oft und nutzt deshalb Statuen zur Orientierung. (25 Statuen auf Insel)</Text>
         <LineId>1600001196</LineId>
       </Text>
     </ModOp>
