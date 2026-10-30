@@ -485,7 +485,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>"In dem man Kräuter in das Bier mischt wird der Geschmack über Generationen hinweg erhalten." (400 herbs in storage)</Text>
+        <Text>"In dem man Kräuter in das Bier mischt wird der Geschmack über Generationen hinweg erhalten." (400 Kräuter im Lager)</Text>
         <LineId>1600001147</LineId>
       </Text>
     </ModOp>
@@ -506,7 +506,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>Ceres wacht über sein Brot. (6x Shrine of Ceres on Island)</Text>
+        <Text>Ceres wacht über sein Brot. (6x Schrein der Ceres auf Insel)</Text>
         <LineId>1600001112</LineId>
       </Text>
     </ModOp>
@@ -527,7 +527,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>"Ein griechischer Schreiber erzählte mir, dass eine andere Käseart von Schafen gewonnen werden kann. Das möchte ich ausprobieren." (3x Sheep Pastures on Island)</Text>
+        <Text>"Ein griechischer Schreiber erzählte mir, dass eine andere Käseart von Schafen gewonnen werden kann. Das möchte ich ausprobieren." (3x Schafsfarm auf Insel)</Text>
         <LineId>1600001119</LineId>
       </Text>
     </ModOp>
@@ -548,7 +548,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>Nutzt einen besonderen Stempel aus Bronze zur Markierung ihrer Mäntel. (500 bronze in storage)</Text>
+        <Text>Nutzt einen besonderen Stempel aus Bronze zur Markierung ihrer Mäntel. (500 Bronze im Lager)</Text>
         <LineId>1600001126</LineId>
       </Text>
     </ModOp>
@@ -569,7 +569,7 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>"Ohne einen guten Barden gibt es nichts zum Feiern!" (6x Bardic Hearth on Island)</Text>
+        <Text>"Ohne einen guten Barden gibt es nichts zum Feiern!" (6x Bardensänger auf Insel)</Text>
         <LineId>1600001154</LineId>
       </Text>
     </ModOp>
@@ -590,9 +590,199 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>"Mein Garum darf nur in den feinsten Gläsern serviert werden." (350x Fine Glass in Storage)</Text>
+        <Text>"Mein Garum darf nur in den feinsten Gläsern serviert werden." (350x Feines Glas im Lager)</Text>
         <LineId>1600001168</LineId>
       </Text>
     </ModOp>
   </Group>
+
+  <!-- Specialist AE-Gen-Arms-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Valerius Trepidus, beunruhigter Kommandant</Text>
+        <LineId>1600001054</LineId> <!-- <GUID>1600001054</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Obwohl der Kaiser die Pax ausgerufen hat, bleibt Valerius angespannt. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001055</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Wird durch eine starke Armee beruhigt. (Mindestens 20 Truppen insgesamt. Villa Garnison zählt nicht.)</Text>
+        <LineId>1600001056</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Gen-Artisans-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Musica Fabra, Summende Handwerkerin</Text>
+        <LineId>1600001061</LineId> <!-- <GUID>1600001061</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Ihr Kunsthandwerk wird von Musik begleitet. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001062</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Mosaike in verschiedenen Farben sind ihre Muse. (400x Mosaike im Lager)</Text>
+        <LineId>1600001063</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Gen-Clothiers-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Livia Acuscula, Aufstrebende Näherin</Text>
+        <LineId>1600001131</LineId> <!-- <GUID>1600001131</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Ihre Kleidung hat sich gegenüber der Konkurrenz durchgesetzt. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001132</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Nur Konkurrenz hält ihr inneres Feuer am Brennen. (30x Schneider auf Insel)</Text>
+        <LineId>1600001133</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Gen-Victuallers-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Vibius Fontinalis, Grünäugiger Handwerker</Text>
+        <LineId>1600001138</LineId> <!-- <GUID>1600001138</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Seine grünen Augen spiegeln sich so schön in jeder Flüssigkeit. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001139</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Braucht regelmäßig frisches Wasser zum Drinken. (10x Brunnen auf Insel)</Text>
+        <LineId>1600001140</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Gen-Workshops-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>PLACEHOLDER AE-Gen-Workshops-L</Text>
+        <LineId>1600001075</LineId> <!-- <GUID>1600001075</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001076</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Immer auf der Suche nach neuen Persepktiven und Ideen. (24x Workshops auf Insel)</Text>
+        <LineId>1600001077</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Necklaces-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Numisia Rapax, rücksichtslose Schleiferin</Text>
+        <LineId>1600001180</LineId> <!-- <GUID>1600001180</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Jagt rücksichtslos jedem Goldbarren hinterher. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001181</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Gold? GOOOOOOLLLLD?! Goooooooooooooooold!" (500x Gold im Lager)</Text>
+        <LineId>1600001182</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-OliveOil-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Casperius Olearius, Qualitätsölmacher</Text>
+        <LineId>1600001173</LineId> <!-- <GUID>1600001173</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"Olivenöl ist ein Grundmittel for deinen Alltag." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001174</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Glas erhält die hohe Qualität meines Öl." (300x Glas im Lager)</Text>
+        <LineId>1600001175</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Oyster-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Aiacia Plancia, Ostrearia Magnifica</Text>
+        <LineId>1600001082</LineId> <!-- <GUID>1600001082</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Weiß wie man Austernplatten appetitlich macht. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001083</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Wo ist meine Muschelsammlung?" (100x Muscheln im Lager)</Text>
+        <LineId>1600001084</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-RoastBeef-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Aisling, Würzerin des Fleiches</Text>
+        <LineId>1600001103</LineId> <!-- <GUID>1600001103</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"Jedes Fleisch kann genießbar gemacht werden. Überlasst es mir." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001104</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Würzt das Fleisch mit einer Art weißem Korn. (200x Salz im Lager)</Text>
+        <LineId>1600001105</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
 </ModOps>

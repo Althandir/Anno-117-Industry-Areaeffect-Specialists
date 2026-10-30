@@ -601,12 +601,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Gen-Arms-L</Text>
+        <Text>Valerius Trepidus, concerned Commander</Text>
         <LineId>1600001054</LineId> <!-- <GUID>1600001054</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>Although the emperor has proclaimed the Pax, Valerius remains tense. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001055</LineId>
       </Text>
       <!-- Boosted Hint -->
@@ -622,12 +622,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Gen-Artisans-L</Text>
+        <Text>Musica Fabra, humming Artisan</Text>
         <LineId>1600001061</LineId> <!-- <GUID>1600001061</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>Their craftsmanship is accompanied by music. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001062</LineId>
       </Text>
       <!-- Boosted Hint -->
@@ -643,12 +643,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Gen-Clothiers-L</Text>
+        <Text>Livia Acuscula, Up-and-coming Seamstress</Text>
         <LineId>1600001131</LineId> <!-- <GUID>1600001131</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>Her clothing has prevailed over the competition. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001132</LineId>
       </Text>
       <!-- Boosted Hint -->
@@ -664,12 +664,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Gen-Victuallers-L</Text>
+        <Text>Vibius Fontinalis, Green-eyed Craftsman</Text>
         <LineId>1600001138</LineId> <!-- <GUID>1600001138</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>His green eyes are reflected so beautifully in any liquid. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001139</LineId>
       </Text>
       <!-- Boosted Hint -->
@@ -706,17 +706,17 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Necklaces-L</Text>
+        <Text>Numisia Rapax, Ruthless Gem Cutter</Text>
         <LineId>1600001180</LineId> <!-- <GUID>1600001180</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>Ruthlessly chases after every gold bar. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001181</LineId>
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>Gold? GOOOOOOLLLLD?! Goooooooooooooooold! (500x Gold in Storage)</Text>
+        <Text>"Gold? GOOOOOOLLLLD?! Goooooooooooooooold!" (500x Gold in Storage)</Text>
         <LineId>1600001182</LineId>
       </Text>
     </ModOp>
@@ -727,12 +727,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-OliveOil-L</Text>
+        <Text>Casperius Olearius, Quality Oilmaker</Text>
         <LineId>1600001173</LineId> <!-- <GUID>1600001173</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>"Olive Oil is an nessesity for your everyday life." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001174</LineId>
       </Text>
       <!-- Boosted Hint -->
@@ -748,12 +748,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Oyster-L</Text>
+        <Text>Aiacia Plancia, Ostrearia Magnifica</Text>
         <LineId>1600001082</LineId> <!-- <GUID>1600001082</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>Knows how to make oyster platters look appetizing. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001083</LineId>
       </Text>
       <!-- Boosted Hint -->
@@ -769,12 +769,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-RoastBeef-L</Text>
+        <Text>Aisling, Seasoner of the Meat</Text>
         <LineId>1600001103</LineId> <!-- <GUID>1600001103</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>"Any meat can be made edible. Leave it to me." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001104</LineId>
       </Text>
       <!-- Boosted Hint -->
