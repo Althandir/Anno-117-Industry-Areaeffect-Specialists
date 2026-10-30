@@ -239,7 +239,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Lyres-Prod-L -->
+  <!-- Specialist AE-Lyres-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -281,7 +281,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Lounger-Prod-L -->
+  <!-- Specialist AE-Lounger-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -344,7 +344,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-PeltHat-Prod-L -->
+  <!-- Specialist AE-PeltHatPil-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -359,13 +359,13 @@
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>Unter Ältesten eine bekannte Expertin. (125 Ältesten Wohngebäude auf Insel)</Text>
+        <Text>Hat Probleme beim Einschlafen. (300 Schafe im Lager)</Text>
         <LineId>1600000652</LineId>
       </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-HairWig-Prod-L -->
+  <!-- Specialist AE-HairWig-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -386,7 +386,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Mirror-Prod-L -->
+  <!-- Specialist AE-Mirror-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->

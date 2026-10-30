@@ -246,7 +246,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-Lyres-Prod-L -->
+        <!-- Specialist AE-Lyres-L -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -288,7 +288,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-Lounger-Prod-L -->
+        <!-- Specialist AE-Lounger-L -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -351,7 +351,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-PeltHat-Prod-L -->
+        <!-- Specialist AE-PeltHatPil-L -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -372,7 +372,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-HairWig-Prod-L -->
+        <!-- Specialist AE-HairWig-L -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->
@@ -393,7 +393,7 @@
         </ModOp>
         </Group>
 
-        <!-- Specialist AE-Mirror-Prod-L -->
+        <!-- Specialist AE-Mirror-L -->
         <Group>
         <ModOp Add="/TextExport/Texts">
             <!-- Title -->

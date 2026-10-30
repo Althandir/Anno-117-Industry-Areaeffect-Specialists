@@ -241,7 +241,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Lyres-Prod-L -->
+  <!-- Specialist AE-Lyres-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -283,7 +283,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Lounger-Prod-L -->
+  <!-- Specialist AE-Lounger-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -346,7 +346,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-PeltHat-Prod-L -->
+  <!-- Specialist AE-PeltHatPil-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -356,18 +356,18 @@
       </Text>
       <!-- Description -->
       <Text>
-        <Text>Their hats can withstand any storm in Albion. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>Their hats can withstand any storm everywhere. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600000651</LineId>
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>A well-known expert among the elders. (125 Alderman Residences on Island)</Text>
+        <Text>Has problems to start sleeping. (300 Sheep in Storage)</Text>
         <LineId>1600000652</LineId>
       </Text>
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-HairWig-Prod-L -->
+  <!-- Specialist AE-HairWig-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
@@ -388,7 +388,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Mirror-Prod-L -->
+  <!-- Specialist AE-Mirror-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
