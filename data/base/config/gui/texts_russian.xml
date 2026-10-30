@@ -1,482 +1,893 @@
 <ModOps>
-    <!-- Common Specialists -->
-    <Group>
 
-        <!-- Specialist AE-AllProd-Stack-C -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Supplier</Text>
-                <LineId>1600000284</LineId> <!-- <GUID>1600000284</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>Fulfills delivery orders for residents in the surrounding area. &#xD;Note: This Area Effect only affects Residences but is allowed to stack on them.&#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000285</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-AllProd-Stack-C -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Supplier</Text>
+        <LineId>1600000284</LineId> <!-- <GUID>1600000284</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Fulfills delivery orders for residents in the surrounding area. &#xD;Note: This Area Effect only affects Residences but is allowed to stack on them.&#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000285</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-    </Group>
+  <!-- Specialist AE-Animals-R -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Unconventional Pet Breeder</Text>
+        <LineId>1600000408</LineId> <!-- <GUID>1600000408</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"Pigs and sheep can also be kept as pets." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000409</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-    <!-- Rare Specialists -->
-    <Group>
+  <!-- Specialist AE-Armories-R -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Irresponsible Arms Trader</Text>
+        <LineId>1600000254</LineId> <!-- <GUID>1600000254</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"Everyone should have at least one, if not several, weapons! What could possibly go wrong?"&#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000255</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-Animals-R -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Unconventional Pet Breeder</Text>
-                <LineId>1600000408</LineId> <!-- <GUID>1600000408</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>"Pigs and sheep can also be kept as pets." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000409</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-Crafters-R -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Practice-oriented Instructor</Text>
+        <LineId>1600000266</LineId> <!-- <GUID>1600000266</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"Only through practice you can solidify knowledge!... Ouch! Medicus!"&#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000267</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-Armories-R -->
-        <Group>
-            <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Irresponsible Arms Trader</Text>
-                <LineId>1600000254</LineId> <!-- <GUID>1600000254</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>"Everyone should have at least one, if not several, weapons! What could possibly go wrong?"&#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000255</LineId> 
-            </Text>
-            </ModOp>
-        </Group>
+  <!-- Specialist AE-StoneCutter-R -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Independent Sculptor</Text>
+        <LineId>1600000309</LineId> <!-- <GUID>1600000309</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Uses the best stone in the region to create busts of his clients.&#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000310</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-Crafters-R -->
-        <Group>
-            <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Practice-oriented Instructor</Text>
-                <LineId>1600000266</LineId> <!-- <GUID>1600000266</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>"Only through practice you can solidify knowledge!... Ouch! Medicus!"&#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000267</LineId> 
-            </Text>
-            </ModOp>
-        </Group>
+  <!-- Specialist AE-MatProd-R -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Local Carpenter</Text>
+        <LineId>1600000404</LineId> <!-- <GUID>1600000404</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Is responsible for the maintenance of all nearby buildings. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000405</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-StoneCutter-R -->
-        <Group>
-            <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Independent Sculptor</Text>
-                <LineId>1600000309</LineId> <!-- <GUID>1600000309</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>Uses the best stone in the region to create busts of his clients.&#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000310</LineId> 
-            </Text>
-            </ModOp>
-        </Group>
+  <!-- Specialist AE-Brooch-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Nova Fibbularia, Renowned Brooch Designer</Text>
+        <LineId>1600000420</LineId> <!-- <GUID>1600000420</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Her brooches are the most sought-after in the entire kingdom. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000421</LineId>
+      </Text>
+      <!-- Boosted Description -->
+      <Text>
+        <Text>"I more silver BARS! Not the Ore!" (300 silver in storage)</Text>
+        <LineId>1600000422</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-MatProd-R -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Local Carpenter</Text>
-                <LineId>1600000404</LineId> <!-- <GUID>1600000404</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>Is responsible for the maintenance of all nearby buildings. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000405</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-Caviar-R -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Occultia, Fish Reader</Text>
+        <LineId>1600000400</LineId> <!-- <GUID>1600000400</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"The guts are telling me... you'll find your true love. Soon..."&#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000401</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-    </Group>
+  <!-- Specialist AE-Gen-Kitchens-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Talented Artistic Cook</Text>
+        <LineId>1600000258</LineId> <!-- <GUID>1600000258</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Cooking is like an inspiring performance. But who’s going to clean up the mess? &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000259</LineId>
+      </Text>
+      <!-- Boosted Description -->
+      <Text>
+        <Text>"Without a solid basis nothing can be done in my kitchen!" (300 flour in storage)</Text>
+        <LineId>1600000260</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-    <!-- Epic Specialists -->
-    <Group>
+  <!-- Specialist AE-Cushion-R -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Pa-nefer, Cuddly Pillow Manufacturer</Text>
+        <LineId>1600000412</LineId> <!-- <GUID>1600000412</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"I wonder if it's possible to make pillows shaped like sharks? Carcharias Softis would be absolutely amazing!" &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000413</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-Brooch-L -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Nova Fibbularia, Renowned Brooch Designer</Text>
-                <LineId>1600000420</LineId> <!-- <GUID>1600000420</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>Her brooches are the most sought-after in the entire kingdom. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000421</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-Fuel-Stack-E -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Strictus Vaporosus II, Safety Paragraph Rider</Text>
+        <LineId>1600000134</LineId> <!-- <GUID>1600000134</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"According to Section 5, Subsection 2 A of the Roman Fire Safety Regulations, this fireplace may only be used between sunrise and the noon assembly! Subsection 12, G, also states...." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000135</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-Caviar-R -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Occultia, Fish Reader</Text>
-                <LineId>1600000400</LineId> <!-- <GUID>1600000400</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>"The guts are telling me... you'll find your true love. Soon..."&#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000401</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-CGreen-R -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Cernunia Aricin, Green Alchemist</Text>
+        <LineId>1600000642</LineId> <!-- <GUID>1600000642</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Her alchemy might even benefit the general health of the community.. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000643</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-Gen-Kitchens-L -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Talented Artistic Cook</Text>
-                <LineId>1600000258</LineId> <!-- <GUID>1600000258</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>Cooking is like an inspiring performance. But who’s going to clean up the mess? &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000259</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-Headpiece-R -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Experienced Headrest Upholsterer</Text>
+        <LineId>1600000646</LineId> <!-- <GUID>1600000646</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>His headpieces are surprisingly sturdy. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000647</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-Cushion-R -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Pa-nefer, Cuddly Pillow Manufacturer</Text>
-                <LineId>1600000412</LineId> <!-- <GUID>1600000412</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>"I wonder if it's possible to make pillows shaped like sharks? Carcharias Softis would be absolutely amazing!" &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000413</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-Amphores-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>The Invisible Amphora Artist</Text>
+        <LineId>1600000424</LineId> <!-- <GUID>1600000424</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>This citizen uses a technique to make amphorae highly fire-resistant. However, no one knows his name... and he hardly stands out. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000425</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>He wants to blend in with the crowd. (5000 Population on Island)</Text>
+        <LineId>1600000426</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-Fuel-Stack-E -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Strictus Vaporosus II, Safety Paragraph Rider</Text>
-                <LineId>1600000134</LineId> <!-- <GUID>1600000134</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>"According to Section 5, Subsection 2 A of the Roman Fire Safety Regulations, this fireplace may only be used between sunrise and the noon assembly! Subsection 12, G, also states...." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000135</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-Lyres-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>He-Ma-Te, Inspiring Lyre Maker</Text>
+        <LineId>1600000432</LineId> <!-- <GUID>1600000432</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>The sound of their lyres inspires all listeners to new innovations. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000433</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Wants to be part of a lyre collegium. (8x Lyremaker on Island)</Text>
+        <LineId>1600000434</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-CGreen-R -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Cernunia Aricin, Green Alchemist</Text>
-                <LineId>1600000642</LineId> <!-- <GUID>1600000642</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>Her alchemy might even benefit the general health of the community.. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000643</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-Chariot-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Glano Tascio, Perfectionist Carriage Builder</Text>
+        <LineId>1600000416</LineId> <!-- <GUID>1600000416</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>His fast and sturdy chariots are ideal for racing. Even when serving for the Auxillia, his Celtic mettle shines through.  &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000417</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Requires multiple test sites for the war chariots. (2x Equitum Campus on Island)</Text>
+        <LineId>1600000418</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-Headpiece-R -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Experienced Headrest Upholsterer</Text>
-                <LineId>1600000646</LineId> <!-- <GUID>1600000646</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>His headpieces are surprisingly sturdy. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000647</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-Lounger-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Livia Lectuaria, The Cunning Queen of Loungers</Text>
+        <LineId>1600000621</LineId> <!-- <GUID>1600000621</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"Anyone who dozes off on a Lectuaria lounger has already decided to buy it. Taking a nap is considered a binding declaration of intent to purchase the piece of furniture. No returns due to drool stains." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000622</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Looking for a sufficiently large customer base. (150 Patrician Residences on Island)</Text>
+        <LineId>1600000623</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-    </Group>
+  <!-- Specialist AE-AllProd-Stack-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Manlius Portus Magnus, Praebitor Maximus</Text>
+        <LineId>1600000628</LineId> <!-- <GUID>1600000628</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>He bought up the entire supply of Aegyptian papyrus just to fold it into shipping boxes and supply every single store, no matter how small, with them. Surprisingly, everyone uses his service. &#xD;Note: This area effect only affects residential buildings but can stack. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000629</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Needs a sufficiently large customer base for his shipping boxes. (42x Production Buildings on Island)</Text>
+        <LineId>1600000630</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-    <!-- Legendary Specialists -->
-    <Group>
+  <!-- Specialist AE-TogaTr-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Vercanomagus, Creative Tailor</Text>
+        <LineId>1600000635</LineId> <!-- <GUID>1600000628</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>He often asks himself: “How can you pair a toga with pants?” &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000636</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>He is a regular at the Medicus. (10x Medicus on Island)</Text>
+        <LineId>1600000637</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-Amphores-L -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>The Invisible Amphora Artist</Text>
-                <LineId>1600000424</LineId> <!-- <GUID>1600000424</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>This citizen uses a technique to make amphorae highly fire-resistant. However, no one knows his name... and he hardly stands out. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000425</LineId> 
-            </Text>
-            <!-- Boosted Hint -->
-            <Text>
-                <Text>He wants to blend in with the crowd. (5000 Population on Island)</Text>
-                <LineId>1600000426</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-PeltHatPil-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Bevera, Protective Hatmaker</Text>
+        <LineId>1600000650</LineId> <!-- <GUID>1600000650</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Their hats can withstand any storm everywhere. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000651</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Has problems to start sleeping. (300 Sheep in Storage)</Text>
+        <LineId>1600000652</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-Lyres-L -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>He-Ma-Te, Inspiring Lyre Maker</Text>
-                <LineId>1600000432</LineId> <!-- <GUID>1600000432</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>The sound of their lyres inspires all listeners to new innovations. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000433</LineId> 
-            </Text>
-            <!-- Boosted Hint -->
-            <Text>
-                <Text>Wants to be part of a lyre collegium. (8x Lyremaker on Island)</Text>
-                <LineId>1600000434</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-HairWig-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Lucius Capillus Calvus, The Hair Oracle</Text>
+        <LineId>1600000657</LineId> <!-- <GUID>1600000657</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"Go to Calvus if you don't want to be a Calvus anymore." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000658</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Likes to test whether his wigs stays intact in water. (4x Aqueduct Cistern/Distributor on Island)</Text>
+        <LineId>1600000659</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-Chariot-L -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Glano Tascio, Perfectionist Carriage Builder</Text>
-                <LineId>1600000416</LineId> <!-- <GUID>1600000416</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>His fast and sturdy chariots are ideal for racing. Even when serving for the Auxillia, his Celtic mettle shines through.  &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000417</LineId> 
-            </Text>
-            <!-- Boosted Hint -->
-            <Text>
-                <Text>Requires multiple test sites for the war chariots. (2x Equitum Campus on Island)</Text>
-                <LineId>1600000418</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-Mirror-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Narcissicus, the sturdy Mirrormaker</Text>
+        <LineId>1600000664</LineId> <!-- <GUID>1600000664</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>No soul will ever be hurt and need seven years to heal, because his mirrors can never break. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000665</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Travels from Fanum to Fanum to heal his own soul. (4x Fanum on Island)</Text>
+        <LineId>1600000666</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-Lounger-L -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Livia Lectuaria, The Cunning Queen of Loungers</Text>
-                <LineId>1600000621</LineId> <!-- <GUID>1600000621</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>"Anyone who dozes off on a Lectuaria lounger has already decided to buy it. Taking a nap is considered a binding declaration of intent to purchase the piece of furniture. No returns due to drool stains." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000622</LineId> 
-            </Text>
-            <!-- Boosted Hint -->
-            <Text>
-                <Text>Looking for a sufficiently large customer base. (150 Patrician Residences on Island)</Text>
-                <LineId>1600000623</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-RGlass-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Decima Rima, Artifex Fragilis</Text>
+        <LineId>1600000671</LineId> <!-- <GUID>1600000671</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"How am I supposed to sell more glass if it never breaks?" &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000672</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Taverns are her new main customers. (10x Taverns on Island)</Text>
+        <LineId>1600000673</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-AllProd-Stack-L -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Manlius Portus Magnus, Praebitor Maximus</Text>
-                <LineId>1600000628</LineId> <!-- <GUID>1600000628</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>He bought up the entire supply of Aegyptian papyrus just to fold it into shipping boxes and supply every single store, no matter how small, with them. Surprisingly, everyone uses his service. &#xD;Note: This area effect only affects residential buildings but can stack. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000629</LineId> 
-            </Text>
-            <!-- Boosted Hint -->
-            <Text>
-                <Text>Needs a sufficiently large customer base for his shipping boxes. (42x Production Buildings on Island)</Text>
-                <LineId>1600000630</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-BTongue-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Malleator Linguis, Tongue Hammerer</Text>
+        <LineId>1600000678</LineId> <!-- <GUID>1600000678</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>His way of preparing bird tongues makes the taste a little more bearable. I wonder what role the hammer plays in that? &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000679</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>He's regularly suspected of murder. To be on the safe side, there should always be a few guards with him. (9x Custodes on Island)</Text>
+        <LineId>1600000680</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-TogaTr-L -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Vercanomagus, Creative Tailor</Text>
-                <LineId>1600000635</LineId> <!-- <GUID>1600000628</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>He often asks himself: “How can you pair a toga with pants?” &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000636</LineId> 
-            </Text>
-            <!-- Boosted Hint -->
-            <Text>
-                <Text>He is a regular at the Medicus. (10x Medicus on Island)</Text>
-                <LineId>1600000637</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-Soap-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Phileros, Saponarius Amoris</Text>
+        <LineId>1600000688</LineId> <!-- <GUID>1600000688</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>With his new formula, he adds fresh, soft scents to the soap and brings a touch of Amor to the streets. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600000689</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>He'd like to live on a beautiful island.(5000 Prestige on Island)</Text>
+        <LineId>1600000690</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-PeltHatPil-L -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Bevera, Protective Hatmaker</Text>
-                <LineId>1600000650</LineId> <!-- <GUID>1600000650</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>Their hats can withstand any storm in Albion. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000651</LineId> 
-            </Text>
-            <!-- Boosted Hint -->
-            <Text>
-                <Text>A well-known expert among the elders. (125 Alderman Residences on Island)</Text>
-                <LineId>1600000652</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-Beer-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Lucius Braciarius, Master of the beer.</Text>
+        <LineId>1600001145</LineId> <!-- <GUID>1600001145</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>His studies showed him the perfect mixture for a good beer.  &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001146</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Mixing herbs into beer preserves the flavor for generations." (400 herbs in storage)</Text>
+        <LineId>1600001147</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-HairWig-L -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Lucius Capillus Calvus, The Hair Oracle</Text>
-                <LineId>1600000657</LineId> <!-- <GUID>1600000657</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>"Go to Calvus if you don't want to be a Calvus anymore." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000658</LineId> 
-            </Text>
-            <!-- Boosted Hint -->
-            <Text>
-                <Text>Likes to test whether his wigs stays intact in water. (2x Aqueduct Basin on Island)</Text>
-                <LineId>1600000659</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-Bread-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Pistorius Ambrosius, Good smelling Baker</Text>
+        <LineId>1600001110</LineId> <!-- <GUID>1600001110</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Is it his bread, or is it...uh... him that smells so good? &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001111</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>His Bread is looked upon on by Ceres. (6x Shrine of Ceres on Island)</Text>
+        <LineId>1600001112</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-Mirror-L -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Narcissicus, the sturdy Mirrormaker</Text>
-                <LineId>1600000664</LineId> <!-- <GUID>1600000664</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>No soul will ever be hurt and need seven years to heal, because his mirrors can never break. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000665</LineId> 
-            </Text>
-            <!-- Boosted Hint -->
-            <Text>
-                <Text>Travels from Fanum to Fanum to heal his own soul. (4x Fanum on Island)</Text>
-                <LineId>1600000666</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-Cheese-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Bairbre Ní Chasaide, Experienced Cheesemaker</Text>
+        <LineId>1600001117</LineId> <!-- <GUID>1600001117</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Her cheese is treated like a special delicacy. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001118</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"A greek scribe once told me a cheese varity can be obtained from sheep. I will need to test this." (3x Sheep Pastures on Island)</Text>
+        <LineId>1600001119</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-RGlass-L -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Decima Rima, Artifex Fragilis</Text>
-                <LineId>1600000671</LineId> <!-- <GUID>1600000671</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>"How am I supposed to sell more glass if it never breaks?" &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000672</LineId> 
-            </Text>
-            <!-- Boosted Hint -->
-            <Text>
-                <Text>Taverns are her new main customers. (10x Taverns on Island)</Text>
-                <LineId>1600000673</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-Cloaks-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Fiona Ní Mháille, Cloakmaker</Text>
+        <LineId>1600001124</LineId> <!-- <GUID>1600001124</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Everyone is clamoring for Fiona's coats. Luckily, they can’t tear. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001125</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Uses a special bronze stamp to mark her cloaks. (500 bronze in storage)</Text>
+        <LineId>1600001126</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-BTongue-L -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Malleator Linguis, Tongue Hammerer</Text>
-                <LineId>1600000678</LineId> <!-- <GUID>1600000678</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>His way of preparing bird tongues makes the taste a little more bearable. I wonder what role the hammer plays in that? &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000679</LineId> 
-            </Text>
-            <!-- Boosted Hint -->
-            <Text>
-                <Text>He's regularly suspected of murder. To be on the safe side, there should always be a few guards with him. (9x Custodes on Island)</Text>
-                <LineId>1600000680</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-DHorns-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Cian Cearnach, The Ever-Celebrating Horner</Text>
+        <LineId>1600001152</LineId> <!-- <GUID>1600001152</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"My Horns have been and will be at every festival! Lets celebrate!" &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001153</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Without a good bard there is nothing to celebrate!" (6x Bardic Hearth on Island)</Text>
+        <LineId>1600001154</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-        <!-- Specialist AE-Soap-L -->
-        <Group>
-        <ModOp Add="/TextExport/Texts">
-            <!-- Title -->
-            <Text>
-                <Text>Phileros, Saponarius Amoris</Text>
-                <LineId>1600000688</LineId> <!-- <GUID>1600000688</GUID> -->
-            </Text>
-            <!-- Description -->
-            <Text>
-                <Text>With his new formula, he adds fresh, soft scents to the soap and brings a touch of Amor to the streets. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
-                <LineId>1600000689</LineId> 
-            </Text>
-            <!-- Boosted Hint -->
-            <Text>
-                <Text>He'd like to live on a beautiful island.(5000 Prestige on Island)</Text>
-                <LineId>1600000690</LineId> 
-            </Text>
-        </ModOp>
-        </Group>
+  <!-- Specialist AE-Garum-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Flavia Lepida, Finest Preparer of Garum</Text>
+        <LineId>1600001166</LineId> <!-- <GUID>1600001166</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"The taste compensates for the smell during fermentation." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001167</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"My garum is only allowed to be served in the finest glass you have." (350x Fine Glass in Storage)</Text>
+        <LineId>1600001168</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
-    </Group>
+  <!-- Specialist AE-Gen-Arms-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Valerius Trepidus, concerned Commander</Text>
+        <LineId>1600001054</LineId> <!-- <GUID>1600001054</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Although the emperor has proclaimed the Pax, Valerius remains tense. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001055</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Is calmed down by a strong army. (At least 20 Troops anywhere. Garrison does not count)</Text>
+        <LineId>1600001056</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Gen-Artisans-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Musica Fabra, humming Artisan</Text>
+        <LineId>1600001061</LineId> <!-- <GUID>1600001061</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Their craftsmanship is accompanied by music. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001062</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Mosaics in different colors are their muse. (400x Mosaics in Storage)</Text>
+        <LineId>1600001063</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Gen-Clothiers-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Livia Acuscula, Up-and-coming Seamstress</Text>
+        <LineId>1600001131</LineId> <!-- <GUID>1600001131</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Her clothing has prevailed over the competition. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001132</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Only competition keeps her inner fire burning. (30x Clothiers on Island)</Text>
+        <LineId>1600001133</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Gen-Victuallers-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Vibius Fontinalis, Green-eyed Craftsman</Text>
+        <LineId>1600001138</LineId> <!-- <GUID>1600001138</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>His green eyes are reflected so beautifully in any liquid. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001139</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Always in need of fresh drinkable water. (10x Wells on Island)</Text>
+        <LineId>1600001140</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Gen-Workshops-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Quintus Faber, Inventive Craftsman</Text>
+        <LineId>1600001075</LineId> <!-- <GUID>1600001075</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"My ideas must be tested in practice." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001076</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Tries to find different perspectives and ideas. (24x Workshops on Island)</Text>
+        <LineId>1600001077</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Necklaces-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Numisia Rapax, Ruthless Gem Cutter</Text>
+        <LineId>1600001180</LineId> <!-- <GUID>1600001180</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Ruthlessly chases after every gold bar. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001181</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Gold? GOOOOOOLLLLD?! Goooooooooooooooold!" (500x Gold in Storage)</Text>
+        <LineId>1600001182</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-OliveOil-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Casperius Olearius, Quality Oilmaker</Text>
+        <LineId>1600001173</LineId> <!-- <GUID>1600001173</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"Olive Oil is an nessesity for your everyday life." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001174</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Glass keeps the quality of my oil high." (300x Glass in Storage)</Text>
+        <LineId>1600001175</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Oyster-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Aiacia Plancia, Ostrearia Magnifica</Text>
+        <LineId>1600001082</LineId> <!-- <GUID>1600001082</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Knows how to make oyster platters look appetizing. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001083</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Where is my collection of sea shells?" (100x Sea Shells in Storage)</Text>
+        <LineId>1600001084</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-RoastBeef-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Aisling, Seasoner of the Meat</Text>
+        <LineId>1600001103</LineId> <!-- <GUID>1600001103</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"Any meat can be made edible. Leave it to me." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001104</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Seasons the meat with some small white corn. (200x Salt in Storage)</Text>
+        <LineId>1600001105</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Tunics-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Theone Psais, Tunic Weaver from Aegyptus</Text>
+        <LineId>1600001159</LineId> <!-- <GUID>1600001159</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Her tunics are known throughout Aegyptus. Now, she is in your service. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001160</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Everyone will get a special tunic from me. Let me get my strings..." (150x Strings in Storage)</Text>
+        <LineId>1600001161</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-WaxTablets-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Banuhsch Turanbakht, Parthian Tablet Translator</Text>
+        <LineId>1600001089</LineId> <!-- <GUID>1600001089</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Translates texts from distant Persia into Latin. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001090</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Only Scholars and Scribes are interested. (8000 Knowledge on Island)</Text>
+        <LineId>1600001091</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Wine-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Augusta Vinaria, Exquisite Wine Mistress</Text>
+        <LineId>1600001096</LineId> <!-- <GUID>1600001096</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Ruler of the grapes. At least of her own. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001097</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Having a grape now and then has never ruined anyone’s day." (300x Grapes in Storage)</Text>
+        <LineId>1600001098</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Porridge-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Livia Pultaria, Refreshing Porridge Cook</Text>
+        <LineId>1600001187</LineId> <!-- <GUID>1600001187</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>“Come along and let my porridge strengthen you.” &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001188</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"A kraut from Albion lets the porridge taste much better." (300 Saltwort in Storage)</Text>
+        <LineId>1600001189</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Sandals-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Valeria Caligaria, Sturdy Sandal-Maker</Text>
+        <LineId>1600001194</LineId> <!-- <GUID>1600001194</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"Without good sandals, you won't have a firm footing." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001195</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Often gets lost and needs statues for orientation. (25 Statues on Island)</Text>
+        <LineId>1600001196</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
 </ModOps>
