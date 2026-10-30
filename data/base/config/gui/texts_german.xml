@@ -111,7 +111,7 @@
       </Text>
       <!-- Boosted Description -->
       <Text>
-        <Text>PLACEHOLDER (2x AqueductBasin on Island)</Text>
+        <Text>"Ich brauche SilberBARREN! Nicht Erz!" (300 Silber im Lager)</Text>
         <LineId>1600000422</LineId>
       </Text>
     </ModOp>
@@ -148,7 +148,7 @@
       </Text>
       <!-- Boosted Description -->
       <Text>
-        <Text>PLACEHOLDER (2x AqueductBasin on Island)</Text>
+        <Text>"Ohne eine solid Grundlage lässt sich nichts in meiner Küche zaubern!" (2x AqueductBasin on Island)</Text>
         <LineId>1600000260</LineId>
       </Text>
     </ModOp>
@@ -470,6 +470,129 @@
     </ModOp>
   </Group>
 
+  <!-- Specialist AE-Beer-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Lucius Braciarius, Meister des Bieres.</Text>
+        <LineId>1600001145</LineId> <!-- <GUID>1600001145</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Seine Studien haben ihm die perfekte Mixtur für ein gutes Bier verraten. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001146</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"In dem man Kräuter in das Bier mischt wird der Geschmack über Generationen hinweg erhalten." (400 herbs in storage)</Text>
+        <LineId>1600001147</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
+  <!-- Specialist AE-Bread-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Pistorius Ambrosius, Gut duftender Bäcker</Text>
+        <LineId>1600001110</LineId> <!-- <GUID>1600001110</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Ist es sein Brot oder ist es er, der so gut duftet? &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001111</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Ceres wacht über sein Brot. (6x Shrine of Ceres on Island)</Text>
+        <LineId>1600001112</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 
+  <!-- Specialist AE-Cheese-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Bairbre Ní Chasaide, Erfahrene Käsemacherin</Text>
+        <LineId>1600001117</LineId> <!-- <GUID>1600001117</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Ihr Käse wird behandelt wie eine Delikatesse. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001118</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Ein griechischer Schreiber erzählte mir, dass eine andere Käseart von Schafen gewonnen werden kann. Das möchte ich ausprobieren." (3x Sheep Pastures on Island)</Text>
+        <LineId>1600001119</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Cloaks-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Fiona Ní Mháille, Gewandsmeisterin</Text>
+        <LineId>1600001124</LineId> <!-- <GUID>1600001124</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Alle reißen sich um Fionas Mäntel. Zum Glück können diese nicht reißen. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001125</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Nutzt einen besonderen Stempel aus Bronze zur Markierung ihrer Mäntel. (500 bronze in storage)</Text>
+        <LineId>1600001126</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-DHorns-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Cian Cearnach, Immerfeiernder Horner</Text>
+        <LineId>1600001152</LineId> <!-- <GUID>1600001152</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"Meine Hörner waren und werden auf jedem Festival sein! Lasst uns feiern!" &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001153</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Ohne einen guten Barden gibt es nichts zum Feiern!" (6x Bardic Hearth on Island)</Text>
+        <LineId>1600001154</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Garum-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Flavia Lepida, feinste Garumköchin</Text>
+        <LineId>1600001166</LineId> <!-- <GUID>1600001166</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"Der Geschmack macht den Geruch während der Gärung wieder wett." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001167</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Mein Garum darf nur in den feinsten Gläsern serviert werden." (350x Fine Glass in Storage)</Text>
+        <LineId>1600001168</LineId>
+      </Text>
+    </ModOp>
+  </Group>
 </ModOps>

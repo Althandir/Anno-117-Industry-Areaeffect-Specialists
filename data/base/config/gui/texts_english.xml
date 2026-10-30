@@ -111,7 +111,7 @@
       </Text>
       <!-- Boosted Description -->
       <Text>
-        <Text>"I more silver bars! Not the Ore!" (300 silver in storage)</Text>
+        <Text>"I more silver BARS! Not the Ore!" (300 silver in storage)</Text>
         <LineId>1600000422</LineId>
       </Text>
     </ModOp>
@@ -148,7 +148,7 @@
       </Text>
       <!-- Boosted Description -->
       <Text>
-        <Text>"Without a solid basis, nothing can be done in my kitchen" (300 flour in storage)</Text>
+        <Text>"Without a solid basis nothing can be done in my kitchen!" (300 flour in storage)</Text>
         <LineId>1600000260</LineId>
       </Text>
     </ModOp>
@@ -217,8 +217,6 @@
       </Text>
     </ModOp>
   </Group>
-
-
 
   <!-- Specialist AE-Amphores-L -->
   <Group>
@@ -477,12 +475,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Beer-L</Text>
+        <Text>Lucius Braciarius, Master of the beer.</Text>
         <LineId>1600001145</LineId> <!-- <GUID>1600001145</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>His studies showed him the perfect mixture for a good beer.  &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001146</LineId>
       </Text>
       <!-- Boosted Hint -->
@@ -498,12 +496,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Bread-L</Text>
+        <Text>Pistorius Ambrosius, Good smelling Baker</Text>
         <LineId>1600001110</LineId> <!-- <GUID>1600001110</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>Is it his bread, or is it...uh... him that smells so good? &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001111</LineId>
       </Text>
       <!-- Boosted Hint -->
@@ -519,12 +517,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Cheese-L</Text>
+        <Text>Bairbre Ní Chasaide, Experienced Cheesemaker</Text>
         <LineId>1600001117</LineId> <!-- <GUID>1600001117</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>Her cheese is treated like a special delicacy. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001118</LineId>
       </Text>
       <!-- Boosted Hint -->
@@ -540,17 +538,17 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Cloaks-L</Text>
+        <Text>Fiona Ní Mháille, Cloakmaker</Text>
         <LineId>1600001124</LineId> <!-- <GUID>1600001124</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>Everyone is clamoring for Fiona's coats. Luckily, they can’t tear. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001125</LineId>
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>Uses a special bronze stamp to mark her quality cloaks. (500 bronze in storage)</Text>
+        <Text>Uses a special bronze stamp to mark her cloaks. (500 bronze in storage)</Text>
         <LineId>1600001126</LineId>
       </Text>
     </ModOp>
@@ -561,12 +559,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-DHorns-L</Text>
+        <Text>Cian Cearnach, The Ever-Celebrating Horner</Text>
         <LineId>1600001152</LineId> <!-- <GUID>1600001152</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>"My Horns have been and will be at every festival! Lets celebrate!" &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001153</LineId>
       </Text>
       <!-- Boosted Hint -->
@@ -582,12 +580,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Garum-L</Text>
+        <Text>Flavia Lepida, Finest Preparer of Garum</Text>
         <LineId>1600001166</LineId> <!-- <GUID>1600001166</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>"The taste compensates for the smell during fermentation." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001167</LineId>
       </Text>
       <!-- Boosted Hint -->
