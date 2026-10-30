@@ -790,17 +790,17 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Tunics-L</Text>
+        <Text>Theone Psais, Tunic Weaver from Aegyptus</Text>
         <LineId>1600001159</LineId> <!-- <GUID>1600001159</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>Her tunics are known throughout Aegyptus. Now, she is in your service. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001160</LineId>
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>Everyone will get a special tunic from me. Let me get my strings... (150x Strings in Storage)</Text>
+        <Text>"Everyone will get a special tunic from me. Let me get my strings..." (150x Strings in Storage)</Text>
         <LineId>1600001161</LineId>
       </Text>
     </ModOp>
@@ -811,12 +811,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-WaxTablets-L</Text>
+        <Text>Banuhsch Turanbakht, Parthian Tablet Translator</Text>
         <LineId>1600001089</LineId> <!-- <GUID>1600001089</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>Translates texts from distant Persia into Latin. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001090</LineId>
       </Text>
       <!-- Boosted Hint -->
@@ -832,12 +832,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Wine-L</Text>
+        <Text>Augusta Vinaria, Exquisite Wine Mistress</Text>
         <LineId>1600001096</LineId> <!-- <GUID>1600001096</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>Ruler of the grapes. At least of her own. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001097</LineId>
       </Text>
       <!-- Boosted Hint -->
@@ -848,22 +848,22 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-Porrige-L -->
+  <!-- Specialist AE-Porridge-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>PLACEHOLDER AE-Porrige-L</Text>
+        <Text>PLACEHOLDER AE-Porridge-L, Refreshing Porridge Cook</Text>
         <LineId>1600001187</LineId> <!-- <GUID>1600001187</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>PLACEHOLDER AE-Porrige-L &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>“Come along and let my porridge strengthen you.” &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001188</LineId>
       </Text>
       <!-- Boosted Hint -->
       <Text>
-        <Text>"A kraut from Albion lets the porrige taste much better." (300 Saltwort in Storage)</Text>
+        <Text>"A kraut from Albion lets the porridge taste much better." (300 Saltwort in Storage)</Text>
         <LineId>1600001189</LineId>
       </Text>
     </ModOp>

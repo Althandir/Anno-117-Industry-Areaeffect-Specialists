@@ -785,4 +785,109 @@
     </ModOp>
   </Group>
 
+  <!-- Specialist AE-Tunics-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Theone Psais, Tunikaweberin aus Aegyptus</Text>
+        <LineId>1600001159</LineId> <!-- <GUID>1600001159</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Ihre Tuniken sind in ganz Aegyptus bekannt. Nun steht Sie in ihren Diensten. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001160</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Jeder bekommt eine spezielle Tunika von mir. Lasst mich meine Fäden holen..." (150x Saiten in Storage)</Text>
+        <LineId>1600001161</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-WaxTablets-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Banuhsch Turanbakht, Parthischer Tafelübersetzer</Text>
+        <LineId>1600001089</LineId> <!-- <GUID>1600001089</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Überträgt ferne Schriften aus Persia ins Lateinische. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001090</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Nur Gelehrte und Schreiber sind interessiert. (8000 Wissen auf Insel)</Text>
+        <LineId>1600001091</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Wine-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>Augusta Vinaria, Exquisite Weinherrin</Text>
+        <LineId>1600001096</LineId> <!-- <GUID>1600001096</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>Herrscherin über die Trauben. Zumindest über ihre. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001097</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Eine Traube hier und da hat noch niemandes Tages ruiniert." (300x Trauben im Lager)</Text>
+        <LineId>1600001098</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Porridge-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>PLACEHOLDER AE-Porridge-L, Erfischende Breiköchin</Text>
+        <LineId>1600001187</LineId> <!-- <GUID>1600001187</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>"Kommt her und lasst euch von meinem Brei stärken." &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001188</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>"Ein Kraut aus Albion lässt den Brei viel besser schmecken." (300 Salzkraut im Lager)</Text>
+        <LineId>1600001189</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
+  <!-- Specialist AE-Sandals-L -->
+  <Group>
+    <ModOp Add="/TextExport/Texts">
+      <!-- Title -->
+      <Text>
+        <Text>PLACEHOLDER AE-Sandals-L</Text>
+        <LineId>1600001194</LineId> <!-- <GUID>1600001194</GUID> -->
+      </Text>
+      <!-- Description -->
+      <Text>
+        <Text>PLACEHOLDER AE-Sandals-L &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <LineId>1600001195</LineId>
+      </Text>
+      <!-- Boosted Hint -->
+      <Text>
+        <Text>Often gets lost and needs statues for orientation. (25 Statues on Island)</Text>
+        <LineId>1600001196</LineId>
+      </Text>
+    </ModOp>
+  </Group>
+
 </ModOps>
