@@ -29,7 +29,7 @@
           <Item>
             <Niche>Economy</Niche>
             <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice>
-            <BarkPool>80243</BarkPool> <!-- <GUID>80243</GUID> -->
+            <BarkPool>0</BarkPool> <!-- <GUID>0</GUID> -->
             <Rarity>Legendary</Rarity>
           </Item>
           <Locked>
