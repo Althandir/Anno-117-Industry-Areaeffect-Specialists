@@ -9,9 +9,6 @@
 <Group>
     <ModOp Type="add" GUID="83451,83463,83467,83471,83479,83475,83483" Path="/Values/RewardPool/ItemsPool">
         <Item>
-            <ItemLink>1600000424</ItemLink>
-        </Item>
-        <Item>
             <ItemLink>1600000432</ItemLink>
         </Item>
         <Item>
@@ -40,10 +37,81 @@
         </Item>  
         <Item>
             <ItemLink>1600000678</ItemLink>
-        </Item>  
+        </Item>
+        <Item>
+            <ItemLink>1600000424</ItemLink>
+        </Item>
         <Item>
             <ItemLink>1600000688</ItemLink>
         </Item>  
+        <Item>
+            <ItemLink>1600000258</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600000420</ItemLink>
+        </Item>
+        
+        <Item>
+            <ItemLink>1600001054</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001061</ItemLink>
+        </Item>      
+        <Item>
+            <ItemLink>1600001075</ItemLink>
+        </Item>  
+        <Item>
+            <ItemLink>1600001082</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001089</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001096</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001103</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001110</ItemLink>
+        </Item>  
+        <Item>
+            <ItemLink>1600001117</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001124</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001131</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001138</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001145</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001152</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001159</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001166</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001173</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001180</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001187</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001194</ItemLink>
+        </Item>
+        
     </ModOp>
 </Group>
 </ModOps>

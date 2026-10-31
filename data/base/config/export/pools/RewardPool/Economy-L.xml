@@ -1,0 +1,27 @@
+<ModOps>
+<!-- Add to RewardPools -->
+<!-- RewardList Economy Legendary -->
+<Group>
+    <ModOp Type="add" GUID="121855" Path="/Values/RewardPool/ItemsPool">
+        <Item>
+            <ItemLink>1600001061</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001131</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600000258</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001075</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001138</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001159</ItemLink>
+        </Item>
+    </ModOp>
+</Group>
+
+</ModOps>

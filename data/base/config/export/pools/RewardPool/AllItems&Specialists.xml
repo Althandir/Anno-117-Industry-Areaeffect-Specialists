@@ -9,19 +9,7 @@
         </Item>
         <!-- Epic -->
         <Item>
-            <ItemLink>1600000404</ItemLink>
-        </Item>     
-        <Item>
             <ItemLink>1600000134</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000412</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000642</ItemLink>
-        </Item>
-        <Item>
-            <ItemLink>1600000646</ItemLink>
         </Item>
         <!-- Legendary -->
         <Item>
@@ -60,12 +48,82 @@
         <Item>
             <ItemLink>1600000688</ItemLink>
         </Item>  
-        <!-- Rare -->
-        <Item>
-            <ItemLink>1600000254</ItemLink>
-        </Item>
         <Item>
             <ItemLink>1600000258</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600000420</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001054</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001061</ItemLink>
+        </Item>      
+        <Item>
+            <ItemLink>1600001075</ItemLink>
+        </Item>  
+        <Item>
+            <ItemLink>1600001082</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001089</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001096</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001103</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001110</ItemLink>
+        </Item>  
+        <Item>
+            <ItemLink>1600001117</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001124</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001131</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001138</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001145</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001152</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001159</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001166</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001173</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001180</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001187</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600001194</ItemLink>
+        </Item>
+
+        <!-- Rare -->
+        <Item>
+            <ItemLink>1600000404</ItemLink>
+        </Item>     
+        <Item>
+            <ItemLink>1600000412</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600000254</ItemLink>
         </Item>
         <Item>
             <ItemLink>1600000266</ItemLink>
@@ -74,15 +132,17 @@
             <ItemLink>1600000309</ItemLink>
         </Item>
         <Item>
-            <ItemLink>1600000400</ItemLink>
-        </Item> 
-        <Item>
             <ItemLink>1600000408</ItemLink>
         </Item>
         <Item>
-            <ItemLink>1600000420</ItemLink>
+            <ItemLink>1600000642</ItemLink>
         </Item>
-
+        <Item>
+            <ItemLink>1600000646</ItemLink>
+        </Item>
+        <Item>
+            <ItemLink>1600000400</ItemLink>
+        </Item>
     </ModOp>
 </Group>
 
