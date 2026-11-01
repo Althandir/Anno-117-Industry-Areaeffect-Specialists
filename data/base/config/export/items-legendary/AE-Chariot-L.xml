@@ -178,6 +178,12 @@
           </Text>
           <BuildingUpgrade>
             <AdditionalAttributes>
+              <Population>
+                <AmountOrPercent>
+                  <Value>1</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Population>
               <Prestige>
                 <AmountOrPercent>
                   <Value>2</Value>
@@ -292,13 +298,13 @@
             <AdditionalAttributes>
               <Population>
                 <AmountOrPercent>
-                  <Value>1</Value>
+                  <Value>2</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Population>
               <Prestige>
                 <AmountOrPercent>
-                  <Value>2</Value>
+                  <Value>3</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Prestige>

@@ -178,15 +178,15 @@
           </Text>
           <BuildingUpgrade>
             <AdditionalAttributes>
-              <Belief>
+              <Knowledge>
                 <AmountOrPercent>
-                  <Value>1</Value>
+                  <Value>0.5</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
-              </Belief>
+              </Knowledge>
               <Money>
                 <AmountOrPercent>
-                  <Value>1</Value>
+                  <Value>1.5</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Money>
@@ -295,15 +295,15 @@
           </Text>
           <BuildingUpgrade>
             <AdditionalAttributes>
-              <Belief>
+              <Knowledge>
                 <AmountOrPercent>
-                  <Value>2</Value>
+                  <Value>1</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
-              </Belief>
+              </Knowledge>
               <Money>
                 <AmountOrPercent>
-                  <Value>2</Value>
+                  <Value>3</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Money>
