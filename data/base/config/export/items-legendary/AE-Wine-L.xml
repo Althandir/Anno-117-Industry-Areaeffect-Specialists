@@ -177,6 +177,12 @@
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Money>
+              <Health>
+                <AmountOrPercent>
+                  <Value>0.5</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Health>
             </AdditionalAttributes>
           </BuildingUpgrade>
           <ResidenceUpgrade>
@@ -294,12 +300,12 @@
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Money>
-              <FireSafety>
+              <Health>
                 <AmountOrPercent>
-                  <Value>0.5</Value>
+                  <Value>1</Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
-              </FireSafety>
+              </Health>
             </AdditionalAttributes>
           </BuildingUpgrade>
           <ResidenceUpgrade>
