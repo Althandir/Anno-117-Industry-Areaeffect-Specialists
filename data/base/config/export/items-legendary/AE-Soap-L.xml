@@ -19,9 +19,12 @@
                 <GUID>1600000689</GUID>
               </Item>
             </Buffs>
-            <Targets> <!-- Targets of Buff TODO: Update for DLC03-->
+            <Targets> <!-- Targets of Buff TODO: Update with Global Pool later -->
               <Item>
                 <GUID>3189</GUID>
+              </Item>
+              <Item>
+                <GUID>152683</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
@@ -325,6 +328,7 @@
   </Group>
 
 </ModOps>
+
 
 
 
