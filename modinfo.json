@@ -1,6 +1,6 @@
 {
   "ModID": "althandir-altdolphin-specialists-industry-areaeffects-pack",
-  "Version": "1.0.4",
+  "Version": "3.0.0",
   "Anno": 8,
   "IncompatibleIds": null,
   "ModDependencies": null,
@@ -98,21 +98,13 @@
     {
       "default": "15"
     },
-    "AdditionalGoods_Amount_Legendary_NonBoosted":
+    "ProductivityBuff_Specific_Legendary_NonBoosted":
     {
-      "default": "1"
+      "default": "0"
     },
-    "AdditionalGoods_Cycle_Legendary_NonBoosted":
+    "ProductivityBuff_Specific_Legendary_Boosted":
     {
-      "default": "24"
-    },
-    "AdditionalGoods_Amount_Legendary_Boosted":
-    {
-      "default": "1"
-    },
-    "AdditionalGoods_Cycle_Legendary_Boosted":
-    {
-      "default": "12"
+      "default": "10"
     }
   }
 

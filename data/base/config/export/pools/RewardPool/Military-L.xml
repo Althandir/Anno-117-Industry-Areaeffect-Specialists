@@ -2,7 +2,7 @@
 <!-- Add to RewardPools -->
 <!-- RewardList Military Legendary -->
 <Group>
-    <ModOp Type="add" GUID="121883" Path="/Values/RewardPool/ItemsPool">
+    <ModOp Type="add" GUID="121883,79671" Path="/Values/RewardPool/ItemsPool">
     <Item>
         <ItemLink>1600000424</ItemLink>
     </Item>
