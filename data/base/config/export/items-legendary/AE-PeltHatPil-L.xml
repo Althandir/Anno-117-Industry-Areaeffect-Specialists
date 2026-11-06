@@ -115,6 +115,10 @@
                 <ProvidedNeedProduct>31707</ProvidedNeedProduct>
                 <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
               </Item>
+              <Item>
+                <ProvidedNeedProduct>2142</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
+              </Item>
             </GoodConsumptionUpgrade>
           </ResidenceUpgrade>
         </Values>
@@ -187,6 +191,10 @@
                 <ProvidedNeedProduct>31707</ProvidedNeedProduct>
                 <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
               </Item>
+              <Item>
+                <ProvidedNeedProduct>2142</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
+              </Item>
             </GoodConsumptionUpgrade>
           </ResidenceUpgrade>
           <Buff>
@@ -230,6 +238,10 @@
             <GoodConsumptionUpgrade>
               <Item>
                 <ProvidedNeedProduct>31707</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeedProduct>2142</ProvidedNeedProduct>
                 <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
               </Item>
             </GoodConsumptionUpgrade>
@@ -302,6 +314,10 @@
             <GoodConsumptionUpgrade>
               <Item>
                 <ProvidedNeedProduct>31707</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeedProduct>2142</ProvidedNeedProduct>
                 <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
               </Item>
             </GoodConsumptionUpgrade>
