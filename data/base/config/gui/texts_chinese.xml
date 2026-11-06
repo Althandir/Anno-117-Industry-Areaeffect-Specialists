@@ -475,12 +475,12 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>Lucius Braciarius, Master of the beer.</Text>
+        <Text>Lucius Braciarius, Master of the Beer</Text>
         <LineId>1600001145</LineId> <!-- <GUID>1600001145</GUID> -->
       </Text>
       <!-- Description -->
       <Text>
-        <Text>His studies showed him the perfect mixture for a good beer.  &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
+        <Text>His studies showed him the perfect mixture for a good beer. &#xD;(Altdolphin-Industry-AreaEffects-Pack)</Text>
         <LineId>1600001146</LineId>
       </Text>
       <!-- Boosted Hint -->
