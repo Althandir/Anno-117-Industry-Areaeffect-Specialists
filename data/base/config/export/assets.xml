@@ -15,7 +15,7 @@
 <Group>
     <Include File="items-rare/AE-StoneCutter-R.xml" />
     <Include File="items-rare/AE-Armories-R.xml" />
-    <Include File="items-rare/AE-CGreen-R.xml" />
+    <Include File="items-rare/AE-Chemical-R.xml" />
     <Include File="items-rare/AE-Crafters-R.xml" />
     <Include File="items-rare/AE-Cushion-R.xml" />
     <Include File="items-rare/AE-MatProd-R.xml" />
