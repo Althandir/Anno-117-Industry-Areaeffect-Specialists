@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600000642</GUID>
-            <Name>Specialist AE-CGreen-R</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_f_AE-CGreen-R.png</IconFilename>
+            <Name>Specialist AE-Chemical-R</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Chemical-R.png</IconFilename>
             <InfoDescription>1600000643</InfoDescription>
           </Standard>
           <Effect>
@@ -22,6 +22,9 @@
             <Targets> <!-- Targets of Buff -->
               <Item>
                 <GUID>5469</GUID>
+              </Item>
+              <Item>
+                <GUID>152332</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
@@ -52,8 +55,8 @@
         <Values>
           <Standard>
             <GUID>1600000643</GUID>
-            <Name>Specialist AE-CGreen-R BuildingBuff</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_f_AE-CGreen-R.png</IconFilename>
+            <Name>Specialist AE-Chemical-R BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Chemical-R.png</IconFilename>
           </Standard>
           <Text>
             <OasisId>1600000642</OasisId>
@@ -80,8 +83,8 @@
         <Values>
           <Standard>
             <GUID>1600000644</GUID>
-            <Name>Specialist AE-CGreen-R FunctionalEffect</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_f_AE-CGreen-R.png</IconFilename>
+            <Name>Specialist AE-Chemical-R FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Chemical-R.png</IconFilename>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>
@@ -112,8 +115,8 @@
         <Values>
           <Standard>
             <GUID>1600000645</GUID>
-            <Name>Specialist AE-CGreen-R FunctionalEffect BuildingBuff</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/c_f_AE-CGreen-R.png</IconFilename>
+            <Name>Specialist AE-Chemical-R FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-Chemical-R.png</IconFilename>
           </Standard>
           <Text>
             <OasisId>1600000642</OasisId>
