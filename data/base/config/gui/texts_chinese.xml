@@ -806,7 +806,7 @@
     </ModOp>
   </Group>
 
-  <!-- Specialist AE-WaxTablets-L -->
+  <!-- Specialist AE-WaxScribe-L -->
   <Group>
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
