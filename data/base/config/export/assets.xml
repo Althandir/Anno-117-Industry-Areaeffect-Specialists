@@ -64,7 +64,7 @@
     <Include File="items-legendary/AE-Soap-L.xml" />
     <Include File="items-legendary/AE-TogaTr-L.xml" />
     <Include File="items-legendary/AE-Tunics-L.xml" />
-    <Include File="items-legendary/AE-WaxTablets-L.xml" />
+    <Include File="items-legendary/AE-WaxScribe-L.xml" />
     <Include File="items-legendary/AE-Wine-L.xml" />
 
 </Group>

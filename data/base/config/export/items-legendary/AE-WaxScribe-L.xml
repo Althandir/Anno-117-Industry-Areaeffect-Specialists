@@ -7,8 +7,8 @@
         <Values>
           <Standard>
             <GUID>1600001089</GUID>
-            <Name>Specialist AE-WaxTablets-L</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-WaxTablets-L.png</IconFilename>
+            <Name>Specialist AE-WaxScribe-L</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-WaxScribe-L.png</IconFilename>
             <InfoDescription>1600001090</InfoDescription>
           </Standard>
           <Effect>
@@ -22,6 +22,9 @@
             <Targets> <!-- Targets of Buff -->
               <Item>
                 <GUID>3201</GUID>
+              </Item>
+              <Item>
+                <GUID>152733</GUID>
               </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
@@ -99,8 +102,8 @@
         <Values>
           <Standard>
             <GUID>1600001090</GUID>
-            <Name>Specialist AE-WaxTablets-L BuildingBuff</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-WaxTablets-L.png</IconFilename>
+            <Name>Specialist AE-WaxScribe-L BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-WaxScribe-L.png</IconFilename>
           </Standard>
           <Text>
             <OasisId>1600001089</OasisId>
@@ -125,6 +128,10 @@
                 <ProvidedNeedProduct>2150</ProvidedNeedProduct>
                 <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
               </Item>
+              <Item>
+                <ProvidedNeedProduct>151702</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
+              </Item>
             </GoodConsumptionUpgrade>
           </ResidenceUpgrade>
         </Values>
@@ -137,8 +144,8 @@
         <Values>
           <Standard>
             <GUID>1600001091</GUID>
-            <Name>Specialist AE-WaxTablets-L FunctionalEffect</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-WaxTablets-L.png</IconFilename>
+            <Name>Specialist AE-WaxScribe-L FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-WaxScribe-L.png</IconFilename>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>
@@ -169,8 +176,8 @@
         <Values>
           <Standard>
             <GUID>1600001092</GUID>
-            <Name>Specialist AE-WaxTablets-L FunctionalEffect BuildingBuff</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-WaxTablets-L.png</IconFilename>
+            <Name>Specialist AE-WaxScribe-L FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-WaxScribe-L.png</IconFilename>
           </Standard>
           <Text>
             <OasisId>1600001089</OasisId>
@@ -191,6 +198,10 @@
                 <ProvidedNeedProduct>2150</ProvidedNeedProduct>
                 <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
               </Item>
+              <Item>
+                <ProvidedNeedProduct>151702</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
+              </Item>
             </GoodConsumptionUpgrade>
           </ResidenceUpgrade>
           <Buff>
@@ -209,8 +220,8 @@
         <Values>
           <Standard>
             <GUID>1600001093</GUID>
-            <Name>Specialist AE-WaxTablets-L Boosted BuildingBuff</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-WaxTablets-L.png</IconFilename>
+            <Name>Specialist AE-WaxScribe-L Boosted BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-WaxScribe-L.png</IconFilename>
           </Standard>
           <Text>
             <OasisId>1600001089</OasisId>
@@ -233,6 +244,10 @@
                 <ProvidedNeedProduct>2150</ProvidedNeedProduct>
                 <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
               </Item>
+              <Item>
+                <ProvidedNeedProduct>151702</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+              </Item>
             </GoodConsumptionUpgrade>
           </ResidenceUpgrade>
         </Values>
@@ -245,8 +260,8 @@
         <Values>
           <Standard>
             <GUID>1600001094</GUID>
-            <Name>Specialist AE-WaxTablets-L Boosted FunctionalEffect</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-WaxTablets-L.png</IconFilename>
+            <Name>Specialist AE-WaxScribe-L Boosted FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-WaxScribe-L.png</IconFilename>
           </Standard>
           <Effect>
             <EffectScope>Radius</EffectScope>
@@ -277,8 +292,8 @@
         <Values>
           <Standard>
             <GUID>1600001095</GUID>
-            <Name>Specialist AE-WaxTablets-L Boosted FunctionalEffect BuildingBuff</Name>
-            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-WaxTablets-L.png</IconFilename>
+            <Name>Specialist AE-WaxScribe-L Boosted FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/Indu-AE-Pack/AE-WaxScribe-L.png</IconFilename>
           </Standard>
           <Text>
             <OasisId>1600001089</OasisId>
@@ -303,6 +318,10 @@
             <GoodConsumptionUpgrade>
               <Item>
                 <ProvidedNeedProduct>2150</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+              </Item>
+              <Item>
+                <ProvidedNeedProduct>151702</ProvidedNeedProduct>
                 <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
               </Item>
             </GoodConsumptionUpgrade>
