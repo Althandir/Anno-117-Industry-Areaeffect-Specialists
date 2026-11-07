@@ -23,6 +23,9 @@
               <Item>
                 <GUID>3192</GUID>
               </Item>
+              <Item>
+                <GUID>152686</GUID>
+              </Item>
             </Targets>
             <HideInGovernorsBar>1</HideInGovernorsBar>
           </Effect>
@@ -303,3 +306,4 @@
   </Group>
 
 </ModOps>
+
