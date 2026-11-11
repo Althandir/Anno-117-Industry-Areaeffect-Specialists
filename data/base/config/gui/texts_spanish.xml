@@ -622,7 +622,7 @@
     <ModOp Add="/TextExport/Texts">
       <!-- Title -->
       <Text>
-        <Text>Musica Fabra, humming Artisan</Text>
+        <Text>Musica Fabra, Humming Artisan</Text>
         <LineId>1600001061</LineId> <!-- <GUID>1600001061</GUID> -->
       </Text>
       <!-- Description -->
