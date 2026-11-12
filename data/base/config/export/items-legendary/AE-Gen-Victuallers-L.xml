@@ -169,7 +169,7 @@
             <AdditionalAttributes>
               <Health>
                 <AmountOrPercent>
-                  <Value>0.8</Value>
+                  <Value><ModValue Insert="$AttributeBuff_Generic_Legendary_NonBoosted"/></Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Health>
@@ -262,7 +262,7 @@
             <AdditionalAttributes>
               <Health>
                 <AmountOrPercent>
-                  <Value>1.6</Value>
+                  <Value><ModValue Insert="$AttributeBuff_Generic_Legendary_Boosted"/></Value>
                   <Percental>0</Percental>
                 </AmountOrPercent>
               </Health>

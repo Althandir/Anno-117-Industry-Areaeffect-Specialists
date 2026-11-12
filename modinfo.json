@@ -90,14 +90,6 @@
     {
       "default": "-30.0"
     },
-    "ProductivityBuff_Generic_Legendary_NonBoosted":
-    {
-      "default": "5"
-    },
-    "ProductivityBuff_Generic_Legendary_Boosted":
-    {
-      "default": "15"
-    },
     "ProductivityBuff_Specific_Legendary_NonBoosted":
     {
       "default": "0"
@@ -105,6 +97,30 @@
     "ProductivityBuff_Specific_Legendary_Boosted":
     {
       "default": "0"
+    },    
+    "ProductivityBuff_Generic_Legendary_NonBoosted":
+    {
+      "default": "5"
+    },
+    "ProductivityBuff_Generic_Legendary_Boosted":
+    {
+      "default": "15"
+    },    
+    "ProductivityBuff_Generic_Legendary_NonBoosted_Arms":
+    {
+      "default": "-20"
+    },
+    "ProductivityBuff_Generic_Legendary_Boosted_Arms":
+    {
+      "default": "-20"
+    },
+    "AttributeBuff_Generic_Legendary_NonBoosted":
+    {
+      "default": "1"
+    },
+    "AttributeBuff_Generic_Legendary_Boosted":
+    {
+      "default": "2"
     }
   }
 
