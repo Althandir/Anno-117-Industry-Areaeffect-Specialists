@@ -84,7 +84,7 @@
     },
     "ConsumptionModifier_Legendary_NonBoosted":
     {
-      "default": "-20.0"
+      "default": "-15.0"
     },
     "ConsumptionModifier_Legendary_Boosted":
     {
